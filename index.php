@@ -22,8 +22,6 @@
 </inner-column>
 </section>
 
-
-
 <section class='stuff'>
 <inner-column>
 	
@@ -38,6 +36,14 @@
 <inner-column>
 
 	<?php include('modules/call-to-action.php'); ?>
+
+</inner-column>
+</section>
+
+<section class='garden-one'>
+<inner-column>
+
+	<?php include('modules/garden-one.php'); ?>
 
 </inner-column>
 </section>
