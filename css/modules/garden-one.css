@@ -1,0 +1,72 @@
+/*  garden one*/
+doctors h2 {
+  max-width: 85ch;
+}
+
+doctors {
+  display: block;
+  margin-top: 20px;
+}
+
+.doc-photo {
+  width: 40vw;
+  max-width: 180px;
+}
+
+doctor-cards card {
+  display: block;
+  max-width: 350px;
+  margin-top: 20px;
+}
+
+.cause {
+  display: inline-block;
+}
+
+.doc-facts {
+  line-height: 1.3;
+}
+
+doctor-cards {
+  margin-top: 20px;
+}
+
+.doc-facts {
+/*   margin-top: 10px; */
+}
+
+.doc-facts li:first-of-type {
+  font-weight: bolder;
+}
+
+.doc-facts li:nth-child(2) {
+  font-style: italic;
+}
+
+@media (min-width: 600px) {
+  doctor-cards card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+/*     align-items: center; */
+  }
+  .doc-facts {
+    flex-basis: 40%;
+  }
+}
+
+@media (min-width: 900px) {
+  doctor-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  doctor-cards card {
+    flex-direction: column;
+    margin: 5px;
+  }
+  .doc-facts {
+    margin-top: 20px;
+  }
+}
