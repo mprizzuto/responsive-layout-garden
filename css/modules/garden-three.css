@@ -1,0 +1,56 @@
+/* garden three*/
+h3 + picture {
+  margin-top: 10px;
+}
+
+.garden-three inner-column {
+/*   display: flex; */
+/*   flex-direction: column; */
+}
+
+.actress-highlight {
+  margin-right: 3%;
+}
+
+.theater-actress {
+  order: 1;
+  max-width: 300px;
+  width: 40vw;
+}
+
+.garden-three aside {
+  margin-top: 50px;
+}
+
+
+@media (min-width: 600px) {
+  .theater-actress {
+    float: left;
+    margin-right: 20px;
+  }
+  .theater-actress + p {
+/*     margin-left: 20px; */
+  }
+  .actress-highlight p {
+    max-width: 70ch;
+  }
+}
+
+@media (min-width: 900px) {
+  .theater-actress {
+    float: none;
+  }
+  .garden-three inner-column {
+    display: flex;
+    justift-content: space-between;
+  }
+  .actress-highlight p {
+    max-width: unset;
+  }
+  picture + p {
+    margin-top: 10px;
+  }
+  .actress-highlight picture {
+    max-width: unset;
+  }
+}

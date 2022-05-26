@@ -54,6 +54,12 @@
   </inner-column>
 </section>
 
+<section class="garden-three">
+  <inner-column>
+    <?php include('modules/garden-three.php');?>
+  </inner-column>
+</section>
+
 
 
 <?php include('footer.php'); ?>

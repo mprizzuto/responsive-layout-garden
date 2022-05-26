@@ -34,3 +34,8 @@ svg {
   width: 100%;
   /* may need height: 100%; Check all browsers */
 }
+
+/* type*/
+*[aria-hidden="true"] {
+  display: none;
+}
