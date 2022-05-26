@@ -46,8 +46,9 @@
 	<?php include('modules/garden-one.php'); ?>
 
 </inner-column>
+</section>
 
-<section>
+<section class="garden-two">
   <inner-column>
     <?php include('modules/garden-two.php');?>
   </inner-column>
