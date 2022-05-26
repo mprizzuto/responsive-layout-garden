@@ -97,6 +97,12 @@
   </inner-column>
 </section>
 
+<section>
+  <inner-column>
+    <?php include('modules/garden-two.php');?>
+  </inner-column>
+</section>
+
 
 
 <?php include('footer.php'); ?>
