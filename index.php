@@ -46,6 +46,11 @@
 	<?php include('modules/garden-one.php'); ?>
 
 </inner-column>
+
+<section>
+  <inner-column>
+    <?php include('modules/garden-two.php');?>
+  </inner-column>
 </section>
 
 
