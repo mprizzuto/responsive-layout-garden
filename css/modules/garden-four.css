@@ -4,14 +4,17 @@
 
 .dentist-tools li {
 /*   background-repeat: no-repeat; */
-  min-height: 15vh;
-  border: 1px solid gray;
+  /*min-height: 15vh;*/
+  min-height: 40vh;
+  /*border: 1px solid gray;*/
+  margin-top: 10px;
 }
 
 .dentist-tools li:first-of-type {
   background: url("https://m.media-amazon.com/images/I/31Qf3mr7G-L.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  /*background-size: cover;*/
 }
 
 .dentist-tools :nth-child(2) {
@@ -19,6 +22,7 @@
   background-repeat: no-repeat;
 /*   min-height: 90vh; */
   background-size: contain;
+  /*background-size: cover;*/
 }
 
 .dentist-tools :nth-child(3) {
@@ -26,6 +30,7 @@
   background-repeat: no-repeat;
 /*   min-height: 90vh; */
   background-size: contain;
+  /*background-size: cover;*/
 }
 
 .dentist-tools :nth-child(4) {
@@ -33,6 +38,7 @@
   background-repeat: no-repeat;
 /*   min-height: 90vh; */
   background-size: contain;
+  /*background-size: cover;*/
 }
 
 .dentist-tools :nth-child(5) {
@@ -40,6 +46,8 @@
   background-repeat: no-repeat;
 /*   min-height: 90vh; */
   background-size: contain;
+  /*background-size: cover;*/
+  /*background-position: center;*/
 }
 
 .dentist-tools :nth-child(6) {
@@ -47,9 +55,16 @@
   background-repeat: no-repeat;
 /*   min-height: 90vh; */
   background-size: contain;
+  /*background-size: cover;*/
 }
 
 @media (min-width: 600px) {
+  .dentist-tools li {
+  /*   background-repeat: no-repeat; */
+    min-height: 15vh;
+    border: 1px solid gray;
+    margin-top: unset;
+  }
   .dentist-tools {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -59,18 +74,25 @@
   .dentist-tools li:first-of-type {
     grid-column: 1 / 3;
     grid-row: 1 / 3;
+    background-size: cover;
   }
   .dentist-tools :nth-child(2) {
     grid-column: 3;
+    background-size: cover;
   }
   .dentist-tools :nth-child(3) {
   /*     grid-column: 3; */
+  background-size: cover;
   }
   .dentist-tools :nth-child(4) {
     grid-column: 1;
+    background-size: cover;
   }
   .dentist-tools :nth-child(5) {
+    background-size: cover;
+    background-position: center;
   }
   .dentist-tools :nth-child(6) {
+    background-size: cover;
   }
 }
