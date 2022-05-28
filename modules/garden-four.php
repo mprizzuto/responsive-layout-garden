@@ -1,4 +1,4 @@
-<h3>dentists are cool</h3>
+<h3 class="attention-voice">dentists are cool</h3>
 
 <ul class="dentist-tools">
   <li aria-label="a tongue cleaner"></li>
