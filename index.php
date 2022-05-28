@@ -5,47 +5,47 @@
 
 
 <section class='welcome'>
-<inner-column>
+	<inner-column>
 
-	<?php include('modules/graphic-diptych.php'); ?>
+		<?php include('modules/graphic-diptych.php'); ?>
 
-</inner-column>
+	</inner-column>
 </section>
 
 
 
 <section class='get-involved'>
-<inner-column>
+	<inner-column>
 
-	<?php include('modules/call-to-action.php'); ?>
+		<?php include('modules/call-to-action.php'); ?>
 
-</inner-column>
+	</inner-column>
 </section>
 
 <section class='stuff'>
-<inner-column>
-	
-	<?php include('modules/articles-intro.php'); ?>
+	<inner-column>
+		
+		<?php include('modules/articles-intro.php'); ?>
 
-</inner-column>
+	</inner-column>
 </section>
 
 
 
 <section class='help-us'>
-<inner-column>
+	<inner-column>
 
-	<?php include('modules/call-to-action.php'); ?>
+		<?php include('modules/call-to-action.php'); ?>
 
-</inner-column>
+	</inner-column>
 </section>
 
 <section class='garden-one'>
-<inner-column>
+	<inner-column>
 
-	<?php include('modules/garden-one.php'); ?>
+		<?php include('modules/garden-one.php'); ?>
 
-</inner-column>
+	</inner-column>
 </section>
 
 <section class="garden-two">
@@ -57,6 +57,12 @@
 <section class="garden-three">
   <inner-column>
     <?php include('modules/garden-three.php');?>
+  </inner-column>
+</section>
+
+<section class="garden-four">
+  <inner-column>
+    <?php include('modules/garden-four.php');?>
   </inner-column>
 </section>
 
