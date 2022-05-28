@@ -72,6 +72,12 @@
   </inner-column>
 </section>
 
+<section class='garden-six'>
+  <inner-column>
+    <?php include('modules/garden-six.php');?>
+  </inner-column>
+</section>
+
 
 
 
