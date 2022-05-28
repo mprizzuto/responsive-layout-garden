@@ -48,23 +48,30 @@
 	</inner-column>
 </section>
 
-<section class="garden-two">
+<section class='garden-two'>
   <inner-column>
     <?php include('modules/garden-two.php');?>
   </inner-column>
 </section>
 
-<section class="garden-three">
+<section class='garden-three'>
   <inner-column>
     <?php include('modules/garden-three.php');?>
   </inner-column>
 </section>
 
-<section class="garden-four">
+<section class='garden-four'>
   <inner-column>
     <?php include('modules/garden-four.php');?>
   </inner-column>
 </section>
+
+<section class='garden-five'>
+  <inner-column>
+    <?php include('modules/garden-five.php');?>
+  </inner-column>
+</section>
+
 
 
 
