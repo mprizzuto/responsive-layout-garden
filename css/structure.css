@@ -17,4 +17,5 @@ inner-column {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 30px 14px; /* a default */
+	padding-bottom: 10vh;
 }
