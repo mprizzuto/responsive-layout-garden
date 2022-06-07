@@ -24,6 +24,7 @@ rap-album h4 {
   bottom: 40px;
   left: 50px;
 /*   right: 60px; */
+max-width: 100px;
   color: white;
   border: none;
 }
