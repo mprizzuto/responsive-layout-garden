@@ -90,6 +90,12 @@
   </inner-column>
 </section>
 
+<section class='garden-nine'>
+  <inner-column>
+    <?php include('modules/garden-nine.php');?>
+  </inner-column>
+</section>
+
 
 
 
