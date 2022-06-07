@@ -1,0 +1,49 @@
+salvador-dali {
+  display: block;
+}
+
+.salvador-dali h3 {
+  font-size: 2em;
+}
+
+.salvador-dali header h3 {
+  font-size: clamp(8em, 20vw, 20em);
+}
+
+.dali-pets {
+  background: yellow;
+  padding: 15%;
+  margin-top: 10px;
+  min-height: 30vh;
+}
+
+.dali-pets inner-column {
+}
+
+.dali-portrait {
+  
+}
+
+@media (min-width: 600px) {
+  .dali-pets {
+    position: relative;
+  }
+  .dali-portrait {
+    position: absolute;
+    max-width: 200px;
+    top: 0;
+    left: 0;
+  }
+  .dali-personal {
+    display: flex;
+    justify-content: space-between;
+  }
+  .dali-pets {
+    flex-basis: 600px;
+  }
+  .salvador-bio {
+    max-width: 60ch;
+    margin-left: 20px;
+/*     flex-basis: 600px; */
+  }
+}
