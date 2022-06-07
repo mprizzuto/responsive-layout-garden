@@ -1,0 +1,79 @@
+rap-album {
+  display: block;
+  padding: 5px;
+}
+
+rap-album * {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+rap-album h3 {
+  font-size: clamp(5em, 8vw, 9em);
+  text-transform: uppercase;
+}
+
+rap-album h4 {
+  font-size: clamp(2em, 4vw, 5em);
+}
+
+.rapper-list figcaption {
+  font-weight: bolder;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 40px;
+  left: 50px;
+/*   right: 60px; */
+  color: white;
+  border: none;
+}
+
+.rapper-list figure picture {
+/*   max-width: 300px; */
+  filter: grayscale(1);
+}
+
+.rapper-list li {
+  margin-top: 20px;
+/*   max-width: 200px; */
+  padding: 5px;
+}
+
+.parent-warning {
+  max-width: 150px;
+  margin-top: 10px;
+}
+
+.nwa-color {
+  display: block;
+  font-weight: bolder;
+}
+
+.nwa-rep {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+figure, figure picture {
+  padding: 0;
+}
+
+
+@media (min-width: 600px) {
+  .nwa-rep, .rapper-list {
+    display: flex;
+/*     align-items: center; */
+/*     justify-content: space-between; */
+  }
+  .rapper-list {
+    flex-wrap: wrap;
+  }
+  .rapper-list li {
+    flex-basis: 170px;
+    flex-shrink: 0;
+    margin-right: 10px;
+  }
+  .parent-warning {
+    margin-left: 20px;
+  }
+}
