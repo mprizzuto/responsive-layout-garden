@@ -96,6 +96,13 @@
   </inner-column>
 </section>
 
+<section class='garden-ten'>
+  <inner-column>
+    <?php include('modules/garden-ten.php');?>
+  </inner-column>
+</section>
+
+
 
 
 
