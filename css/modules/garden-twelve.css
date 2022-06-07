@@ -1,0 +1,45 @@
+rich-person {
+  display: block;
+}
+
+.greek-woman {
+  max-width: 600px;
+  order: 2;
+  margin-top: 10px;
+}
+
+.shoot-role {
+  display: inline-block;
+  font-weight: bolder;
+}
+
+.greek-person {
+  display: flex;
+  flex-direction: column;
+}
+
+.greek-person figcaption {
+  order: 1;
+}
+
+.shoot-employees {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+@media (min-width: 600px) {
+  .shoot-employees {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+  rich-person {
+    display: flex;
+  }
+  .shoot-employees {
+    order: 1;
+  }
+  .rich-person {
+    order: 2;
+    margin-left: 20px;
+  }
+}
