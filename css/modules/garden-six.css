@@ -29,7 +29,7 @@ blockquote {
 @media (min-width: 600px) {
   .garden-six inner-column {
     display: grid;
-    gap: 2%;
+    /*gap: 2%;*/
     grid-template-columns: repeat(2, auto);
 /*     grid-template-rows: 100px; */
 /*     grid-template-rows: 25%; */
