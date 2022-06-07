@@ -84,6 +84,12 @@
   </inner-column>
 </section>
 
+<section class='garden-eight'>
+  <inner-column>
+    <?php include('modules/garden-eight.php');?>
+  </inner-column>
+</section>
+
 
 
 
