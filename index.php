@@ -102,6 +102,12 @@
   </inner-column>
 </section>
 
+<section class='garden-eleven'>
+  <inner-column>
+    <?php include('modules/garden-eleven.php');?>
+  </inner-column>
+</section>
+
 
 
 
