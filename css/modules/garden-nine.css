@@ -1,0 +1,40 @@
+missing-person {
+  display: block;
+}
+
+.person-photos picture {
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+.garden-twenty inner-column {
+  display: flex;
+  flex-direction: column;
+}
+
+person-card {
+  display: block;
+  flex-grow: 1;
+  min-height: 100vh;
+  padding: 5px;
+}
+
+.person-info {
+  font-weight: bolder;
+}
+
+.contact-methods {
+  line-height: 1.5;
+}
+
+@media (min-width: 600px) {
+  person-card {
+    display: flex;
+  }
+  .person-photos {
+    display: flex;
+  }
+  .person-photos picture {
+    margin: 10px;
+  }
+}
