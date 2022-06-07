@@ -22,9 +22,9 @@ rap-album h4 {
   text-transform: uppercase;
   position: relative;
   bottom: 40px;
-  left: 50px;
-/*   right: 60px; */
-max-width: 100px;
+  left: 30vw;
+  /*   right: 60px; */
+  max-width: 100px;
   color: white;
   border: none;
 }
@@ -80,5 +80,9 @@ figure, figure picture {
   }
   .parent-warning {
     margin-left: 20px;
+  }
+  .rapper-list figcaption {
+    left: 50px;
+
   }
 }
