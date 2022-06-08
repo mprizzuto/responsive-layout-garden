@@ -114,6 +114,11 @@
   </inner-column>
 </section>
 
+<section class='garden-thirteen'>
+  <inner-column>
+    <?php include('modules/garden-thirteen.php');?>
+  </inner-column>
+</section>
 
 
 
