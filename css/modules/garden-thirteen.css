@@ -1,0 +1,73 @@
+.attachment-style aside, 
+footer, section, header {
+  padding: 5px;
+}
+
+.attachment-style h3 {
+  font-size: clamp(1.5em, 3vw, 4em);
+  line-height: 1.2;
+  max-width: 30ch;
+}
+
+.author-card {
+  display: block;
+}
+
+.crystal-photo {
+  max-width: 50px;
+}
+
+.crystal-photo img {
+  border-radius: 50%;
+}
+
+.medium-logo {
+  max-width: 100px;
+  margin-top: 10px;
+}
+
+.attachment-style {
+  margin-top: 10px;
+}
+
+.estimated-time em {
+  font-style: italic;
+}
+
+.attachment-style {
+  
+}
+
+.author-card-header {
+  border-bottom: 2px solid gray;
+}
+
+.author-card-footer {
+  border-top: 2px solid gray;
+}
+
+.guide {
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .attachment-style {
+    display: flex;
+/*     outline: 2px solid red; */
+  }
+  .author-branding, .author-figure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  aside h4 :first-of-type {
+    writing-mode: vertical-rl;
+    margin-left: 20px;
+  }
+  .attachment-style aside {
+    border-left: 2px solid gray;
+  }
+  .author-name {
+    margin-left: 10px;
+  }
+}
