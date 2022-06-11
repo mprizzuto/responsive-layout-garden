@@ -1,0 +1,26 @@
+chronic-pain {
+  display: block
+}
+
+.symptom-list {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.symptom-list li {
+  border-bottom: 2px solid gold;
+  max-width: 200px;
+}
+
+@media (min-width: 600px) {
+  .symptom-list li {
+    border-bottom: unset;
+    writing-mode: vertical-rl;
+    border-left: 4px solid gold;
+    transform: rotate(180deg);
+    margin-top: 20px;
+  }
+  .symptom-list {
+    display: flex;
+  }
+}
