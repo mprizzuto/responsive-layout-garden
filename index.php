@@ -144,5 +144,11 @@
   </inner-column>
 </section>
 
+<section class='garden-eighteen'>
+  <inner-column>
+    <?php include('modules/garden-eighteen.php');?>
+  </inner-column>
+</section>
+
 
 <?php include('footer.php'); ?>
