@@ -1,0 +1,55 @@
+dental-testimonial {
+  display: block;  
+}
+
+.garden-eleven {
+  margin-top: 60px;
+/*   border: 20px solid red; */
+}
+
+.dentist {
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+.dentist-company {
+  display: block;
+  margin-top: 10px;
+  max-width: 150px;
+}
+
+.dentist-company img {
+  border-radius: 50%;
+}
+
+.dentist-company + p {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.client-speaks blockquote {
+  margin-top: 15px;
+  max-width: 65ch;
+}
+
+.dental-brand {
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .dental-brand {
+    display: flex;
+    align-items: center;
+  /*   justify-content: space-between; */
+  }
+  dental-testimonial {
+    display: flex;
+    justify-content: space-between;
+  }
+  .dentist {
+    max-width: 400px;
+    align-self: flex-end;
+    margin-left: 5%;
+  }
+}
