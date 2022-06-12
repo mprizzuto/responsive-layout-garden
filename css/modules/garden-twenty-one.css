@@ -1,0 +1,44 @@
+.freelance-writer {
+  display: block;
+}
+
+writer-card {
+  display: block;
+  margin-top: 10px;
+}
+
+.ink-blob {
+  max-width: 150px;
+  margin-top: 10px;
+}
+
+freelance-writer .writing-ideas {
+  list-style: disc;
+  margin-left: 15px;
+}
+
+@media (min-width: 600px) {
+  writer-card {
+    display: flex;
+/*     justify-content: space-around; */
+    align-items: center;
+  }
+  .writing-categories > li:nth-child(2) h4 {
+    color: red;
+    order: 3;
+    margin-left: 20px;
+  }
+  .writing-categories > li:first-of-type writer-card h4, .writing-categories > li:nth-child(3) writer-card h4, .writing-categories > li:nth-child(4) h4, .writing-categories > li:last-of-type .ink-blob, .writing-categories > li:last-of-type writer-card h4 {
+    color: red;
+/*     order: 3; */
+    margin-right: 20px;
+  }
+  .writing-categories > li:first-of-type writer-card .writing-ideas, .writing-categories > li:nth-child(3) writer-card .writing-ideas {
+/*     order: 3; */
+    margin-left: 30px;
+  }
+  .writing-categories > li:nth-child(2) .ink-blob, .writing-categories > li:nth-child(4) .ink-blob {
+    order: 2;
+    margin-left: 20px;
+  }
+}
