@@ -67,6 +67,7 @@ masterclass ul + h4 {
   }
   masterclass {
     position: relative;
+    min-height: 80vh;
   }
 }
 
