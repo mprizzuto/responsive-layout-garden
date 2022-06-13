@@ -1,0 +1,92 @@
+coffee-house {
+  display: block; 
+}
+
+coffee {
+  display: block;
+}
+
+.coffee-defined {
+/*   margin-top: 10px; */
+}
+
+
+.coffee-preference {
+  margin-top: 10px;
+}
+
+.coffee-house-item picture {
+  max-width: 300px;
+}
+
+.coffee-defined {
+  max-width: 60ch;
+}
+
+.coffee-pic .coffee-method {
+  max-width: 600px;
+}
+
+.coffee-house-item, .coffee-house-header,
+.coffee-house-items {
+  margin-top: 30px;
+}
+
+coffee-house h3 {
+  line-height: 1;
+}
+
+coffee-house ul + h3 {
+  margin-top: 30px;
+}
+
+.coffee-preference {
+  display: flex;
+  line-height: 1.5;
+/*   margin-top: 20px; */
+}
+
+.coffee-preference li a {
+  display: inline-block;
+/*   outline: 3px solid red; */
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.coffee-social li picture {
+  max-width: 20px;
+  margin-top: 10px;
+}
+
+.coffee-photos h3 {
+  margin-top: 50px;
+  font-size: 1.8em;
+}
+
+@media (min-width: 600px) {
+  coffee-house, .coffee-house-items {
+    display: flex;
+/*     align-items: center; */
+  }
+  .coffee-defined {
+/*     margin-left: 20px; */
+  }
+  .coffee-house-item {
+    margin: 10px;
+    flex-shrink: 0;
+    flex-basis: 18%;
+  }
+  .coffee-pic {
+    margin-left: 20px;
+  }
+  .coffee-house-header h3, .coffee-preference {
+    writing-mode: vertical-rl;
+    margin-top: 30px;
+  }
+  .coffee-preference li {
+    margin-top: 10px;
+  }
+  .coffee-photos {
+    margin-left: 40px;
+  }
+}
