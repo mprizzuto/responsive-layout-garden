@@ -1,0 +1,61 @@
+poster-design {
+  display: block;
+/*   border: 3px solid red; */
+}
+
+poster-design h3 {
+  font-size: 3em;
+  line-height: 1;
+  margin-top: 10px;
+}
+
+.simple-poster {
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  poster-design {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 3%;
+  }
+  .poster-design .poster {
+    display: block;
+  }
+  .poster-design-one {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+  }
+  .poster-design-two {
+/*     transform: rotate(90deg); */
+    color: red;
+    grid-column: 2;
+/*     writing-mode: vertical-rl; */
+     transform: translate(-5px);
+  }
+  .poster-design-three {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .poster-design-four {
+    color: purple;
+    grid-column: 3;
+    grid-row: 2;
+    transform: rotate(-180deg);
+    writing-mode: vertical-rl;
+  }
+  .poster-design-seven {
+    writing-mode: vertical-lr;
+    height: 400px;
+/*     transform: rotate(-180deg); */
+    color: lime;
+    grid-row: 4;
+    grid-column: 1;
+  }
+  .poster-goal {
+    grid-column: 2;
+  }
+  .poster-goal h3 {
+    font-size: 7em;
+  }
+}
