@@ -193,4 +193,10 @@
   </inner-column>
 </section>
 
+<section class='garden-twenty-six'>
+  <inner-column>
+    <?php include('modules/garden-twenty-six.php');?>
+  </inner-column>
+</section>
+
 <?php include('footer.php'); ?>

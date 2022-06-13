@@ -1,0 +1,91 @@
+masterclass {
+  display: block;
+  border: 2px solid maroon;
+  padding: 10px;
+}
+
+.camera-lens {
+  max-width: 150px;
+  margin-top: 10px;
+}
+
+.avc-presents {
+  line-height: 1.7;
+}
+
+.gc-link {
+  display: block;
+}
+
+.camera-logo {
+  max-width: 50px;
+}
+
+.masterclass-footer .camera-logo {
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+.masterclass-footer .camera-logo img {
+  background: maroon;
+}
+
+.masterclass-options h3, .masterclass-header h3 {
+  font-size: 1.8em;
+  color: maroon;
+}
+
+.masterclass-options h4 {
+  font-size: 1.2em;
+}
+
+.masterclass-photo {
+  max-width: 350px;
+  margin-top: 10px;
+}
+
+.masterclass-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.masterclass-header h3 {
+  order: 2;
+}
+
+masterclass ul + h4 {
+  margin-top: 20px;
+}
+
+@media (min-width: 600px) {
+  .masterclass-header {
+    flex-direction: row;
+  }
+  .masterclass-photo {
+    position: absolute;
+    left: 300px;
+  }
+  masterclass {
+    position: relative;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .masterclass-footer {
+    display: flex;
+/*     order: 3; */
+  }
+  .masterclass-options {
+/*     order: 2; */
+  }
+  .masterclass-photo {
+    left: 325px;
+    top: 35px;
+    flex-shrink: 0;
+/*     max-width: unset; */
+  }
+  footer {
+    background: maroon;
+  }
+}
