@@ -1,0 +1,75 @@
+.dangerous-curves {
+  display: none;
+  transform: rotate(90deg);
+/*   height: 200px; */
+/*   position: absolute; */
+/*   right: -20px; */
+}
+
+.lets-celebrate {
+  position: relative;
+}
+
+.dangerous-curves path {
+  fill: transparent;
+}
+
+anniversary-card {
+  display: block;
+  padding-top: 2vh;
+}
+
+anniversary-card h3 {
+  font-size: 2em;
+}
+
+anniversary-card h4 {
+  font-size: 1.5em;
+}
+
+anniversary-card .anniversary {
+  color: red;
+}
+
+.business-woman {
+/*   outline: 2px solid red; */
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+.business-woman img {
+  border-radius: 0 90px 0 90px;
+}
+
+@media (min-width: 600px) {
+  anniversary-card {
+    display: flex;
+    justify-content: space-around;
+  }
+  .company-hours {
+    margin-left: 25px;
+  }
+  .dangerous-curves {
+    display: block;
+    height: 500px;
+    position: absolute;
+    right: -80px;
+    bottom: 10px
+  }
+}
+
+@media (min-width: 900px) {
+  .company-hours {
+    align-self: end;
+  }
+  .lets-celebrate h3 {
+/*     color: lime; */
+/*     transform: translate(-40px, 40vh); */
+    position: absolute;
+    top: 30px;
+    right: 300px;
+    writing-mode: vertical-rl;
+/*     outline: 30px solid lime; */
+    font-size: 3em;
+  }
+}
