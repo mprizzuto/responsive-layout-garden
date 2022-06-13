@@ -1,0 +1,164 @@
+telly-awards {
+  display: block;
+}
+
+.i-talk {
+  display: block; 
+  background: lightgray;
+  max-width: 150px;
+}
+
+.telly {
+/*   background: inherit; */
+  font-size: 1.5em;
+}
+
+.year {
+  background: lightgray;
+  font-weight: bolder;
+  vertical-align: sub;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.telly-awards h3 {
+  background: black;
+  padding: 5px;
+  line-height: 1;
+  border-bottom: 10px solid gray;
+}
+
+.telly-awards h3 span {
+  padding: 5px;
+}
+
+.award-cta {
+/*   color: white; */
+}
+
+.awards {
+  font-size: 2em;
+  color: white;
+}
+
+comedy-card {
+  display: block;
+  max-width: 500px;
+  margin-top: 20px;
+/*   padding: 10px; */
+  background: white;
+}
+
+.voting-closes {
+  background: black;
+  color: white;
+}
+
+comedy-card h4 {
+  background: black;
+  color: white;
+  max-width: 150px;
+  font-size: 2.1em;
+  padding: 5px;
+}
+
+comedy-card a {
+  display: inline-block;
+  font-size: 1.3em;
+}
+
+comedy-card .award-cta {
+  font-size: 2.5em;
+}
+
+bars {
+  display: block;
+}
+
+bar {
+  display: block;
+  background: gray;
+  min-height: 20px;
+  margin-top: 10px;
+}
+
+.photo-list {
+  margin-top: 10px;
+}
+
+.bar-one {
+  background: black;
+}
+
+.bar-two {
+  background: #414a4c;
+}
+
+.bar-three {
+  backgroun: #979aaa;
+}
+
+.bar-four {
+  background: rgb(172,172,172);
+}
+
+.bar-five {
+  background: #bfc1c2;
+}
+
+.bar-six {
+  background: #bebebe;
+}
+
+.bar-seven {
+  background: white;
+}
+
+.bar-eight {
+  background: #dcdcdc;
+}
+
+.photo-list picture {
+   max-width: 300px;
+/*    margin-top: 10px; */
+}
+
+.photo-list li + li {
+  margin-top: 10px;
+}
+
+@media (min-width: 700px) {
+  telly-awards {
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    gap: 1%;
+  }
+  bar h4 {
+    writing-mode: vertical-rl;
+    padding: 5px;
+    font-size: 2.5em;
+  }
+  bar {
+    min-height: 100vh;
+    min-width: 3vw;
+  }
+  .bar-seven {
+    grid-column: 9;
+    font-size: 2.5em;
+  }
+  .bar-eight {
+    grid-column: 8;
+    grid-row: 1;
+  }
+  .award-details {
+    position: absolute;
+  }
+  comedy-card {
+    margin-top: 100px;
+  }
+  .photo-list {
+/*     grid-column:  */
+    grid-row: 1;
+    grid-column: 7;
+  }
+}
