@@ -175,4 +175,11 @@
 </section>
 
 
+<section class='garden-twenty-three'>
+  <inner-column>
+    <?php include('modules/garden-twenty-three.php');?>
+  </inner-column>
+</section>
+
+
 <?php include('footer.php'); ?>
