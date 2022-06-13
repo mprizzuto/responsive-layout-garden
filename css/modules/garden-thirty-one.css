@@ -1,0 +1,67 @@
+digital-agency h3 {
+  font-size: 2em;
+}
+
+digital-agency h4 {
+  font-size: 1.5em;
+}
+
+inner-column {
+  display: block;
+  line-height: 1.3;
+  padding: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 900px;
+}
+
+digital-agency {
+  display: block;
+}
+
+da-service {
+  display: block;
+}
+
+digital-agency h3, digital-agency h4 {
+  line-height: 1;
+  margin-top: 5px;
+}
+
+
+digital-agency p {
+  max-width: 70ch;
+}
+
+.da-service-list picture {
+  max-width: 80px;
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .da-service-list {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5%;
+  }
+  digital-agency {
+    display: flex;
+    justify-content: space-between;
+  }
+  .digital-agency-services {
+    margin-left: 40px;
+  }
+  .digital-agency-services p {
+/*     margin-left: 20px; */
+    max-width: 60ch;
+  }
+}
+
+.da-service-list li + li, 
+digital-agency h3 + h4 {
+  margin-top: 30px;
+}
+
+da-service h4 + p, .coffee-defined  {
+  margin-top: 5px;
+}
