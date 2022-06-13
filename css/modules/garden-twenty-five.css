@@ -1,0 +1,89 @@
+camera-poster {
+  display: block;
+}
+
+.right-arrow {
+  margin-top: 10px;
+}
+
+.down-arrow {
+  transform: rotate(-30deg) translate(0px, 20px);
+  max-width: 100px;
+}
+
+.photog-name {
+  text-transform: capitalize;
+  margin-top: 40px;
+  font-size: clamp(.9em, 2vw, 5em);
+}
+
+.photog-portrait {
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+.photog-portrait img {
+  border-radius: 50%;
+}
+
+camera-poster h3 {
+  line-height: 1;
+  font-size: 3em;
+}
+
+.camera-brand {
+  display: block;
+}
+
+.camera-brand strong {
+  font-weight: bolder;  
+}
+
+.photog-event-time {
+  background: maroon;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .photog-event-time {
+    display: flex;
+    align-items: center;
+  }
+  .photog-event-time .event-time {
+    margin-left: 10px;
+  }
+  .down-arrow {
+  transform: rotate(90deg);
+    max-width: 100px;
+  }
+  .right-arrow {
+    max-width: 300px;
+  }
+  camera-poster {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 2%;
+  }
+  .photog-event-time {
+    grid-row: 2;
+    margin-top: 30px;
+  }
+  .down-arrow {
+    max-width: unset;
+    /*max-height: 220px;*/
+    max-height: 100px;
+    position: relative;
+    z-index: -1;
+    /*transform: rotate(95deg);*/
+  }
+  camera-poster aside {
+    position: relative;
+  }
+  .photog-name {
+    position: absolute;
+    bottom: -100px;
+    left: 8%;
+  }
+}
