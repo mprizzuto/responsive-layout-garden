@@ -199,4 +199,10 @@
   </inner-column>
 </section>
 
+<section class='garden-twenty-seven'>
+  <inner-column>
+    <?php include('modules/garden-twenty-seven.php');?>
+  </inner-column>
+</section>
+
 <?php include('footer.php'); ?>
