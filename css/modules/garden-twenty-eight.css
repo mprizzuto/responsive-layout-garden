@@ -1,0 +1,51 @@
+derm-card {
+  display: block;
+/*   outline: 3px solid lime; */
+/*   margin-right: auto; */
+/*   margin-left: auto; */
+}
+
+table {
+  border-bottom: 2px solid gray;
+/*   width: 100%; */
+  border-collapse: separate;
+  padding: 5px;
+}
+
+tr, td {
+  padding: 15px;
+}
+
+tbody tr td:first-of-type + td  {
+  border-bottom: 2px solid gray;
+  border-left: 2px solid gray;
+  color: maroon;
+}
+
+.doc-branding {
+  display: flex;
+  flex-direction: column;
+}
+
+.derm-logo {
+  order: 1;
+}
+
+.derm-name {
+  order: 2;
+  margin-top: 20px;
+}
+
+.doc-portrait {
+  max-width: 300px;
+  transform: translate(0px, 130px);
+}
+
+.derm-summit {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: bolder;
+  max-width: 40ch;
+  margin-right: auto;
+  margin-left: auto;
+}

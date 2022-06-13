@@ -205,4 +205,10 @@
   </inner-column>
 </section>
 
+<section class='garden-twenty-eight'>
+  <inner-column>
+    <?php include('modules/garden-twenty-eight.php');?>
+  </inner-column>
+</section>
+
 <?php include('footer.php'); ?>
