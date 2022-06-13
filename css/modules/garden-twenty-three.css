@@ -1,0 +1,33 @@
+daily-affirmations {
+  display: block;
+}
+
+.affirmation-header h3 {
+  font-size: 2em;
+}
+
+@media (min-width: 600px) {
+  .affirmations {
+    display: grid;
+    grid-template-columns: repeat(3, auto); 
+  }
+  .affirmations li {
+    border: 2px solid gray;
+    padding: 10px;
+  }
+  .affirmations li:first-of-type {
+    border-left: unset;
+  }
+  .affirmations li:nth-child(-n + 3) {
+    border-top: unset;
+  }
+  .affirmations li:nth-child(3n) {
+    border-right: unset;
+  }
+  .affirmations li:nth-child(6) ~ li {
+    border-bottom: unset;
+  }
+  .affirmations li:nth-child(4), .affirmations li:nth-child(4), .affirmations li:nth-child(7) {
+    border-left: unset;
+  }
+}
