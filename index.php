@@ -235,4 +235,10 @@
   </inner-column>
 </section>
 
+<section class='garden-thirty-three'>
+  <inner-column>
+    <?php include('modules/garden-thirty-three.php');?>
+  </inner-column>
+</section>
+
 <?php include('footer.php'); ?>
