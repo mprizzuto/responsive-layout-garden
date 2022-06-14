@@ -265,4 +265,10 @@
   </inner-column>
 </section>
 
+<section class='garden-thirty-eight'>
+  <inner-column>
+    <?php include('modules/garden-thirty-eight.php');?>
+  </inner-column>
+</section>
+
 <?php include('footer.php'); ?>
