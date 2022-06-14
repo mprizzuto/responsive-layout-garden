@@ -1,0 +1,20 @@
+health-team {
+	display: block;
+}
+
+.doctor-list doctor-card {
+	display:  block;
+}
+
+.doctor-pic {
+	max-width:  300px;
+	margin-top: 10px;
+}
+
+.doctor-pic img {
+	border-radius: 50%;
+}
+
+.doc-specialty em {
+	font-style: italic;
+}
