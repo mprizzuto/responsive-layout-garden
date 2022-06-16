@@ -1,0 +1,73 @@
+.therapy-client {
+/*   width: 90vw; */
+  width: 40vw;
+  max-width: 600px;
+}
+
+therapy-card {
+  display: block;
+}
+
+.tip-list {
+  list-style: none;
+}
+
+.tip-list li {
+  background: linen;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+@media (min-width: 600px) {
+  .tip-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+/*     gap: 1%; */
+  }
+  .tip-list li:first-of-type {
+    color: blue;
+  }
+  .tip-list li:nth-child(2) {
+    color: lime;
+    grid-row: 3;
+  }
+  .tip-list li:nth-child(3) {
+    color: red;
+    grid-row: 3;
+    grid-column: 4;
+  }
+  .tip-list li:nth-child(4) {
+    color: gray;
+    grid-row: 2;
+    grid-column: 2 / 4;
+  }
+  .tip-list li:nth-child(5) {
+    color: lime;
+    grid-column: 4;
+  }
+  .tip-list li:nth-child(6) {
+    color: purple;
+    grid-column: 4;
+  }
+  .tip-list li:last-of-type {
+    outline: 2px solid purple;
+    
+    grid-row: 4;
+    grid-column: 2;
+  }
+  therapy-card {
+/*     display: flex; */
+/*     flex-direction: column; */
+  }
+  .therapy-client {
+    grid-row: 5;
+  }
+  details {
+    min-width: 20vw;
+/*     width: 100%; */
+  }
+}
+
+@media (min-width: 900px) {
+  
+}
