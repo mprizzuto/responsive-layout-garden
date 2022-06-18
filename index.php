@@ -289,4 +289,10 @@
   </inner-column>
 </section>
 
+<section class='garden-fourty-two'>
+  <inner-column>
+    <?php include('modules/garden-fourty-two.php');?>
+  </inner-column>
+</section>
+
 <?php include('footer.php'); ?>
