@@ -313,5 +313,11 @@
   </inner-column>
 </section>
 
+<section class='garden-fourty-six'>
+  <inner-column>
+    <?php include('modules/garden-fourty-six.php');?>
+  </inner-column>
+</section>
+
 
 <?php include('footer.php'); ?>
