@@ -1,0 +1,76 @@
+
+sky {
+  display: block;
+  background: lightblue;
+  padding: 20px;
+  min-height: 100vh;
+  padding-top: 90px;
+  font-family: "trebuchet ms", sans-serif;
+/*   margin-right: auto; */
+/*   margin-left: auto; */
+}
+
+cliff {
+  display: block;
+  min-height: 70vh;
+  background: white;
+/*   outline: 2px solid red; */
+  margin-top: 20px;
+/*   width: 60vw; */
+  max-width: 300px;
+}
+
+.art-exhibit, .exhibit-month, 
+.art-exhibit-closed span, .art-ideas span {
+  display: block;
+}
+
+.address-exhibit p span {
+  display: block;
+}
+
+sky h3, sky h4, 
+sky h3 + h4, .address-exhibit, 
+.address-exhibit + p {
+/*   margin-top: 10px; */
+}
+
+.address-exhibit {
+  line-height: 1.5;
+  font-style: italic;
+  font-size: .8em;
+/*   font-family: serif; */
+}
+
+.exhibit-days {
+  line-height: 1.5;
+}
+
+.art-ideas {
+/*   text-align: center; */
+  padding: 30px;
+}
+
+.art-exhibit {
+  font-size: 3em;
+}
+
+@media (min-width: 700px) {
+  sky {
+    position: relative;
+    z-index: 1;
+  }
+  cliff {
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 250px;
+/*     left: 35%; */
+    left: 15%;
+/*     left: 35vw; */
+    font-size: clamp(3.2em, 2vw, 7em);
+    z-index: -1;
+    min-width: 500px;
+    overflow: hidden;
+    outline: 10px double maroon;
+  }
+}

@@ -31,7 +31,6 @@
 </section>
 
 
-
 <section class='help-us'>
 	<inner-column>
 
@@ -316,6 +315,12 @@
 <section class='garden-fourty-six'>
   <inner-column>
     <?php include('modules/garden-fourty-six.php');?>
+  </inner-column>
+</section>
+
+<section class='garden-fourty-seven'>
+  <inner-column>
+    <?php include('modules/garden-fourty-seven.php');?>
   </inner-column>
 </section>
 
