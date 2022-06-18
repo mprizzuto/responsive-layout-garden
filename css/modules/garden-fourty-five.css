@@ -1,0 +1,79 @@
+artist-series {
+  display: block;
+}
+
+.artists .artist-portrait:nth-child(2) picture {
+  max-width: 600px;
+  padding: 5px;
+}
+
+.artist-series figure {
+  margin-top: 10px;
+}
+
+.artist-poster h3 {
+  font-size: clamp(2.5em, 3vw, 4em);
+  border-bottom: 3px solid gray;
+  padding-bottom: 3px;
+}
+
+.authors, h4.insta-live,
+.date-time {
+  margin-top: 10px;
+}
+
+.insta-live {
+  font-size: clamp(1.5em, 2vw, 3em);
+}
+
+.date-time {
+  line-height: 1.5;
+}
+
+@media (min-width: 600px) {
+  artist-series, .artists {
+    display: flex;
+  }
+  .insta-live {
+    writing-mode: vertical-rl;
+    align-self: center;
+  }
+  .artists .artist-portrait:nth-child(2) picture {
+/*     flex-basis: 400px; */
+/*     width: 20vw; */
+    flex-grow: 1;
+  }
+  .artists figure {
+    margin-right: 10px;
+  }
+  .artist-series .page-header p:first-of-type {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+  .event {
+    color: red;
+    font-weight: bolder;
+  }
+  .date-time {
+    color: purple;
+    align-self: center;
+    margin-top: 50px;
+    margin-right: 30px;
+  }
+  .artist-poster figure:first-of-type {
+/*     outline: 2px solid lime; */
+/*     flex-grow: 1; */
+  }
+  .artists .date-time {
+/*     min-width: 100px; */
+/*     flex-basis: 200px; */
+    width: 38vw;
+  }
+  .insta-details {
+    font-size: 2.3em;
+    margin-right: 20px;
+  }
+  .authors {
+    text-align: center;
+  }
+}
