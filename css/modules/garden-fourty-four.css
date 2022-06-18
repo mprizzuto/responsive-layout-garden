@@ -1,0 +1,138 @@
+clinic-teaser {
+  display: block;
+}
+
+.clinic-location {
+  display: block;
+  font-style: italic;
+}
+
+.clinic-title {
+  font-size: 2.5em;
+  text-transform: capitalize;
+}
+
+clinic-teaser p + p {
+  margin-top: 10px;
+}
+
+clinic-teaser h3 {
+  font-size: 2em;
+}
+
+diagnostics {
+  display: block;
+}
+
+diagnostic {
+  display: block;
+  min-height: 100px;
+  max-width: 100px;
+  margin-top: 10px;
+/*   background: red; */
+}
+
+diagnostics diagnostic:first-of-type {
+  background: url("https://i0.wp.com/www.aliem.com/wp-content/uploads/2020/02/Normal-ankle-radiology-AP-2.jpg?fit=853%2C1999&ssl=1");
+  background-size: cover;
+  background-position: center;
+}
+
+diagnostics diagnostic:nth-child(2) {
+  background: url("https://www.healthpages.org/wp-content/uploads/hand-x-ray.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+diagnostics diagnostic:nth-child(3) {
+  background: url("https://www.ucsfbenioffchildrens.org/-/media/project/ucsf/ucsf-bch/images/medical-tests/hero/skull-x-ray-708x556-2x.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+diagnostics diagnostic:nth-child(4) {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Normal_posteroanterior_%28PA%29_chest_radiograph_%28X-ray%29.jpg/1200px-Normal_posteroanterior_%28PA%29_chest_radiograph_%28X-ray%29.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+diagnostics diagnostic:nth-child(5) {
+  background: url("https://i0.wp.com/www.aliem.com/wp-content/uploads/2020/02/Lisfranc-foot-x-ray-AP.jpg?fit=358%2C512&ssl=1");
+  background-size: cover;
+  background-position: center;
+}
+
+diagnostics diagnostic:nth-child(6) {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/X-ray_of_the_pelvis_of_an_18_year_old_male_-_case_3_-_anteroposterior.jpg/1200px-X-ray_of_the_pelvis_of_an_18_year_old_male_-_case_3_-_anteroposterior.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+diagnostic {
+  display: block;
+  flex-shrink: 0;
+}
+
+care-card {
+  display: block;
+}
+
+care-card h4 {
+  font-size: 1.3em;
+}
+
+.dementia-dignity h4 {
+  font-size: 1.8em;
+}
+
+.dementia-title .making-sense {
+  display: block;
+  font-size: .5em;
+  padding-bottom: 10px;
+}
+
+clinic-teaser small {
+  font-size: .3em;
+}
+
+@media (min-width: 600px) {
+  clinic-teaser {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 3%;
+    position: relative;
+  }
+  .clinic-cta {
+    grid-row: 3;
+    grid-column: 1 / 2;
+    outline: 2px solid maroon;
+    padding: 5px;
+    position: absolute;
+    bottom: -9%;
+  }
+  .care-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  care-card {
+    max-width: 20ch;
+    margin-right: 5px;
+    padding: 2px;
+  }
+  diagnostics {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  diagnostic {
+    flex-shrink: 0;
+    flex-basis: 100px;
+  }
+  .clinic-teaser-header {
+    border-right: 2px solid maroon;
+  }
+}
