@@ -301,4 +301,10 @@
   </inner-column>
 </section>
 
+<section class='garden-fourty-four'>
+  <inner-column>
+    <?php include('modules/garden-fourty-four.php');?>
+  </inner-column>
+</section>
+
 <?php include('footer.php'); ?>
