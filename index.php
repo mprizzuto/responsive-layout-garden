@@ -307,4 +307,11 @@
   </inner-column>
 </section>
 
+<section class='garden-fourty-five'>
+  <inner-column>
+    <?php include('modules/garden-fourty-five.php');?>
+  </inner-column>
+</section>
+
+
 <?php include('footer.php'); ?>
