@@ -1,0 +1,10 @@
+zodiac-card {
+	display:  block;
+}
+
+@media (min-width: 600px) {
+	zodiac-card {
+		display:  grid;
+		grid-template-columns: repeat(2, auto);
+	}
+}
