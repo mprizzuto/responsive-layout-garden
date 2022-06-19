@@ -2,8 +2,9 @@
 	<header class="typographer-header">
 		<h3 class="typographer-name"><span class="name">jan tschichold</span></h3>
 
-		<h3 class="typographer-role"><span class="role">titan of typography</span></h3>
+		<!-- <h3 class="typographer-role"><span class="role">titan of typography</span></h3> -->
 	</header>
+	<h3 class="typographer-role"><span class="role">titan of typography</span></h3>
 
 	<section class="typographer-rep">
 		<blockquote class="type-advocacy" cite="https://en.wikipedia.org/wiki/Jan_Tschichold">
