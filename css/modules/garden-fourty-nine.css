@@ -1,0 +1,33 @@
+pe-teaser {
+	display: block;
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*justify-content: space-between;*/
+}
+pe-teaser header {
+	display: flex;
+	justify-content: space-between;
+		flex-direction: column;
+}
+
+.pe-sign {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pe-sign .school-name {
+	display:  block;
+}
+
+.pe-sign .course-name {
+	display:  block;
+}
+
+.pe-cta-title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pe-cta-title .pe-cta {
+	display:  block;
+}
