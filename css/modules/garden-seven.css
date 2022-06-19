@@ -60,10 +60,6 @@ fashion-editorial {
   margin-top: 5px;
 }
 
-section, div + div {
-  border-top: 2px solid gray;
-}
-
 .studio-shot, .studio-approach {
   color: purple;
   display: flex;

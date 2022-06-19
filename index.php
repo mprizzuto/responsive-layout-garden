@@ -324,5 +324,12 @@
   </inner-column>
 </section>
 
+<section class='garden-fourty-eight'>
+  <inner-column>
+    <?php include('modules/garden-fourty-eight.php');?>
+  </inner-column>
+</section>
+
+
 
 <?php include('footer.php'); ?>
