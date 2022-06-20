@@ -336,6 +336,13 @@
   </inner-column>
 </section>
 
+<section class='garden-fifty'>
+  <inner-column>
+    <?php include('modules/garden-fifty.php');?>
+  </inner-column>
+</section>
+
+
 
 
 <?php include('footer.php'); ?>
