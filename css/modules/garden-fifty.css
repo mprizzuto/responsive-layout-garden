@@ -1,0 +1,70 @@
+stamps {
+	display:  block;
+}
+
+stamp {
+	display:  block;
+	margin-top: 30px;
+	outline:  1px solid maroon;
+	padding:  2px;
+	/*max-width: 350px;*/
+}
+
+.stamp-sheet-title {
+	font-size: clamp(2em, 8vw, 10em);
+}
+
+.stamp-feature {
+
+}
+
+.stamp-title {
+	font-size: clamp(1.5em, 2vw, 3em);
+}
+
+.stamp-portrait {
+	max-width: 400px;
+}
+
+.stamp-caption {
+	font-size: clamp(1.1em, 1vw, 3em);
+}
+
+
+
+
+@media (min-width: 700px) {
+	stamps {
+		display: flex;
+	}
+	.stamp-sheet {
+		display: grid;
+		grid-template-columns: repeat(5, 20%);
+		gap:  5px;
+	}
+	.stamp-sheet-title {
+		transform: rotate(-90deg);
+		align-self: center;
+	}
+	.stamps-header {
+		align-self: center;
+	}
+	.stamp-title {
+		transform: rotate(-90deg);
+		position: absolute;
+		/*top: 35px;*/
+		/*bottom: 90px;*/
+    left: -68px;
+		z-index: -1;
+	}
+	.stamp-feature {
+		position: relative;
+	}
+	stamp {
+		width:  80%;
+		margin: 20px;
+		/*margin-bottom: 20px;*/
+	}
+}
+
+
