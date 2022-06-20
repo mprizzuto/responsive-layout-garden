@@ -30,6 +30,11 @@ stamp {
 	font-size: clamp(1.1em, 1vw, 3em);
 }
 
+.stamp-sheet {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+		gap: 5px;
+	}
 
 
 
@@ -37,11 +42,11 @@ stamp {
 	stamps {
 		display: flex;
 	}
-	.stamp-sheet {
+	/*.stamp-sheet {
 		display: grid;
 		grid-template-columns: repeat(5, 20%);
 		gap:  5px;
-	}
+	}*/
 	.stamp-sheet-title {
 		transform: rotate(-90deg);
 		align-self: center;
