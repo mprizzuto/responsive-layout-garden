@@ -360,6 +360,10 @@
   </inner-column>
 </section>
 
-
+<section class='garden-fifty-four'>
+  <inner-column>
+    <?php include('modules/garden-fifty-four.php');?>
+  </inner-column>
+</section>
 
 <?php include('footer.php'); ?>
