@@ -348,6 +348,11 @@
   </inner-column>
 </section>
 
+<section class='garden-fifty-two'>
+  <inner-column>
+    <?php include('modules/garden-fifty-two.php');?>
+  </inner-column>
+</section>
 
 
 
