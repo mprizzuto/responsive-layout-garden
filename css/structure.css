@@ -9,6 +9,7 @@ body {
 
 main {
 	flex-grow:  1; /* push the footer down */
+	padding-bottom: 40vh;
 }
 
 inner-column {

@@ -54,12 +54,15 @@ anterior-card, posterior-card {
   }
   .clown-nose {
     position: absolute;
-    top: 70px;
 /*     right: 100px; */
-    left: 410px;
+    /*left: 410px;*/
+    bottom: 94px;
+    right: 134px;
+    left: 476px;
     z-index: -1;
     width: 100%;
     min-height: 600px;
+    
   }
   posterior-card {
     position: absolute;
@@ -85,7 +88,8 @@ anterior-card, posterior-card {
     max-width: 330px;
     transform: rotate(20deg);
     max-width: 145px;
-    transform: translate(60px, 73px);
+    transform: translate(62px, 48px);
+
   }
   .bottom-leg-two {
     display: block;
