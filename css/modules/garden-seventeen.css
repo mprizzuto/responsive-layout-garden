@@ -59,13 +59,13 @@ entrepreneur em {
   font-size: 1.4em;
 }
 
-.business-year {
+entrepreneur .business-year {
   background: black;
   color: white;
   padding: 20px;
 }
 
-.business-year + p {
+entrepreneur  .business-year + p {
   text-transform: capitalize;
 }
 

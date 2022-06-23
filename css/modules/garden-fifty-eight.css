@@ -1,1 +1,15 @@
-garden-fifty-eight.css
+realtor-poster {
+	display: block;
+}
+
+.license-number {
+	display: block;
+}
+
+
+@media (min-width: 600px) {
+	realtor-poster {
+		display: grid;
+		grid-template-columns: repeat(2, auto);
+	}
+}
