@@ -372,4 +372,10 @@
   </inner-column>
 </section>
 
+<section class='garden-fifty-six'>
+  <inner-column>
+    <?php include('modules/garden-fifty-six.php');?>
+  </inner-column>
+</section>
+
 <?php include('footer.php'); ?>
