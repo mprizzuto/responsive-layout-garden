@@ -14,5 +14,9 @@
 	{
 		"name": "garden-fifty-nine",
 		"location": "modules/garden-fifty-nine.php"
+	},
+	{
+		"name": "garden-sixty",
+		"location": "modules/garden-sixty.php"
 	}
 ]
