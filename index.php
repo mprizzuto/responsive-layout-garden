@@ -1,8 +1,4 @@
-
-
 <?php include('header.php'); ?>
-
-
 
 <section class='welcome'>
 	<inner-column>
@@ -11,8 +7,6 @@
 
 	</inner-column>
 </section>
-
-
 
 <section class='get-involved'>
 	<inner-column>
@@ -30,7 +24,6 @@
 	</inner-column>
 </section>
 
-
 <section class='help-us'>
 	<inner-column>
 
@@ -39,3 +32,10 @@
 	</inner-column>
 </section>
 
+<?php 
+require 'functions.php';
+$responsiveGardensJSON = file_get_contents('gardens.json');
+$responsiveGardensPHP = json_decode($responsiveGardensJSON, true);
+
+loopProjects($responsiveGardensPHP);
+?>

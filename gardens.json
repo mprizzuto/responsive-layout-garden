@@ -1,1 +1,14 @@
-gardens.json
+[
+	{
+		"name": "garden-one",
+		"location": "modules/garden-one.php"
+	},
+	{
+		"name": "garden-two",
+		"location": "modules/garden-two.php"
+	},
+	{
+		"name": "garden-three",
+		"location": "modules/garden-three.php"
+	}
+]
