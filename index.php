@@ -1,8 +1,4 @@
-
-
 <?php include('header.php'); ?>
-
-
 
 <section class='welcome'>
 	<inner-column>
@@ -11,8 +7,6 @@
 
 	</inner-column>
 </section>
-
-
 
 <section class='get-involved'>
 	<inner-column>
@@ -30,7 +24,6 @@
 	</inner-column>
 </section>
 
-
 <section class='help-us'>
 	<inner-column>
 
@@ -39,12 +32,10 @@
 	</inner-column>
 </section>
 
-<!-- 
-  -use file put contents to get gardens.json
-  
-  -decode from JSON to associative array
-  
-  -pass to loopProjects function
-  
--function loopProjects accepts an array. templates out a section and with the name of the garden. and includes the garden within the section
--->
+<?php 
+require 'functions.php';
+$responsiveGardensJSON = file_get_contents('gardens.json');
+$responsiveGardensPHP = json_decode($responsiveGardensJSON, true);
+
+loopProjects($responsiveGardensPHP);
+?>
