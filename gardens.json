@@ -10,5 +10,9 @@
 	{
 		"name": "garden-three",
 		"location": "modules/garden-three.php"
+	},
+	{
+		"name": "garden-fifty-nine",
+		"location": "modules/garden-fifty-nine.php"
 	}
 ]
