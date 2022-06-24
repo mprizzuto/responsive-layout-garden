@@ -6,10 +6,27 @@ realtor-poster {
 	display: block;
 }
 
+realtor-poster .realtor-logo {
+	max-width: 100px;
+}
+
 
 @media (min-width: 600px) {
 	realtor-poster {
 		display: grid;
-		grid-template-columns: repeat(2, auto);
+		grid-template-columns: repeat(3, auto);
+	}
+	realtor-poster * {
+		grid-column: 1 / 4;
+	}
+	.realtor-rep {
+		grid-column: 2;
+	}
+	realtor-poster .realtor-couple {
+		grid-column: 1 / 2;
+		max-width: 400px;
+	}
+	.business-year {
+		grid-column: 2;
 	}
 }
