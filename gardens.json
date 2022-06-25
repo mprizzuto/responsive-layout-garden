@@ -12,9 +12,34 @@
 		"location": "modules/garden-three.php"
 	},
 	{
-		"name": "garden-fifty-nine",
-		"location": "modules/garden-fifty-nine.php"
+		"name": "garden-four",
+		"location": "modules/garden-four.php"
 	},
+	{
+		"name": "garden-five",
+		"location": "modules/garden-five.php"
+	},
+	{
+		"name": "garden-six",
+		"location": "modules/garden-six.php"
+	},
+	{
+		"name": "garden-seven",
+		"location": "modules/garden-seven.php"
+	},
+	{
+		"name": "garden-eight",
+		"location": "modules/garden-eight.php"
+	},
+	{
+		"name": "garden-nine",
+		"location": "modules/garden-nine.php"
+	},
+	{
+		"name": "garden-ten",
+		"location": "modules/garden-ten.php"
+	},
+
 	{
 		"name": "garden-sixty",
 		"location": "modules/garden-sixty.php"
