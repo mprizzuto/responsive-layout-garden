@@ -1,0 +1,100 @@
+.brainstorm-header {
+/*   font-size: clamp(2.3em, 4vw, 5em); */
+}
+
+brainstorming {
+  display: block;
+  padding: 10px;
+}
+
+brainstorm {
+  display: block;
+}
+
+.brainstorm-step {
+  display: block;
+  margin-right: 10px;
+}
+
+.brainstorm-idea-title {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+idea {
+  display: block;
+  font-size: clamp(2em, 2vw, 5em);
+}
+
+.brainstorming-rules {
+    font-size: clamp(2em, 2vw, 2em);
+}
+
+.brainstorm-header-title strong {
+  display: block;
+  color: maroon;
+  font-size: clamp(3em, 6vw, 5em);
+}
+
+@media (min-width: 600px) {
+  brainstorming, brainstorm {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  }
+  .idea-two, .idea-three {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    padding: 10px;
+  }
+  .idea-two .brainstorm-step {
+    order: 1;
+  }
+  .idea-four .brainstorm-step, .idea-seven .brainstorm-step, .idea-five .brainstorm-step, .idea-two .brainstorm-step {
+    order: 2;
+/*     margin-left: 10px; */
+  }
+  .brainstorm-header {
+    grid-column: 1  / 5;
+  }
+  .idea-one {
+    border-bottom: 3px solid black;
+  }
+  .idea-four {
+    grid-row: 2;
+    border-bottom: 2px solid black;
+  }
+  .idea-seven {
+    grid-row: 3;
+    border-bottom: 2px solid black;
+  }
+  .idea-six {
+    grid-row: 4;
+    grid-column: 1 / 5;
+    border-bottom: 2px solid black;
+    writing-mode: vertical-lr;
+  }
+  .idea-five {
+    grid-row: 5;
+    grid-column: 1 / 5;
+  }
+  .idea-three {
+    grid-column: 2;
+    border-right: 2px solid black;
+    grid-row: 1 / span 4;
+  }
+  .idea-two {
+    grid-column: 4;
+    grid-row: 1 / span 4;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+  .idea-three .brainstorm-step {
+/*     margin-left: 10px; */
+/*     vertical-align: sup; */
+  }
+  .brainstorm-step {
+    padding: 10px;
+/*     margin-right: 40px; */
+  }
+}
