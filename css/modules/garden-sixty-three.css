@@ -29,13 +29,12 @@ realty-team {
 	/*justify-content: space-between;*/
 }
 
-originator {
+/*originator {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-shrink: 0;
-	/*flex-basis: 200px;*/
-}
+}*/
 
 .originator-list {
 	margin-top: 25px;
@@ -51,9 +50,6 @@ originator {
 	flex-basis: 60px;
 }
 
-.originator-portrait img {
-}
-
 .originators-title {
 	font-size: 2em;
 }
@@ -65,28 +61,33 @@ garden-sixty-three inner-column {
 .originator-team {
 	margin-left: 10px;
 }
-.originator-list {
+/*.originator-list {
 	list-style-type: decimal;
-	/*margin-left: 20px;*/
-	/*margin-top: 40px;*/
-	border:  2px solid red;
 	transform: rotate(-90deg);
 	position: absolute;
-	right:  150px;
-	top:  -90px;
+	right: 150px;
+	top: -90px;
 	max-width: 200px;
+}*/
+
+@media (min-width: 320px) {
+	originator {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-shrink: 0;
+}
+.originator-list {
+	list-style-type: decimal;
+	transform: rotate(-90deg);
+	position: absolute;
+	right: 150px;
+	top: -90px;
+	max-width: 200px;
+}
 }
 
 @media (min-width:  600px) {
-	/*.originator-list {
-		list-style-type: decimal;
-		margin-top: 40px;
-		border:  2px solid red;
-		transform: rotate(-90deg);
-		position: absolute;
-		left:  130px;
-		top:  -90px;
-	}*/
 }
 
 @media (min-width:  900px) {
@@ -96,7 +97,18 @@ garden-sixty-three inner-column {
 		max-width: unset;
 	}
 	realty-team {
-		/*flex-direction: column;*/
-		/*display: flex;*/
+		flex-direction: column;
+	}
+	.originator-portrait {
+		max-width: 400px;
+	}
+}
+
+@media (min-width: 1000px) {
+	realty-team {
+		flex-direction: row;
+	}
+	.originator-portrait {
+		flex-basis: 400px;
 	}
 }
