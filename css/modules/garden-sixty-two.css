@@ -1,0 +1,59 @@
+agency-style-tile {
+	display: block;
+}
+
+agency-style-tile figure {
+	margin-top: 40px;
+}
+
+.agency-name {
+
+}
+
+.agency-purpose {
+	display:  inline-block;
+	font-size: clamp(.3em, 1vw, 3em);
+}
+
+.agency-title {
+	font-size: clamp(2.5em, 4vw, 5em);
+}
+
+.staff-cite {
+	text-transform: capitalize;
+}
+
+.sample-one svg, .sample-two svg {
+	max-width: 100px;
+}
+
+.agency-square {
+	max-width: 50px;
+}
+
+@media (min-width: 600px) {
+	agency-style-tile {
+		display: grid;
+		grid-template-columns: repeat(3, auto);
+	}
+	.agency-welcome {
+		column-count: 2;
+	}
+	.style-tile-header {
+		display: flex;
+		writing-mode: vertical-rl;
+		max-height: 80ch;
+		grid-row: 1 / 4;
+	}
+	.style-tile-footer {
+		display: flex;
+		align-items: center;
+	}
+	.agency-welcome {
+		grid-row: 2;
+	}
+	.our-photography {
+		grid-row: 1;
+		grid-column: 2 / 4;
+	}
+}
