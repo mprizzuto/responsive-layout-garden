@@ -42,5 +42,10 @@
 	{
 		"name": "garden-sixty-one",
 		"location": "modules/garden-sixty-one.php"
+	},
+	{
+		"name": "garden-sixty-two",
+		"location": "modules/garden-sixty-two.php"
 	}
+
 ]
