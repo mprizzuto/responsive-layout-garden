@@ -70,7 +70,7 @@ garden-sixty-three inner-column {
 	max-width: 200px;
 }*/
 
-@media (min-width: 320px) {
+@media (min-width: 470px) {
 	originator {
 	display: flex;
 	align-items: center;
@@ -80,11 +80,11 @@ garden-sixty-three inner-column {
 .originator-list {
 	list-style-type: decimal;
 	transform: rotate(-90deg);
-	position: absolute;
-	right: 150px;
-	top: -90px;
+	position: relative;
+  right: -120px;
+  top: -90px;
 	max-width: 200px;
-}
+	}
 }
 
 @media (min-width:  600px) {
