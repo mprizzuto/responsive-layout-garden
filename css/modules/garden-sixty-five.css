@@ -1,0 +1,28 @@
+online-meeting {
+  display: block;
+}
+
+.yogie-portrait {
+/*   max-width: 200px; */
+  max-width: 350px;
+/*   margin: 10px; */
+  outline: 2px solid black;
+}
+
+
+@media (min-width: 600px) {
+  online-meeting {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+/*     gap: 2px; */
+  }
+  online-meeting picture:last-of-type {
+    flex-shrink: 0;
+/*     flex-basis: 100%; /*doesnt work*/
+    min-width: 100%;
+  }
+  online-meeting picture:nth-child(-n + 4) {
+    flex-basis: 50%;
+  }
+}
