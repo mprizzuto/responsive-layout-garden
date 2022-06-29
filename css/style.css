@@ -217,6 +217,7 @@ section:nth-of-type(odd) {
   /*background-color: var(--brick);*/
   /*color: var(--white);*/
   color:  black;
+  z-index: 100;
 }
 
 .welcome {
