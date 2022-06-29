@@ -74,5 +74,9 @@
 	{
 		"name": "garden-sixty-nine",
 		"location": "modules/garden-sixty-nine.php"
+	},
+	{
+		"name": "garden-seventy",
+		"location": "modules/garden-seventy.php"
 	}
 ]
