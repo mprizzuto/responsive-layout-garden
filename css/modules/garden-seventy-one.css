@@ -54,6 +54,7 @@ black-friday {
 }
 
 .sale-cta {
+  /*position: relative;*/
   padding: 10px;
   font-size: 3em;
 }
