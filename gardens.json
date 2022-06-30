@@ -56,6 +56,10 @@
 		"location": "modules/garden-fourteen.php"
 	},
 	{
+		"name": "garden-fifteen",
+		"location": "modules/garden-fifteen.php"
+	},
+	{
 		"name": "garden-sixty-one",
 		"location": "modules/garden-sixty-one.php"
 	},
