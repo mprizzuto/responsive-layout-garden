@@ -60,6 +60,10 @@
 		"location": "modules/garden-fifteen.php"
 	},
 	{
+		"name": "garden-sixteen",
+		"location": "modules/garden-sixteen.php"
+	},
+	{
 		"name": "garden-sixty-one",
 		"location": "modules/garden-sixty-one.php"
 	},
