@@ -1,0 +1,88 @@
+talent-agency {
+	display: block;
+}
+
+agency-sign {
+	display: block;
+}
+
+.agency-title {
+	display: block;
+}
+
+.agency-logo {
+	max-width: 300px;
+}
+
+talent-agency > .model-portrait {
+	max-width: 500px;
+}
+
+.model-info {
+	display: flex;
+	text-transform: capitalize;
+	margin-top: 10px;
+	max-width: 50ch;
+}
+
+.model-gallery .model-portrait {
+	max-width: 100px;
+}
+
+.model-gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.talent-agency-header {
+	display: flex;
+	flex-direction: column;
+}
+
+.model-name {
+	font-size:  2em;
+}
+
+@media (min-width:  600px) {
+	.talent-agency-header {
+		display: flex;
+		order:  2;
+	}
+	agency-sign {
+		display: flex;
+		flex-direction: column;
+		/*order: 2;*/
+		margin-top: 20px;
+	}
+	.model-facts {
+		order: -1;
+	}
+	.model-gallery {
+		display: flex;
+		/*order: 1;*/
+	}
+	.model-gallery .model-portrait {
+		/*margin-right: 10px;*/
+	}
+	talent-agency {
+		display: flex;
+		/*flex-direction: column;*/
+		justify-content: space-between;
+	}
+	.model-portrait {
+		/*order: 1;*/
+	}
+	.agency-logo-title {
+		/*flex-shrink: 0;*/
+		order: 2;
+		display: flex;
+		flex-direction: column;
+	}
+	.agency-title {
+		order:  1;
+	}
+	.model-gallery {
+		margin-top: 90px;
+		order:  3;
+	}
+}
