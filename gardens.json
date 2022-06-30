@@ -39,9 +39,56 @@
 		"name": "garden-ten",
 		"location": "modules/garden-ten.php"
 	},
-
 	{
-		"name": "garden-sixty",
-		"location": "modules/garden-sixty.php"
+		"name": "garden-eleven",
+		"location": "modules/garden-eleven.php"
+	},
+	{
+		"name": "garden-sixty-one",
+		"location": "modules/garden-sixty-one.php"
+	},
+	{
+		"name": "garden-sixty-two",
+		"location": "modules/garden-sixty-two.php"
+	},
+	{
+		"name": "garden-sixty-three",
+		"location": "modules/garden-sixty-three.php"
+	},
+	{
+		"name": "garden-sixty-four",
+		"location": "modules/garden-sixty-four.php"
+	},
+	{
+		"name": "garden-sixty-five",
+		"location": "modules/garden-sixty-five.php"
+	},
+	{
+		"name": "garden-sixty-six",
+		"location": "modules/garden-sixty-six.php"
+	},
+	{
+		"name": "garden-sixty-seven",
+		"location": "modules/garden-sixty-seven.php"
+	},
+	{
+		"name": "garden-sixty-eight",
+		"location": "modules/garden-sixty-eight.php"
+	},
+	{
+		"name": "garden-sixty-nine",
+		"location": "modules/garden-sixty-nine.php"
+	},
+	{
+		"name": "garden-seventy",
+		"location": "modules/garden-seventy.php"
+	},
+	{
+		"name": "garden-seventy-one",
+		"location": "modules/garden-seventy-one.php"
+	},
+	{
+		"name": "garden-seventy-two",
+		"location": "modules/garden-seventy-two.php"
 	}
 ]
