@@ -159,4 +159,8 @@
 		"name": "garden-seventy-two",
 		"location": "modules/garden-seventy-two.php"
 	}
+	{
+		"name": "garden-seventy-three",
+		"location": "modules/garden-seventy-three.php"
+	}
 ]
