@@ -40,6 +40,10 @@
 		"location": "modules/garden-ten.php"
 	},
 	{
+		"name": "garden-eleven",
+		"location": "modules/garden-eleven.php"
+	},
+	{
 		"name": "garden-sixty-one",
 		"location": "modules/garden-sixty-one.php"
 	},
