@@ -80,6 +80,14 @@
 		"location": "modules/garden-twenty.php"
 	},
 	{
+		"name": "garden-twenty-one",
+		"location": "modules/garden-twenty-one.php"
+	},
+	{
+		"name": "garden-twenty-two",
+		"location": "modules/garden-twenty-two.php"
+	},
+	{
 		"name": "garden-sixty-one",
 		"location": "modules/garden-sixty-one.php"
 	},
