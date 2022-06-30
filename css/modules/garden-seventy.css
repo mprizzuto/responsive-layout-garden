@@ -1,0 +1,149 @@
+.circle-garden inner-column {
+  max-width: 900px;
+}
+
+geometry-poster {
+  display: block;
+  background: maroon;
+  padding: 30px;
+}
+
+.white-circle ellipse {
+  fill: white;
+}
+
+.black-circle ellipse {
+/*   fill: red; */
+}
+
+.circle-date .date {
+  display: block;
+  font-size: 1.7em;
+}
+
+.circle-date .white-circle, 
+.square-skeleton {
+  display: block;
+  max-width: 100px;
+}
+
+.circle-date .white-circle {
+  max-height: 100px;
+}
+
+.geometry-poster-header > h3:first-of-type {
+  font-size: clamp(5em, 15vw, 8em);
+  text-transform: uppercase;
+}
+
+.geometry-poster-header svg {
+  margin-top: 10px;
+}
+
+.circles-grouped svg {
+  display: inline-block;
+  max-width: 200px;
+  max-height: 200px;
+/*   width: 60vw; */
+}
+
+.circles-stacked svg {
+  display: inline-block;
+  margin-top: 10px;
+  width: 60vw;
+  max-width: 250px;
+}
+
+.white-circle ellipse {
+  fill: white;
+/*   stroke: black; */
+}
+
+
+@media (min-width: 700px) {
+  .geometry-poster-header {
+    display: flex;
+    gap: 1%;
+  }
+  .geometry-poster-header section, svg {
+    flex-shrink: 0;
+/*     flex-basis: 300px; */
+  }
+  .geometry-poster-header > h3:first-of-type {
+    writing-mode: vertical-rl;
+    order: 3;
+    line-height: .6;
+  }
+  .circles-grouped {
+    flex-basis: 50vw;
+    max-width: 420px;
+    order: 2;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .circles-date {
+    order: 1;
+  }
+  .circles-grouped .white-circle:first-of-type {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .circles-grouped .black-circle:nth-child(2) {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .circles-grouped .black-circle:last-of-type {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .circles-stacked {
+    display: flex;
+    position: relative;
+    min-height: 500px;
+  }
+  .circles-stacked .white-circle:first-of-type {
+    position: absolute;
+    z-index: 5;
+    left: 0;
+/*     border: 20px solid blue; */
+  }
+  .circles-stacked :nth-child(2) {
+    position: absolute;
+    z-index: 4;
+    left: 60px;
+/*     border: 40px solid lime; */
+  }
+  .circles-stacked :nth-child(3) {
+    position: absolute;
+    left: 120px;
+    z-index: 3;
+/*     border: 20px solid purple; */
+  }
+  .circles-stacked :nth-child(4) {
+    position: absolute;
+    left: 180px;
+    z-index: 2;
+/*     border: 20px solid red; */
+  }
+  .circles-stacked :nth-child(5) {
+    position: absolute;
+    left: 250px;
+    z-index: 1;
+/*      border: 20px solid green; */
+  }
+  .circles-stacked :nth-child(6) {
+    position: absolute;
+    left: 100px;
+    left: 346px;
+    top: 5px;
+    z-index: 0;
+/*      border: 20px solid yellow; */
+  }
+}
+
+@media (min-width: 900px) {
+  .circles-stacked svg {
+    width: 90vw;
+    max-width: 400px;
+  }
+}

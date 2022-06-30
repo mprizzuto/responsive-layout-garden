@@ -1,0 +1,25 @@
+new-employees {
+	display: block;
+	display: grid;
+	grid-template-columns: repeat(5, minmax(20%, 1fr));
+}
+
+.employee .employee-portrait {
+	max-width: 500px;
+}
+
+@media (min-width: 600px) {
+	.new-employee-header {
+		grid-column: 5;
+		font-size: 2em;
+	}
+	new-employees .employee:nth-child(6) {
+		margin-top: 50px;
+	}
+}
+
+@media (min-width:  1000px) {
+	new-employees {
+		gap:  5px;
+	}
+}

@@ -62,7 +62,7 @@ pe-teaser {
 		position: relative;
 		/*max-width: 600px;*/
 	}
-	.course-name {
+	pe-teaser .course-name {
 		transform: rotate(90deg);
 		position: absolute;
 		top: 90px;
