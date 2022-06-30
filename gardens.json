@@ -88,6 +88,30 @@
 		"location": "modules/garden-twenty-two.php"
 	},
 	{
+		"name": "garden-twenty-three",
+		"location": "modules/garden-twenty-three.php"
+	},
+	{
+		"name": "garden-twenty-four",
+		"location": "modules/garden-twenty-four.php"
+	},
+	{
+		"name": "garden-twenty-five",
+		"location": "modules/garden-twenty-five.php"
+	},
+	{
+		"name": "garden-twenty-six",
+		"location": "modules/garden-twenty-six.php"
+	},
+	{
+		"name": "garden-twenty-seven",
+		"location": "modules/garden-twenty-seven.php"
+	},
+	{
+		"name": "garden-twenty-eight",
+		"location": "modules/garden-twenty-eight.php"
+	},
+	{
 		"name": "garden-sixty-one",
 		"location": "modules/garden-sixty-one.php"
 	},
