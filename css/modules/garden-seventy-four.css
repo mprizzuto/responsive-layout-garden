@@ -1,0 +1,75 @@
+beauty-school {
+	display: block;
+}
+
+.beauty-standards em {
+	text-transform: capitalize;
+}
+
+.beauty-school-title {
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	max-width: 200px;
+}
+
+.founder-portrait {
+	max-width: 300px;
+}
+
+/*.founder-portrait img {
+	border-radius: 0 0 50% 50%;
+}
+
+.beauty-school-founder {
+	position: relative;
+}
+
+.beauty-school-header {
+	background: white;
+	max-width: 400px;
+	border-radius: 0 0 50% 50%;
+	padding: 15px;
+}
+
+.beauty-school-founder figcaption	{
+	position: absolute;
+	bottom:  30px;
+	max-width: 100px;
+	color:  linen;
+}*/
+
+.beauty-school-logo {
+	max-width: 50px;
+}
+
+@media (min-width:  600px) {
+	beauty-school {
+		display: flex;
+		justify-content: space-between;
+	}
+	.founder-portrait img {
+		border-radius: 0 0 50% 50%;
+	}
+	.beauty-school-founder {
+		position: relative;
+	}
+	.beauty-school-header {
+		background: white;
+		max-width: 400px;
+		border-radius: 0 0 50% 50%;
+		padding: 15px;
+		flex-basis: 300px;
+	}
+	.beauty-school-founder figcaption	{
+		position: absolute;
+		bottom:  30px;
+		max-width: 100px;
+		color:  linen;
+	}
+	.beauty-school-about {
+		background: white;
+		flex-basis: 500px;
+		margin-left: 20px;
+		border-radius: 50% 50% 0 0;
+	}
+}
