@@ -170,5 +170,9 @@
 	{
 		"name": "garden-seventy-five",
 		"location": "modules/garden-seventy-five.php"
+	},
+	{
+		"name": "garden-seventy-six",
+		"location": "modules/garden-seventy-six.php"
 	}
 ]
