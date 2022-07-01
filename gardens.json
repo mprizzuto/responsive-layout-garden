@@ -162,5 +162,9 @@
 	{
 		"name": "garden-seventy-three",
 		"location": "modules/garden-seventy-three.php"
+	},
+	{
+		"name": "garden-seventy-four",
+		"location": "modules/garden-seventy-four.php"
 	}
 ]
