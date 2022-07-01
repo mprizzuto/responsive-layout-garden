@@ -16,11 +16,21 @@
 	</header>
 
 	<section class="beauty-school-about">
-		<h3 class="beauty-bio-title">about beauty schools</h3>
+		<h3 class="beauty-bio-title">beauty schools</h3>
+
+		<p class="about-beauty">more than just a school but a <strong>hands-on learning experience</strong></p>
 
 		<svg class="beauty-school-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
 		  <circle cx="50" cy="50" r="50"/>
 		</svg>
+
+		<blockquote cite="https://www.empire.edu/blog/beauty-business/cosmetology-school">
+			<p>Before you touch a mannequin or someone’s head, hands, feet or skin, you first need to learn basic theory and technique.</p>
+
+			<p>Eventually you will be ready to <strong>perform on your own—a proud milestone for all cosmetology students!</strong></p>
+
+			<cite>empire beauty school</cite>
+		</blockquote>
 
 	</section>
 </beauty-school>
