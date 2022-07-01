@@ -2,6 +2,10 @@ beauty-school {
 	display: block;
 }
 
+beauty-school h3 + p {
+	margin-top: 10px;
+}
+
 .beauty-standards em {
 	text-transform: capitalize;
 }
@@ -10,6 +14,10 @@ beauty-school {
 	border-top: 2px solid gray;
 	border-bottom: 2px solid gray;
 	max-width: 200px;
+}
+
+.beauty-bio-title {
+	font-size: 1.8em;
 }
 
 .founder-portrait {
@@ -38,11 +46,17 @@ beauty-school {
 	color:  linen;
 }*/
 
-.beauty-school-logo {
-	max-width: 50px;
+.beauty-school-about {
+	position: relative;
 }
 
-@media (min-width:  600px) {
+.beauty-school-logo {
+	/*display: block;*/
+	max-width: 50px;
+	/*position: absolute;*/
+}
+
+@media (min-width: 600px) {
 	beauty-school {
 		display: flex;
 		justify-content: space-between;
@@ -51,7 +65,6 @@ beauty-school {
 		border-radius: 0 0 50% 50%;
 	}
 	.beauty-school-founder {
-		position: relative;
 	}
 	.beauty-school-header {
 		background: white;
@@ -67,9 +80,28 @@ beauty-school {
 		color:  linen;
 	}
 	.beauty-school-about {
+		position: relative;
 		background: white;
 		flex-basis: 500px;
 		margin-left: 20px;
 		border-radius: 50% 50% 0 0;
+		text-align: center;
+	}
+	.beauty-school-about * {
+		max-width: 30ch;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.beauty-school-logo {
+		max-width: 50px;
+		position: absolute;
+		top: 0;
+		left:  70%;
+	}
+	.beauty-bio-title {
+		padding-top: 40px;
+	}
+	.beauty-school-about blockquote {
+		margin-top: 20px;
 	}
 }
