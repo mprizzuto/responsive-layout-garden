@@ -1,0 +1,66 @@
+architecture-card {
+	display: block;
+	background: maroon;
+	color:  linen;
+}
+
+architecture-card p {
+	margin-top: 5px;
+}
+
+architecture-card h3, architecture-card h4 {
+	font-family: sans-serif;
+}
+
+architecture-card p + p {
+	margin-top: 10px;
+}
+
+.architecture-card-header h3 {
+	border-bottom: 2px solid black;
+}
+
+.architecture-card-footer h3 {
+	border-top: 2px solid black;
+}
+
+.categories {
+	font-size: .8em;
+	font-style: italic;
+}
+
+.architecture-card-title {
+	font-size: clamp(2.5em, 5vw, 7em);
+}
+
+.location-title {
+	display: flex;
+	align-items: center;
+	font-size: clamp(2.5em, 5vw, 6em);
+	text-transform: uppercase;
+}
+
+
+/*shapes*/
+.broken-line {
+	max-width: 300px;
+	margin-top: 60px;
+}
+
+.time-elapsed {
+	max-width: 300px;
+}
+
+
+@media (min-width: 600px) {
+	.architect-geometry {
+		display: flex;
+	}
+	.location-title {
+		display: flex;
+		flex-direction: row;
+	}
+	.broken-line {
+		align-self: start;
+	}
+}
