@@ -6,7 +6,7 @@
 	</header>
 
 	<section class="location-photos">
-		<picture class="location-photo">
+		<!-- <picture class="location-photo">
 			<img src="" alt="">
 		</picture>
 
@@ -16,7 +16,15 @@
 
 		<picture class="location-photo">
 			<img src="" alt="">
-		</picture>
+		</picture> -->
+		<location-photo>
+		</location-photo>
+
+		<location-photo>
+		</location-photo>
+		
+		<location-photo>
+		</location-photo>
 	</section>
 
 	<footer class="architecture-card-footer">
