@@ -1,0 +1,15 @@
+architect-poster {
+	display: block;
+	background: linen;
+}
+
+architect-portrait {
+	background: maroon;
+	color: linen;
+}
+
+@media (min-width:  600px) {
+	.architect-surname {
+		display: block;
+	}
+}
