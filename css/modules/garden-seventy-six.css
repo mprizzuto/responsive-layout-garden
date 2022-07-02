@@ -12,12 +12,13 @@ architecture-card h3, architecture-card h4 {
 	font-family: sans-serif;
 }
 
-architecture-card p + p {
+architecture-card p + p,  architecture-card h3 + p {
 	margin-top: 10px;
 }
 
 .architecture-card-header h3 {
 	border-bottom: 2px solid black;
+	padding-bottom: 2px;
 }
 
 .architecture-card-footer h3 {
@@ -40,6 +41,10 @@ architecture-card p + p {
 	text-transform: uppercase;
 }
 
+.architect-facts p {
+	max-width: 70ch;
+}
+
 
 /*shapes*/
 .broken-line {
@@ -51,16 +56,58 @@ architecture-card p + p {
 	max-width: 300px;
 }
 
+location-photo {
+	display: block;
+	min-height: 300px;
+	background: url("https://media.architecturaldigest.com/photos/59aefc920f5802540ef18f05/master/pass/Santorini%20Greece.jpg");
+	background-size: cover;
+	/*width: 100%;*/
+}
+
+.location-photos location-photo:first-of-type {
+	border:  2px solid red;
+}
+
 
 @media (min-width: 600px) {
 	.architect-geometry {
 		display: flex;
 	}
+	.architecture-card-header {
+		display: flex;
+		justify-content: space-between;
+	}
 	.location-title {
 		display: flex;
 		flex-direction: row;
 	}
+	.location-photos {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	location-photo {
+		flex-basis: 200px;
+	}
+	.location-photos location-photo:first-of-type {
+		/*outline: 30px solid red;*/
+		background-position: 0px;
+		background-size: 600px;
+	}
+	.location-photos location-photo:nth-child(2) {
+		background-position: 530px;
+    background-size: 796px;
+	}
+	.location-photos location-photo:nth-child(3) {
+		/*outline: 30px solid red;*/
+		background-position: 200px;
+    background-size: 465px;
+	}
 	.broken-line {
-		align-self: start;
+		position: relative;
+		bottom: 50px;
+	}
+	.time-elapsed {
+		margin-left: 20px;
 	}
 }
