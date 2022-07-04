@@ -24,7 +24,7 @@ architect-poster {
 
 .architect-name {
 	/*font-size: .4em;*/
-	margin-top: 20px;
+	margin-top: 150px;
 }
 
 .architect-portrait {
@@ -77,7 +77,7 @@ architect-poster {
 	}
 	.architect-thoughts {
 		order: 1;
-		max-width: 30ch;
+		max-width: 15ch;
 	}
 	.architect-portrait {
 		order: 3;
