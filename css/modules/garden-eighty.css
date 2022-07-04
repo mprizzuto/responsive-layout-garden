@@ -1,3 +1,73 @@
 science-facts {
 	display: block;
 }
+
+science-facts h3 {
+	font-size: 2.5em;
+}
+
+.science-source {
+	display: block;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+science-facts p + p {
+	margin-top: 10px;
+}
+
+science-facts header + section {
+	margin-top: 20px;
+}
+
+science-facts h3 + p {
+	margin-top: 10px;
+}
+
+.mutation-facts li + li, 
+science-facts section + section {
+	margin-top: 20px;
+}
+
+science-facts blockquote {
+	max-width: 50ch;
+}
+
+.mutation-facts summary {
+	font-weight: bolder;
+}
+
+.mutation-facts summary + blockquote {
+	margin-top: 5px;
+}
+
+
+@media (min-width: 600px) {
+	science-facts {
+		display: flex;
+	}
+	.post-info {
+		display: flex;
+		justify-content: space-between;
+	}
+	.science-facts-header {
+		display: flex;
+		align-items: center;
+	}
+	.science-title, .post-info {
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+	}
+	.mutation-facts li {
+	}
+	.mutation-facts li + li {
+
+	}
+	.science-facts-header {
+		/*writing-mode: vertical-rl;*/
+	}
+	.mutation-facts blockquote {
+		max-height: 50ch;
+		outline: 2px solid red;
+	}
+}
