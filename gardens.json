@@ -178,6 +178,10 @@
 	{
 		"name": "garden-seventy-seven",
 		"location": "modules/garden-seventy-seven.php"
+	},
+	{
+		"name": "garden-seventy-eight",
+		"location": "modules/garden-seventy-eight.php"
 	}
 
 ]
