@@ -1,0 +1,151 @@
+newspaper {
+	display: block;
+}
+
+columnists {
+	display: block;
+}
+
+columnist {
+	display: block;
+	margin-top: 30px;
+} 
+
+.independent-logo {
+	max-width: 100px;
+}
+
+.newspaper-header {
+	display: flex;
+	flex-direction: column;
+}
+
+.independent-logo {
+	order: 1;
+}
+
+.header-title {
+	font-size: clamp(2.5em, 5vw, 6em);
+	order: 2;
+	/*writing-mode: vertical-lr;*/
+}
+
+.columnist-name {
+	font-size: 1.5em;
+	margin-top: 5px;
+}
+
+.newspaper-surname {
+	display: inline-block;
+	/*transform: rotate(-90deg);*/
+}
+
+.newspaper-title {
+	display: inline-block;
+}
+
+.columnist-portrait {
+	max-width: 150px;
+}
+
+.columnist-portrait img {
+	border-radius: 50%;
+}
+
+columnist h3 + p {
+	margin-top: 10px;
+}
+
+newspaper h3 + p {
+	margin-top: 5px;
+}
+
+.columnist-header {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	margin-top: 20px;
+}
+
+.newspaper-surname {
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.front-page-photo {
+	max-width: 600px;
+	margin-top: 10px;
+}
+
+newspaper h3 {
+	font-size: 2.5em;
+}
+
+newspaper h3 + p {
+	/*color:  lime;*/
+}
+
+.front-page-figure {
+	margin-top: 20px;
+}
+
+.teaser-editor {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	max-width: 200px;
+}
+
+.teaser-editor span {
+	display: block;
+}
+
+.news-teaser h3 {
+	font-size:  1.5em;
+}
+
+.news-teaser {
+	margin-top: 20px;
+}
+
+.editor-name {
+	font-weight: bolder;
+}
+
+.newspaper-teaser-title {
+	max-width: 20ch;
+
+}
+
+@media (min-width:  800px) {
+	.header-title {
+		writing-mode: vertical-lr;
+	}
+	.newspaper-title {
+		transform: rotate(-90deg);
+	}
+	columnists {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		grid-column:  2;
+	}
+	columnist {
+		margin-right: 10px;
+	}
+	.uk-news-teaser {
+		column-count: 3;
+	}
+	newspaper {
+		display: grid;
+		grid-template-columns: .5fr 3fr; 
+	}
+	.front-page-figure {
+		grid-column: 2;
+	}
+	.newspaper-header {
+		grid-row: 1/ span 3;
+		font-size:  3em;
+	}
+	.newspaper-title {
+		font-size: .2em;
+	}
+}
