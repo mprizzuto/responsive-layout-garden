@@ -190,6 +190,10 @@
 	{
 		"name": "garden-eighty",
 		"location": "modules/garden-eighty.php"
+	},
+	{
+		"name": "garden-eighty-one",
+		"location": "modules/garden-eighty-one.php"
 	}
 
 ]
