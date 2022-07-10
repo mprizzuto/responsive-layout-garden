@@ -1,7 +1,7 @@
 restaurant-table {
   display: block;
   border:  20px solid red;
-  min-height: 100vh;
+  min-height: 160vh;
 }
 
 menu {
