@@ -1,0 +1,78 @@
+speaker {
+  display: block;
+}
+
+sidebar {
+  display: block;
+}
+
+dome {
+  display: block;
+}
+
+.speaker-portrait {
+  max-width: 400px;
+}
+
+.speaker-portrait + figcaption {
+  margin-top: 10px;
+}
+
+speaker .speaker-name {
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.speaker-figure figcaption * {
+  display: block;
+}
+
+.speaker-figure figcaption span:last-of-type {
+  font-weight: bolder;
+}
+
+.speaker-badge {
+  max-width: 100px;
+}
+
+.sidebar-title {
+  font-size: clamp(1.2em, 2vw, 3em);
+}
+
+.speaker-name {
+  font-size: clamp(1.6em, 3vw, 4em)
+}
+
+@media (min-width: 600px) {
+  speaker {
+    display: flex;
+    position: relative;
+  }
+  sidebar h3 {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+  }
+  .speaker-badge {
+    position: relative;
+    z-index: 3;
+  }
+  dome {
+    min-height: 200px;
+    outline: 2px solid red;
+    z-index: 2;
+    position: absolute;
+    min-height: 555px;
+    width: 70%;
+    max-width: 400px;
+    border-radius: 45% 45% 0 0;
+    left: 30px;
+    top: 5px;
+  }
+  speaker .speaker-figure {
+    position: relative;
+    z-index: 1;
+  }
+  speaker .speaker-portrait img {
+    border-radius: 45% 45% 0 0;
+  }
+}
