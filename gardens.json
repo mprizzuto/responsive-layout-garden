@@ -334,5 +334,10 @@
 	{
 		"name": "garden-eighty-four",
 		"location": "modules/garden-eighty-four.php"
+	},
+	{
+		"name": "garden-eighty-five",
+		"location": "modules/garden-eighty-five.php"
 	}
+
 ]
