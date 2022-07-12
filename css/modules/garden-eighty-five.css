@@ -1,0 +1,150 @@
+women-leaders {
+  display: block;
+/*   background: black;
+  color: white; */
+/*   padding: 40px; */
+  line-height: 1.3;
+}
+
+women-leaders h3 + p {
+  margin-top: 10px;
+}
+
+.women-leader-logo {
+  max-width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.women-presents {
+  font-size: 1.3em;
+  color: white;
+}
+
+women-speakers {
+  display: block;
+}
+
+.womens-leadership-title span {
+  display: block;
+  color: white;
+}
+
+.speaker-name {
+  display: inline-block;
+  color: red;
+  text-tansform: capitalize;
+}
+
+.speaker-date-time {
+  background: red;
+  max-width: 30ch;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.women-conversation {
+/*   max-width: 30ch; */
+  text-transform: uppercase;
+}
+
+.women-leaders-header {
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.womens-leadership-title {
+  font-size: clamp(1.5em, 3vw, 3em);
+  text-transform: uppercase;
+}
+
+.header-accent {
+  display: block;
+  height: 1px;
+  width: 450px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid white;
+}
+
+.female-speaker .woman-name {
+  display: block;
+}
+
+.female-speaker .speaker-portrait {
+  max-width: 150px;
+  margin-top: 10px;
+}
+
+.female-speaker .speaker-portrait img {
+  border-radius: 50%;
+}
+
+.female-speaker .woman-name {
+  color: maroon;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.female-speaker figcaption {
+  border: 2px solid black;
+  border-radius: 6px 6px 6px 6px;
+  max-width: 35ch;
+}
+
+
+
+@media (min-width: 600px) {
+  women-speakers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+  women-leaders {
+/*     border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+  }
+  women-speakers figure {
+    margin-right: 20px;
+  }
+  women-speakers figure figcaption {
+    padding: 5px;
+  }
+  .speaker-portrait {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .women-leaders-header {
+    flex-shrink: 0;
+    flex-basis: 400px;
+/*     position: relative; */
+  }
+  .women-presents span {
+    display: block;
+    position: relative;
+    top: 4px;
+    z-index: 1;
+    background: black;
+  }
+  .women-presents {
+    max-width: 10ch;
+    position: relative;
+    top: 5px;
+    left: 90px;
+/*     outline: 2px solid red; */
+  }
+  .womens-leadership-title {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 950px) {
+  .speaker-date-time {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 100%;
+  }
+}
