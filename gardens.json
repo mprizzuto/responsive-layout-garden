@@ -338,6 +338,10 @@
 	{
 		"name": "garden-eighty-five",
 		"location": "modules/garden-eighty-five.php"
+	},
+	{
+		"name": "garden-eighty-six",
+		"location": "modules/garden-eighty-six.php"
 	}
 
 ]
