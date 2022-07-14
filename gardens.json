@@ -342,6 +342,10 @@
 	{
 		"name": "garden-eighty-six",
 		"location": "modules/garden-eighty-six.php"
+	},
+	{
+		"name": "garden-eighty-seven",
+		"location": "modules/garden-eighty-seven.php"
 	}
 
 ]
