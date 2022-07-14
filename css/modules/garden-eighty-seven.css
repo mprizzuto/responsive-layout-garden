@@ -1,0 +1,61 @@
+editorial-poster {
+  display: block;
+  padding: 10px;
+}
+
+.editorial-picture {
+  width: 70vw;
+  max-width: 700px;
+  margin-top: 10px;
+}
+
+.editorial-picture img {
+  border-radius: 50%;
+}
+
+.editorial-title {
+  font-size: 2.5em;
+}
+
+.editorial-year {
+  display: inline-block;
+  font-size: clamp(.3em, 2vw, 3em);
+}
+
+.editorial-shoot {
+  margin-top: 10px;
+}
+
+.fashion-shoot {
+  font-size: clamp(.8em, 2vw, 2em);
+}
+
+.editorial-layouts {
+  font-size: clamp(1.5em, 3vw, 4em);
+}
+
+@media (min-width: 600px) {
+  .editorial-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+  }
+   .editorial-shoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+  }
+  .fashion-shoot {
+    writing-mode: vertical-rl;
+  }
+  .editorial-picture {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .editorial-picture {
+    position: relative;
+    z-index: -1;
+  }
+}
