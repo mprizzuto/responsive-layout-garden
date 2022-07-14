@@ -1,0 +1,285 @@
+boundary {
+  display: block;
+  background: white;
+  padding: 10px;
+}
+
+boundary-cards {
+  display: block;
+/*   max-width: 900px; */
+/*     border: 2px solid red; */
+  padding: 20px;
+}
+
+boundary-card {
+  display: block;
+/*   border: 2px solid gray; */
+  margin-top: 10px;
+}
+
+boundary-top {
+  display: block;
+  border: 2px solid gray;
+}
+
+boundary-middle {
+  display: block;
+  border: 2px solid gray;
+}
+
+boundary-bottom {
+  display: block;
+  border: 2px solid gray;
+}
+
+.right-arrow {
+  display: block;
+  color: gold;
+  font-size: 10em;
+  margin-top: 10px;
+}
+
+.boundary-number {
+  color: green;
+  font-size: 1.8em;
+}
+
+.inner-feelings {
+  color: green;
+}
+
+.boundary-card-title {
+  font-size: 1.5em;
+  margin-top: 5px;
+  line-height: 1.2;
+  color: maroon;
+  text-transform: uppercase;
+}
+
+.card-button {
+  max-width: 10px;
+}
+
+.boundary-card-header {
+  background: lightgreen;
+  padding: 10px;
+}
+
+@media (min-width: 900px) {
+  boundary-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  boundary-card  {
+/*     flex-shrink: 0; */
+    flex-basis: 420px;
+    margin-right: 30px;
+    margin-top: 40px;
+  }
+  .boundary-number {
+    float: left;
+/*     height: 200px; */
+/*     outline: 2px solid red; */
+    font-size: 2em;
+  }
+  boundary {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-arrow {
+    align-self: end;
+  }
+  /*  boundary cards*/
+  .boundary-card-one {
+    position: relative;
+  }
+  .boundary-card-two {
+    position: relative;
+  }
+  .boundary-card-three {
+    position: relative;
+  }
+  .boundary-card-four {
+    position: relative;
+  }
+  .boundary-card-five {
+    position: relative;
+  }
+  .boundary-card-six {
+    position: relative;
+  }
+  .boundary-card-one boundary {
+    min-height: 365px;
+/*     top: 20px; */
+  }
+  .boundary-card-one boundary-top {
+    position: relative;
+    z-index: 3;
+  }
+  .boundary-card-one boundary-middle {
+    position: absolute;
+    z-index: 2;
+    background: lightgreen;
+    min-height: 400px;
+    top: 20px;
+    right: 10px;
+    width: 100%;
+  }
+  .boundary-card-one boundary-bottom {
+    position: absolute;
+    z-index: 1;
+    background: lightgreen;
+    min-height: 400px;
+    top: 27px;
+    right: 17px;
+    width: 100%;
+  }
+  .boundary-card-two boundary {
+    min-height: 365px;
+  }
+  .boundary-card-two boundary-top {
+    position: relative;
+    z-index: 3;
+/*     min-height: 400px;
+    top: 20px;
+    right: 10px;
+    width: 100%; */
+  }
+  .boundary-card-two boundary-middle {
+    position: absolute;
+    z-index: 2;
+    min-height: 400px;
+    top: 15px;
+    right: 10px;
+    width: 100%;
+    background: lightgreen;
+  }
+  .boundary-card-two boundary-bottom {
+    position: absolute;
+    z-index: 1;
+    min-height: 400px;
+    top: 25px;
+    right: 20px;
+    width: 100%;
+    background: lightgreen;
+  }
+  .boundary-card-three boundary {
+/*     border: 10px solid lime; */
+    max-height: 364px;
+  }
+  .boundary-card-three boundary-top {
+    position: relative;
+    z-index: 3;
+/*     min-height: 400px;
+    top: 20px;
+    right: 10px;
+    width: 100%; */
+  }
+  .boundary-card-three boundary-middle {
+    position: absolute;
+    z-index: 2;
+    min-height: 400px;
+    top: 15px;
+    right: 10px;
+    width: 100%;
+    background: lightgreen;
+  }
+  .boundary-card-three boundary-bottom {
+    position: absolute;
+    z-index: 1;
+    min-height: 400px;
+    top: 25px;
+    right: 20px;
+    width: 100%;
+    background: lightgreen;
+  }
+  .boundary-card-four boundary {
+    min-height: 360px;
+/*     border: 10px solid red; */
+  }
+  .boundary-card-four boundary-top {
+    position: relative;
+    z-index: 3;
+/*     min-height: 400px;
+    top: 20px;
+    right: 10px;
+    width: 100%; */
+  }
+  .boundary-card-four boundary-middle {
+    position: absolute;
+    z-index: 2;
+    min-height: 400px;
+    top: 15px;
+    right: 10px;
+    width: 100%;
+    background: lightgreen;
+  }
+  .boundary-card-four boundary-bottom {
+    position: absolute;
+    z-index: 1;
+    min-height: 400px;
+    top: 25px;
+    right: 20px;
+    width: 100%;
+    background: lightgreen;
+  }
+   .boundary-card-five boundary {
+    min-height: 360px;
+  }
+  .boundary-card-five boundary-top {
+    position: relative;
+    z-index: 3;
+/*     min-height: 400px;
+    top: 20px;
+    right: 10px;
+    width: 100%; */
+  }
+  .boundary-card-five boundary-middle {
+    position: absolute;
+    z-index: 2;
+    min-height: 400px;
+    top: 15px;
+    right: 10px;
+    width: 100%;
+    background: lightgreen;
+  }
+  .boundary-card-five boundary-bottom {
+    position: absolute;
+    z-index: 1;
+    min-height: 400px;
+    top: 25px;
+    right: 20px;
+    width: 100%;
+    background: lightgreen;
+  }
+  .boundary-card-six boundary {
+    min-height: 360px;
+  }
+  .boundary-card-six boundary-top {
+    position: relative;
+    z-index: 3;
+/*     min-height: 400px;
+    top: 20px;
+    right: 10px;
+    width: 100%; */
+  }
+  .boundary-card-six boundary-middle {
+    position: absolute;
+    z-index: 2;
+    min-height: 400px;
+    top: 15px;
+    right: 10px;
+    width: 100%;
+    background: lightgreen;
+  }
+  .boundary-card-six boundary-bottom {
+    position: absolute;
+    z-index: 1;
+    min-height: 400px;
+    top: 25px;
+    right: 20px;
+    width: 100%;
+    background: lightgreen;
+  }
+}
