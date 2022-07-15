@@ -3,11 +3,12 @@ sky {
   display: block;
   background: lightblue;
   padding: 20px;
-  min-height: 730px;
+  min-height: 860px;
   padding-top: 90px;
   font-family: "trebuchet ms", sans-serif;
 /*   margin-right: auto; */
 /*   margin-left: auto; */
+overflow: hidden;
 }
 
 cliff {
