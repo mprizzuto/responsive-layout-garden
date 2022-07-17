@@ -65,6 +65,7 @@ beauty-school h3 + p {
 		border-radius: 0 0 50% 50%;
 	}
 	.beauty-school-founder {
+		position: relative;
 	}
 	.beauty-school-header {
 		background: white;
