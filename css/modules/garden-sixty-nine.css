@@ -20,6 +20,6 @@ new-employees {
 
 @media (min-width:  1000px) {
 	new-employees {
-		gap:  5px;
+		/*gap:  5px;*/
 	}
 }
