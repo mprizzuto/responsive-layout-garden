@@ -366,5 +366,9 @@
 	{
 		"name": "garden-ninety-two",
 		"location": "modules/garden-ninety-two.php"
+	},
+	{
+		"name": "garden-ninety-five",
+		"location": "modules/garden-ninety-five.php"
 	}
 ]
