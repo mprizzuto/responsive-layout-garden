@@ -374,5 +374,9 @@
 	{
 		"name": "garden-ninety-four",
 		"location": "modules/garden-ninety-four.php"
+	},
+	{
+		"name": "garden-ninety-five",
+		"location": "modules/garden-ninety-five.php"
 	}
 ]
