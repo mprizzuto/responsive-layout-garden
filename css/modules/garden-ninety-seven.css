@@ -1,0 +1,70 @@
+visionary-card {
+  display: block;
+  overflow: hidden;
+}
+
+big-swipe {
+  display: block;
+}
+
+swipe {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+/*   width: 80%; */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.swipe-one {
+  background: lightblue;
+  min-height: 200px;
+/*   max-width:; */
+}
+
+.swipe-two {
+  background: maroon;
+  min-height: 200px;
+/*   max-width:; */
+}
+
+.swipe-three {
+  background: rebeccapurple;
+  min-height: 200px;
+/*   max-width:; */
+}
+
+.visionary-photo {
+  max-width: 500px;
+}
+
+.visionary-info figcaption {
+  margin-top: 10px
+}
+
+@media (min-width: 600px) {
+  visionary-card {
+    position: relative;
+  }
+  .visionary-title span {
+    display: block;
+  }
+  big-swipe {
+    position: relative;
+    z-index: -1;
+    border: 2px solid lime;
+    transform: skewx(-40deg) rotate(115deg);
+/*     width: 80%; */
+    margin-right: auto;
+    margin-left: auto;
+  }
+  swipe {
+    margin-top: unset;
+  }
+  .visionary-info {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 40px;
+  }
+}
