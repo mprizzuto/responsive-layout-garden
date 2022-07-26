@@ -367,7 +367,7 @@
 		"name": "garden-ninety-two",
 		"location": "modules/garden-ninety-two.php"
 	},
-	{
+  {
 		"name": "garden-ninety-three",
 		"location": "modules/garden-ninety-three.php"
 	},
@@ -382,5 +382,9 @@
 	{
 		"name": "garden-ninety-six",
 		"location": "modules/garden-ninety-six.php"
+	},
+	{
+		"name": "garden-ninety-seven",
+		"location": "modules/garden-ninety-seven.php"
 	}
 ]
