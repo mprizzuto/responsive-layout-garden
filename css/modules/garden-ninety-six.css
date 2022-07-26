@@ -1,0 +1,96 @@
+coney-island {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+coney {
+  display: block;
+  background: black;
+  color: white;
+  padding-left: 20px;
+}
+
+island {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.island-title span {
+  display: inline-block;
+}
+
+.island-title {
+  font-size: 3em;
+  margin-top: 10px;
+}
+
+.book-title {
+  font-size: 1.5em;
+}
+
+.coney {
+  font-size: 3em;
+}
+
+.island-i {
+  color: maroon;
+  text-transform: capitalize;
+}
+
+.island-s {
+  color: green
+}
+
+.island-l {
+  color: blue;
+}
+
+.island-a {
+  color: maroon;
+}
+
+.island-n {
+  color: green;
+}
+
+.island-d {
+  color: blue;
+}
+
+.island-title {
+  order: 2;
+}
+
+.double-vision {
+  order: 1;
+}
+
+@media (min-width: 600px) {
+  .double-vision {
+    display: flex;
+    flex-direction: column;
+  }
+  .double-vision .photographer-name {
+    align-self: center;
+  }
+  .double-vision {
+    overflow: hidden;
+  }
+  .double-vision .book-title {
+    position: relative;
+    bottom: 10px;
+    color: black;
+/*     border: 30px solid red; */
+  }
+  coney {
+    overflow: hidden;
+  }
+  coney .book-title {
+    position: relative;
+    top: 10px;
+  }
+}
