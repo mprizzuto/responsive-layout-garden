@@ -386,5 +386,9 @@
 	{
 		"name": "garden-ninety-seven",
 		"location": "modules/garden-ninety-seven.php"
+	},
+	{
+		"name": "garden-ninety-eight",
+		"location": "modules/garden-ninety-eight.php"
 	}
 ]
