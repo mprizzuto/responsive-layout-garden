@@ -8,6 +8,7 @@ design-exhibit {
 }
 
 .design-gallery-title {
+	font-size: 2em;
   line-height: 1.5;
 }
 
@@ -15,6 +16,10 @@ design-exhibit {
   display: inline-block;
   margin-top: 10px;
   margin-right: 10px;
+}
+
+.design-gallery-title span + span {
+	 max-width: 50ch;
 }
 
 .gallery-list {
@@ -31,7 +36,8 @@ design-exhibit {
 
 gallery {
   display: block;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
+  min-width: 260px;
   min-height: 300px;
   margin-top: 10px;
 }
@@ -79,5 +85,90 @@ gallery {
 @media (min-width: 1200px) {
   design-exhibit {
     border: 10px solid red;
+    /*min-height: 900px;*/
   }
+  gallery {
+  	/*position: absolute;*/
+  	min-width: 380px;
+  	min-height: 430px;
+  }
+  .gallery-list {
+  	position: relative;
+  	min-height: 630px;
+  }
+  .gallery-list li {
+  	/*position: absolute;
+  	flex-basis: 215px;
+  	border:  3px double maroon;*/
+	}
+	.gallery-one {
+		position: absolute;
+		/*border:  20px solid lime;*/
+		left: 0;
+		top:  0;
+		z-index: 1;
+	}
+	.gallery-two {
+		position: absolute;
+		/*border:  20px solid lime;*/
+		left: 3vw;
+		top:  50px;
+		z-index: 2;
+	}
+	.gallery-three {
+		position: absolute;
+		/*border:  20px solid lime;*/
+		left: 6vw;
+		top:  100px;
+		z-index: 3;
+	}
+	.gallery-four {
+		position: absolute;
+		/*border:  20px solid lime;*/
+		left: 10vw;
+		top:  170px;
+		z-index: 4;
+	}
+	.gallery-five {
+		position: absolute;
+		/*border:  20px solid lime;*/
+		left: 17vw;
+		top:  100px;
+		z-index: 5;
+	}
+	.gallery-six {
+		position: absolute;
+		/*border:  20px solid black;*/
+		left: 22vw;
+		top:  50px;
+		z-index: 6;
+	}
+	.gallery-seven {
+		position: absolute;
+		/*border:  20px solid brown;*/
+		left: 26vw;
+		top:  0;
+		z-index: 7;
+	}
+	.gallery-eight {
+		position: absolute;
+		/*border:  20px solid green;*/
+		left: 33vw;
+		top:  76px;
+		z-index: 8;
+	}
+	.gallery-nine {
+		position: absolute;
+		/*border:  20px solid red;*/
+		left: 40vw;
+		top:  120px;
+		z-index: 9;
+	}
+	.gallery-ten {
+		position: absolute;
+		/*border:  20px solid lime;*/
+		left: 46vw;
+		top:  170px;
+		z-index: 10;
+	}
 }
