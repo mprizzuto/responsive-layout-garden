@@ -1,0 +1,96 @@
+garden-ninety-five.css
+/*  */
+still-life-poster {
+  display: block;
+}
+/*  */
+sticky-notes {
+  display: block;
+}
+
+sticky-note {
+  display: block;
+  margin-top: 10px;
+/*   margin-right: 10px; */
+  border: 2px solid maroon;
+  padding: 20px;
+}
+
+note {
+  display: block;
+  border: 2px solid lime;
+  padding: 10px;
+}
+
+.sticky-note-one {
+  background: purple;
+}
+
+.sticky-note-two {
+  background: orange;
+}
+
+.sticky-note-three {
+  background: lightblue;
+}
+
+.sticky-note-four {
+  background: maroon;
+}
+
+.sticky-note-five {
+  background: rebeccapurple;
+}
+
+.sticky-note-six {
+  background: lightgreen;
+}
+
+.sticky-note-one note {
+  background: orange;
+}
+
+.sticky-note-two note {
+  background: linen;
+}
+
+.sticky-note-three note {
+  background: rebeccapurple;
+}
+
+.sticky-note-four note {
+  background: pink;
+}
+
+.sticky-note-five note {
+  background: purple;
+}
+
+.sticky-note-six note {
+  background: gold;
+}
+
+@media (min-width: 600px) {
+  sticky-notes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  sticky-note {
+    flex-basis: 300px;
+    min-height: 300px;
+    flex-shrink: 0;
+    margin-top: 50px;
+  }
+  sticky-note, note {
+/*     padding: unset; */
+  }
+  note {
+    position: relative;
+    top: 230px;
+/*     left: 20%; */
+    left: 40px;
+    z-index: 2;
+    max-width: 20ch;
+  }
+}
