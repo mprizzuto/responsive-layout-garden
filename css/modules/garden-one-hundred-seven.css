@@ -33,7 +33,7 @@ chair-elect strong {
 .elect-name:first-of-type {
 	display: block;
 	margin-top: 5px;
-	color:  lime;
+	color:  maroon;
 }
 
 @media (min-width: 700px) {
@@ -80,7 +80,7 @@ chair-elect strong {
 		color:  maroon;
 	}
 	school-election > .election-poster-title:last-of-type .congrats {
-		border-bottom: 2px solid purple;
+		/*border-bottom: 2px solid purple;*/
 	}
 }
 
@@ -92,7 +92,6 @@ chair-elect strong {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		border:  3px solid red;
 	}
 	.elects {
 	}
