@@ -1,0 +1,99 @@
+school-election {
+	display: block;
+}
+
+chair-elect {
+	display: block;
+	margin-top: 20px;
+	/*border: 4px solid black;*/
+	max-width: 400px;
+	padding: 10px;
+}
+
+.election-poster-title {
+	font-size: 2.5em;
+}
+
+.school-election-title {
+	line-height: 1.1;
+}
+
+.school-election-title span {
+	display: block;
+}
+
+chair-elect strong {
+	font-weight: bolder;
+}
+
+.elect-name {
+	font-size: 1.5em;
+}
+
+.elect-name:first-of-type {
+	display: block;
+	margin-top: 5px;
+	color:  lime;
+}
+
+@media (min-width: 700px) {
+	.elects {
+		display: flex;
+		flex-direction: row;
+	}
+	.elects .election-poster-title {
+		writing-mode: vertical-rl;
+	}
+	chair-elect {
+		flex-basis: 300px;
+		flex-shrink: 0;
+		text-align: center;
+		/*border-bottom: 4px solid black;*/
+	}
+	school-election > .election-poster-title:first-of-type .congrats + .congrats {
+		display: inline-block;
+		margin-left: 67px;
+		color:  maroon;
+	}
+	chair-elect h3 {
+		border-bottom: 4px solid black;
+	}
+	chair-elect:first-of-type {
+		border-right: 4px solid black;
+	}
+	chair-elect:first-of-type h3 {
+		border-bottom: 4px solid black;
+		position: relative;
+		left: 10px;
+		top: 100px;
+	}
+	chair-elect + chair-elect h3 {
+		border-bottom: 4px solid black;
+		position: relative;
+    right: 10px;
+    top: 17px;
+    /*top: 118px;*/
+	}
+	school-election > .election-poster-title:last-of-type .congrats + .congrats {
+		display: inline-block;
+		margin-left: 67px;
+		color:  maroon;
+	}
+	school-election > .election-poster-title:last-of-type .congrats {
+		border-bottom: 2px solid purple;
+	}
+}
+
+@media (min-width: 900px) {
+	chair-elect + chair-elect h3 {
+    top: 118px;
+	}
+	school-election {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border:  3px solid red;
+	}
+	.elects {
+	}
+}
