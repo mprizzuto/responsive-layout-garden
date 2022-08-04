@@ -25,7 +25,6 @@ super-creative * {
   .super-creative-title {
 /*     display: flex; */
 /*     flex-direction: row; */
-    border: 3px solid red;
     align-self: flex-start;
     position: relative;
     top: 60px;
