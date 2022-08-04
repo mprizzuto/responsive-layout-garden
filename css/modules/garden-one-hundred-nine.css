@@ -1,0 +1,49 @@
+super-creative {
+  display: block;
+}
+
+super-creative * {
+/*   color: red; */
+  margin-top: 5px;
+}
+
+.creative-photo {
+  max-width: 500px;
+}
+
+
+
+@media (min-width: 600px) {
+  super-creative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .super-creative-title span {
+    display: block;
+  }
+  .super-creative-title {
+/*     display: flex; */
+/*     flex-direction: row; */
+    border: 3px solid red;
+    align-self: flex-start;
+    position: relative;
+    top: 60px;
+  }
+  .super-creative-title span {
+    display: block;
+  }
+  .super-creative-title span + span {
+/*     margin-left: 10px; */
+  }
+  .episode-num {
+    align-self: end;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+  .creative-figure {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+  }
+}
