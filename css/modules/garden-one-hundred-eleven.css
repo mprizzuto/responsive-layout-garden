@@ -1,0 +1,65 @@
+pregnancy-poster {
+  display: block;
+}
+
+clinic-detail {
+  display: block;
+  border-bottom: 4px solid maroon;
+  max-width: 500px;
+}
+
+doctor-info {
+  display: block;
+}
+
+pregnancy-poster strong {
+  font-weight: bolder;
+}
+
+pregnancy-poster * {
+  margin-top: 5px;
+}
+
+.pregnancy-poster-title {
+  font-size: clamp(2em, 3vw, 5em);
+}
+
+.pregnancy-poster-title span {
+  display: block;
+}
+
+.clinic-detail-title {
+  font-size: clamp(1.5em, 2vw, 3em);
+}
+
+.ob-gyn-portrait {
+  max-width: 300px;
+}
+
+.clinic-info {
+  font-size: clamp(1.2em, 2vw, 2em);
+  text-transform: capitalize;
+}
+
+.ob-gyn-figure {
+  margin-top: 20px;
+}
+
+@media (min-width: 600px) {
+  .ob-gyn-docs {
+    display: flex;
+    flex-direction: row;
+  }
+  doctor-info {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .ob-gyn-figure + .ob-gyn-figure {
+    margin-top: 90px;
+/*     margin-left 5px; */
+  }
+  .clinic-detail-title span {
+    display: block;
+  }
+}
