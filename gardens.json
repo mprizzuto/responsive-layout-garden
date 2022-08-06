@@ -417,10 +417,14 @@
 	},
 	{
 		"name": "garden-one-hundred-eleven",
-		"location": "modules/garden-one-hundred-eleven.php"
+		"location": "modules/gardtoen-one-hundred-eleven.php"
 	},
 	{
 		"name": "garden-one-hundred-twelve",
 		"location": "modules/garden-one-hundred-twelve.php"
+	},
+	{
+		"name": "garden-one-hundred-thirteen",
+		"location": "modules/garden-one-hundred-thirteen.php"
 	}
 ]
