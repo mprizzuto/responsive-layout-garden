@@ -450,5 +450,9 @@
   {
     "name": "garden-one-hundred-nineteen",
 		"location": "modules/garden-one-hundred-nineteen.php"
+  },
+  {
+    "name": "garden-one-hundred-twenty",
+		"location": "modules/garden-one-hundred-twenty.php"
   }
 ]
