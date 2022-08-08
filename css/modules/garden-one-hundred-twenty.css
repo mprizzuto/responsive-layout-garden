@@ -1,0 +1,115 @@
+gallery-azulejo {
+	display: block;
+}
+
+gallery-azulejo * {
+	margin-top: 10px;
+}
+
+gallery-azulejo-card {
+	display: block;
+	/*border:  2px solid red;*/
+}
+
+gallery-azulejo-card * {
+	margin-top: 15px;
+}
+
+.gallery-azulejo-event h3 {
+	font-size: 3em;
+}
+
+.gallery-azulejo-address h4, .gallery-exhibit-title {
+	font-size: 1.5em;
+}
+
+.gallery-azulejo-photo {
+	max-width: 700px;
+}
+
+.gallery-azulejo-photos .gallery-azulejo-title {
+	font-size: 2.5em;
+}
+
+@media (min-width: 600px) {
+	.gallery-azulejo-photos {
+		position: relative;
+		max-width: 600px;
+		overflow: hidden;
+	}
+	.gallery-azulejo-photos h3.gallery-azulejo-title {
+		position: absolute;
+		left: 92%;
+		top:  100px;
+		writing-mode: vertical-rl;
+		color:  red;
+		font-size: 6em;
+	}
+	gallery-azulejo {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		min-height: 700px;
+		/*border: 4px solid green;*/
+	}
+	gallery-azulejo p {
+		max-width: 40ch;
+	}
+	.gallery-azulejo-welcome {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		/*border: 4px solid blue;*/
+	}
+	.gallery-azulejo-welcome .gallery-azulejo-address {
+		/*position: relative;*/
+    /*right: 70px;*/
+		transform: rotate(270deg) translate(-100%, -61px);
+		max-width: 400px;
+		margin-top: 180px;
+		align-self: start;
+	}
+	.gallery-azulejo-address * {
+		max-width: 40ch;
+	}
+	.gallery-azulejo-address p {
+		/*transform: rotate(-180deg);*/
+  	/*writing-mode: vertical-rl;*/
+	}
+	.gallery-azulejo-address h4 {
+		/*transform: rotate(-180deg);*/
+  	/*writing-mode: vertical-rl;*/
+	}
+	gallery-azulejo-card .gallery-azulejo-title {
+		display: flex;
+		flex-direction: row;
+	}
+	.azulejo-art-exhibit {
+		display: block;
+		align-self: end;
+		margin-top: 60px;
+		font-style: italic;
+	}
+	.gallery-azulefo-passion {
+		font-size: 2.5em;
+	}
+	.gallery-azulejo-exhibition:last-of-type a {
+		display: block;
+	}
+	.gallery-azulejo-event {
+		display: flex;
+		flex-direction: column;
+	}
+	.gallery-azulejo-address {
+		align-self: start;
+	}
+	.azulejo-social-list {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.azulejo-social-list li:first-of-type ~ li {
+		background: linen;
+	}
+}
