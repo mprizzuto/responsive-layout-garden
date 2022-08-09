@@ -1,0 +1,142 @@
+british-rail-design {
+	display: block;
+}
+
+british-rail-design * {
+	margin-top: 10px;
+}
+
+union-jack {
+	display: block;
+	width: 100%;
+	min-height: 50px;
+	min-width: 50px;
+	background: red;
+}
+
+union-jack-top {
+	display: block;
+	min-height: unset;
+	max-height: 40px;
+	background: red;
+}
+
+union-track-triangle {
+	display: block;
+}
+
+.union-jack-top {
+
+}
+
+.union-jack-bottom {
+
+}
+
+.british-rail-title {
+	font-size: 1.5em;
+}
+
+.railway-designer {
+	font-size: 2em;
+} 
+
+@media (min-width: 600px) {
+	british-rail-design {
+		display: flex;
+		flex-direction: row;
+		min-height: 600px;
+		/*overflow: hidden;*/
+	}
+	union-jack {
+		/*flex-shrink: 0;*/
+		min-width: 200px;
+		min-height: 150px;
+	}
+	.union-jack {
+		/*border: 10px solid red;*/
+		flex-basis: 800px;
+		padding-top: 100px;
+	}
+	.union-jack-top {
+		position: relative;
+	}
+	.union-jack-top-one {
+		position: absolute;
+    bottom: 103px;
+    z-index: -1;
+    min-height: 100px;
+    min-width: 279px;
+    transform: rotate(37deg);
+	}
+	.union-jack-top-two {
+		background: red;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    min-height: 100px;
+    min-width: 279px;
+    transform: rotate(-50deg);
+	}
+	.union-jack-bottom {
+		position: relative;
+		margin-top: 130px;
+	}
+	.union-jack-bottom union-jack {
+		margin-top: 20px;
+	}
+	.union-jack-bottom-one {
+		background: red;
+    position: absolute;
+    z-index: -1;
+    left: 10;
+    min-height: 100px;
+    min-width: 279px;
+    transform: rotate(50deg);
+	}
+	.british-rail-title {
+		writing-mode: vertical-rl;
+		font-size: 4em;
+		transform: rotate(180deg);
+	}
+	.union-jack-triangle-one {
+		display: block;
+		position: relative;
+		z-index: 3;
+		left: 28%;
+		min-height: 150px;
+		max-width: 200px;
+		background: blue;
+		/*clip-path: polygon(100% 100%, 0 100%, 100% 0);*/
+		clip-path: polygon(100% 0, 100% 100%, 0 0);
+	}
+	.union-jack-triangle-two {
+		display: block;
+    position: absolute;
+    top: 320px;
+    z-index: 5;
+    left: 35%;
+    min-height: 100px;
+    min-width: 150px;
+    max-width: 200px;
+    background: blue;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+	}
+	.union-jack-triangle-three {
+		display: block;
+		position: relative;
+		z-index: 3;
+		left: 28%;
+		min-height: 150px;
+		max-width: 200px;
+		background: blue;
+		clip-path: polygon(0 0, 100% 0, 100% 100%);
+
+	}
+	.railway-designer {
+		position: absolute;
+		left: 440px;
+		top:  7%;
+		z-index: 3;
+	}
+}
