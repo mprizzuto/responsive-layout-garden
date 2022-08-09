@@ -20,7 +20,7 @@ self-help-poster {
 	.self-help-poster-title {
 		display: flex;
 		flex-direction: column;
-		/*justify-content: center;*/
+		justify-content: flex-end;
 	}
 	self-help-poster span {
 		display: block;
@@ -31,14 +31,29 @@ self-help-poster {
 		justify-content: space-between;
 	}
 	.self-help-accent {
-		/*transform: rotate(90deg);*/
 		order: 1;
 		min-height: 500px;
 		max-width: 20px;
-		/*max-width: 20px;*/
 		align-self: center;
 	}
 	.self-help-word {
 		order: 2;
+	}
+	.self-help-accent-two {
+		min-height: 400px;
+	}
+	.self-help-accent-three {
+		min-height: 300px;
+	}
+	.self-help-accent-four {
+		min-height: 200px;
+	}
+	.self-help-accent-five {
+		min-height: 300px;
+	}
+	.self-help-accent-six {
+		min-height: 400px;
+	}
+	.self-help-accent-seven {
 	}
 }
