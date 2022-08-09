@@ -133,10 +133,16 @@ union-track-triangle {
 		clip-path: polygon(0 0, 100% 0, 100% 100%);
 
 	}
-	.railway-designer {
+	.railway-designer-top {
 		position: absolute;
 		left: 440px;
 		top:  7%;
+		z-index: 3;
+	}
+	.railway-designer-bottom {
+		position: absolute;
+		left: 440px;
+		top:  56%;
 		z-index: 3;
 	}
 }
