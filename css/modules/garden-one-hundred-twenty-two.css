@@ -1,0 +1,44 @@
+self-help-poster {
+	display: block;
+}
+
+.self-help-accent {
+	display: block;
+	background: black;
+	width: 100%;
+	min-height: 20px;
+	max-width: 40px;
+	min-width: 20px;
+	max-width: 300px;
+}
+
+.self-help-poster-title {
+	margin-top: 20px;
+}
+
+@media (min-width:  600px) {
+	.self-help-poster-title {
+		display: flex;
+		flex-direction: column;
+		/*justify-content: center;*/
+	}
+	self-help-poster span {
+		display: block;
+	}
+	self-help-poster {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.self-help-accent {
+		/*transform: rotate(90deg);*/
+		order: 1;
+		min-height: 500px;
+		max-width: 20px;
+		/*max-width: 20px;*/
+		align-self: center;
+	}
+	.self-help-word {
+		order: 2;
+	}
+}
