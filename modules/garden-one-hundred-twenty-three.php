@@ -13,7 +13,7 @@
 				
 			</div> -->
 
-			<h3 class="railway-designer">james cousins <br> british railway design</h3>
+			<h3 class="railway-designer railway-designer-top">james cousins <br> british railway design</h3>
 
 			<union-jack>
 			</union-jack>
@@ -34,6 +34,10 @@
 
 			<union-jack-triangle class="union-jack-triangle-three">
 			</union-jack-triangle>
+
+			<h3 class="railway-designer railway-designer-bottom">european /EEC <br> design editions
+				the design council <br> danish design council
+			</h3>
 		</div>
 	</section>
 
