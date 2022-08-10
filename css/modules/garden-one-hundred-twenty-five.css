@@ -55,3 +55,9 @@ miracle-metropolitan * {
     flex-basis: 50%;
   }
 }
+
+@media (min-width: 900px) {
+  miracle-metropolitan {
+    min-height: 900px;
+  }
+}
