@@ -16,18 +16,18 @@ architect-poster {
 	color: linen;
 }*/
 
-.architect-cta {
+architect-wall .architect-cta {
 	font-size: 2em;
 	background: linen;
 	height:  50px;
 }
 
-.architect-name {
+architect-wall .architect-name {
 	/*font-size: .4em;*/
 	margin-top: 150px;
 }
 
-.architect-portrait {
+architect-wall .architect-portrait {
 	width: 40vw;
 	max-width: 500px;
 }
@@ -36,19 +36,19 @@ architect-poster {
 	max-width: 100px;
 }*/
 
-.architect-ruler {
+architect-wall .architect-ruler {
 	max-width: 500px;
 }
 
-.architect-poster-heading {
+architect-wall .architect-poster-heading {
 	font-size: 2em;
 }
 
 @media (min-width:  600px) {
-	.architect-surname {
+	architect-wall .architect-surname {
 		display: block;
 	}
-	.architect-poster-header {
+	architect-wall .architect-poster-header {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -62,30 +62,30 @@ architect-poster {
 		max-width: 600px;
 		min-height: 500px;
 	}
-	.architect-cta {
+	architect-wall .architect-cta {
 		writing-mode: vertical-rl;
 		order:  2;
 	}
-	.architect-ruler {
+	architect-wall .architect-ruler {
 		/*transform: rotate(90deg);*/
 	}
-	.architect-name {
+	architect-wall .architect-name {
 		/*display: flex;*/
 		writing-mode: vertical-rl;
 		position: relative;
 		right: 90px;
 	}
-	.architect-thoughts {
+	architect-wall .architect-thoughts {
 		order: 1;
 		max-width: 15ch;
 	}
-	.architect-portrait {
+	architect-wall .architect-portrait {
 		order: 3;
 		position: absolute;
 		right: 0;
 		top:  90px;
 	}
-	.architect-cta {
+	architect-wall .architect-cta {
 		width: 40px;
     overflow: hidden;
     height: 284px;
