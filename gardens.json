@@ -478,5 +478,9 @@
   {
     "name": "garden-one-hundred-twenty-six",
 		"location": "modules/garden-one-hundred-twenty-six.php"
+  },
+  {
+    "name": "garden-one-hundred-twenty-seven",
+		"location": "modules/garden-one-hundred-twenty-seven.php"
   }
 ]
