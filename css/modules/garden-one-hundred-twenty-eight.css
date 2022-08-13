@@ -1,0 +1,42 @@
+cbt-thought-diary {
+	display: block;
+}
+
+.bw-thinking {
+	background: white;
+	padding: 10%;
+}
+
+.bw-thinking-title {
+
+}
+
+.bw-thought {
+
+}
+
+.bw-thought q {
+	font-style: italic;
+}
+
+.cognitive-distortion {
+	background: black;
+	color: white;
+	padding: 10%;
+}
+
+.cognitive-distortion-title {
+
+}
+
+@media (min-width: 600px) {
+	cbt-thought-diary {
+
+	}
+	.bw-thinking {
+
+	}
+	.cognitive-distortion {
+
+	}
+}
