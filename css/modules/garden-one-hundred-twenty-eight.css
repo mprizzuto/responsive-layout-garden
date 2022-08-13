@@ -34,7 +34,7 @@ cbt-thought-diary {
 
 	}
 	.bw-thinking {
-
+		clip-path: polygon(0 0, 0 100%, 100% 0);
 	}
 	.cognitive-distortion {
 
