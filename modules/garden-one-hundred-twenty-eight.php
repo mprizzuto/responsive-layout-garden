@@ -6,8 +6,13 @@
 	</section>
 
 	<section class="cognitive-distortion">
-		<h3 class="cognitive-distortion-title">Cognitive distortion</h3>
+		<div class="cognitive-distortions-grouped">
+			<h3 class="cognitive-distortion-title">Cognitive distortion</h3>
 
-		<p class="bw-thought"><q>nobody likes me</q></p>
+			<p class="bw-thought"><q>nobody likes me</q></p>
+		</div>
+		<!-- <h3 class="cognitive-distortion-title">Cognitive distortion</h3>
+
+			<p class="bw-thought"><q>nobody likes me</q></p> -->
 	</section>
 </cbt-thought-diary>
