@@ -8,11 +8,11 @@ cbt-thought-diary {
 }
 
 .bw-thinking-title {
-
+	font-size: 2.5em;
 }
 
 .bw-thought {
-
+	margin-top: 10px;
 }
 
 .bw-thought q {
@@ -26,17 +26,59 @@ cbt-thought-diary {
 }
 
 .cognitive-distortion-title {
+	font-size: 2.5em;
 
 }
 
 @media (min-width: 600px) {
 	cbt-thought-diary {
-
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		max-width: 700px;
+		margin-right: auto;
+		margin-left: auto;
+		border: 2px solid green;
+		min-height: 700px;
+		/*background: black;*/
 	}
 	.bw-thinking {
-		clip-path: polygon(0 0, 0 100%, 100% 0);
+		position: absolute;
+		/*clip-path: polygon(0 0, 0 100%, 100% 0);*/
+		clip-path: polygon(0 0, 0 66%, 100% 0);
+		min-height: 900px;
+		min-width: 100%;
+		flex-basis: 400px;
+		top: 0;
+		z-index: 1;
+	}
+	.bw-thinking .bw-thought {
+		margin-top: 40%;
 	}
 	.cognitive-distortion {
-
+		/*position: absolute;*/
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		/*clip-path: polygon(100% 0%, 0% 100%, 100% 100%);*/
+		min-height: 700px;
+		width: 100%;
+		/*left: 200px;*/
+	}
+	.cognitive-distortions-grouped {
+		display: flex;
+		flex-direction: column;
+	}
+	.cognitive-distortions-grouped {
+		align-self: end;
+	}
+	.cognitive-distortions-grouped .bw-thought {
+		order: 1;
+		align-self: end;
+	}
+	.cognitive-distortions-grouped .cognitive-distortion-title {
+		order: 2;
+		margin-top: 40%;
 	}
 }
