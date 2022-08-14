@@ -1,0 +1,51 @@
+comic-con {
+	display: block;
+	text-transform: uppercase;
+}
+
+comic-con > * {
+	margin-top: 5px;
+}
+
+comic-con > h3 {
+	font-size: 3em;
+}
+
+.comic-con-title span {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.comic-con-title {
+	/*font-size: 5em;*/
+}
+
+comic-con .comic {
+	font-size: 4em;
+}
+
+comic-con .con {
+	font-size: 4em;
+}
+
+.comic-con-logo {
+	margin-top: 10px;
+	max-width: 500px;
+	width: 25vw;
+}
+
+
+
+@media (min-width: 600px) {
+	comic-con .comic-con {
+		display: flex;
+	}
+	comic-con .comic {
+		writing-mode: vertical-lr;
+		transform: rotate(-180deg);
+	}
+
+	comic-con .con {
+
+	}
+}
