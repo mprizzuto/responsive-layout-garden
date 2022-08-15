@@ -1,0 +1,94 @@
+how-to-learn {
+	display: block;
+}
+
+how-to-learn * {
+	margin-top: 5px;
+}
+
+learn-how-to-learn {
+	display: block;
+}
+
+learning-method {
+	display: block;
+}
+
+.how-to-learn-title {
+	font-size: 3em;
+}
+
+.learning-strategy {
+	display: inline-block;
+	/*background: rgba(236, 236, 236, .2 );*/
+	padding: 50px;
+	min-width: 40%;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.learning-strategy-list {
+	line-height: 1.5;
+}
+
+.learning-strategy-list li {
+	padding: 50px;
+}
+
+.learning-strategies li span {
+	display: block;
+	border: 3px solid red;
+	min-width: 100px;
+	min-height: 100px;
+	max-width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	background: rgba(236, 236, 236, .2 );
+}
+
+.learning-strategies li:first-of-type {
+	background: maroon;
+}
+
+.learning-strategies li:nth-child(2) {
+	background: yellow;
+}
+
+.learning-strategies li:nth-child(3) {
+	background: lime;
+}
+
+.learning-strategies li:nth-child(4) {
+	background: green;
+}
+
+.learning-strategies li:nth-child(5) {
+	background: lightblue;
+}
+
+.learning-strategies li:nth-child(6) {
+	background: purple;
+}
+
+
+
+.learning-methods-explained {
+	margin-top: 30px;
+}
+
+@media (min-width: 600px) {
+	.learning-strategies {
+		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+		/*position: relative;*/
+	}
+	.learning-strategies li {
+		position: relative;
+	}
+	.learning-strategy {
+		/*position: absolute;*/
+		z-index: 1;
+		left: 50%;
+		display: block;
+		text-align: center;
+	}
+}
