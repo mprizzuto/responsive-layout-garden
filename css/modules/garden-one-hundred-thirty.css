@@ -118,12 +118,13 @@ learning-method {
 		flex-direction: row;
 	}
 	.learning-methods-explained {
-		border: 10px solid green;
+		/*border: 10px solid green;*/
 	}
 	.learning-strategies {
-		clip-path: polygon(47% 0, 53% 0, 100% 100%, 0% 100%);
+		clip-path:  polygon(47% 0, 53% 0, 100% 115%, 0% 114%);
 		flex-basis: 100%;
 		max-height: 750px;
+		margin-top: 20px;
 	}
 	.learning-strategies li {
 		position: relative;
@@ -136,24 +137,24 @@ learning-method {
 		text-align: center;
 	}
 	learning-method {
-		max-width: 90ch;
+		/*max-width: 98ch;*/
 	}
 	.learning-methods-explained li:first-of-type {
 
 	}
 	.learning-methods-explained li:nth-child(2) {
-
+		margin-left: 5%;
 	}
 	.learning-methods-explained li:nth-child(3) {
-
+		margin-left: 10%;
 	}
 	.learning-methods-explained li:nth-child(4) {
-
+		margin-left: 15%;
 	}
 	.learning-methods-explained li:nth-child(5) {
-
+		margin-left: 20%;
 	}
 	.learning-methods-explained li:nth-child(6) {
-
+		margin-left: 25%;
 	}
 }
