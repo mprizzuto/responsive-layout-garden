@@ -39,5 +39,3 @@ $responsiveGardensPHP = json_decode($responsiveGardensJSON, true);
 
 loopProjects($responsiveGardensPHP);
 ?>
-
-<script type='text/javascript' src='scripts/scroll-to-top.js'></script>
