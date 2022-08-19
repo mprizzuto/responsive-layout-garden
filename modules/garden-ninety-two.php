@@ -22,7 +22,7 @@
   </section>
   
   <aside class="therapist-info">
-    <h3 class="therapist-title"><a href="#" taret="_external">pinkertonpsychotherapy.com</a> <span class="title-accent"></span></h3>
+    <h3 class="therapist-title"><a href="#" target="_external">pinkertonpsychotherapy.com</a> <span class="title-accent"></span></h3>
   </aside>
   
 </therapist-card>
