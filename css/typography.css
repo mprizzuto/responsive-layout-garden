@@ -1,7 +1,11 @@
-.site-header, .calm-voice, 
-call-to-action a, .what-to-call-it-then p, 
-site-map nav, article-card span {
+section *, a {
 	font-family: "Work Sans", sans-serif;
+}
+
+section h1, section h2, section h3, 
+section h4, section h5, section h6 {
+	font-family: "Neuton", sans-serif;
+	letter-spacing: 0.03em;
 }
 
 call-to-action a, article-card span {
