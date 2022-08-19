@@ -1,6 +1,6 @@
 
 <div class="autism-speaks">
-  <h3><span>I'm autistic, not a person with autism</span></h3>
+  <h3>I'm autistic, not a person with autism</h3>
 
   <p><q cite="https://www.instagram.com/p/CMpZoCUAl_P/">Autism is an integral part of what makes me, me. Please respect it and use identity-first language</q></p>
 </div>
