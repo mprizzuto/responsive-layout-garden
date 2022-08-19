@@ -1,0 +1,433 @@
+periodic-table {
+  display: block;
+}
+
+.atomic-number {
+  display: block;
+  color: red;
+  vertical-align: super;
+}
+
+.chem-abbreviation {
+  display: block;
+}
+
+.chemical-name {
+  display: block;
+}
+
+.element-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.element-list li {
+  margin-top: 30px;
+  border: 3px solid red;
+  padding: 10px;
+  max-width: 100px;
+  min-height: 100px;
+  overflow-wrap: break-word;
+}
+
+/*  element classes*/
+.alkali-metal {
+  background: green;
+  color: white;
+}
+
+.alkali-metal {
+  background: orange;
+}
+
+.metalloid-metal {
+  background: red;
+}
+
+.actinide {
+  background: purple;
+}
+
+.alkaline-earth-metal {
+  background: black;
+}
+
+.reactive-non-metal {
+  background: gray;
+}
+
+.unknown-property {
+  background: yellow;
+}
+
+.transition-metal {
+  background: blue;
+}
+
+.nobel-gas {
+  background: lightblue;
+}
+
+.post-transition-metal {
+  background: rebeccapurple;
+}
+
+.lanthanide {
+  background: gold;
+}
+
+
+
+
+/*  elements*/
+  /*  alkali metals*/
+
+#Li {
+/*   border: 30px solid purple; */
+}
+
+#Na {
+  
+}
+
+#K {
+  
+}
+
+#Rb {
+  
+}
+
+#Cs {
+  
+}
+
+#Fr {
+  
+}
+
+  /*  metalloids*/
+#B {
+  
+}
+
+#Si {
+  
+}
+
+#Ge {
+  
+}
+
+#As {
+  
+}
+
+#Sb {
+  
+}
+
+#Te {
+  
+}
+
+
+/* actinides */
+ #Ac {
+  
+}
+
+#Th {
+  
+}
+
+#Pa {
+  
+}
+
+#U {
+  
+}
+
+#Np {
+  
+}
+
+#Pu {
+  
+}
+
+#Am {
+  
+}
+
+#Cm {
+  
+}
+
+#Bk {
+  
+}
+
+#Cf {
+  
+}
+
+#Es {
+  
+}
+
+#Fm {
+  
+}
+
+/* alkaline Earth Metals */
+#Be {
+  
+}
+
+#Mg {
+  
+}
+
+#Ca {
+  
+}
+
+#Sr {
+  
+}
+
+#Ba {
+  
+}
+
+#Ra {
+  
+}
+
+
+/* reactive Non Metals */
+#H {
+  
+}
+
+#C {
+  
+}
+
+#N {
+  
+}
+
+#O {
+  
+}
+
+#F {
+  
+}
+
+#P {
+  
+}
+
+#S {
+  
+}
+
+#Cl {
+  
+}
+
+#Se {
+  
+}
+
+#Br {
+  
+}
+
+#I {
+  
+}
+
+/*  unknownProperties */
+#Mt {
+  
+}
+
+#Ds {
+  
+}
+
+#Rg {
+  
+}
+
+#Cn {
+  
+}
+
+#Nh {
+  
+}
+
+#Fl {
+  
+}
+
+#Mc {
+  
+}
+
+#Lv {
+  
+}
+
+#Ts {
+  
+}
+
+#Og {
+  
+}
+
+/*  transition metals */
+#Sc {
+  
+}
+
+#Ti {
+  
+}
+
+#V {
+  
+}
+
+#Cr {
+  
+}
+
+#Mn {
+  
+}
+
+#Fe {
+  
+}
+
+#Co {
+  
+}
+
+#Ni {
+  
+}
+
+#Cu {
+  
+}
+
+#Zn {
+  
+}
+
+#Y {
+  
+}
+
+#Zr {
+  
+}
+
+#Zb {
+  
+}
+
+#Mo {
+  
+}
+
+#Tc {
+  
+}
+
+#Ru {
+  
+}
+
+#Rh {
+  
+}
+
+#Pd {
+  
+}
+
+#Ag {
+  
+}
+
+#Cd {
+  
+}
+
+#Hf {
+  
+}
+
+#Ta {
+  
+}
+
+#W {
+  
+}
+
+#Re {
+  
+}
+
+#Os {
+  
+}
+
+#Ir {
+  
+}
+
+#Pt {
+  
+}
+
+#Au {
+  
+}
+
+#Hg {
+  
+}
+
+#Rf {
+  
+}
+
+#Db {
+  
+}
+
+#Sg {
+  
+}
+
+#Bh {
+  
+}
+
+#Hs {
+  
+}
