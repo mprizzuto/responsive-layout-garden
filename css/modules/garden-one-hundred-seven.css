@@ -11,7 +11,7 @@ chair-elect {
 }
 
 .election-poster-title {
-	font-size: clamp(2em, 3vw, 4em);
+	font-size: clamp(2em, 2vw, 3em);
 	line-height: 1.5;
 }
 
