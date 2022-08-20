@@ -12,11 +12,14 @@ therapist-card {
 .therapist-dot {
   display: inline-block;
   max-width: 50px;
-  border: 3px solid red;
 }
 
 .therapist-title {
   font-size: 2em;
+}
+
+.therapist-title a {
+  display: block;
 }
 
 aside .therapist-title {
