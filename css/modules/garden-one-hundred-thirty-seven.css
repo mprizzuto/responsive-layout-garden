@@ -1,0 +1,92 @@
+/*  garden styles */
+.bb-breaking, .bb-bad {
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+breaking-bad {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: maroon;
+  padding: 5px;
+  min-height: 200px;
+}
+
+.breaking-bad-title {
+  font-size: clamp(2.2em, 3vw, 4em);
+  font-family: sans-serif;
+  text-transform: capitalize;
+  line-height: 1;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border: 2px solid white;
+  background: green;
+/*   min-width: 140px; */
+  max-width: 300px;
+  padding: 10px;
+}
+
+.breaking-bad-title span {
+  display: block;
+}
+
+span.breaking, span.bad {
+  display: inline-block;
+  color: white;
+/*   border: 2px solid white; */
+  background: green;
+  order: 2;
+}
+
+span.bad {
+/*   display: inline-block; */
+}
+
+.periodic-table-voice {
+  font-size: .2em;
+}
+
+.atomic-mass {
+  order: 1;
+  display: inline-block;
+  vertical-align: super;
+}
+
+.chemical-stats-grouped {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.oxidation-states {
+  order: 2;
+}
+
+.atomic-number {
+  order: 3;
+}
+
+.electron-shell-config {
+  order: 4;
+}
+
+.eaking-bad, .bad-d {
+  align-self: center;
+  margin-left: 5px;
+  font-size: 2em;
+}
+
+.bb-bad {
+  margin-top: 10px;
+  align-self: center;
+  margin-left: 60px;
+}
+
+@media (min-width: 600px) {
+  
+}
