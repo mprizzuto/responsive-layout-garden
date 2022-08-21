@@ -19,9 +19,7 @@ restaurant-card address {
 }
 
 restaurant-card picture {
-  max-width: 300px;
-  width: 70vw;
-/*   flex-shrink: 0; */
+  /*max-width: 25%;*/
 }
 
 .restaurant-name {
@@ -109,6 +107,7 @@ adriana-lima em {
   }
   .restaurant-list {
     flex-wrap: nowrap;
+    gap: 2%;
   }
   .restaurant-list li {
     margin-top: unset;
