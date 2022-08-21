@@ -1,6 +1,7 @@
 <jennifer-lee-lacks>
   <div class="actress-highlight">
     <h3 class="heasding-three">Jennifer Lee Laks</h3>
+    
     <picture class="theater-actress">
       <img src="https://peprojects.dev/alpha-1/mprizzuto/images/rlg/laks.jpeg" alt="a woman with red hair">
     </picture>
@@ -16,9 +17,9 @@
   (Theatre 40). TV / Film: Crown Lake, Shameless, Astrid
   Clover (Pilot '17), Cry Wolfe, American Playhouse, Young
   Love, ReWrite, Elvis Lives!, Beverly H., The Goat Shearing.
-  Thank you to my husband, my mother, Denise, Sally, Ron,
+  <q>Thank you to my husband, my mother, Denise, Sally, Ron,
   the incredible cast and crew, and María Irene Fornés for her
-  immortal energy.</p>
+  immortal energy.</q></p>
   </div>
 
   <aside class="show-dates">
