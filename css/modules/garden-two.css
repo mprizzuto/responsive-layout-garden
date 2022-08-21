@@ -19,9 +19,13 @@ restaurant-card address {
 }
 
 restaurant-card picture {
+<<<<<<< Updated upstream
   max-width: 300px;
   width: 70vw;
 /*   flex-shrink: 0; */
+=======
+  max-width: 25%;
+>>>>>>> Stashed changes
 }
 
 .restaurant-name {
