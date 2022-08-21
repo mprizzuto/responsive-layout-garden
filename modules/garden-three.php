@@ -1,6 +1,6 @@
 <jennifer-lee-lacks>
   <div class="actress-highlight">
-    <h3 class="heasding-three">Jennifer Lee Laks</h3>
+    <h3 class="heading-three">Jennifer Lee Laks</h3>
     
     <picture class="theater-actress">
       <img src="https://peprojects.dev/alpha-1/mprizzuto/images/rlg/laks.jpeg" alt="a woman with red hair">
