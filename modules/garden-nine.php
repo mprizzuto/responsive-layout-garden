@@ -1,10 +1,8 @@
 <missing-person>
-  <header class="section-header">
-    <inner-column>
-      <h3>missing "person"</h3>
+  <header class="missing-person-header">
+    <h3 class="missing-person-title">missing "person"</h3>
 
-      <p class="person-name">john dough(doughboy, baguette)</p>
-    </inner-column>
+    <p class="person-name">john dough(doughboy, baguette)</p>
   </header>
 
   <person-card>
@@ -27,7 +25,7 @@
         <img src="https://whatscookingamerica.net/wp-content/uploads/2015/06/Sourdough-Starter-stock-2.jpg" alt="sourdough starter and bread">
       </picture>
 
-      <div>
+      <div class="person-photos">
         <picture>
           <img src="https://www.ilovecooking.ie/wp-content/uploads/2020/01/rsz_patrick_baguettes_-final_online_hr-7344_1-scaled.jpg" alt="baguettes">
         </picture>
@@ -35,22 +33,22 @@
         <picture>
           <img src="https://static.onecms.io/wp-content/uploads/sites/9/2020/07/09/sourdough-boule-FT-RECIPE0520-2000.jpg" alt="a boule of bread">
         </picture>
+
         <figcaption>john dough in his many forms</figcaption>
-        <p><strong>last seen: may22 2022 near bakery ave and oven lane</strong></p>
+
+        <p class="person-last-seen"><strong>last seen: may22 2022 near bakery ave and oven lane</strong></p>
       </div>
     </figure>
   </person-card>
 
-  <footer>
-    <inner-column>
-      <h4>if you have an info aboit john dogh</h4>
+  <footer class="missing-person-footer">
+    <h4>if you have an info about john dough</h4>
 
-      <p class="poster-cta">please contact</p>
+    <p class="poster-cta">please contact</p>
 
-      <ul class="contact-methods">
-        <li>jumbo (434)-454-9393</li>
-        <li>email his family<a href="#">bakery@dough.com</a></li>
-      </ul>
-    </inner-column>
+    <ul class="contact-methods">
+      <li> <span class="person-info">jumbo</span> (434)-454-9393</li>
+      <li><span class="person-info">email his family</span><a href="#">bakery@dough.com</a></li>
+    </ul>
   </footer>
 </missing-person>
