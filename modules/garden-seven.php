@@ -2,7 +2,7 @@
   <header class="fashion-header">
     <inner-column>
       <nav class="fashion-nav">
-        <a href="">editorial</a>
+        <a href="#">editorial</a>
         
         <ul class="social-links">
           <li>
@@ -18,19 +18,19 @@
         
         <ul class="icon-list">
           <li title="click if you're happy">
-            <a href="">:)</a>
+            <a href="#">:)</a>
           </li>
-          <li title="click if you're angry">
-            <a href="">>:(</a>
+          <li title="click if you're sad">
+            <a href="#">:(</a>
           </li>
           <li title="click if you're excited">
-            <a href="">:!</a>
+            <a href="#">:!</a>
           </li>
           <li title="click if you're apathetic">
-            <a href="">:|</a>
+            <a href="#">:|</a>
           </li>
           <li title="click if you have a mustache">
-            <a href="">:{</a>
+            <a href="#">:{</a>
           </li>
         </ul>
       </nav>
