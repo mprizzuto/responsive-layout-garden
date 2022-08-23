@@ -50,6 +50,14 @@ rap-album h4 {
   font-weight: bolder;
 }
 
+.nwa-color:first-of-type {
+  font-size: 1.3em;
+}
+
+.nwa-color + .nwa-color {
+  font-style: italic;
+}
+
 .nwa-rep {
   margin-top: 20px;
   padding: 5px;
