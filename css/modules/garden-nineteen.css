@@ -1,4 +1,18 @@
+live-event {
+  display: flex;
+  flex-direction: column;
+}
+
+live-event > * {
+  margin-top: 10px;
+}
+
+live-event h3:first-letter, live-event .live-event{
+  text-transform: capitalize;
+}
+
 .be-you {
+  order: 1;
   max-width: 800px;
 }
 
@@ -9,14 +23,25 @@
 .guest-speakers {
   display: flex;
 /*   flex-wrap: wrap; */
+order: 2;
 }
 
 .live-event {
   display: block;
+  font-weight: bolder;
 }
 
 .guest-speaker {
   margin: 5px;
+}
+
+.insta-event {
+  order: 3;
+}
+
+.insta-event h3 {
+  font-size: 1.5em;
+  line-height: 1.6;
 }
 
 @media (min-width: 600px) {
