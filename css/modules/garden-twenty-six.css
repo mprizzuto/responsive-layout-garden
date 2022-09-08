@@ -86,7 +86,7 @@ masterclass ul + h4 {
     flex-shrink: 0;
 /*     max-width: unset; */
   }
-  footer {
+  masterclass footer {
     background: maroon;
   }
 }
