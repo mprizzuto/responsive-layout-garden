@@ -24,8 +24,7 @@ dental-testimonial {
 
 .dentist-company + p {
   margin-top: 10px;
-  margin-left: 10px;
-  font-weight: bolder;
+  font-size: italic;
 }
 
 .client-speaks blockquote {
@@ -39,6 +38,14 @@ dental-testimonial {
 
 .client-speaks-title {
   font-size: 2em;
+}
+
+.dental-client-name {
+  margin-top: 10px;
+}
+
+dental-testimonial strong {
+  font-weight: bolder;
 }
 
 @media (min-width: 600px) {
@@ -55,5 +62,8 @@ dental-testimonial {
     max-width: 400px;
     align-self: flex-end;
     margin-left: 5%;
+  }
+  .dentist-company + p {
+    margin-left: 10px;
   }
 }
