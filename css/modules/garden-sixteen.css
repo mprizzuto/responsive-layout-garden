@@ -37,6 +37,10 @@ dental-testimonial {
   margin-top: 10px;
 }
 
+.client-speaks-title {
+  font-size: 2em;
+}
+
 @media (min-width: 600px) {
   .dental-brand {
     display: flex;
