@@ -2,7 +2,7 @@
   <header class="missing-person-header">
     <h3>missing &ldquo;person&rdquo;</h3>
 
-    <p class="person-name">john dough(doughboy, baguette)</p>
+    <p class="person-name"><span class="person-info">name:</span> john dough(doughboy, baguette)</p>
   </header>
 
   <person-card>
@@ -39,14 +39,14 @@
     </figure>
   </person-card>
 
-  <footer>
-    <h4>if you have an info aboit john dogh</h4>
+  <footer class="missing-person-footer">
+    <h4>if you have an info about john dough</h4>
 
-    <p class="poster-cta">please contact</p>
+    <p class="poster-cta"><strong>please contact</strong></p>
 
     <ul class="contact-methods">
-      <li>jumbo (434)-454-9393</li>
-      <li>email his family<a href="#">bakery@dough.com</a></li>
+      <li> <span class="doughboy-contact">jumbo</span><a href="#"> (434)-454-9393</a></li>
+      <li><span class="doughboy-contact">email his family</span><a href="#">bakery@dough.com</a></li>
     </ul>
   </footer>
 </missing-person>
