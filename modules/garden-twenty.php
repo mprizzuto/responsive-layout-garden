@@ -4,8 +4,11 @@
       <img src="https://i1.sndcdn.com/artworks-unB8pB7vP1JvCwgu-BHECBA-t500x500.jpg" alt="a mugshot of a man, he holds up a sign">
     </picture>
     
-    <p><strong>inmate</strong></p>
-    <p>state of new york <br>department of correctional services</p>
+    <p class="inmate-info">
+      <strong>inmate:</strong>
+
+      <span class="inmate-location">state of new york <br><strong>department of correctional services</strong></span>
+    </p>
   </div>
   
   <div class="inmate-info">
