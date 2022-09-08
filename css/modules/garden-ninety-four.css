@@ -1,0 +1,37 @@
+sleep-card {
+  display: block;
+  background: maroon;
+  color: linen;
+  padding: 20px;
+  line-height: 1.3;
+}
+
+.quotes {
+/*   display: none; */
+}
+
+.sleep-quote {
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  sleep-card {
+    position: relative;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+  }
+  .quotes {
+/*     min-width: 50vw; */
+    max-width: 600px;
+    transform: rotate(-45deg);
+  }
+  .sleep-quote {
+    position: absolute;
+    bottom: 300px;
+    max-width: 50ch;
+    left: 20%;
+    right: 20%;
+  }
+}

@@ -1,0 +1,155 @@
+:root {
+  --pe-big-square: #4392F1;
+  --pe-little-square: #EDA097;
+}
+
+pe-poster {
+display: block;
+/*   border: 3px solid gray; */
+max-width: 600px;
+}
+
+pe-dot {
+display: block;
+background: black;
+min-height: 300px;
+/*   max-width: 30px; */
+}
+
+pe-poster * {
+/*  border: 3px solid red; */
+/*  min-height: 20px; */
+margin: 5px;
+padding: 5px;
+}
+
+pe-square {
+display: block;
+}
+
+.big-square {
+background: var(--pe-big-square);
+min-height: 600px;
+}
+
+.little-square {
+background: var(--pe-little-square);
+min-height: 150px;
+min-width: 150px;
+}
+
+.pe-school-title {
+/*   display: flex; */
+/*   flex-direction: column; */
+color: white;
+font-size: clamp(1.4em, 4vw, 4em);
+line-height: 1.2;
+text-transform: capitalize;
+font-family: "Trebuchet ms", sans-serif;
+}
+
+@media (min-width: 600px) {
+.pe-school-title span {
+  
+}
+}
+
+@media (min-width: 800px) {
+pe-poster {
+/*     display: flex; */
+/*     flex-direction: column; */
+/*     justify-content: center; */
+  margin-right: auto;
+  margin-left: auto;
+}
+.big-square {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: rotate(105deg);
+}
+.little-square {
+  min-height: 400px;
+  align-self: center;
+  flex-basis: 400px;
+/*     display: flex; */
+/*     flex-direction: column; */
+  transform: rotate(-105deg);
+}
+pe-dot {
+  border-radius: 50%;
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+  overflow: hidden;
+}
+.pe-school-title span {
+  display: block;
+/*   align-self: center; */
+  position: relative;
+  top: 50px;
+  left: 20px;
+  display: block;
+  transform: rotate(-30deg);
+}
+}
+
+/*  
+https://stackoverflow.com/questions/16771225/css3-rotate-animation
+*/
+
+@media (min-width: 1000px) {
+.pe-school-title span {
+  transform: none;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  }
+
+   @-ms-keyframes spin { 
+      from { 
+          -ms-transform: rotate(0deg); 
+      } to { 
+          -ms-transform: rotate(360deg); 
+      }
+  }
+  @-moz-keyframes spin { 
+      from { 
+          -moz-transform: rotate(0deg); 
+      } to { 
+          -moz-transform: rotate(360deg); 
+      }
+  }
+  @-webkit-keyframes spin { 
+      from { 
+          -webkit-transform: rotate(0deg); 
+      } to { 
+          -webkit-transform: rotate(360deg); 
+      }
+    }
+  @keyframes spin { 
+      from { 
+          transform: rotate(0deg); 
+      } to { 
+          transform: rotate(360deg); 
+      }
+    }
+  } 
+} 

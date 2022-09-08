@@ -1,19 +1,30 @@
 
 /*garden two*/
+adriana-lima {
+  display: block;
+}
+
+adriana-lima section * {
+  margin-top: 5px;
+}
+
 restaurant-card {
   display: block;
-  max-width: 60ch;
+  /*max-width: 60ch;*/
+}
+
+restaurant-card address {
+  font-style: italic;
+  margin-top: 10px;
 }
 
 restaurant-card picture {
-  max-width: 250px;
-  width: 40vw;
-/*   flex-shrink: 0; */
+  /*max-width: 25%;*/
 }
 
 .restaurant-name {
   font-weight: bolder;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 
 .restaurant-list {
@@ -22,15 +33,35 @@ restaurant-card picture {
 }
 
 .restaurant-list li {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .model-photo {
   max-width: 800px;
-  width: 70vw;
+  width: 90vw;
 }
 
 .actress {
+  margin-top: 20px;
+}
+
+adriana-lima div + div {
+  margin-top: 10px;
+}
+
+adriana-lima h2 {
+  font-size: clamp(2.5em, 4vw, 5em);
+}
+
+adriana-lima h3 {
+  font-size: clamp(2em, 2vw, 3em);
+}
+
+adriana-lima em {
+  font-style: italic;
+}
+
+.restaurants {
   margin-top: 20px;
 }
 
@@ -38,6 +69,14 @@ restaurant-card picture {
   restaurant-card {
     display: flex;
     justify-content: space-between;
+  }
+  restaurant-card div {
+    flex-basis: 50%;
+    flex-shrink: 0;
+  }
+  restaurant-card picture {
+    flex-basis: 40%;
+    flex-shrink: 0;
   }
   .restaurant-info {
     margin-left: 10px;
@@ -55,6 +94,9 @@ restaurant-card picture {
     max-width: 40ch;
     margin-left: 20px;
   }
+  .restaurant-list {
+    margin-top: 20px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -65,6 +107,7 @@ restaurant-card picture {
   }
   .restaurant-list {
     flex-wrap: nowrap;
+    gap: 2%;
   }
   .restaurant-list li {
     margin-top: unset;

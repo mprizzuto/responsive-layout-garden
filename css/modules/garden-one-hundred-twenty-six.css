@@ -1,0 +1,31 @@
+taxi-cab {
+  display: block;
+}
+
+.nyc-taxi-logo {
+  width: 40vw;
+  max-width: 300px;
+}
+
+.taxi-cab-name span {
+  text-transform: uppercase;
+}
+
+.taxi-cab-name * {
+  display: block;
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .taxi-cab-name {
+    display: flex;
+    flex-direction: row;
+  }
+  .nyc-taxi-location {
+    font-size: 2em;
+  }
+  .nyc-taxi {
+    align-self: end;
+    font-size: 2em;
+  }
+}

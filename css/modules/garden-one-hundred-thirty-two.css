@@ -1,0 +1,86 @@
+/*  garden */
+art-business-card {
+  display: block;
+  background: black;
+  padding: 20px;
+}
+
+sunset {
+  display: block;
+}
+
+business-card {
+  display: block;
+}
+
+business-card > * {
+/*   margin-top: 10px; */
+}
+
+.art-director-contact-methods {
+  line-height: 2;
+  background: white;
+  padding: 15px;
+}
+
+.art-director-contact-methods li a {
+/*   color: inherit; */
+  font-weight: bolder;
+  letter-spacing: 0.03em;
+}
+
+.art-director-name span {
+  display: block;
+  text-transform: capitalize;
+  font-size: clamp(1.5em, 3vw, 5em);
+/*   border: 3px solid red; */
+  line-height: 1;
+}
+
+.art-director-name span:first-of-type {
+  font-weight: bolder;
+}
+
+@media (min-width: 600px) {
+  .art-director-contact-methods {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+/*     gap: 2%; */
+    padding: 30px;
+  }
+  .art-director-email {
+    grid-column: 3;
+    text-align: center;
+  }
+  .art-director-handle {
+    grid-column: 4;
+    grid-row: 2;
+    writing-mode: vertical-lr;
+  }
+  .art-director-handle a {
+    display: block;
+    margin-top: 40px;
+  }
+  .art-director-website {
+    grid-column: 3;
+    grid-row: 3;
+    text-align: center;
+  }
+  .art-director-number {
+    grid-column: 1;
+    grid-row: 2;
+    writing-mode: vertical-lr;
+  }
+  .art-director-name {
+    grid-column: 3;
+    grid-row: 2;
+    margin-top: 20px;
+    margin-bottom: 20px; /* yea yea.. i know, but it seemed OK here..*/
+    max-width: 50ch;
+/*     font-size: 2.3em; */
+  }
+  .art-director-name span {
+    display: block;
+    text-transform: capitalize;
+  }
+}

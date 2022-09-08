@@ -1,0 +1,58 @@
+spheres {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+sphere {
+  display: block;
+  flex-basis: 500px; 
+}
+
+
+.circle {
+  min-height: 300px;
+  max-width: 300px;
+  background: wheat;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+@media (min-width: 600px) {
+  sphere {
+/*     flex-shrink: 0;
+    flex-basis: 500px;  */
+  }
+  spheres {
+    position: relative;
+    border-top: 5px double maroon;
+    border-left: 5px double maroon;
+    left: 9%;
+    bottom: 30px;
+    max-width: 500px; 
+    min-height: 500px;
+    padding:  20px;
+  }
+  .circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    position: absolute;
+  }
+  sphere {
+    
+  }
+  .sphere-1 {
+    background: red;
+  }
+  .sphere-2 {
+    background: lightgreen;
+    left: 120px;
+  }
+  .sphere-3 {
+    background: blue;
+    left: 60px;
+    top: 80px;
+  }
+}

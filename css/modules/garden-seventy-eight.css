@@ -1,0 +1,64 @@
+photography-poster {
+	display: block;
+}
+
+photography-history {
+	display: block;
+	margin-top: 20px;
+}
+
+photography-poster h3 {
+	font-size: 1.8em;
+}
+
+photography-poster h3 + p {
+	margin-top: 5px;
+}
+
+photography-history section + h3 {
+	margin-top: 20px;
+}
+
+.historical-photo {
+	background: url("https://api.time.com/wp-content/uploads/2014/05/robert-capa-dday-face-in-the-surf.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	background-position: center;
+}
+
+@media (min-width: 800px) {
+	.photographer-journey span, .photo-history-title span {
+		display: inline-block;
+		margin-right: 20px;
+	}
+	photography-poster {
+		display: flex;
+		flex-direction: row;
+	}
+	.photo-history-title {
+		writing-mode: vertical-rl;
+	}
+	photography-history {
+		display: flex;
+		order: 1;
+	}
+	.photography-poster-header {
+		flex-basis: 200px;
+		/*writing-mode: vertical-rl;*/
+		transform: rotate(180deg);
+		/*order: 2;*/
+	}
+	.photography-poster-header span {
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		/*order: 2;*/
+	}
+	.historical-photo {
+		flex-shrink: 0;
+		width: 100%;
+		flex-basis: 400px;
+		margin-right: 20px;
+	}
+
+}

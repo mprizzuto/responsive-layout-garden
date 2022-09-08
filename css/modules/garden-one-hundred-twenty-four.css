@@ -1,0 +1,48 @@
+architecture-firm {
+  display: block;
+}
+
+architecture-firm * {
+  margin-top: 10px;
+}
+
+.architect-name {
+  font-size: clamp(1.5em, 2vw, 3em);
+}
+
+.architecture-firm-title {
+  font-size: clamp(2em, 4vw, 5em);
+}
+
+@media (min-width: 600px) {
+  architecture-firm {
+    display: flex;
+    flex-direction: column;
+/*     border: 2px solid red; */
+    min-height: 300px;
+  }
+  .architecture-firm-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    order: 1;
+  }
+  .architect-name {
+    transform: rotate(90deg);
+    text-transform: capitalize;
+    font-size: 4em;
+  }
+  .architecture-firm-title {
+    order: 2;
+    align-self: end;
+    position: relative;
+    right: 30px;
+/*     top: 20px; */
+    top: 100px;
+    text-transform: capitalize;
+  }
+  .architecture-firm-address {
+    transform: rotate(90deg);
+  }
+}

@@ -95,10 +95,11 @@ typographer strong {
 		grid-column: 1;
 	}
 	.typographer figcaption {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
+		/*display: flex;*/
+		/*flex-direction: row;*/
+		/*align-items: center;*/
 		writing-mode: vertical-rl;
+		color:  linen;
 	}
 	.typographer-header {
 		grid-column: 1 / 4;
@@ -134,5 +135,14 @@ typographer strong {
 		position: absolute;
 		left:  138px;
 		bottom:  -55px;
+	}
+}
+
+@media (min-width:  1100px) {
+	.typographer figcaption {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		flex-wrap: wrap;
 	}
 }

@@ -1,3 +1,7 @@
+autism-awareness {
+  display: block;
+}
+
 .autism-speaks:first-of-type h3 {
   font-size: clamp(1.2em, 2vw, 5em);
   outline: 4px solid black;
@@ -27,16 +31,13 @@ blockquote {
 }
 
 @media (min-width: 600px) {
-  .garden-six inner-column {
+  autism-awareness {
     display: grid;
     grid-template-columns: repeat(2, auto);
-/*     grid-template-rows: 100px; */
-/*     grid-template-rows: 25%; */
+    gap: 3%;
   }
   .garden-six .autism-speaks:first-of-type {
     display: flex;
-/*     outline: 4px solid red; */
-/*     justify-content: space-between; */
   }
   .garden-six .autism-speaks:first-of-type p {
     max-width: 21ch;
@@ -44,13 +45,10 @@ blockquote {
   }
   .autistic-woman + .autism-speaks {
     max-width: 80ch;
-/*     grid-column: 1; */
-/*     grid-column: 1; */
     grid-row: 3;
     margin-right: 10px;
   }
   .autistic-woman {
-/*     grid-row: 1; */
     grid-row: 2;
     grid-column: 2;
   }
@@ -58,18 +56,12 @@ blockquote {
 
 
 @media (min-width: 900px) {
-/*   .autistic-woman + .autism-speaks {
-    grid-row: 4;
-    grid-column: 1;
-  } */
   .autistic-woman {
-/*     margin-left: 20px; */
   }
   .garden-six inner-column {
     grid-template-rows: 2fr;
   }
   .autism-speaks:first-of-type span {
-/*     max-height: 150px; */
     display: inline-block;
     padding: 5px;
     transform: translate(10px, 10px);

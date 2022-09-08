@@ -1,0 +1,130 @@
+from-type-to-logo {
+	display: block;
+}
+
+book-accent-oval {
+	display: block;
+}
+
+paper-hole {
+	display: block;
+}
+
+book-accent-circle {
+	display: block;
+}
+
+.type-to-logo-cta {
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+.type-to-logo-heading  {
+	font-size: 2.5em;
+}
+
+
+.type-to-logo-heading span {
+	text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+	.type-to-logo-design {
+		display: grid;
+		grid-template-columns: repeat(5, auto);
+		border:  3px solid red;
+	}
+	.from-type-to-logo-header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.type-to-logo-heading span {
+		display: block;
+		text-decoration: underline;
+	}
+	.logo-group-one {
+		grid-row: 1;
+		grid-column: 2 / 3;
+		border: 3px solid red;
+		/*max-width: 300px;*/
+	}
+	.logo-group-two, .logo-group-three {
+		display: flex;
+		flex-direction: column;
+	}
+	.logo-group-two {
+		grid-column: 3 / 6;
+	}
+	.oval-two {
+		min-height: 150px;
+		max-width: 150px;
+		align-self: center;
+		min-width: 200px;
+		flex-shrink: 0;
+	}
+	.oval-three {
+		min-width: 200px;
+		align-self: center;
+	}
+	.oval-four {
+		
+	}
+	.oval-five {
+		margin-top: 20px;
+	}
+	paper-hole {
+		min-height: 150px;
+		min-width: 50px;
+		max-width: 150px;
+		background: white;
+		border-radius: 50%;
+	}
+	.type-to-logo-design h3[class*="type-to-logo"] {
+		display: flex;
+		flex-direction: row;
+		background: black;
+		color: linen;
+		padding: 5%;
+		/*max-width: 150px;*/
+		/*width: 150px;*/
+		min-height: 300px;
+		border-radius: 45% 45% 45% 45%;
+	} 
+	.type-to-logo-design h3[class*="type-to-logo"] span {
+		display: block;
+		padding: 30px;
+		align-self: center;
+	} 
+	.logo-from , .logo-logo{
+		transform: rotate(90deg);
+		/*padding: 30px;*/
+	}
+	.logo-type {
+		min-width: 300px;
+	}
+	.type-to-logo-logo {
+		grid-column: 3;
+		grid-row: 2;
+	}
+	book-accent-circle {
+		background: black;
+		border:  5px solid red;
+		max-height: 150px;
+		min-height: 150px;
+		min-width: 100px;
+		max-width: 150px;
+		border-radius: 50%;
+	}
+	book-accent-oval {
+		min-height: 50px;
+		max-height: 100px;
+		border-radius: 45% 45% 45% 45%;
+		background: black;
+		margin: 5px;
+	}
+	.book-hole {
+		display: flex;
+		flex-direction: row;
+	}
+}
