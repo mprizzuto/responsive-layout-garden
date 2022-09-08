@@ -13,8 +13,9 @@
       </picture>
 
       <figcaption>liudmilla schafer, md, FACP</figcaption>
-      
+
     </figure>
+    
     <a class="doc-site-link" href="#">https://scientificwisdom.org/webinars/women-in-science.html</a>
   </div>
   
