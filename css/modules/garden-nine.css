@@ -3,7 +3,11 @@ missing-person {
 }
 
 missing-person :is(p) {
-  margin-top: 5;
+  margin-top: 5px;
+}
+
+missing-person :is(a) {
+  display: inline-block;
 }
 
 .person-photos picture {
@@ -33,6 +37,34 @@ person-card {
 
 .person-facts {
   line-height: 1.5;
+}
+
+.missing-person-header h3 {
+  font-size: 2em;
+}
+
+.missing-person-footer {
+  margin-top: 20px;
+}
+
+.missing-person-footer h4 {
+  font-size: 1.2em;
+}
+
+missing-person h3 + p {
+  margin-top: 10px;
+}
+
+.poster-cta strong {
+  font-weight: bolder;
+}
+
+.doughboy-contact {
+  font-style: italic;
+}
+
+.doughboy-contact::after {
+  content:  " ";
 }
 
 @media (min-width: 600px) {
