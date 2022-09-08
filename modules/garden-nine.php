@@ -1,8 +1,9 @@
 <missing-person>
   <header class="missing-person-header">
-    <h3 class="missing-person-title">missing "person"</h3>
+    <h3>missing &ldquo;person&rdquo;</h3>
 
-    <p class="person-name">john dough(doughboy, baguette)</p>
+    <p class="person-name"><span class="person-info">name:</span> john dough(doughboy, baguette)</p>
+
   </header>
 
   <person-card>
@@ -17,7 +18,6 @@
       <li><span class="person-info">wearing:</span> a glass jar with twine</li>
       <li><span class="person-info">identifying characteristics:</span> missing a body</li>
       <li><span class="person-info">eyes:</span> none</li>
-<!--         <li><span class="person-info"></span></li> -->
     </ul>
 
     <figure class="person-photos">
@@ -44,7 +44,7 @@
   <footer class="missing-person-footer">
     <h4>if you have an info about john dough</h4>
 
-    <p class="poster-cta">please contact</p>
+    <p class="poster-cta"><strong>please contact</strong></p>
 
     <ul class="contact-methods">
       <li> <span class="person-info">jumbo</span> (434)-454-9393</li>

@@ -1,5 +1,9 @@
-missing-person {
-  display: block;
+missing-person :is(p) {
+  margin-top: 5px;
+}
+
+missing-person :is(a) {
+  display: inline-block;
 }
 
 person-card {
@@ -14,11 +18,6 @@ person-card {
   margin-top: 10px;
 }
 
-/*.garden-twenty inner-column {
-  display: flex;
-  flex-direction: column;
-}*/
-
 .person-info {
   font-weight: bolder;
   font-size: 1.1em;
@@ -28,6 +27,36 @@ person-card {
   line-height: 1.5;
 }
 
+.person-facts {
+  line-height: 1.5;
+}
+
+.missing-person-header h3 {
+  font-size: 2em;
+}
+
+.missing-person-footer {
+  margin-top: 20px;
+}
+
+.missing-person-footer h4 {
+  font-size: 1.2em;
+}
+
+missing-person h3 + p {
+  margin-top: 10px;
+}
+
+.poster-cta strong {
+  font-weight: bolder;
+}
+
+.doughboy-contact {
+  font-style: italic;
+}
+
+.doughboy-contact::after {
+  content:  " ";
 .missing-person-title {
   font-size: 2.5em;
 }
@@ -50,16 +79,20 @@ person-card {
 
 .person-last-seen {
   margin-top: 10px;
+
 }
 
 @media (min-width: 600px) {
   person-card {
     display: flex;
+    flex-direction: row;
   }
   figure.person-photos {
     display: flex;
+    flex-direction: row;
+    grid-gap: 2%;
   }
   .person-photos picture {
-    margin: 10px;
+    /*margin: 10px;*/
   }
 }
