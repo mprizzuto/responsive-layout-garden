@@ -1,5 +1,5 @@
 <chronic-pain>
-	<h3 class="heading-three">what parts of your life are impacted by chronic pain?</h3>
+	<h3 class="chronic-pain-heading">what parts of your life are impacted by chronic pain?</h3>
     
 	<ul class="symptom-list">
 	  <li>relationships</li>
