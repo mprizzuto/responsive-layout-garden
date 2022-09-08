@@ -1,8 +1,8 @@
 <dental-testimonial>
-  <h3 aria-hidden="true">FTV</h3>
-
   <div class="client-speaks">
-    <h3>Testimonial</h3>
+
+    <h3 class="client-speaks-title">Testimonial</h3>
+
     <blockquote cite="https://www.thepathway.com/about/testimonials">
       <p>The live surgeries were very beneficial for me, in fact I have taken Session Four twice, which is nice that you can revisit and audit yourself as you progress through your implant education. Implant pathway faculty has even joined me for a few days in my practice and offered my team and I some one-on-one mentoring. It's invaluable.</p>
       <cite>rhonda savage DDS</cite>
