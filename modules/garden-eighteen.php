@@ -11,7 +11,9 @@
       <picture class="doc-connect-logo">
         <img src="https://assets.grooveapps.com/images/af225942-89e1-4d60-988e-60b6257fa58f/1649859701_DrClogo.png" alt="the doctor connect">
       </picture>
+
       <figcaption>liudmilla schafer, md, FACP</figcaption>
+      
     </figure>
     <a class="doc-site-link" href="#">https://scientificwisdom.org/webinars/women-in-science.html</a>
   </div>
