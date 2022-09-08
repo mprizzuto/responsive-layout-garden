@@ -2,6 +2,10 @@ missing-person {
   display: block;
 }
 
+missing-person :is(p) {
+  margin-top: 5;
+}
+
 .person-photos picture {
   max-width: 400px;
   margin-top: 10px;
@@ -27,14 +31,21 @@ person-card {
   line-height: 1.5;
 }
 
+.person-facts {
+  line-height: 1.5;
+}
+
 @media (min-width: 600px) {
   person-card {
     display: flex;
+    flex-direction: row;
   }
   .person-photos {
     display: flex;
+    flex-direction: row;
+    grid-gap: 2%;
   }
   .person-photos picture {
-    margin: 10px;
+    /*margin: 10px;*/
   }
 }
