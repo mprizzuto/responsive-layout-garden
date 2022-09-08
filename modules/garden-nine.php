@@ -1,10 +1,8 @@
 <missing-person>
-  <header class="section-header">
-    <inner-column>
-      <h3>missing "person"</h3>
+  <header class="missing-person-header">
+    <h3>missing &ldquo;person&rdquo;</h3>
 
-      <p class="person-name">john dough(doughboy, baguette)</p>
-    </inner-column>
+    <p class="person-name">john dough(doughboy, baguette)</p>
   </header>
 
   <person-card>
@@ -42,15 +40,13 @@
   </person-card>
 
   <footer>
-    <inner-column>
-      <h4>if you have an info aboit john dogh</h4>
+    <h4>if you have an info aboit john dogh</h4>
 
-      <p class="poster-cta">please contact</p>
+    <p class="poster-cta">please contact</p>
 
-      <ul class="contact-methods">
-        <li>jumbo (434)-454-9393</li>
-        <li>email his family<a href="#">bakery@dough.com</a></li>
-      </ul>
-    </inner-column>
+    <ul class="contact-methods">
+      <li>jumbo (434)-454-9393</li>
+      <li>email his family<a href="#">bakery@dough.com</a></li>
+    </ul>
   </footer>
 </missing-person>
