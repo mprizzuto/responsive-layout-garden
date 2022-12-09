@@ -49,12 +49,12 @@ adriana-lima div + div {
   margin-top: 10px;
 }
 
-adriana-lima h2 {
+/*adriana-lima h2 {
   font-size: clamp(2.5em, 4vw, 5em);
-}
+}*/
 
 adriana-lima h3 {
-  font-size: clamp(2em, 2vw, 3em);
+  font-size: clamp(1.3em, 1.5vw, 2em);
 }
 
 adriana-lima em {
