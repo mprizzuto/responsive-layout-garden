@@ -1,11 +1,11 @@
 <magazine-cta>
   <header class="magazine-cta-header">
-    <inner-column>
+    <!-- <inner-column> -->
       <h3>the indian standard</h3>
       <picture class="is-magazine-cover">
         <img src="https://image.isu.pub/220125214807-c33f5ff45fcdc3a8d5cd5c65186e2de8/jpg/page_1_thumb_large.jpg" alt="">
       </picture>
-    </inner-column>
+    <!-- </inner-column> -->
   </header>
   
   <slogan class="marquee">
