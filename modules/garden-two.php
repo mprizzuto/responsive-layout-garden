@@ -1,7 +1,7 @@
 <adriana-lima>
   <div class="actress">
     <section class="actress-info">
-      <h2 class="heading-two">adriana lima</h2>
+      <h2 class="attention-voice">adriana lima</h2>
     
       <h3 class="heading-three"><em>le paris de</em></h3>
     
