@@ -8,7 +8,7 @@ magazine-cta {
 
 magazine-teaser {
   display: block;
-  border: 2px solid gray;
+/*  border: 2px solid gray;*/
   max-width: 70ch;
   padding: 5px;
 }
@@ -49,7 +49,7 @@ magazine-teaser p + p,
 .pub-date {
   display: block;
   font-size: .8em;
-  padding-top: 2spx;
+  padding-top: 2px;
   color: gray;
 }
 
@@ -64,6 +64,17 @@ slogan {
 .magazine-figure picture {
   max-width: 300px;
 /*   min-width: 25vw; */
+}
+
+.magazine-figure figcaption {
+  margin-top: 5px;
+}
+
+.magazine-figure figcaption strong {
+  display: inline-block;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-top: 5px;
 }
 
 magazine-cta p {
@@ -129,6 +140,9 @@ magazine-cta p {
 }
 
 @media (min-width: 600px) {
+  magazine-teaser {
+    border: 2px solid gray;
+  }
   .posts {
     display: flex;
   }
