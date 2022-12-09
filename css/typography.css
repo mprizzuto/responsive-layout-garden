@@ -38,11 +38,10 @@ article-card span:hover {
 
 .intro-voice, .attention-voice	{
 	font-family: "Neuton", sans-serif;
-	font-size: 40px;
 }
 
 .attention-voice	{
-	font-size: 30px;
+	font-size: 1.5em;
 	margin-top: 10px;
 }
 
