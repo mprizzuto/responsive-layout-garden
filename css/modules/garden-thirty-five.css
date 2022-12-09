@@ -1,7 +1,4 @@
 /*  garden styles*/
-section > inner-column {
-  padding-bottom: 20vh;
-}
 
 magazine-cta {
   display: block;
@@ -13,6 +10,7 @@ magazine-teaser {
   display: block;
   border: 2px solid gray;
   max-width: 70ch;
+  padding: 5px;
 }
 
 magazine-teaser h4 {
@@ -79,6 +77,7 @@ magazine-cta p {
   position: relative;
   background: black;
 /*   color: #333; */
+  margin-left: 1%;
   color: white;
   border: 1px solid #4a4a4a;
 }
