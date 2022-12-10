@@ -41,13 +41,16 @@ privacy-card {
   margin-top: 10px;
 }
 
-
 .privacy-mantra {
   font-size: clamp(3em, 5vw, 8em);
-  line-height: .6;
+/*  line-height: .6;*/
   font-family: "trebuchet ms", sans-serif;
   text-transform: uppercase;
   font-weight: bolder;
+}
+
+.privacy-mantra li {
+  margin-top: 15px;
 }
 
 pink-card {
@@ -87,6 +90,7 @@ pink-card {
   }
   .privacy-mantra {
     transform: translate(-50px);
+    line-height: .6;
   }
   .dv-message {
     max-width: 50ch;
