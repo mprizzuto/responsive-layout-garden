@@ -1,7 +1,7 @@
 <book-chapter class="fresh-juice">
   <chapter-card>
     <picture class="produce">
-      <img src="images/garden-photos/garden-four/blueberry.jpg" alt="a bowl of raw spinach">
+      <img src="./images/garden-photos/garden-five/spinach.jpg" alt="a bowl of raw spinach">
     </picture>
 
     <div class="chapter-info">
@@ -32,7 +32,7 @@
 
   <chapter-card>
     <picture class="produce">
-      <img src="images/garden-photos/garden-four/spinach.jpeg" alt="bowl of blueberries">
+      <img src="./images/garden-photos/garden-five/blueberries.jpg" alt="bowl of blueberries">
     </picture>
 
     <div class="chapter-info">

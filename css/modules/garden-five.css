@@ -9,11 +9,12 @@ book-chapter {
 
 .produce {
 /*   width: 45vw; */
-  max-width: 500px;
+  max-width: 80%;
 }
 
 .chapter-list {
   line-height: 1.5;
+  margin-top: 10px;
 }
 
 .chapter-info {
