@@ -57,6 +57,7 @@ masterclass ul + h4 {
   margin-top: 20px;
 }
 
+
 @media (min-width: 600px) {
   .masterclass-header {
     flex-direction: row;
@@ -69,10 +70,6 @@ masterclass ul + h4 {
     position: relative;
     min-height: 80vh;
   }
-}
-
-
-@media (min-width: 600px) {
   .masterclass-footer {
     display: flex;
 /*     order: 3; */
