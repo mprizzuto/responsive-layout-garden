@@ -8,7 +8,7 @@ privacy-poster {
   z-index: -2;
   width: 100%;
 /*    bottom: 300px; */
-  min-height: 100vh;
+/*  min-height: 100vh;*/
   background: orange;
   padding: 20px;
 /*   color: white; */
@@ -147,7 +147,7 @@ pink-card {
   }
   .client-cta {
     color: white;
-    font-size: 1.1em;
+    font-size: .9em;
   }
 }
 
