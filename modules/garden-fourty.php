@@ -1,6 +1,6 @@
 <therapy-card>
   <header>
-    <h3><span class="tip-numbers">5</span> tips for explaining chronic health conditions to loved ones</h3>
+    <h3 class="therapy-card-title"><span class="tip-numbers">5</span> tips for explaining chronic health conditions to loved ones</h3>
   </header>
 
   <ol class="tip-list">
@@ -8,7 +8,7 @@
       <details open>
         <summary>tip 1</summary>
 
-        <p>provide education about your condition</p>
+        <p class="therapy-tip">provide education about your condition</p>
       </details>
     </li>
 
@@ -16,28 +16,28 @@
        <details open>
         <summary>tip 2</summary>
 
-        <p>health conditions require adiustments & accomodations</p>
+        <p class="therapy-tip">health conditions require adiustments & accomodations</p>
       </details>
     </li>
 
     <li>
       <details open>
         <summary>tip 3</summary>
-        <p>be open, honest, and set boundaries around your health</p>
+        <p class="therapy-tip">be open, honest, and set boundaries around your health</p>
       </details>
     </li>
 
     <li>
       <details open>
         <summary>tip 4</summary>
-        <p>break it down into small, easy to understand, pieces</p>
+        <p class="therapy-tip">break it down into small, easy to understand, pieces</p>
       </details>
     </li>
 
     <li>
       <details open>
         <summary>tip 5</summary>
-        <p>use an analogy to help explain complicated parts</p>
+        <p class="therapy-tip">use an analogy to help explain complicated parts</p>
       </details>
     </li>
     <li>
