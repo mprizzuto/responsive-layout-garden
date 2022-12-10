@@ -20,7 +20,7 @@
      <li>
        <restaurant-card>
          <picture>
-           <img src="https://peprojects.dev/alpha-1/mprizzuto/images/rlg/restaurants/frank.jpg" alt="a restaurant">
+           <img src="./images/garden-photos/garden-two/le-frank.jpg" alt="a man in a dining room surrounded by chairs">
          </picture>
 
          <div class="restaurant-info">
@@ -40,7 +40,7 @@
       <li>
        <restaurant-card>
          <picture>
-           <img src="https://peprojects.dev/alpha-1/mprizzuto/images/rlg/restaurants/maurice.jpg" alt="a restaurant">
+           <img src="./images/garden-photos/garden-two/meurice.jpg" alt="outdoor shout of meurice with cars lined up">
          </picture>
          
          <div class="restaurant-info">
@@ -61,7 +61,7 @@
       <li>
        <restaurant-card>
          <picture>
-           <img src="https://peprojects.dev/alpha-1/mprizzuto/images/rlg/restaurants/galignani.jpg" alt="a restaurant">
+           <img src="./images/garden-photos/garden-two/gagliani.jpg" alt="a window full of books">
          </picture>
          
          <div class="restaurant-info">

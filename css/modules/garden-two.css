@@ -77,6 +77,7 @@ adriana-lima em {
   restaurant-card picture {
     flex-basis: 40%;
     flex-shrink: 0;
+    max-width: 270px;
   }
   .restaurant-info {
     margin-left: 10px;
