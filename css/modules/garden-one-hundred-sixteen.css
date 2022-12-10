@@ -1,0 +1,86 @@
+professional-kinesiology {
+  display: block;
+}
+
+mini-class {
+  display: block;
+}
+
+mini-class-teaser {
+  display: block;
+}
+
+mini-class-teaser p {
+  max-width: 70ch;
+}
+
+.mini-class-teaser {
+  max-width: 300px;
+}
+
+mini-class-teaser * {
+  margin-top: 10px;
+}
+
+.kinesiology-mc li {
+  margin-top: 20px;
+}
+
+.mc-fine-print small {
+  font-size: .5em;
+}
+
+.kinesiology-mc li:last-of-type mini-class-teaser .mini-class-cta:last-of-type {
+  background: maroon;
+  color: linen;
+  padding: 20px;
+}
+
+.kinesiology-logo {
+  max-width: 300px;
+  order: 1;
+}
+
+.kinesiology-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: maroon;
+  color: linen;
+}
+
+.kinesiology-header-title {
+  font-size: 2em;
+}
+
+.kinesiology-footer-title {
+  font-size: 2em;
+  margin-left: 80px;
+  order: 2;
+}
+
+
+@media (min-width: 600px) {
+  .mini-class-title {
+  }
+  .mini-class-number {
+    margin-right: 20px;
+  }
+  .mini-class-number {
+    display: inline-block;
+  }
+  .mc-fine-print {
+    display: block;
+  }
+  mini-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  mini-class-teaser {
+    margin-left: 10px;
+  }
+  .mini-class-date {
+    writing-mode: vertical-rl;
+  }
+}

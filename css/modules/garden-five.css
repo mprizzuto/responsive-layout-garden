@@ -1,15 +1,24 @@
-.produce {
-/*   width: 45vw; */
-  max-width: 500px;
-}
-
 chapter-card {
   display: block;
-/*   outline: 2px solid green; */
+  padding: 5px;
+}
+
+book-chapter {
+  display: block;
+}
+
+.produce {
+/*   width: 45vw; */
+  max-width: 80%;
 }
 
 .chapter-list {
   line-height: 1.5;
+  margin-top: 10px;
+}
+
+.chapter-info {
+  margin-top: 10px;
 }
 
 .chapter-info h2 {
@@ -38,14 +47,25 @@ h2 {
 }
 
 @media (min-width: 600px) {
-  .chapter-info, .garden-five inner-column {
+  .fresh-juice {
     display: flex;
 /*     justify-content: space-between; */
     flex-direction: row;
+    /*gap: 5%;*/
   }
-  .chapter-list {
-    margin-left: 2%;
-  } 
+  .chapter-info {
+    display: flex;
+/*     justify-content: space-between; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*gap: 5%;*/
+  }
+  .chapter-info:first-of-type {
+    /*border: 5px solid red;*/
+  }
+  /*.chapter-list {
+    align-self: end;
+  } */
   .produce {
 /*     margin-right: 10px; */
   }
@@ -58,7 +78,7 @@ h2 {
     margin-right: 20px;
   }
   .garden-five chapter-card:first-of-type .chapter-list {
-    margin-right: 20px;
+    margin-right: 15px;
   }
   chapter-card + chapter-card {
     margin-top: unset;
@@ -68,10 +88,16 @@ h2 {
     flex-basis: 90%;
     min-width: 30vw;
   }
+  .chapter-info h2 {
+    margin-right: 10px;
+  }
 }
 
 @media (min-width: 900px) {
   .chapter-info {
     flex-direction: column;
+  }
+  .chapter-list {
+    align-self: end;
   }
 }

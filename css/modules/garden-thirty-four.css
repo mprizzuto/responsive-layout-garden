@@ -1,0 +1,46 @@
+health-team {
+	display: block;
+}
+
+.doctor-list doctor-card {
+	display:  block;
+	margin-top: 30px;
+	border:  2px solid maroon;
+	max-width: 450px;
+	padding:  5px;
+}
+
+.doctor-pic {
+	max-width:  300px;
+	margin-top: 10px;
+}
+
+.doctor-pic img {
+	border-radius: 50%;
+}
+
+.doc-specialty em {
+	font-style: italic;
+}
+
+health-team h3 {
+	font-size: 1.5em;
+}
+
+.doc-name	{
+	font-weight: bolder;
+}
+
+
+.doc-name + h4 {
+	margin-top: 10px;
+	color: red;
+}
+
+@media (min-width:  600px) {
+	.doctor-list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap:  2%;
+	}
+}

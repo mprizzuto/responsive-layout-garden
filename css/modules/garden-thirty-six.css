@@ -1,0 +1,58 @@
+
+.coffee-drink {
+  max-width: 200px;
+  margin-top: 10px;
+}
+
+.recipe-steps, picture + p, 
+h4 + p {
+  margin-top: 10px;
+}
+
+coffee-card {
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+coffee-cards {
+  display: block;
+}
+
+coffee-card ul {
+  line-height: 1.5;
+}
+
+.recipe-list > li {
+  margin-top: 30px;
+}
+
+
+
+@media(min-width: 600px) {
+  .recipe-list {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    line-height: 1.5;
+/*     grid-gap: 2%; */
+  }
+  .recipe-list > li:first-of-type {
+    grid-column: 1 / 3;
+    border-bottom: 1px solid gray;
+  }
+  .recipe-list li:first-of-type coffee-card {
+    display: flex;
+  }
+  .recipe-list li:first-of-type coffee-card .recipe-steps {
+    margin-left: 10px;
+  }
+  .recipe-list > li:nth-child(2) {
+    border-right: 1px solid gray;
+  }
+  .recipe-list > li:last-of-type {
+    padding-left: 10px;
+  }
+  .recipe-list > li {
+    margin-top: unset;
+  }
+}

@@ -1,0 +1,167 @@
+.garden-twenty-seven inner-column {
+  max-width: 750px;
+}
+
+privacy-poster {
+  display: block;
+  position: relative;
+  z-index: -2;
+  width: 100%;
+/*    bottom: 300px; */
+  min-height: 100vh;
+  background: orange;
+  padding: 20px;
+/*   color: white; */
+}
+
+privacy-card {
+  display: block;
+  padding: 20px;
+  background: linen;
+/*   min-height: 300px; */
+  min-height: 500px;
+  position: relative;
+/*   top: 30px; */
+}
+
+.dv-message {
+  margin-top: 10px;
+}
+
+.mantra-color {
+  color: pink;
+}
+
+.your-right {
+  display: block;
+}
+
+p + p, .client-cta,
+privacy-card {
+  margin-top: 10px;
+}
+
+
+.privacy-mantra {
+  font-size: clamp(3em, 5vw, 8em);
+  line-height: .6;
+  font-family: "trebuchet ms", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+pink-card {
+  display: none;
+/*   display: block; */
+/*   min-height: 100vh; */
+/*   background: pink;  */
+}
+
+.dv-message {
+  margin-top: 20px;
+}
+
+@media (min-width: 700px) {
+  .garden inner-column {
+/*     display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  }
+  pink-card {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+  /*   bottom: 100px; */
+    top: 18%;
+/*     top: 10%; */
+    background: pink;
+    left: 20%;
+    min-height: 500px;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  privacy-card + .client-cta {
+    margin-top: 100px;
+  }
+  .privacy-mantra {
+    transform: translate(-50px);
+  }
+  .dv-message {
+    max-width: 50ch;
+  }
+  privacy-poster {
+/*     display: grid; */
+/*     grid-template-columns: repeat(3, auto); */
+/*     max-width: 500px; */
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  privacy-poster .client-cta:first-of-type {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+/*     color: white; */
+/*     color: lime; */
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+/*     grid-row: 3; */
+/*     grid-column: 1; */
+  }
+  privacy-poster .client-cta:nth-child(3) {
+/*     color: red; */
+    position: absolute;
+    top: 80px;
+    left: 90px;
+  }
+  privacy-poster .client-cta:nth-child(4) {
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+/*     left: -20px; */
+/*     color: yellow; */
+  }
+  privacy-poster .client-cta:nth-child(6) {
+/*     color: wheat; */
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+    max-width: 60ch;
+  }
+  privacy-card {
+    grid-column: 1 / 4;
+/*     grid-row: 2; */
+    margin-top: 130px;
+    max-width: 500px;
+    margin-left: 100px;
+  }
+  privacy-card + .client-cta {
+    margin-top: 50px;
+  }
+  .client-cta {
+    color: white;
+    font-size: 1.1em;
+  }
+}
+
+/*  surface duo*/
+@media (horizontal-viewport-segments: 2) {
+pink-card {
+  display: none;
+  }
+}
+@media (vertical-viewport-segments: 2) {
+
+  pink-card {
+display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  pink-card {
+    display: none;
+  }
+}

@@ -1,3 +1,7 @@
+fashion-editorial {
+  display: block;
+}
+
 .model figcaption em {
   font-style: italic;
   text-transform: capitalize;
@@ -5,6 +9,10 @@
 
 a {
   text-decoration: none;
+}
+
+.social-links {
+  line-height:  1.5;
 }
 
 .fashion-model {
@@ -38,6 +46,10 @@ fashion-editorial {
   max-width: 100px;
 }
 
+.social-links, .fashion-nav > a:first-of-type {
+  text-decoration: underline;
+}
+
 .fashion-nav li {
   margin-right: 10px;
 }
@@ -60,10 +72,6 @@ fashion-editorial {
   margin-top: 5px;
 }
 
-section, div + div {
-  border-top: 2px solid gray;
-}
-
 .studio-shot, .studio-approach {
   color: purple;
   display: flex;
@@ -83,6 +91,9 @@ section, div + div {
   .fashion-nav, .social-links,
   .icon-list, .better-mode, .studio-offer inner-column {
     display: flex;
+  }
+  .social-links, .fashion-nav {
+    align-items: center;
   }
   .studio-offer div {
     margin-right: 30px;

@@ -1,10 +1,10 @@
-.freelance-writer {
-  display: block;
-}
-
 writer-card {
   display: block;
   margin-top: 10px;
+}
+
+writer-card h4 {
+  font-size: 1.6em;
 }
 
 .ink-blob {
@@ -16,6 +16,16 @@ freelance-writer .writing-ideas {
   list-style: disc;
   margin-left: 15px;
 }
+
+.freelance-writer-title {
+  font-size: 2em;
+}
+
+.freelance-writer-title + p {
+  margin-top: 10px;
+}
+
+
 
 @media (min-width: 600px) {
   writer-card {

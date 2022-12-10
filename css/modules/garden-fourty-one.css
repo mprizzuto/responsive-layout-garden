@@ -1,0 +1,44 @@
+/*  */
+celebrity-photos {
+  display: block;
+  margin-top: 50px;
+}
+
+.celebs-grouped picture {
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  celebrity-photos picture {
+    max-width: 700px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    margin-top: 10px;
+/*     margin-right: 10px; */
+  }
+/*   celebrity-photos {
+    display: flex;
+  } */
+  .celebs-grouped {
+    display: flex;
+  }
+  .celeb-figure {
+    flex-basis: 400px;
+  }
+}
+
+@media (min-width: 900px) {
+   celebrity-photos {
+    display: flex;
+  }
+  .celebs-grouped {
+    flex-shrink: 0;
+    flex-basis: 700px;
+  }
+}
+
+@media (min-width: 1100px) {
+   .celebs-grouped {
+     flex-direction: column;
+  }
+}

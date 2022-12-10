@@ -1,0 +1,99 @@
+ballet-poster {
+  display: inline-block;
+  background: maroon;
+  color: linen;
+}
+
+ballet-poster header * {
+  margin-top: 5px;
+}
+
+.ballet-poster-header {
+  border-bottom: 4px solid black;
+}
+
+.ballerina-logo {
+/*   max-width: 100px; */
+  margin-top: 10px;
+  width: 30vw;
+}
+
+.ballet-link {
+  display: block;
+}
+
+.ballerina-figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  min-width: 90vw;
+}
+
+.ballerina-portrait {
+  max-width: 500px;
+  order: 2;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+}
+
+.ballerina-name {
+  order: 1;
+/*   border-right: 4px solid black;
+  border-left: 4px solid black; */
+  text-align: center;
+  font-size: 3.4em;
+}
+
+.ballerina-name span {
+  display: block;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
+}
+
+.ballet-line {
+  display: none;
+  order: 3;
+}
+
+@media (min-width: 600px) {
+  ballet-poster {
+    display: inline-block;
+    padding: 10px;
+  }
+  .ballet-poster-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+    min-width: 70vw;
+  }
+  .ballerina-logo {
+    
+  }
+  .ballerina-figure {
+    position: relative;
+
+  }
+  .ballet-line {
+    display: block;
+/*     position: relative; */
+    min-width: 90vw;
+  }
+  square {
+    display: block;
+    min-height: 10px;
+    background: black;
+/*     max-width: 200px; */
+    width: 100%;
+    min-width: 134px;
+    border: 4px solid black;
+    position: absolute;
+    left: 0;
+    top: 45px;
+  }
+}

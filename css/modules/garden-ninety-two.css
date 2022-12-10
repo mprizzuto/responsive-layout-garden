@@ -1,0 +1,87 @@
+.therapist-card {
+  margin-top: 400px;
+  background: linen;
+  padding: 20px;
+}
+
+therapist-card {
+  display: block;
+  margin-top: 150px;
+}
+
+.therapist-dot {
+  display: inline-block;
+  max-width: 50px;
+}
+
+.therapist-title {
+  font-size: 2em;
+}
+
+.therapist-title a {
+  display: block;
+}
+
+aside .therapist-title {
+  font-size: 1.5em;
+}
+
+therapist-card h3 + p {
+  margin-top: 5px;
+}
+
+therapist-card p + ul {
+  margin-top: 10px;
+}
+
+therapist-card section + section, 
+therapist-card aside {
+  margin-top: 20px; 
+}
+
+.title-accent {
+  display: inline-block;
+  width: 100%;
+  max-width: 100px;
+  background: black;
+  min-height: 5px;
+}
+
+@media (min-width: 600px) {
+  therapist-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  therapist-card .fact {
+    background: white;
+    padding: 20px;
+    order: 3;
+  }
+  therapist-card .myth {
+    order: 1;
+  }
+  .therapist-info {
+    order: 2;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+  .title-accent {
+    transform: rotate(90deg);
+    min-width: 90px;
+    min-height: 5px;
+    margin-left: 50px;
+    margin-top: 36px;
+    margin-right: 50px;
+  }
+  .fact {
+    position: relative;
+  }
+  .fact .therapist-title, .therapist-dot {
+    position: absolute;
+/*     bottom: 20px; */
+/*     bottom: 300px; */
+  }
+  .fact .therapist-title {
+    top: -20px;
+  }
+}

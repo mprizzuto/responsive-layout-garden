@@ -1,0 +1,53 @@
+
+health-influencer {
+  display: block;
+}
+
+influencer-card {
+  display: block;
+  padding: 5px;
+}
+
+influencer-card picture {
+  max-width: 600px;
+}
+
+.influencer-list {
+/*   line-height: 1.5; */
+  margin-top: 10px;
+}
+
+influencer-card figcaption {
+  margin-top: 10px;
+}
+
+.influencer-list > li {
+  margin-top: 40px;
+}
+
+.health-services {
+  line-height: 1.5;
+}
+
+
+@media (min-width: 600px) {
+  influencer-card ul {
+    flex-basis: 400px;
+    margin-left: 10px;
+  }
+  .influencer-list {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, 50%);
+    gap: 3%;
+  }
+  .influencer-list > li:nth-child(2) {
+    margin-top: 70%;
+  }
+}
+
+@media (min-width: 900px) {
+   influencer-card {
+    display: flex;
+  }
+}

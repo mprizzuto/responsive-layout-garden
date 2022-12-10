@@ -1,0 +1,29 @@
+marabina-james {
+  display: block;
+}
+
+.welcome inner-column {
+/*   display: flex; */
+/*   flex-wrap: wrap; */
+}
+
+.actress-photo {
+  max-width: 300px;
+/*   float: right; */
+}
+
+marabina-james p {
+  max-width: 90ch;
+/*   shape-outside: polygon(10px 10px, 20px 20px, 30px 30px); */
+
+}
+
+@media (min-width: 600px) {
+  marabina-james svg {
+/*   shape-outside: url(https://i.ibb.co/6Y2zmKT/Untitled.png); */
+  shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+float: left;
+  margin-right: 40px;
+/*   z-index: 1; */
+  }
+}

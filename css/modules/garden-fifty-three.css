@@ -1,0 +1,36 @@
+history-lesson {
+  display: block;
+}
+
+call-to-action {
+  display: block;
+}
+
+.mink-pic {
+  max-width: 700px;
+}
+
+.history-lesson {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.history-lesson h2 {
+  max-height: 30ch;
+}
+
+
+
+
+@media (min-width: 600px) {
+  .history-lesson, .history-lesson h2 {
+    flex-wrap: nowrap;
+  }
+  .history-lesson-title, .history-lesson h2 {
+    writing-mode: vertical-rl;
+  }
+  .history-lesson-title {
+    transform: translate(0px, 20px);
+  }
+}

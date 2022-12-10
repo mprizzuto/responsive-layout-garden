@@ -1,0 +1,70 @@
+zodiac-card {
+	display:  block;
+} 
+
+zodiac-card section + section {
+	margin-top: 20px;
+}
+
+zodiac-card h3 + p, zodiac-card h4 + p,
+zodiac-card h4 + ul {
+	margin-top: 5px;
+}
+
+zodiac-card h4 + ul li {
+	list-style: disc;
+	list-style-position: inside;
+}
+
+zodiac-card h4 {
+	background: maroon;
+	color: white;
+	padding: 10px;
+}
+
+zodiac-card h4 + ul {
+	margin-left: 15px;
+}
+
+.zodiac-symbol {
+	width:  25vw;
+	max-width: 250px;
+}
+
+.zodiac-title {
+	font-size: clamp(2.5em, 4vw, 5em);
+}
+
+.post-cited {
+	margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+	zodiac-card {
+		display:  grid;
+		grid-template-columns: repeat(2, auto);
+		/*grid-template-rows: repeat(4, 300px);*/
+		gap:  3%;
+	}
+	.astrology-header {
+		grid-column: 1 / 3;
+	}
+	zodiac-card  > * {
+		border:  2px solid maroon;
+	}
+	zodiac-card .skills {
+		grid-column: 2;
+		grid-row: 2;
+	}
+	zodiac-card .struggles {
+		grid-column: 2;
+		grid-row: 3;
+	}
+	zodiac-card .secret-facts {
+		grid-column: 1 / 3;
+		grid-row: 4;
+	}
+	zodiac-card section + section {
+	margin-top: unset;
+}
+}

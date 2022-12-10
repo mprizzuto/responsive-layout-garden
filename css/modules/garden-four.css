@@ -1,5 +1,14 @@
+dentistry-tools {
+  display: block;
+}
+
+.dentist-recommends {
+  font-size: clamp(1.5em, 3vw, 4em);
+}
+
 .dentist-tools {
-  list-style: none;  
+  list-style: none; 
+  margin-top: 10px; 
 }
 
 .dentist-tools li {
@@ -12,8 +21,8 @@
 
 .dentist-tools li:first-of-type {
   background: url("https://m.media-amazon.com/images/I/31Qf3mr7G-L.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
   /*background-size: cover;*/
 }
 
@@ -21,7 +30,7 @@
   background: url("https://m.media-amazon.com/images/I/61VdQRVcNkL.jpg");
   background-repeat: no-repeat;
 /*   min-height: 90vh; */
-  background-size: contain;
+  background-size: cover;
   /*background-size: cover;*/
 }
 
@@ -29,23 +38,21 @@
   background: url("https://m.media-amazon.com/images/I/51BINhcsGCL._SL1200_.jpg");
   background-repeat: no-repeat;
 /*   min-height: 90vh; */
-  background-size: contain;
+  background-size: cover;
   /*background-size: cover;*/
 }
 
 .dentist-tools :nth-child(4) {
   background: url("https://m.media-amazon.com/images/I/8119h0sg3dL._AC_SY679_.jpg");
   background-repeat: no-repeat;
-/*   min-height: 90vh; */
-  background-size: contain;
-  /*background-size: cover;*/
+  background-size: cover;
 }
 
 .dentist-tools :nth-child(5) {
   background: url("https://m.media-amazon.com/images/I/412HuPU3CLL._SL1000_.jpg");
   background-repeat: no-repeat;
 /*   min-height: 90vh; */
-  background-size: contain;
+  background-size: cover;
   /*background-size: cover;*/
   /*background-position: center;*/
 }
@@ -54,7 +61,7 @@
   background: url("https://m.media-amazon.com/images/I/71cJNXo8z-L._SY355_.jpg");
   background-repeat: no-repeat;
 /*   min-height: 90vh; */
-  background-size: contain;
+  background-size: cover;
   /*background-size: cover;*/
 }
 
@@ -68,7 +75,8 @@
   .dentist-tools {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: 2fr 2fr 1fr;
+    /*grid-template-rows: 2fr 2fr 1fr;*/
+    grid-template-rows: repeat(3, 1fr);
     max-width: 900px;
   }
   .dentist-tools li:first-of-type {
@@ -87,6 +95,8 @@
   .dentist-tools :nth-child(4) {
     grid-column: 1;
     background-size: cover;
+    min-height: 220px;
+    background-position: 30px -34px;
   }
   .dentist-tools :nth-child(5) {
     background-size: cover;

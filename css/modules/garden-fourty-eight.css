@@ -1,0 +1,148 @@
+typographer {
+	display:  block;
+}
+
+typographer > * {
+	margin-top: 20px;
+}
+
+typographer h3 + h3 {
+	margin-top: 50px;
+}
+
+.typographer-portrait {
+	max-width: 300px;
+	margin-top: 20px;
+}
+
+.ballpoint {
+	max-width: 150px;
+}
+
+.pen-handle {
+	max-width: 150px;
+}
+
+.typographer-name, .typographer-role {
+	font-size: clamp(2em, 4vw, 5em);
+}
+
+.typographer-info {
+	line-height: 1;
+}
+
+.typographer-info figcaption, 
+.typographer-info svg {
+	margin-top: 15px;
+}
+
+.jan-rep span {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.typographer-name, .typographer-role {
+	/*color: maroon;*/
+	border-top:  4px solid red;
+}
+
+.typographer-name .name, .typographer-role .role {
+	display: inline-block;
+	/*border-top:  4px solid red;*/
+}
+
+
+/*.typographer-role  {
+	color: maroon;
+	border-top:  4px solid red;
+}*/
+
+/*.typographer-role .role {
+
+}
+*/
+
+.type-advocacy {
+	font-size: clamp(.9em, 3vw, 4em);
+}
+
+typographer strong {
+	font-weight: bolder;
+}
+
+@media (min-width: 600px) {
+	typographer {
+		display: grid;
+		grid-template-columns: repeat(3, auto);
+	}
+	.typographer-name, .typographer-role {
+		display: flex;
+		flex-direction: column;
+	}
+	.typographer-name .name, 
+	.typographer-role .role {
+		align-self: end;
+	}
+	.typographer-role .role {
+		writing-mode: vertical-rl;
+		/*transform: rotate(-180deg);*/
+		border-right: 4px solid red;
+		flex-shrink: 0;
+		flex-basis: 600px;
+	}
+	.typographer-role {
+		border-top: unset;
+		grid-column: 1;
+	}
+	.typographer figcaption {
+		/*display: flex;*/
+		/*flex-direction: row;*/
+		/*align-items: center;*/
+		writing-mode: vertical-rl;
+		color:  linen;
+	}
+	.typographer-header {
+		grid-column: 1 / 4;
+	}
+	.typographer-rep {
+		grid-row: 2;
+		grid-column: 2 / 4;
+		position: relative;
+		padding-left: 40px;
+	}
+	.typographer-info {
+		grid-column: 4;
+	}
+	.typographer {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+	}
+	.jan-rep {
+		order: 1;
+	}
+	.typographer-portrait {
+		order: 2;
+	}
+	.type-advocacy {
+		position: absolute;
+		top: 90px;
+	}
+	.pen-handle {
+		transform: rotate(90deg);
+	}
+	.typographer-portrait {
+		position: absolute;
+		left:  138px;
+		bottom:  -55px;
+	}
+}
+
+@media (min-width:  1100px) {
+	.typographer figcaption {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+}

@@ -1,0 +1,88 @@
+office-poster {
+  display: block;
+}
+
+office-poster h3, office-poster h4 {
+  font-size: clamp(1.5em, 8vw, 8em);
+  color: gold;
+  line-height: 1;
+}
+
+.every-time {
+  font-size: clamp(4em, 5vw, 10em);
+}
+
+.you-are {
+  
+}
+
+.trying-something-new {
+  
+}
+
+/* .trying, .something, .new {
+  display: block;
+} */
+
+.mantra-list,.inner-mantra h4 {
+  font-size: .2em;
+  color: initial;
+}
+
+
+@media (min-width: 600px) {
+  .trying, .something, .new {
+    display: block;
+  }
+  office-poster {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, auto);
+  }
+  .every-time {
+    grid-column: 1 / 5;
+    font-size: 7em;
+  }
+  .you-are {
+    font-size: 7em;
+    writing-mode: vertical-rl;
+    grid-column: 1 / 4;
+  }
+  .inner-voice {
+    grid-row: 2;
+    grid-column: 1 / 2;
+    max-width: 35ch;
+    margin-top: 20px;
+  }
+  .right-path {
+    grid-column: 1;
+    grid-row: 3 / span 2;
+    position: absolute;
+    top: 100px;
+    right: 400px;
+    max-width: 35ch;
+  }
+  .trying-something-new {
+    grid-column: 1;
+  }
+  .reward {
+    display: flex;
+    flex-direction: row;
+    grid-row: 7;
+    max-width: 45ch;
+  }
+  .mantra-list {
+    flex-shrink: 0;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .inner-mantra {
+    display: flex;
+    justify-content: space-between;
+  }
+  .inner-mantra + p {
+    margin-top: 20px;
+  }
+}

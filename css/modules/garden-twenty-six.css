@@ -98,7 +98,4 @@ masterclass ul + h4, masterclass h3 + h4 {
   .masterclass-options {
 /*     order: 2; */
   }
-  masterclass footer {
-    background: maroon;
-  }
 }
