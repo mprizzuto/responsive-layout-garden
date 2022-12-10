@@ -16,6 +16,12 @@ tr, td {
   padding: 15px;
 }
 
+tbody tr td:first-of-type, tbody tr:first-of-type {
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+}
+
 tbody tr td:first-of-type + td  {
   border-bottom: 2px solid gray;
   border-left: 2px solid gray;
