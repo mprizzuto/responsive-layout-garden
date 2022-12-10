@@ -2,6 +2,10 @@ coffee-time {
   display: block;
 }
 
+coffee-time h3:first-of-type ~ * {
+  margin-top: 5px;
+}
+
 coffee-card {
   display: block;  
 }
@@ -25,25 +29,43 @@ coffee-time .coffee-ad * {
   font-size: 1.5em;
 }
 
-coffee-card > h3:last-of-type {
+coffee-time coffee-card > h3:last-of-type {
   color: purple;
   position: relative;
   top: 50px;
   left: 10px;
 }
 
+coffee-time .coffee-card-title {
+  font-size: 3em;
+  text-transform: capitalize;
+}
+
+coffee-time .coffee-ad-title {
+  font-size: 3em;
+  text-transform: capitalize;
+}
+
+
 @media (min-width: 600px) {
-  coffee-card {
+  coffee-time .coffee-card-title {
+    margin: 20px;
+  }
+
+  coffee-time .coffee-ad-title {
+    margin: 10px;
+  }
+  coffee-time coffee-card {
     display: flex;
     transform: rotate(15deg) translate(25%, 0);
     max-width: 64%;
     border: 2px double maroon;
     padding: 10px;
   }
-  coffee-card > h3 {
+  coffee-time coffee-card > h3 {
     writing-mode: vertical-rl;
   }
-  coffee-card > h3:first-of-type {
+  coffee-time coffee-card > h3:first-of-type {
     color: red;
     transform: rotate(180deg);
     align-self: end;
