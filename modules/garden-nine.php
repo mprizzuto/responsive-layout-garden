@@ -36,7 +36,7 @@
 
         <figcaption>john dough in his many forms</figcaption>
 
-        <p class="person-last-seen"><strong>last seen: may22 2022 near bakery ave and oven lane</strong></p>
+        <p><strong class="person-info">last seen:</strong>may22 2022 near bakery ave and oven lane</p>
       </div>
     </figure>
   </person-card>
