@@ -46,13 +46,29 @@ color-palettes h3 {
   font-size: 2em;
 }
 
+color-palettes h3:first-of-type {
+  margin-bottom: 15px;
+}
+
 palette h4 {
   font-size: 1.5em;
   text-transform: uppercase;
 /*   color: white; */
 }
 
-@media (min-width: 750px) {
+.color-details {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+@media (min-width: 800px) {
+  .color-details {
+    margin-right: 10px;
+}
+
+  color-palettes h3:first-of-type {
+    margin-left: 15px;
+  }
   .color-details li {
     display: flex;
     justify-content: space-between;
