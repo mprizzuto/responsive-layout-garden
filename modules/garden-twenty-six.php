@@ -1,6 +1,6 @@
 <masterclass>
   <header class="masterclass-header">
-    <h3>wedding crashers</h3>
+    <h3>street photography</h3>
     
     <ul class="avc-presents">
       <li>avc presents</li>
@@ -30,8 +30,8 @@
     <h4>two amazing masterclasses</h4>
     
     <ul class="photo-class-types">
-      <li>wedding photography</li>
-      <li>fashion photography</li>
+      <li>urban street photography</li>
+      <li>street photojournalism</li>
     </ul>
     
     <h4>dates</h4>
@@ -47,8 +47,8 @@
   </section>
   
   <footer class="masterclass-footer">
-    <picture class="camera-logo" aria-hidden="true">
-      <img src="https://cdn.shopify.com/s/files/1/0272/6874/3267/files/AVC_LOGO_FORWEB-01_250x@2x.png?v=1636772439" alt="">
+    <picture class="camera-logo">
+      <img src="https://sb.secomapp.com/images/artwork/sb_logo_60817.png" alt="">
     </picture>
     
     <picture class="masterclass-photo">
