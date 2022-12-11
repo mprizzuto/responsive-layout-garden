@@ -19,7 +19,7 @@ stamp {
 }
 
 .stamp-title {
-	font-size: clamp(1.5em, 2vw, 3em);
+	font-size: clamp(1.2em, 2vw, 3em);
 }
 
 .stamp-portrait {
