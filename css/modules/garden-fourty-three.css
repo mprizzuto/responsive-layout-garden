@@ -12,10 +12,6 @@ film-teaser > .film-still {
   margin-top: 20px;
 }
 
-.film-teaser-header .film-still {
-  max-width: 100px;
-}
-
 film-teaser em {
   font-style: italic;
 }
@@ -32,14 +28,24 @@ film-teaser em {
   font-size: 2em;
 }
 
+.film-described {
+  margin-top: 15px;
+}
+
+.film-teaser-figure .film-still {
+  max-width: 300px;
+}
+
+
 @media (min-width: 600px) {
   film-teaser {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .film-teaser-header {
-    display: flex;
-    writing-mode: vertical-rl;
+/*    display: flex;*/
+/*    writing-mode: vertical-rl;*/
   }
   film-teaser p {
     margin-top: unset;
@@ -48,6 +54,6 @@ film-teaser em {
     margin-top: 20px;
   }
   .film-teaser-header .film-still {
-    transform: rotate(90deg);
+/*    transform: rotate(90deg);*/
   }
 }
