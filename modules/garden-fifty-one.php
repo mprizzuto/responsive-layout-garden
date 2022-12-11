@@ -1,6 +1,6 @@
 <social-card>
 	<header class="social-card-header">
-		<h3>@genricUser</h3>
+		<h3>@genericUser</h3>
 	</header>
 
 	<social-metrics>
