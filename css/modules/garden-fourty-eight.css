@@ -1,5 +1,15 @@
+.garden-fourty-eight {
+/*	border: 10px double lime;*/
+	min-height: 1100px; /*just in case i dont fix the layout for garden 49*/
+}
+
+typographer * {
+/*	border: 5px solid red;*/
+}
+
 typographer {
 	display:  block;
+	min-height: 900px;
 }
 
 typographer > * {
@@ -13,13 +23,6 @@ typographer h3 + h3 {
 .typographer-portrait {
 	max-width: 300px;
 	margin-top: 20px;
-}
-
-.typographer-pen {
-	display: flex;
-	flex-direction: row;
-/*	justify-content: center;*/
-	align-items: center;
 }
 
 .ballpoint {
@@ -78,6 +81,11 @@ typographer strong {
 }
 
 @media (min-width: 600px) {
+	.typographer-pen {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
 	typographer {
 		display: grid;
 		grid-template-columns: repeat(3, auto);
@@ -127,9 +135,6 @@ typographer strong {
 	.jan-rep {
 		order: 1;
 	}
-	.typographer-portrait {
-		order: 2;
-	}
 	.type-advocacy {
 		position: absolute;
 		top: 90px;
@@ -138,12 +143,15 @@ typographer strong {
 		transform: rotate(90deg);
 /*		margin-left: 100px;*/
 	}
+	.ballpoint, .pen-handle {
+		max-height: 100px;
+	}
 	.typographer-portrait {
 		position: absolute;
-/*		left:  138px;*/
-/*		bottom:  -85px;*/
-		left: 190px;
-    bottom: -103px;
+		left: 100px;
+    bottom: -160px;
+    min-width: 47%;
+		order: 2;
 	}
 	.prominent-type {
 		min-height: 200px;
