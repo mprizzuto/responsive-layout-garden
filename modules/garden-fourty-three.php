@@ -5,7 +5,7 @@
       <picture class="film-still">
         <img src="./images/garden-photos/garden-forty-three/paper-bag.jpg" alt="a paper bag on a sidewalk">
       </picture>
-      
+
       <figcaption>a man from a bygone time</figcaption>
     </figure>
     
@@ -18,7 +18,11 @@
    </div>
   </header>
   
-  <picture class="film-still">
-    <img src="./images/garden-photos/garden-forty-three/green-bag.jpg" alt="a reusable bag">
-  </picture>
+  <figure class="film-teaser-figure">
+    <picture class="film-still">
+      <img src="./images/garden-photos/garden-forty-three/green-bag.jpg" alt="a reusable bag">
+    </picture>
+
+    <figcaption>the green bag is the future</figcaption>
+  </figure>
 </film-teaser>
