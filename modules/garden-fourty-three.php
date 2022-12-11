@@ -1,8 +1,13 @@
 <film-teaser>
   <header class="film-teaser-header">
-    <picture class="film-still">
-      <img src="https://via.placeholder.com/150" alt="">
-    </picture>
+    <figure class="film-teaser-figure">
+
+      <picture class="film-still">
+        <img src="./images/garden-photos/garden-forty-three/paper-bag.jpg" alt="a paper bag on a sidewalk">
+      </picture>
+      
+      <figcaption>a man from a bygone time</figcaption>
+    </figure>
     
    <div class="film-described">
     <h3 class="film-title">le Bage</h3>
@@ -14,6 +19,6 @@
   </header>
   
   <picture class="film-still">
-    <img src="https://via.placeholder.com/550X800" alt="">
+    <img src="./images/garden-photos/garden-forty-three/green-bag.jpg" alt="a reusable bag">
   </picture>
 </film-teaser>
