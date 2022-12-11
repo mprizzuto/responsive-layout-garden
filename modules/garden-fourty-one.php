@@ -2,27 +2,27 @@
   <div class="celebs-grouped">
     <figure class="celeb-figure">
       <picture class="celeb-one">
-        <img src="https://via.placeholder.com/150" alt="">
+        <img src="./images/garden-photos/garden-forty-one/brad-angelina.jpg" alt="brad and angelina jolie smile">
       </picture>
 
-      <figcaption>celeb couple one</figcaption>
+      <figcaption>brad and angelina</figcaption>
     </figure>
 
    <figure class="celeb-figure">
      <picture class="celeb-two">
-      <img src="https://via.placeholder.com/150" alt="">
+      <img src="./images/garden-photos/garden-forty-one/brad-aniston.jpg" alt="bradd pitt and jennifer aniston">
      </picture>
 
-     <figcaption>celeb couple two</figcaption>
+     <figcaption>brad and jennifer</figcaption>
    </figure>
   </div>
 
   <figure class="celeb-figure">
     <picture class="celeb-three">
-      <img src="https://via.placeholder.com/300X600" alt="">
+      <img src="./images/garden-photos/garden-forty-one/brad-paltrow.jpg" alt="brad pitt and Gwyneth paltrow">
     </picture>
 
-    <figcaption>celeb couple 3</figcaption>
+    <figcaption>brad and Gwyneth</figcaption>
   </figure>
 </celebrity-photos>
 
