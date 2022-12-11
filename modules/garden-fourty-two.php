@@ -5,7 +5,7 @@
 	</header>
 
 	<picture class="zodiac-symbol">
-		<img src="https://via.placeholder.com/150" alt="zodiac, the twins">
+		<img src="./images/garden-photos/garden-forty-two/gemini.png" alt="the symbom of zodiac">
 	</picture>
 
 	<section class="addictions">
