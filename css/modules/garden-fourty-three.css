@@ -40,17 +40,21 @@ film-teaser em {
   max-width: 300px;
 }
 
+.film-teaser-figure figcaption {
+}
 
 @media (min-width: 600px) {
   film-teaser {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+/*    flex-wrap: wrap;*/
+    gap: 3%;
   }
   .film-teaser-header {
     display: flex;
     gap: 2%;
 /*    writing-mode: vertical-rl;*/
+    margin-right: 40px;
   }
   film-teaser p {
     margin-top: unset;
@@ -60,5 +64,18 @@ film-teaser em {
   }
   .film-teaser-header .film-still {
 /*    transform: rotate(90deg);*/
+  }
+  .film-described {
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    max-width: 20ch;
+  }
+  .film-teaser-header .film-teaser-figure:first-of-type {
+    order: 2;
+    line-height: 2;
+    margin-left: 30px;
+  }
+  .film-described h3 + p {
+    margin-right: 10px;
   }
 }
