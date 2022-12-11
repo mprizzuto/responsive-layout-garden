@@ -5,7 +5,7 @@
 
 	<social-metrics>
 		<picture class="user-photo">
-			<img src="https://peprojects.dev/images/square.jpg" alt="user photo">
+			<img src="./images/garden-photos/garden-fifty-one/square-plants.jpg" alt="user photo">
 		</picture>
 
 		<ul class="user-metrics">
