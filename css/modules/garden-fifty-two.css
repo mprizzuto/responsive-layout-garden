@@ -57,12 +57,11 @@ anterior-card, posterior-card {
     position: absolute;
 /*     right: 100px; */
     /*left: 410px;*/
-    bottom: 94px;
+/*    bottom: 94px;*/
     right: 134px;
     left: 476px;
     z-index: -1;
     width: 100%;
-    min-height: 600px;
     
   }
   posterior-card {
@@ -77,6 +76,7 @@ anterior-card, posterior-card {
   .anterior-title {
     writing-mode: vertical-rl;
     max-height: 96ch;
+    line-height: 2;
   }
   .dont-stay {
     align-self: end;
