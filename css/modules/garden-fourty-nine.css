@@ -19,7 +19,7 @@ pe-teaser header * {
 }
 
 .design-school-header h3 {
-	font-size: clamp(1.5em, 2vw, 5em);
+	font-size: clamp(1.3em, 2vw, 2em);
 }
 
 .pe-sign {
@@ -50,7 +50,7 @@ pe-teaser header * {
 .pe-dot {
 	position: relative;
 	z-index: -1;
-	max-width: 45vw;
+	max-width: 30vw;
 	order:  2;
 }
 
