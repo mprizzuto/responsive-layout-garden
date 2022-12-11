@@ -6,7 +6,7 @@ film-teaser {
   display: block;
 }
 
-film-teaser > .film-still {
+film-teaser > .film-teaser-figure {
   max-width: 600px;
   width: 60vw;
   margin-top: 20px;
@@ -32,6 +32,10 @@ film-teaser em {
   margin-top: 15px;
 }
 
+.film-described p {
+  max-width: 60ch;
+}
+
 .film-teaser-figure .film-still {
   max-width: 300px;
 }
@@ -44,7 +48,8 @@ film-teaser em {
     flex-wrap: wrap;
   }
   .film-teaser-header {
-/*    display: flex;*/
+    display: flex;
+    gap: 2%;
 /*    writing-mode: vertical-rl;*/
   }
   film-teaser p {
