@@ -19,25 +19,35 @@
 			</picture>
 
 			<figcaption class="jan-rep">
-				<span class="prominent-type">prominent twentieth century german typographer </span>
 
-				<svg class="ballpoint" width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+				<div class="typographer-pen">
+					<span class="prominent-type">prominent twentieth century german typographer </span>
+					<svg class="ballpoint" width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 				    <g transform="matrix(1,0,0,1,-118.847,-90.6939)">
 				        <g transform="matrix(1.02923,0,0,1.13545,39.1367,-206.083)">
 				            <ellipse cx="174.606" cy="349.445" rx="97.16" ry="88.071" style="fill:rgb(236,236,236);"/>
 				        </g>
 				    </g>
-				</svg>
+					</svg>
 
-				<span class="book-designer">book designer</span>
+					<span class="book-designer">book designer</span>
 
-				<svg class="pen-handle" width="100%" height="100%" viewBox="0 0 600 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+					<svg class="pen-handle" width="100%" height="100%" viewBox="0 0 600 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 				    <g transform="matrix(1,0,0,1,-41.2348,-437.138)">
 				        <g transform="matrix(1.07346,0,0,0.490728,-3.02892,250.126)">
 				            <rect x="41.235" y="381.09" width="558.943" height="101.889" style="fill:rgb(236,236,236);"/>
 				        </g>
 				    </g>
-				</svg>
+					</svg>
+				</div>
+
+				<!-- <svg class="pen-handle" width="100%" height="100%" viewBox="0 0 600 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+				    <g transform="matrix(1,0,0,1,-41.2348,-437.138)">
+				        <g transform="matrix(1.07346,0,0,0.490728,-3.02892,250.126)">
+				            <rect x="41.235" y="381.09" width="558.943" height="101.889" style="fill:rgb(236,236,236);"/>
+				        </g>
+				    </g>
+				</svg> -->
 			</figcaption>
 		</figure>
 	</aside>

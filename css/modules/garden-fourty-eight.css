@@ -15,8 +15,15 @@ typographer h3 + h3 {
 	margin-top: 20px;
 }
 
+.typographer-pen {
+	display: flex;
+	flex-direction: row;
+/*	justify-content: center;*/
+	align-items: center;
+}
+
 .ballpoint {
-	max-width: 150px;
+	max-width: 50px;
 }
 
 .pen-handle {
@@ -43,7 +50,6 @@ typographer h3 + h3 {
 
 .typographer-name, .typographer-role {
 	/*color: maroon;*/
-	border-top:  4px solid red;
 }
 
 .typographer-name .name, .typographer-role .role {
@@ -61,6 +67,7 @@ typographer h3 + h3 {
 
 }
 */
+
 
 .type-advocacy {
 	font-size: clamp(.9em, 3vw, 4em);
@@ -86,7 +93,6 @@ typographer strong {
 	.typographer-role .role {
 		writing-mode: vertical-rl;
 		/*transform: rotate(-180deg);*/
-		border-right: 4px solid red;
 		flex-shrink: 0;
 		flex-basis: 600px;
 	}
@@ -130,11 +136,20 @@ typographer strong {
 	}
 	.pen-handle {
 		transform: rotate(90deg);
+/*		margin-left: 100px;*/
 	}
 	.typographer-portrait {
 		position: absolute;
-		left:  138px;
-		bottom:  -55px;
+/*		left:  138px;*/
+/*		bottom:  -85px;*/
+		left: 190px;
+    bottom: -103px;
+	}
+	.prominent-type {
+		min-height: 200px;
+	}
+	.book-designer {
+		margin-bottom: 30px;
 	}
 }
 
