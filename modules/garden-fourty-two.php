@@ -1,7 +1,7 @@
 <zodiac-card>
 	<header class="astrology-header">
 		<h3 class="zodiac-title">gemini</h3>
-		<p class="post-cited">@trustedteller</p>
+		<p class="zodiac-post-cited">@trustedteller</p>
 	</header>
 
 	<picture class="zodiac-symbol">
