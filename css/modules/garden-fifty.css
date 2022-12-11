@@ -68,7 +68,7 @@ stamp {
 		/*top: 35px;*/
 		/*bottom: 90px;*/
 /*    left: -68px;*/
-		left: 50%;
+		left: 70%;
 		top: 25px;
 		z-index: -1;
 		background: maroon;
@@ -80,7 +80,8 @@ stamp {
 		overflow: hidden;
 	}
 	stamp {
-		width:  80%;
+		width:  100%;
+		min-width: 100px;
 		margin: 20px;
 		/*margin-bottom: 20px;*/
 	}
