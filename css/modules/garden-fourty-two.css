@@ -6,9 +6,16 @@ zodiac-card section + section {
 	margin-top: 20px;
 }
 
-zodiac-card h3 + p, zodiac-card h4 + p,
+zodiac-card h3 + p, zodiac-card h4 + p {
+	margin-top: 10px;
+}
+
+zodiac-card ul {
+	line-height: 1.2;
+}
+
 zodiac-card h4 + ul {
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 zodiac-card h4 + ul li {
@@ -17,9 +24,19 @@ zodiac-card h4 + ul li {
 }
 
 zodiac-card h4 {
+	font-size: clamp(2em, 2vw, 4em);
 	background: maroon;
 	color: white;
 	padding: 10px;
+	letter-spacing: 0.01em;
+}
+
+zodiac-card h4::first-letter {
+	text-transform: uppercase;
+}
+
+.zodiac-title {
+	text-transform: capitalize;
 }
 
 zodiac-card h4 + ul {
@@ -35,8 +52,9 @@ zodiac-card h4 + ul {
 	font-size: clamp(2.5em, 4vw, 5em);
 }
 
-.post-cited {
-	margin-top: 10px;
+.zodiac-post-cited{
+/*	margin-top: 10px;*/
+	font-style: italic;
 }
 
 @media (min-width: 600px) {
