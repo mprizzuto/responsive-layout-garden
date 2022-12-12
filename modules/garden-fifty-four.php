@@ -1,7 +1,7 @@
 <boston-globe>
   <ul class="attr-list">
     <li>
-      <h1 class="mag-article">The Boston Globe</h1>
+      <h2 class="mag-article">The Boston Globe</h2>
     </li>
     <li>Saturday</li>
     <li>jan 9th 2021</li>
