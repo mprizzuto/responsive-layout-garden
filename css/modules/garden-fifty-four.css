@@ -29,7 +29,7 @@ boston-globe span, li {
 }
 
 boston-globe section {
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   outline: 1px solid black;
   background: gold;
   padding: 2%;
@@ -140,6 +140,6 @@ boston-globe p + h2 {
   }
    .theater-company p:first-of-type {
 /*      outline: 3px solid red; */
-     font-weight: bolder;
+    font-weight: bolder;
   }
 }
