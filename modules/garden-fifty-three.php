@@ -7,7 +7,7 @@
 	    <figcaption><span class="name">Senator Patsy Mink-</span>  <br> <q cite="https://en.wikipedia.org/wiki/Patsy_Mink#Family_background">She was the first woman of color and the first Asian-American woman elected to Congress, and also the first woman elected to Congress from the state of Hawaii <br> -source: Wikipedia</q></figcaption>
 	  </figure> 
 	  
-	  <h2 class="heading-two">Patsy Mink fought for equality decades ago. The fight continues today</h2>
+	  <h2 class="heading-two patsy-mink-legacy">Patsy Mink fought for equality decades ago. The fight continues today</h2>
 	</div>
 
 	<call-to-action class="cta-area">

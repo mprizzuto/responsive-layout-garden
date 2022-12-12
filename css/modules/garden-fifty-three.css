@@ -20,10 +20,46 @@ call-to-action {
   max-height: 30ch;
 }
 
+.historical-figure {
+  margin-top: 10px;
+}
 
+.history-lesson-title {
+  font-size: clamp(2em, 3vw, 4em);
+  text-transform: capitalize;
+}
+
+.historical-figure figcaption {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.historical-figure figcaption q {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.patsy-mink-legacy {
+  margin-top: 10px;
+  font-size: clamp(2em, 3vw, 3em);
+  line-height: 1.3;
+}
+
+.cta-area h3 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+call-to-action .truth-list {
+  margin-top: 5px;
+  line-height: 1.3;
+}
 
 
 @media (min-width: 600px) {
+  .history-lesson h3 {
+    margin-right: 20px;
+  }
   .history-lesson, .history-lesson h2 {
     flex-wrap: nowrap;
   }
