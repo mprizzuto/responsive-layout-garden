@@ -1,5 +1,5 @@
 <diet-advice>
-  <h3>weight loss advice</h3>
+  <h2>weight loss advice</h2>
   
   <ol class="weight-loss-tips">
     <li>
