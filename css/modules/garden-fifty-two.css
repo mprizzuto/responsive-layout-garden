@@ -30,8 +30,10 @@ anterior-card, posterior-card {
   margin-top: 10px;
 }
 
-.dont-stay {
-  font-size: 1.3em;
+posterior-card .dont-stay {
+  font-size: clamp(1.3em, 4vw, 3em);
+  text-transform: capitalize;
+  color: maroon;
 }
 
 .bottom-leg-one, .bottom-leg-two {
