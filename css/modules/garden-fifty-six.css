@@ -1,8 +1,27 @@
+weight-loss-tip {
+  display: block;
+}
+
+tip-number {
+  display: block;
+}
+
+tip {
+  display: block;
+  margin-top: 15px;
+}
+
 diet-advice {
   display: block;
 /*   outline: 2px solid red; */
 margin-top: 100px;
 }
+
+diet-advice h2 {
+  font-size: 2.5em;
+  text-transform: capitalize;
+}
+
 
 .weight-loss-tips {
 /*   list-style-type: decimal; */
@@ -19,16 +38,8 @@ margin-top: 100px;
   margin-top: 20px;
 }
 
-weight-loss-tip {
-  display: block;
-}
-
-tip-number {
-  display: block;
-}
-
-tip {
-  display: block;
+.weight-loss-tips li + li {
+  margin-top: 30px;
 }
 
 .step-number {
