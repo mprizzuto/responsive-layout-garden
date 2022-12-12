@@ -32,8 +32,4 @@ of the case</li>
       <figcaption>dr eddy nassif <span class="vet-credentials">veterinarian | Drapp id:6085</span></figcaption>
     </figure>
   </section>
-
- <!--  <footer class="vet-card-footer">
-
-  </footer> -->
 </vet-card>
