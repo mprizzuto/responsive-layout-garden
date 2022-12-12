@@ -33,7 +33,7 @@ of the case</li>
     </figure>
   </section>
 
-  <footer class="vet-card-footer">
+ <!--  <footer class="vet-card-footer">
 
-  </footer>
+  </footer> -->
 </vet-card>
