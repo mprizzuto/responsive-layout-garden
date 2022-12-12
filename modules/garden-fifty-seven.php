@@ -1,6 +1,6 @@
 <realty-conference>
   <div class="featured-realtor">
-    <h3>featuring</h3>
+    <h2 class="featured-realtors">featuring</h2>
     
     <figure class="realtor">
       <picture class="realtor-speaker">
@@ -10,7 +10,7 @@
       <figcaption>dr lawrence yun</figcaption>
       
       <ul class="realtor-facts">
-        <li>chief economist</li>
+        <li><em>chief economist</em></li>
         <li>senior vice president of research</li>
         <li>national association of realtors</li>
       </ul>
