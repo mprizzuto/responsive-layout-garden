@@ -58,7 +58,6 @@ order: 2;
     flex-shrink: 0;
     flex-basis: 15vw;
     max-width: 400px;
-    outline: 3px solid red;
   }
   .be-you {
     grid-column: 1 / 4;
