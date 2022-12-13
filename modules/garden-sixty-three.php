@@ -8,7 +8,7 @@
 			<originator>
 				<realty-team>
 					<picture class="originator-portrait">
-						<img src="https://peprojects.dev/images/square.jpg" alt="">
+						<img src="./images/garden-photos/garden-sixty-three/realtor-one.jpg" alt="a man">
 					</picture>
 
 					<div class="originator-team">
@@ -26,7 +26,7 @@
 			<originator>
 				<realty-team>
 					<picture class="originator-portrait">
-						<img src="https://peprojects.dev/images/square.jpg" alt="">
+						<img src="./images/garden-photos/garden-sixty-three/realtor-two.jpg" alt="a man">
 					</picture>
 
 					<div class="originator-team">
@@ -44,7 +44,7 @@
 			<originator>
 				<realty-team>
 					<picture class="originator-portrait">
-						<img src="https://peprojects.dev/images/square.jpg" alt="">
+						<img src="./images/garden-photos/garden-sixty-three/realtor-three.jpg" alt="a man">
 					</picture>
 
 					<div class="originator-team">
@@ -62,7 +62,7 @@
 			<originator>
 				<realty-team>
 					<picture class="originator-portrait">
-						<img src="https://peprojects.dev/images/square.jpg" alt="">
+						<img src="./images/garden-photos/garden-sixty-three/realtor-four.jpg" alt="a man">
 					</picture>
 
 					<div class="originator-team">
@@ -80,7 +80,7 @@
 			<originator>
 				<realty-team>
 					<picture class="originator-portrait">
-						<img src="https://peprojects.dev/images/square.jpg" alt="">
+						<img src="./images/garden-photos/garden-sixty-three/realtor-five.jpg" alt="a man">
 					</picture>
 
 					<div class="originator-team">
