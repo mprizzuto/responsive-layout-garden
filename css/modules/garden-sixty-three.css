@@ -60,11 +60,11 @@ garden-sixty-three inner-column {
 }
 
 .originator-team {
-	margin-left: 10px;
+	margin-left: 30px;
 }
 
 .originator-team h4 {
-	font-size: clamp(1.8em, 2vw, 3em);
+/*	font-size: clamp(1.5em, 2vw, 3em);*/
 }
 
 /*.originator-list {
@@ -77,10 +77,11 @@ garden-sixty-three inner-column {
 }*/
 
 .unit-amount {
-	font-size: 1.4em;
+/*	font-size: 1.4em;*/
+	margin-top: 10px;
 }
 
-@media (min-width: 470px) {
+@media (min-width: 600px) {
 	originator {
 	display: flex;
 	align-items: center;
@@ -92,12 +93,9 @@ garden-sixty-three inner-column {
 	transform: rotate(-90deg);
 	position: relative;
   right: -120px;
-  top: -90px;
-	max-width: 200px;
+/*  top: -90px;*/
+	max-width: 400px;
 	}
-}
-
-@media (min-width:  600px) {
 }
 
 @media (min-width:  900px) {
