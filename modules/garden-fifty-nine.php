@@ -19,7 +19,7 @@
 
 		<figure class="lawyer-figure">
 			<picture class="advogado-portrait">
-				<img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/260789896_448373713296780_5157080121702940215_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=3FSqLw-VqkMAX-h_iIR&_nc_ht=scontent-lga3-1.xx&oh=00_AT8fjTwJuK1WuOOO-OpOxewDDsKTvXDVvFLxZC_gtd5dgg&oe=62BAD0BC" alt="a woman smiles">
+				<img src="./images/garden-photos/garden-fifty-nine/lawyer.jpg" alt="a woman smiles">
 			</picture>
 
 			<figcaption>Marta Alexandra Ferro Rodrigues</figcaption>
