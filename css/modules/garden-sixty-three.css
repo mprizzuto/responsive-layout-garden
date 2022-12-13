@@ -37,6 +37,7 @@ realty-team {
 }*/
 
 .originator-list {
+	list-style: none;
 	margin-top: 25px;
 }
 
@@ -61,6 +62,11 @@ garden-sixty-three inner-column {
 .originator-team {
 	margin-left: 10px;
 }
+
+.originator-team h4 {
+	font-size: clamp(1.8em, 2vw, 3em);
+}
+
 /*.originator-list {
 	list-style-type: decimal;
 	transform: rotate(-90deg);
@@ -69,6 +75,10 @@ garden-sixty-three inner-column {
 	top: -90px;
 	max-width: 200px;
 }*/
+
+.unit-amount {
+	font-size: 1.4em;
+}
 
 @media (min-width: 470px) {
 	originator {
