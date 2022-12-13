@@ -6,28 +6,28 @@
   </div>
 
   <picture class="be-you">
-    <img src="https://bloximages.chicago2.vip.townnews.com/primepublishers.com/content/tncms/assets/v3/editorial/9/4e/94e09384-a3fd-5118-9c83-74e53ea96fec/627a6c86d19f8.image.jpg?crop=1790%2C940%2C0%2C109&resize=1200%2C630&order=crop%2Cresize" alt="vetinary hospitals, unapologetically you">
+    <img src="https://bloximages.chicago2.vip.townnews.com/primepublishers.com/content/tncms/assets/v3/editorial/9/4e/94e09384-a3fd-5118-9c83-74e53ea96fec/627a6c86d19f8.image.jpg?crop=1790%2C940%2C0%2C109&resize=1200%2C630&order=crop%2Cresize" alt="">
   </picture>
 
   <div class="guest-speakers">
     <picture class="guest-speaker">
-      <img src="https://peprojects.dev/images/square.jpg" alt="">
+      <img src="./images/garden-photos/garden-nineteen/animal-one.jpg" alt="a frog on a flower">
     </picture>
 
     <picture class="guest-speaker">
-      <img src="https://peprojects.dev/images/square.jpg" alt="">
+      <img src="./images/garden-photos/garden-nineteen/animal-two.jpg" alt="a wolf">
     </picture>
 
     <picture class="guest-speaker">
-      <img src="https://peprojects.dev/images/square.jpg" alt="">
+      <img src="./images/garden-photos/garden-nineteen/animal-three.jpg" alt="a zebra">
     </picture>
 
     <picture class="guest-speaker">
-      <img src="https://peprojects.dev/images/square.jpg" alt="">
+      <img src="./images/garden-photos/garden-nineteen/animal-four.jpg" alt="a toucan on a branch">
     </picture>
 
     <picture class="guest-speaker">
-      <img src="https://peprojects.dev/images/square.jpg" alt="">
+      <img src="./images/garden-photos/garden-nineteen/animal-five.jpg" alt="a flamingo in the water">
     </picture>
   </div>
    
