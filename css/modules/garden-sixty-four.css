@@ -43,6 +43,7 @@ cookie-label {
 
 /*  type*/
 .cookie-founder {
+  font-size: clamp(1.5em, 2vw, 3em);
   background: maroon;
   color: white;
   padding: 5px;
