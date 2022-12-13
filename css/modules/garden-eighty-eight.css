@@ -1,0 +1,66 @@
+attachment-styles {
+  display: block;
+}
+
+attachment-style {
+  display: block;
+  margin-top: 20px;
+  border: 2px solid gray;
+  padding: 10px;
+}
+
+.attachment-styles-heading {
+  background: maroon;
+  color: linen;
+/*   max-width: 336px; */
+/*   padding: 150px; */
+  font-size: clamp(1.5em, 2vw, 3em);
+  min-height: 150px;
+  text-transform: uppercase;
+  border-radius: 50%;
+  border: 2px solid red;
+/*   text-align: center; */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.attachment-badge {
+  max-width: 200px;
+}
+
+.attachment-adjectives {
+  line-height: 1.5;
+  margin-top: 5px;
+}
+
+attachment-style h3 {
+  font-size: 1.8em;
+}
+
+@media (min-width: 600px) {
+  .therapist-cite {
+    text-align: center;
+  }
+  attachment-styles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+  }
+  attachment-style {
+    flex-shrink: 0;
+    flex-basis: 400px;
+  }
+}
+
+@media (min-width: 1100px) {
+  attachment-styles {
+    position: relative;
+  }
+  .attachment-badge {
+    position: absolute;
+    top: 20px;
+    max-width: 180px;
+  }
+}

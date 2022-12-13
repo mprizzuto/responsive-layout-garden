@@ -1,0 +1,64 @@
+social-card {
+	display: block;
+}
+
+social-metrics {
+	display: block;
+}
+
+.user-photo {
+	max-width: 150px;
+	margin-top: 20px;
+}
+
+.user-photo img {
+	border-radius: 50%;
+}
+
+.user-metrics {
+	line-height: 1.2;
+}
+
+.user-metrics li {
+	margin: 10px;
+}
+
+.user-bio p {
+	margin-top: 5px;
+}
+
+.social-card-header, .user-bio summary {
+	background: maroon;
+	color:  white;
+	padding:  10px;
+	max-width: 400px;
+}
+
+.user-bio {
+	margin-top: 20px;
+	max-width: 400px;
+}
+
+.user-metric {
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+
+@media (min-width: 600px) {
+	.user-metric {
+		display: block;
+	}
+	social-metrics {
+		display:  flex;
+		align-items: center;
+	}
+	.user-metrics {
+		display:  flex;
+		flex-direction: row;
+		margin-left: 20px;
+	}
+	.user-metrics li {
+		flex-shrink: 0;
+		flex-basis: 50px;
+	}
+}

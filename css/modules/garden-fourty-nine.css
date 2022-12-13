@@ -50,7 +50,7 @@ pe-teaser header * {
 .pe-dot {
 	position: relative;
 	z-index: -1;
-	max-width: 45vw;
+	max-width: 30vw;
 	order:  2;
 }
 
@@ -75,7 +75,7 @@ pe-teaser header * {
 		position: relative;
 		/*max-width: 600px;*/
 	}
-	.course-name {
+	pe-teaser .course-name {
 		transform: rotate(90deg);
 		position: absolute;
 		top: 50%;

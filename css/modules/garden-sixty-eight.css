@@ -1,0 +1,65 @@
+model-poster {
+	display: block;
+}
+
+model-poster header, 
+model-poster figure, model-poster picture {
+	margin-top: 20px;
+}
+
+.model-highlight .model-headshot {
+	/*max-width:  600px;*/
+}
+
+model-poster > .model-headshot {
+	max-width:  800px;
+}
+
+model-poster .model-poster-header {
+	background: maroon;
+	color:  white;
+}
+
+.model-poster-header .model-poster-title {
+	font-size: 3em;
+}
+
+model-poster .staff-role {
+	font-weight: bolder;
+}
+
+model-poster .model-stats {
+	line-height: 1.5;
+	font-size: 1.2em;
+}
+
+@media (min-width: 700px) {
+	model-poster {
+		display: flex;
+		gap:  3%;
+		position: relative;
+	}
+	model-poster .model-poster-header {
+		transform: rotate(180deg);
+		flex-shrink: 0;
+		flex-basis: 300px;
+		writing-mode: vertical-rl;
+		text-align: center;
+	}
+	.model-stats {
+		margin-top: 20px;
+	}
+	model-poster > .model-headshot {
+		flex-basis: 30vw;
+		outline:  2px solid red;
+	}
+	model-poster .model-highlight {
+		text-align: center;
+		position: relative;
+		right:  100px;
+		top:  30px;
+		z-index: 1;
+		flex-shrink: 0;
+		flex-basis: 200px;
+	}
+}

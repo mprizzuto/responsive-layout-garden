@@ -2,9 +2,22 @@ doctor-card {
   display: block;
 }
 
+doctor-card > * {
+  margin-top: 10px;
+}
+
+doctor-card a {
+  text-decoration: underline;
+}
+
 .doc-connect-logo {
+  display: inline-block;
   max-width: 150px;
   margin-top: 10px;
+}
+
+.doctor-figure figcaption  {
+  display: inline-block;
 }
 
 .doc-site-link {
@@ -16,9 +29,16 @@ doctor-card h3 {
   font-size: 2em;
 }
 
+.womens-day {
+  font-size: 1.2em;
+}
+
 @media (min-width: 600px) {
   doctor-card {
     display: flex;
+  }
+  doctor-card h3, doctor-card h4 {
+    margin: 15px;
   }
   .womens-day, .doctor-expert {
     writing-mode: vertical-rl;
@@ -27,6 +47,10 @@ doctor-card h3 {
   }
   .doctor-figure {
     position: relative;
+  }
+  .doctor-figure figcaption {
+    display: block;
+    margin-top: 20px;
   }
   .doc-connect-logo {
     position: absolute;

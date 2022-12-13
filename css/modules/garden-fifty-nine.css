@@ -1,0 +1,41 @@
+accident-card {
+	display: block;
+}
+
+accident-card > * {
+	margin-top: 10px;
+}
+
+accident-card h3 {
+	font-size: 2.5em;
+}
+
+.lawyer-info {
+	margin-top: 10px;
+}
+
+.lawyer-info li:first-of-type {
+	text-transform: capitalize;
+}
+
+.advogado-portrait {
+	max-width: 300px;
+	margin-top: 10px;
+}
+
+.bill-info p {
+	max-width: 65ch;
+}
+
+@media (min-width: 600px) {
+	.bill-info {
+		/*position: relative;*/
+		column-count: 3;
+	}
+	.lawyer-figure {
+		/*position: absolute;*/
+		/*top: 100px;*/
+		/*left:  50px;*/
+		float: left;
+	}
+}

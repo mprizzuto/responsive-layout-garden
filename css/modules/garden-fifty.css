@@ -1,0 +1,90 @@
+stamps {
+	display:  block;
+}
+
+stamp {
+	display:  block;
+	margin-top: 30px;
+	outline:  1px solid maroon;
+	padding:  2px;
+	/*max-width: 350px;*/
+}
+
+.stamp-sheet-title {
+	font-size: clamp(2em, 8vw, 10em);
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.stamp-feature {
+
+}
+
+.stamp-title {
+	font-size: clamp(1.2em, 2vw, 2em);
+	text-transform: uppercase;
+	background: maroon;
+	color: white;
+}
+
+.stamp-portrait {
+	max-width: 400px;
+}
+
+.stamp-caption {
+	font-size: clamp(1.1em, 1vw, 3em);
+	text-transform: capitalize;
+}
+
+.stamp-sheet {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+/*		gap: 5px;*/
+/*		gap: 1%;*/
+	}
+
+
+
+@media (min-width: 700px) {
+	stamps {
+		display: flex;
+	}
+	/*.stamp-sheet {
+		display: grid;
+		grid-template-columns: repeat(5, 20%);
+		gap:  5px;
+	}*/
+	.stamp-sheet-title {
+		transform: rotate(-90deg);
+		align-self: center;
+	}
+	.stamps-header {
+		align-self: center;
+	}
+	.stamp-title {
+		font-size: .5em;
+		transform: rotate(-90deg);
+		position: absolute;
+		/*top: 35px;*/
+		/*bottom: 90px;*/
+/*    left: -68px;*/
+		left: 70%;
+		top: 25px;
+		z-index: -1;
+		background: maroon;
+    color: white;
+    max-width: 140px;
+	}
+	.stamp-feature {
+		position: relative;
+		overflow: hidden;
+	}
+	stamp {
+		width:  100%;
+		min-width: 100px;
+		margin: 20px;
+		/*margin-bottom: 20px;*/
+	}
+}
+
+

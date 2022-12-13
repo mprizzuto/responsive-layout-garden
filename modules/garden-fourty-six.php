@@ -1,5 +1,5 @@
 <health-influencer>
-  <h3>just a few of the topics</h3>
+  <h3 class="health-influencer-title">just a few of the topics</h3>
 
   <ul class="influencer-list">
     <li>

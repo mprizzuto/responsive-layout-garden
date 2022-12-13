@@ -1,0 +1,60 @@
+pandemic-news {
+  display: block;  
+}
+
+.victim-photo {
+  width: 30vw;
+  max-width: 300px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.pandemic-news-title {
+  font-size: clamp(1.5em, 6vw, 6em);
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .pandemic-victims {
+    display: flex;
+  }
+  pandemic-news {
+    display: flex;
+    flex-direction: column;
+  }
+  .pandemic-victims .victim-photo:first-of-type {
+    border: 10px solid red;
+    position: relative;
+    top: 160px;
+  }
+  .pandemic-victims .victim-photo:nth-child(2) {
+    border: 10px solid red;
+    position: relative;
+    top: 120px;
+  }
+  .pandemic-victims .victim-photo:nth-child(3) {
+    border: 10px solid red;
+    position: relative;
+    top: 80px;
+  }
+  .pandemic-victims .victim-photo:nth-child(4) {
+    border: 10px solid red;
+    position: relative;
+    top: 40px;
+  }
+  .pandemic-victims .victim-photo:last-of-type {
+    border: 10px solid red;
+/*     position: relative; */
+/*     top: 80px; */
+  }
+  pandemic-news .pandemic-news-title:last-of-type {
+    align-self: end;
+  }
+  pandemic-news .pandemic-news-title:last-of-type {
+    color: lime;
+    position: relative;
+/*     z-index: 1; */
+    top: 40px;
+    margin-top: 80px;
+  }
+}

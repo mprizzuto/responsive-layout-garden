@@ -2,6 +2,10 @@ snapshots {
   display: block;
 }
 
+.snapshots-title {
+  font-size: 2em;
+}
+
 .snapshot-two {
   max-width: 300px;
 /*   outline: 3px solid lime; */
@@ -13,6 +17,7 @@ snapshots {
   grid-template-columns: repeat(3, auto);
   grid-template-rows: 2fr;
   grid-gap: 2%;
+  margin-top: 20px;
 }
 
 .picture-list li:first-of-type {

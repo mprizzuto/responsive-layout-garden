@@ -1,5 +1,5 @@
 <snapshots>
-  <h3 class="heading-three">MR photos</h3>
+  <h3 class="snapshots-title">MR photos</h3>
   
   <ul class="picture-list">
     <li>

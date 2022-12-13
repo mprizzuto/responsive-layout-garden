@@ -1,0 +1,79 @@
+weight-loss-poster {
+  display: block;
+/*   max-width: 800px; */
+}
+
+weight-loss-card {
+  display: block;
+}
+
+.weight-loss-step {
+  display: block;
+/*   background: maroon;
+  color: linen; */
+  padding: 20px;
+  font-size: 2em;
+}
+
+.weight-loss-card-title {
+  background: maroon;
+  color: linen;
+}
+
+.weight-loss-tips li {
+  margin-top: 30px;
+}
+
+.weight-loss-tips p {
+  margin-top: 5px;
+  max-width: 40ch;
+}
+
+@media (min-width: 600px) {
+  weight-loss-card {
+    display: flex;
+    flex-direction: column;
+  }
+  weight-loss-card * {
+    border: 2px solid red;
+  }
+  weight-loss-card p {
+    align-self: center;
+  }
+  .weight-loss-card-title {
+    display: flex;
+    flex-direction: row;
+    border: 10px solid red;
+  }
+  .weight-loss-tips li {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid green;
+  }
+  .weight-loss-tips li:nth-child(odd) {
+    max-width: 50%;
+  }
+  .weight-loss-tips li:nth-child(even) {
+/*     max-width: 50%; */
+    align-seld: center;
+  }
+  .weight-loss-tips li:nth-child(odd) .weight-loss-card-title {
+    border-radius: 0 45% 45% 0;
+  }
+  .weight-loss-tips li:nth-child(odd) .weight-loss-card-title .weight-loss-step {
+    margin-left: auto;
+    align-self: end;
+  }
+  .weight-loss-tips li:nth-child(even) .weight-loss-card-title {
+    border-radius: 45% 0 0 45%;
+  }
+  .weight-loss-tips li:nth-child(even) weight-loss-card {
+    width: 75vw;
+    align-self: end;
+  }
+  weight-loss-card p {
+    color: lime;
+/*     margin-right: auto; */
+/*     margin-left: auto; */
+  }
+}

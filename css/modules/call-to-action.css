@@ -1,6 +1,7 @@
 html {
   --brick: #840808;
 }
+
 call-to-action {
   display: block;
   padding-top: 40px;
@@ -25,7 +26,9 @@ call-to-action span {
   display: block;
   padding: 10px;
   background: var(--brick);
+  max-width: 190px;
 }
+
 call-to-action .attention-voice {
   color:  var(--brick);
 }

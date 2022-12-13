@@ -1,0 +1,102 @@
+architect-wall {
+	display: block;
+	background: wheat;
+	padding: 20px;
+}
+
+architect-poster {
+	display: block;
+	background: linen;
+	padding: 20px;
+	min-height: 600px;
+}
+
+/*architect-portrait {
+	background: maroon;
+	color: linen;
+}*/
+
+architect-wall .architect-cta {
+	font-size: 2em;
+	background: linen;
+	height:  50px;
+}
+
+architect-wall .architect-name {
+	/*font-size: .4em;*/
+	margin-top: 150px;
+}
+
+architect-wall .architect-portrait {
+	width: 40vw;
+	max-width: 500px;
+}
+
+/*.architect-thoughts hr {
+	max-width: 100px;
+}*/
+
+architect-wall .architect-ruler {
+	max-width: 500px;
+}
+
+architect-wall .architect-poster-heading {
+	font-size: 2em;
+}
+
+@media (min-width:  600px) {
+	architect-wall .architect-surname {
+		display: block;
+	}
+	architect-wall .architect-poster-header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		order: 2;
+		align-self: end;
+	}
+	architect-poster {
+		display: flex;
+		position: relative;
+		right: 150px;
+		max-width: 600px;
+		min-height: 500px;
+	}
+	architect-wall .architect-cta {
+		writing-mode: vertical-rl;
+		order:  2;
+	}
+	architect-wall .architect-ruler {
+		/*transform: rotate(90deg);*/
+	}
+	architect-wall .architect-name {
+		/*display: flex;*/
+		writing-mode: vertical-rl;
+		position: relative;
+		right: 90px;
+	}
+	architect-wall .architect-thoughts {
+		order: 1;
+		max-width: 15ch;
+	}
+	architect-wall .architect-portrait {
+		order: 3;
+		position: absolute;
+		right: 0;
+		top:  90px;
+	}
+	architect-wall .architect-cta {
+		width: 40px;
+    overflow: hidden;
+    height: 284px;
+	}
+	architect-wall {
+		position: relative;
+		padding: 20px;
+		padding: 146px;
+	}
+
+}
+
+
+

@@ -1,7 +1,15 @@
-.site-header, .calm-voice, 
-call-to-action a, .what-to-call-it-then p, 
-site-map nav, article-card span {
+section *, a {
 	font-family: "Work Sans", sans-serif;
+}
+
+ul li {
+	font-family: inherit;
+}
+
+ h1, h2, h3, 
+ h4, h5, h6 {
+	font-family: "Neuton", sans-serif;
+	letter-spacing: 0.03em;
 }
 
 call-to-action a, article-card span {
@@ -18,23 +26,20 @@ article-card span:hover {
 	font-size: clamp(36px, 5vw, 60px);
 }
 
+.intro-voice {
+	font-size: clamp(2.5em, 4vw, 5em);
+}
+
 .user-menu {
 	margin-top: 20px;
 }
 
-@media (min-width: 600px) {
-	.loud-voice {
-		font-weight: 700;
-	}
-}
-
 .intro-voice, .attention-voice	{
 	font-family: "Neuton", sans-serif;
-	font-size: 40px;
 }
 
 .attention-voice	{
-	font-size: 30px;
+	font-size: 1.5em;
 	margin-top: 10px;
 }
 
@@ -63,3 +68,11 @@ h1 + p {
 h2 + p {
 	margin-top: 10px;
 }
+
+@media (min-width: 600px) {
+	.loud-voice {
+		font-weight: 700;
+	}
+}
+
+

@@ -36,22 +36,22 @@
   <ul class="photo-list">
     <li>
       <picture>
-        <img src="https://via.placeholder.com/150" alt="">
+        <img src="./images/garden-photos/garden-twenty-nine/woman-speaker-one.jpg" alt="">
       </picture>
     </li>
     <li>
       <picture>
-        <img src="https://via.placeholder.com/150" alt="">
+        <img src="./images/garden-photos/garden-twenty-nine/male-speaker-one.jpg" alt="">
       </picture>
     </li>
     <li>
       <picture>
-        <img src="https://via.placeholder.com/150" alt="">
+        <img src="./images/garden-photos/garden-twenty-nine/woman-speaker-two.jpg" alt="">
       </picture>
     </li>
     <li>
       <picture>
-        <img src="https://via.placeholder.com/150" alt="">
+        <img src="./images/garden-photos/garden-twenty-nine/male-speaker-two.jpg" alt="">
       </picture>
     </li>
   </ul>

@@ -1,0 +1,42 @@
+temperature-card {
+  display: block;
+}
+
+.thermostat-pic {
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+
+
+.thermostat-title {
+  font-size: 2em;
+}
+
+@media (min-width: 600px) {
+  temperature-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  temperature-card > .thermostat-title:first-of-type {
+    color: lime;
+    align-self: end;
+    margin-right: 20%;
+  }
+  .thermostat-product {
+    display: flex;
+    flex-direction: row;
+  }
+  .thermostat-pic {
+    order: 1;
+  }
+  .thermostat-product .thermostat-title {
+    order: 2;
+    writing-mode: vertical-rl;
+  }
+}

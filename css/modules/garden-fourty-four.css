@@ -8,11 +8,14 @@ clinic-teaser {
 }
 
 .clinic-title {
-  font-size: 2.5em;
+  font-size: clamp(2em, 3vw, 4em);
+  line-height: 1.2;
   text-transform: capitalize;
 }
 
-clinic-teaser p + p {
+clinic-teaser p + p, 
+clinic-teaser div + p, 
+clinic-teaser h3 + p, clinic-teaser h3 {
   margin-top: 10px;
 }
 
@@ -69,10 +72,6 @@ diagnostics diagnostic:nth-child(6) {
 }
 
 
-
-
-
-
 diagnostic {
   display: block;
   flex-shrink: 0;
@@ -84,6 +83,7 @@ care-card {
 
 care-card h4 {
   font-size: 1.3em;
+  margin-top: 10px;
 }
 
 .dementia-dignity h4 {
@@ -100,16 +100,20 @@ clinic-teaser small {
   font-size: .3em;
 }
 
+.care-cards h4 {
+  font-size: 1.5em;
+}
+
 @media (min-width: 600px) {
   clinic-teaser {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 3%;
+/*    gap: 2%;*/
     position: relative;
   }
   .clinic-cta {
-    grid-row: 3;
-    grid-column: 1 / 2;
+    grid-row: 2;
+    grid-column: 2;
     outline: 2px solid maroon;
     padding: 5px;
     position: absolute;
