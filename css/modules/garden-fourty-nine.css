@@ -19,7 +19,7 @@ pe-teaser header * {
 }
 
 .design-school-header h3 {
-	font-size: clamp(1.3em, 2vw, 2em);
+	font-size: clamp(.9em, 2vw, 5em);
 }
 
 .pe-sign {
@@ -78,7 +78,7 @@ pe-teaser header * {
 	pe-teaser .course-name {
 		transform: rotate(90deg);
 		position: absolute;
-		top: 90px;
+		top: 50%;
 		right: 30px;
 	}
 	.pe-cta-title {
