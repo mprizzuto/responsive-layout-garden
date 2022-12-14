@@ -25,6 +25,8 @@ people {
 .home-option {
   display: block;
   margin-top: 5px;
+  font-size: clamp(1.3em, 2vw, 3em);
+  text-transform: capitalize;
 }
 
 realtor-team .realty-title {
@@ -38,13 +40,15 @@ realtor-team .realty-title {
 }
 
 .realty-team-cta {
-  font-size: 1.5em;
+  font-size: clamp(1.5em, 2vw, 4em);
+  text-transform: capitalize;
 }
 
 .realty-team-cta .team-title {
   font-size: .8em;
   font-style: italic;
   text-transform: capitalize;
+  margin-top: 20px;
 }
 
 .realty-team-cta + picture {
@@ -65,9 +69,11 @@ realtor-team .realty-title {
     flex-basis: 50%;
   }
   .home-option {
+/*    display: block;*/
     order: 1;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
+    margin-right: 10px;
   }
   .property-photo {
     order: 2;
