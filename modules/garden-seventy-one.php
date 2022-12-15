@@ -5,7 +5,7 @@
   
   <div class="customer-cta">
     <picture class="store-model">
-      <img src="https://peprojects.dev/images/landscape.jpg" alt="">
+      <img src="./images/garden-photos/garden-seventy-one/shopping.jpg" alt="a person shopping">
     </picture>
     
     <p class="sale-day">this friday only</p>
