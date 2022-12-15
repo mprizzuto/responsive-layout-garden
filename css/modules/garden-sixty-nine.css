@@ -3,8 +3,13 @@ new-employees {
 }
 
 .employee-title {
-	font-size: clamp(2em, 3vw, 4em);
-	line-height: 1.2;
+	font-size: clamp(1.4em, 1vw, 2em);
+	line-height: 1;
+}
+
+.employee-title strong {
+	display: block;
+	padding: 5px;
 }
 
 .employee .employee-portrait {
@@ -28,6 +33,9 @@ new-employees figure + figure {
 }
 
 @media (min-width: 600px) {
+	.employee-title {
+		font-size: .8em;
+	}
 	new-employees {
 		display: grid;
 		grid-template-columns: repeat(5, minmax(20%, 1fr));
