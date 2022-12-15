@@ -15,7 +15,7 @@ agency-style-tile figure {
 	font-size: clamp(.3em, 1vw, 3em);
 }
 
-.agency-title {
+agency-style-tile .agency-title {
 	font-size: clamp(2.5em, 4vw, 5em);
 }
 
