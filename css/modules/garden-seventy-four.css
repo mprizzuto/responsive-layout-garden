@@ -74,7 +74,7 @@ beauty-school .beauty-school-quote cite {
 	beauty-school .beauty-school-founder figcaption	{
 		position: absolute;
 		bottom:  30px;
-		max-width: 100px;
+/*		max-width: 100px;*/
 		color:  linen;
 	}
 	beauty-school .beauty-school-about {
