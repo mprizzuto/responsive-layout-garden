@@ -4,6 +4,8 @@ talent-agency {
 
 agency-sign {
 	display: block;
+	line-height: 1.2;
+	text-transform: capitalize;
 }
 
 .agency-title {
@@ -29,12 +31,14 @@ talent-agency > .model-portrait {
 }
 
 .model-gallery .model-portrait {
-	max-width: 100px;
+	max-width: 150px;
+	min-width: 50%;
 }
 
 .model-gallery {
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 10px;
 }
 
 .talent-agency-header {
@@ -45,12 +49,22 @@ talent-agency > .model-portrait {
 .model-name {
 	font-size:  2em;
 	margin-top: 10px;
+	text-transform: capitalize;
 }
 
 .model-spec {
 	font-size: 1.2em;
 	font-weight: bolder;
 }
+
+talent-agency .agency-title {
+	font-size: 1.3em;
+}
+
+talent-agency .agency-logo-title {
+	font-size: 1.5em;
+}
+
 
 @media (min-width:  600px) {
 	.talent-agency-header {
