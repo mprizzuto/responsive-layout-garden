@@ -1,6 +1,6 @@
 <new-employees>
 	<header class="new-employee-header">
-		<h3 class="employee-title">some of <strong class="company-name"><a href="#">the Agency's</a></strong>employees</h3>
+		<h3 class="employee-title">some of <strong class="company-name"> <a href="#">the Agency's</a> </strong>employees</h3>
 	</header>
 
 	<figure class="employee">
