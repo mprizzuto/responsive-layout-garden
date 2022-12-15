@@ -5,7 +5,7 @@
 
 	<figure class="employee">
 		<picture class="employee-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-sixty-nine/person-one.jpg" alt="a woman with freckles and brown eyes">
 		</picture>
 
 		<figcaption>jerry hireable</figcaption>
@@ -13,7 +13,7 @@
 
 	<figure class="employee">
 		<picture class="employee-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-sixty-nine/person-two.jpg" alt="a woman with long brown hair and a striped shirt">
 		</picture>
 
 		<figcaption>james salary</figcaption>
@@ -21,7 +21,7 @@
 
 	<figure class="employee">
 		<picture class="employee-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-sixty-nine/person-three.jpg" alt="a man with brown hair and a white shirt">
 		</picture>
 		
 		<figcaption>harley healthInsurance</figcaption>
@@ -29,7 +29,7 @@
 
 	<figure class="employee">
 		<picture class="employee-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-sixty-nine/person-four.jpg" alt="a man with brown hair and a sweater">
 		</picture>
 
 		<figcaption>justin payroll</figcaption>
@@ -37,7 +37,7 @@
 
 	<figure class="employee">
 		<picture class="employee-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-sixty-nine/person-five.jpg" alt="a woman with brown hair and a white shirt">
 		</picture>
 		
 		<figcaption>linda payscale</figcaption>
@@ -45,15 +45,15 @@
 
 	<figure class="employee">
 		<picture class="employee-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-sixty-nine/person-six.jpg" alt="a man in a shirt smiles">
 		</picture>
 
-		<figcaption>adriana likeable</figcaption>
+		<figcaption>adrian likeable</figcaption>
 	</figure>
 
 	<figure class="employee">
 		<picture class="employee-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-sixty-nine/person-seven.jpg" alt="a man in a red hat">
 		</picture>
 		
 		<figcaption>jules tieShirt</figcaption>
@@ -61,7 +61,7 @@
 
 	<figure class="employee">
 		<picture class="employee-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-sixty-nine/person-eight.jpg" alt="a woman in a floral shirt">
 		</picture>
 
 		<figcaption>casual friday</figcaption>
@@ -69,7 +69,7 @@
 
 	<figure class="employee">
 		<picture class="employee-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-sixty-nine/person-nine.jpg" alt="a man in a white shirt">
 		</picture>
 		
 		<figcaption>derek steele</figcaption>
