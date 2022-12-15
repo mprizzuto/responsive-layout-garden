@@ -3,7 +3,8 @@ black-friday {
 }
 
 .day-of-week {
-  display: block;
+/*  display: block;*/
+font-family: inherit;
 }
 
 .store-model {
@@ -29,13 +30,13 @@ black-friday {
   position: absolute;
   bottom: 0;
   width: 100%;
-  font-size: 2em;
+  font-size: 1.3em;
   text-align: center;
 }
 
 .black-friday-heading {
   line-height: 1;
-  font-size: 3em;
+  font-size: clamp(2.5em, 2vw, 3em);
 }
 
 .course-name {
@@ -44,6 +45,7 @@ black-friday {
   color: linen;
   padding: 10px;
   font-size: 2em;
+  line-height: 1.2;
 }
 
 .sales-cta {
