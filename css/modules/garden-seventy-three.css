@@ -20,9 +20,12 @@ talent-agency > .model-portrait {
 
 .model-info {
 	display: flex;
+	gap: 3%;
+  flex-wrap: wrap;
 	text-transform: capitalize;
 	margin-top: 10px;
 	max-width: 50ch;
+	line-height: 1.5;
 }
 
 .model-gallery .model-portrait {
@@ -41,6 +44,12 @@ talent-agency > .model-portrait {
 
 .model-name {
 	font-size:  2em;
+	margin-top: 10px;
+}
+
+.model-spec {
+	font-size: 1.2em;
+	font-weight: bolder;
 }
 
 @media (min-width:  600px) {
