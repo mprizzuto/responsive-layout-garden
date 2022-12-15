@@ -24,7 +24,7 @@
 		  <circle cx="50" cy="50" r="50"/>
 		</svg>
 
-		<blockquote cite="https://www.empire.edu/blog/beauty-business/cosmetology-school">
+		<blockquote class="beauty-school-quote" cite="https://www.empire.edu/blog/beauty-business/cosmetology-school">
 			<p>Before you touch a mannequin or someone’s head, hands, feet or skin, you first need to learn basic theory and technique.</p>
 
 			<p>Eventually you will be ready to <strong>perform on your own—a proud milestone for all cosmetology students!</strong></p>
