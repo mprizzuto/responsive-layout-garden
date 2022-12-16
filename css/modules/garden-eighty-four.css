@@ -46,11 +46,15 @@ speaker .speaker-name {
 @media (min-width: 600px) {
   speaker {
     display: flex;
+    gap: 4%;
     position: relative;
   }
   sidebar h3 {
     writing-mode: vertical-rl;
     transform: rotate(-180deg);
+  }
+  speaker sidebar:first-of-type {
+    align-self: end;
   }
   .speaker-badge {
     position: relative;
