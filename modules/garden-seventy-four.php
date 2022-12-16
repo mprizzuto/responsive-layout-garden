@@ -8,7 +8,7 @@
 
 		<figure class="beauty-school-founder">
 			<picture class="founder-portrait">
-				<img src="https://womenintheworld.org/wp-content/uploads/2022/01/Han-Ye-Seul.jpg" alt="a korean woman with long hair">
+				<img src="./images/garden-photos/garden-seventy-four/Han-Ye-Seul.jpeg" alt="a korean woman with long hair">
 			</picture>
 
 			<figcaption>Han-Ye-Seul, our founder</figcaption>
