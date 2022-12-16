@@ -68,6 +68,5 @@ science-facts blockquote {
 	}
 	.mutation-facts blockquote {
 		max-height: 50ch;
-		outline: 2px solid red;
 	}
 }
