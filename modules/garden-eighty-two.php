@@ -2,7 +2,7 @@
 	<header class="newspaper-header">
 		<h2 class="header-title"><span class="newspaper-title">the</span> <span class="newspaper-surname">independent</span></h2>
 		<picture class="independent-logo">
-			<img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/7b044a30737273.5630ac2fe96d3.png" alt="egle">
+			<img src="./images/garden-photos/garden-eighty-two/logo.png" alt="">
 		</picture>
 	</header>
 
@@ -14,7 +14,7 @@
 		<columnists>
 			<columnist>
 				<picture class="columnist-portrait">
-					<img src="https://peprojects.dev/images/square.jpg" alt="">
+					<img src="./images/garden-photos/garden-eighty-two/man-one.jpg" alt="a man in a shirt">
 				</picture>
 
 				<h3 class="columnist-name">jess phillips</h3>
@@ -24,7 +24,7 @@
 
 			<columnist>
 				<picture class="columnist-portrait">
-					<img src="https://peprojects.dev/images/square.jpg" alt="">
+					<img src="./images/garden-photos/garden-eighty-two/woman-two.jpg" alt="a woman in a hijab">
 				</picture>
 
 				<h3 class="columnist-name">rebecca thomas</h3>
@@ -34,7 +34,7 @@
 
 			<columnist>
 				<picture class="columnist-portrait">
-					<img src="https://peprojects.dev/images/square.jpg" alt="">
+					<img src="./images/garden-photos/garden-eighty-two/man-four.jpg" alt="a man with blonde hair">
 				</picture>
 
 				<h3 class="columnist-name">sean smith</h3>
@@ -44,7 +44,7 @@
 
 			<columnist>
 				<picture class="columnist-portrait">
-					<img src="https://peprojects.dev/images/square.jpg" alt="">
+					<img src="./images/garden-photos/garden-eighty-two/man-three.jpg" alt="a man in a blue suit">
 				</picture>
 
 				<h3 class="columnist-name">miguel delaney</h3>
@@ -58,7 +58,7 @@
 		<h3 class="figure-title">coleen tells libel trail of Wagatha "sting"</h3>
 
 		<picture class="front-page-photo">
-			<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			<img src="./images/garden-photos/garden-eighty-two/wife.jpg" alt="">
 		</picture>
 
 		<figcaption>Wayne Rooney's wife at court yesterday where she gave evidence about her sleuthing over leaked stories</figcaption>
@@ -66,7 +66,7 @@
 
 	<section class="front-page-teaser">
 		<header class="newspaper-teaser-header">
-			<h3 class="newspaper-teaser-title">johnson scaps plan to curb junk food deals</h3>
+			<h3 class="newspaper-teaser-title">johnson scraps plan to curb junk food deals</h3>
 
 			<p class="teaser-description">u-turn on multi-buy offers condemned by health campaigners</p>
 
