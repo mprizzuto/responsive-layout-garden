@@ -38,7 +38,7 @@
 
   <figure class="speaker-figure">
     <picture class="speaker-portrait">
-      <img src="https://peprojects.dev/images/portrait.jpg" alt="">
+      <img src="./images/" alt="">
     </picture>
 
     <figcaption><em class="speaker-name">davina ferreira</em> <span>founder + ceo</span> <span>alegria media and publishing</span></figcaption>
