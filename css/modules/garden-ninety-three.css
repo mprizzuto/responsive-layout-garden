@@ -1,0 +1,76 @@
+coffee-time {
+  display: block;
+}
+
+coffee-time h3:first-of-type ~ * {
+  margin-top: 5px;
+}
+
+coffee-card {
+  display: block;  
+}
+
+coffee-time .coffee-ad * {
+  margin-top: 5px;
+/*   border-top: 10px solid red; */
+}
+
+.cat-ad-photo {
+  max-width: 600px;
+}
+
+.coffee-ad-title, .coffee-card-title {
+  font-size: 2em;
+}
+ 
+.coffee-ad figcaption {
+  font-weight: bolder;
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+coffee-time coffee-card > h3:last-of-type {
+  color: purple;
+  position: relative;
+  top: 50px;
+  left: 10px;
+}
+
+coffee-time .coffee-card-title {
+  font-size: 3em;
+  text-transform: capitalize;
+}
+
+coffee-time .coffee-ad-title {
+  font-size: 3em;
+  text-transform: capitalize;
+}
+
+
+@media (min-width: 600px) {
+  coffee-time .coffee-card-title {
+    margin: 20px;
+  }
+
+  coffee-time .coffee-ad-title {
+    margin: 10px;
+  }
+  coffee-time coffee-card {
+    display: flex;
+    transform: rotate(15deg) translate(25%, 0);
+    max-width: 64%;
+    border: 2px double maroon;
+    padding: 10px;
+  }
+  coffee-time coffee-card > h3 {
+    writing-mode: vertical-rl;
+  }
+  coffee-time coffee-card > h3:first-of-type {
+    color: red;
+    transform: rotate(180deg);
+    align-self: end;
+  }
+  .coffee-ad-title {
+    text-align: center;
+  }
+}

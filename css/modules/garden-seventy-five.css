@@ -1,0 +1,79 @@
+instructors {
+	display: block;
+}
+
+instructor {
+	display: block;
+	background: linen;
+	padding:  20px;
+}
+
+instructor + instructor {
+	margin-top: 50px;
+}
+
+.instructor-portrait {
+	max-width: 400px;
+	margin-top: 10px;
+}
+
+.korean-name {
+	margin-top: 10px;
+}
+
+.instructor-info {
+
+}
+
+instructor .instructor-name {
+	font-size: 1.5em;
+}
+
+@media (min-width:  600px) {
+	.korean-name {
+		align-self: end;
+		/*margin-right: 90%;*/
+	}
+	instructors {
+		display: flex;
+	}
+	instructor {
+		margin-right: 10px;
+	}
+	instructor + instructor {
+		margin-top: unset;
+	}
+	.instructor-info {
+		/*writing-mode: vertical-rl;*/
+		display: flex;
+		flex-direction: column;
+		/*transform: rotate(180deg);*/
+	}
+	.korean-name, .instructor-name {
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+	}
+}
+
+@media (min-width: 1000px) {
+	.korean-name, .instructor-name {
+		writing-mode: initial;
+		transform: unset;
+	}
+	instructor {
+		display: flex;
+		flex-direction: column;
+	}
+	instructor .instructor-info {
+		order: 2;
+	}
+	.instructor-portrait {
+		order: 1;
+	}
+	.korean-name {
+		align-self: start;
+	}
+	.instructor-info {
+		margin-top: 10px;
+	}
+}

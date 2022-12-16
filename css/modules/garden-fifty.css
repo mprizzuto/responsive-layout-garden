@@ -12,6 +12,8 @@ stamp {
 
 .stamp-sheet-title {
 	font-size: clamp(2em, 8vw, 10em);
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
 }
 
 .stamp-feature {
@@ -20,6 +22,9 @@ stamp {
 
 .stamp-title {
 	font-size: clamp(.9em, 2vw, 3em);
+	text-transform: uppercase;
+	background: maroon;
+	color: white;
 }
 
 .stamp-portrait {
@@ -28,12 +33,14 @@ stamp {
 
 .stamp-caption {
 	font-size: clamp(1.1em, 1vw, 3em);
+	text-transform: capitalize;
 }
 
 .stamp-sheet {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-		gap: 5px;
+/*		gap: 5px;*/
+/*		gap: 1%;*/
 	}
 
 
@@ -55,18 +62,26 @@ stamp {
 		align-self: center;
 	}
 	.stamp-title {
+		font-size: .5em;
 		transform: rotate(-90deg);
 		position: absolute;
 		/*top: 35px;*/
 		/*bottom: 90px;*/
-    left: -68px;
+/*    left: -68px;*/
+		left: 70%;
+		top: 25px;
 		z-index: -1;
+		background: maroon;
+    color: white;
+    max-width: 140px;
 	}
 	.stamp-feature {
 		position: relative;
+		overflow: hidden;
 	}
 	stamp {
-		width:  80%;
+		width:  100%;
+		min-width: 100px;
 		margin: 20px;
 		/*margin-bottom: 20px;*/
 	}

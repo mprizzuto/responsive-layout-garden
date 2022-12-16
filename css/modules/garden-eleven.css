@@ -10,6 +10,22 @@ salvador-dali {
   font-size: clamp(8em, 20vw, 20em);
 }
 
+.salvador-bio {
+  margin-top: 10px;
+}
+
+.salvador-bio h3 {
+  font-size: 2em;
+}
+
+.dali-header h3 + p, .salvador-bio h3 + p {
+  margin-top: 5px;
+}
+
+.dali-header p {
+  margin-top: 10px;
+}
+
 .dali-pets {
   background: yellow;
   padding: 15%;
@@ -22,6 +38,10 @@ salvador-dali {
 
 .dali-portrait {
   
+}
+
+.dali-title-three {
+  font-size: 2em;
 }
 
 @media (min-width: 600px) {

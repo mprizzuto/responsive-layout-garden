@@ -7,6 +7,10 @@ entrepreneur {
   display: block;
 }
 
+entrepreneur p {
+  /*padding: 20px;*/
+}
+
 .entrepreneur-info {
   background: #708090;
   color: white;
@@ -59,13 +63,13 @@ entrepreneur em {
   font-size: 1.4em;
 }
 
-.business-year {
+entrepreneur .business-year {
   background: black;
   color: white;
   padding: 20px;
 }
 
-.business-year + p {
+entrepreneur  .business-year + p {
   text-transform: capitalize;
 }
 
@@ -77,6 +81,9 @@ entrepreneur em {
   .connect {
     display: flex;
     align-items: center;
+  }
+  .business-year {
+    margin: 10px;
   }
   .business-year + p {
     margin-left: 10px;

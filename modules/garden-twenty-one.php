@@ -1,6 +1,7 @@
 <freelance-writer>
-  <header>
-    <h3>freelance writing</h3>
+  <header class="freelance-writer-header">
+    <h3 class="freelance-writer-title">freelance writing</h3>
+
     <p>the categories</p>
   </header>
 

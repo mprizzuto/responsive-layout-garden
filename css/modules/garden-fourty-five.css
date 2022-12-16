@@ -12,7 +12,7 @@ artist-series {
 }
 
 .artist-poster h3 {
-  font-size: clamp(2.5em, 3vw, 4em);
+  font-size: clamp(2.5em, 4vw, 5em);
   border-bottom: 3px solid gray;
   padding-bottom: 3px;
 }
@@ -27,7 +27,16 @@ artist-series {
 }
 
 .date-time {
+  font-style: italic;
   line-height: 1.5;
+}
+
+.artist-portrait figcaption {
+  font-size: 1.2em;
+}
+
+.artist-poster .authors {
+  font-size: 1.3em;
 }
 
 @media (min-width: 600px) {
@@ -51,11 +60,11 @@ artist-series {
     transform: rotate(180deg);
   }
   .event {
-    color: red;
+    color: maroon;
     font-weight: bolder;
   }
   .date-time {
-    color: purple;
+    color: maroon;
     align-self: center;
     margin-top: 50px;
     margin-right: 30px;

@@ -1,6 +1,7 @@
 <salvador-dali>
   <header class="section-header dali-header">
     <h3 class="dali-title-three">dali</h3>
+    
     <p>autoportrait/portrait de luis buneuel</p>
     <p>Personage à une fenêtre / La Corbeille de pair
 sofa </p>

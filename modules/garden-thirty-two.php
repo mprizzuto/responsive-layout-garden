@@ -87,12 +87,14 @@
     
     <blockquote class="coffee-defined" cite="https://en.wikipedia.org/wiki/Coffee">
       <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain flowering plants in the Coffea genus.</p>
+
+      <cite>-wikipedia</cite>
     </blockquote>
   </coffee>
   
   <section class="coffee-pic">
     <picture class="coffee-method">
-      <img src="https://peprojects.dev/alpha-1/mprizzuto/images/rlg/coffee/coffee-pour-over.jpg" alt="a mug of coffee">
+      <img src="https://peprojects.dev/alpha-1/mprizzuto/images/rlg/coffee/coffee-pour-over.jpg" alt="a person makes a pourover, a coffee method">
     </picture>
   </section>
 </coffee-house>

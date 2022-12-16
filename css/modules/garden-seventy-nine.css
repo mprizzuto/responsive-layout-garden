@@ -1,0 +1,86 @@
+meditation-poster {
+	display: block;
+	background: maroon;
+	color: linen;
+	padding: 20px;
+}
+
+custom-emoji {
+	display: inline-block;
+}
+
+.meditation-student {
+	max-width: 300px;
+}
+
+.artist-social::before {
+	display: inline-block;
+	content:  "\00A7";
+	vertical-align: sub;
+	transform: rotate(90deg);
+	font-size: 2em;
+	padding: 10px;
+}
+
+meditation-poster h3 {
+	font-size: 2em;
+}
+
+.meditation-list {
+	line-height: 1.5;
+}
+
+.artist-details {
+
+}
+
+@media (min-width:  600px) {
+	meditation-poster {
+		/*display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;*/
+	}
+	.meditation-poster-header {
+		display: flex;
+		flex-direction: column;
+	}
+	.artist-details {
+		display: flex;
+		/*justify-content: space-between;*/
+		align-self: center;
+	}
+	.artist-details li {
+		margin-right: 10px;
+	}
+	.artist-social {
+		display: block;
+	}
+	.meditation-student {
+		transform: rotate(90deg);
+	}
+	.meditation {
+		display: flex;
+	}
+	.meditate {
+		text-align: center;
+	}
+	.meditation .mantra-title {
+		z-index: 1;
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		font-size: 7em;
+		text-transform: capitalize;
+	}
+	.meditation .mantra-title:first-of-type {
+		position: relative;
+		bottom:  100px;
+	}
+	.meditation .mantra-title:last-of-type {
+		position: relative;
+		top:  100px;
+	}
+	.meditation-list {
+		margin-top: 50px;
+	}
+}

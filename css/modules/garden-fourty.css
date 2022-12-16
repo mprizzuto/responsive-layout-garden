@@ -12,10 +12,23 @@ therapy-card {
   list-style: none;
 }
 
+.tip-list summary {
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
 .tip-list li {
   background: linen;
   padding: 10px;
   margin-top: 15px;
+}
+
+.therapy-tip {
+  margin-top: 10px;
+}
+
+.therapy-card-title {
+  font-size: clamp(1.5em, 3vw, 3em);
 }
 
 @media (min-width: 600px) {
@@ -25,33 +38,25 @@ therapy-card {
 /*     gap: 1%; */
   }
   .tip-list li:first-of-type {
-    color: blue;
   }
   .tip-list li:nth-child(2) {
-    color: lime;
     grid-row: 3;
   }
   .tip-list li:nth-child(3) {
-    color: red;
     grid-row: 3;
     grid-column: 4;
   }
   .tip-list li:nth-child(4) {
-    color: gray;
     grid-row: 2;
     grid-column: 2 / 4;
   }
   .tip-list li:nth-child(5) {
-    color: lime;
     grid-column: 4;
   }
   .tip-list li:nth-child(6) {
-    color: purple;
     grid-column: 4;
   }
   .tip-list li:last-of-type {
-    outline: 2px solid purple;
-    
     grid-row: 4;
     grid-column: 2;
   }

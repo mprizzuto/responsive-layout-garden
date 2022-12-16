@@ -1,0 +1,82 @@
+cat-fancier {
+  display: block;
+}
+
+cat-card {
+  display: block;
+  margin-top: 20px;
+  background: maroon;
+  color: linen;
+  padding: 10px;
+}
+
+cat-card > *, .cat-figure > *  {
+  margin-top: 10px;
+}
+
+.cat-portrait {
+  max-width: 500px;  
+}
+
+.cat-list {
+  
+}
+
+.cat-number {
+  display: block;
+  font-size: 2em;
+}
+
+
+@media (min-width: 600px) {
+  .cat-number {
+    display: inline-block;
+  }
+  cat-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  cat-card > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .cat-card-one .cat-card-title span {
+    display: block;
+  }
+  .cat-figure-figcaption span {
+    display: block;
+  }
+  .cat-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .cat-list li:nth-child(odd) {
+    align-self: end;
+    flex-shrink: 0;
+    min-width: 50vw;
+  }
+  .cat-portrait {
+    max-width: 100px;
+  }
+  .cat-portrait img {
+    border-radius: 50%;
+    border: 4px solid gold;
+  }
+  .cat-card-one .cat-figure {
+    display: flex;
+    flex-direction: row;
+  }
+  .cat-figure .cat-portrait {
+    order: 1;
+  }
+  .cat-list li:nth-child(odd) {
+  }
+  .cat-list li:first-of-type cat-card {
+    flex-direction: row;
+    align-items: unset;
+  }
+  .cat-list li:nth-child(odd) cat-card {
+    flex-direction: row-reverse;
+  }
+}

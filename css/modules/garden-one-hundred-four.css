@@ -1,0 +1,36 @@
+bad-habit {
+	display: block
+}
+
+habit {
+	display: block
+}
+
+.bad-habit-pic {
+	max-width: 400px;
+	margin-top: 10px;
+}
+
+.bad-habit-title {
+	font-size: 2.5em;
+	margin-top: 10px;
+}
+
+@media (min-width:  600px) {
+	bad-habit {
+		display: flex;
+		flex-direction: column;
+	}
+	.bad-habit-title:first-of-type {
+		color: lime;
+	}
+	.bad-habit-title:last-of-type {
+		color: red;
+		align-self: end;
+	}
+	habit {
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+	}
+}

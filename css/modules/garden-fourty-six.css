@@ -27,6 +27,12 @@ influencer-card figcaption {
 
 .health-services {
   line-height: 1.5;
+  margin-top: 10px;
+}
+
+.health-influencer-title {
+  font-size: clamp(2.5em, 3vw, 4em);
+  line-height: 1;
 }
 
 

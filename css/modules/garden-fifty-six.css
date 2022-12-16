@@ -1,0 +1,88 @@
+weight-loss-tip {
+  display: block;
+}
+
+tip-number {
+  display: block;
+}
+
+tip {
+  display: block;
+  margin-top: 15px;
+}
+
+diet-advice {
+  display: block;
+/*   outline: 2px solid red; */
+margin-top: 100px;
+}
+
+diet-advice h2 {
+  font-size: 2.5em;
+  text-transform: capitalize;
+}
+
+
+.weight-loss-tips {
+/*   list-style-type: decimal; */
+  margin-left: 20px;
+}
+
+.weight-advice {
+  display: block;
+}
+
+.weight-loss-tips li {
+/*   display: block; */
+/*   color: lime; */
+  margin-top: 20px;
+}
+
+.weight-loss-tips li + li {
+  margin-top: 30px;
+}
+
+.step-number {
+  display: block;
+/*   color: purple; */
+/*   background: red; */
+  background: maroon;
+  color: white;
+  padding: 5px;
+  flex-shrink: 0;
+/*   width: 100%; */
+}
+
+@media (min-width: 600px) {
+  tip-number {
+    display: flex;
+    flex-direction: column;
+/*     outline: 2px solid red; */
+  }
+  .weight-loss-tips li tip-number {
+/*     background: maroon; */
+    color: white;
+  }
+  .weight-loss-tips li:nth-child(odd) {
+    flex-shrink: 0;
+    width: 50%;
+  }
+  .weight-loss-tips li:nth-child(even) .step-number {
+    flex-shrink: 0;
+/*     width: 40%; */
+    align-self: center;
+  }
+  .weight-loss-tips li:nth-child(odd) weight-loss-tip tip-number {
+    
+  }
+  .weight-loss-tips li:nth-child(odd) .step-number {
+    align-self: end;
+/*     width: 40vw; */
+    min-width: 300px;
+  }
+  .weight-loss-tips li:nth-child(even) .step-number {
+    align-self: end;
+/*     width: 40vw; */
+    min-width: 200px;
+  }
+}

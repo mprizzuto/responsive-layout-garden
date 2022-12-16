@@ -1,0 +1,46 @@
+human-emotions {
+	display: block;
+}
+
+emotions-grouped {
+	display: block;
+}
+
+.emotions figcaption  {
+	margin-top: 5px;
+}
+
+.human-emotions-title {
+	max-width: 50ch;
+	font-size: 3em;
+}
+
+.person-emotes {
+	max-width: 500px;
+	width: 10vw;
+	margin-top: 10px;
+}
+
+@media (min-width:  600px) {
+	.human-expressions {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 15px;
+	}
+	.human-expressions .emotion:first-of-type {
+		align-self: center;
+	}
+	emotions-grouped figure:first-of-type {
+		display: flex;
+		flex-direction: column;
+	}
+	emotions-grouped figure:first-of-type figcaption {
+		order: 1;
+	}
+	emotions-grouped figure:first-of-type .person-emotes {
+		order: 2;
+	}
+
+}

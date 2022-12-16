@@ -1,0 +1,110 @@
+therapist-collaboration {
+  display: block;
+  min-height: 500px;
+/*   border: 4px solid lime; */
+}
+
+therapist-collaboration * {
+  margin-top: 10px;
+}
+
+.insta-live-title {
+  text-transform: capitalize;
+}
+
+.therapy-topic {
+  text-transform: capitalize;
+  font-size: 2.5em;
+}
+
+.therapist-figure {
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.therapist-figure figcaption {
+  font-weight: bolder;
+}
+
+.therapist-collab-title .insta-live-title {
+  font-size: 3em;
+}
+
+.therapist-collab-title span {
+  display: block;
+}
+
+.waveform {
+  max-width: 300px;
+}
+
+.therapist-photo {
+  max-width: 300px;
+}
+
+.therapist-photo img {
+  border-radius: 50%;
+}
+
+@media (min-width: 600px) {
+  therapist-colloboration {
+    position: relative;
+    border: 30px solid maroon;
+    max-width: 600px;
+  }
+  .therapist-name span {
+    display: block;
+  }
+  .therapist-figure {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*flex-basis: 45vw;*/
+    flex-basis: 400px;
+    flex-shrink: 0;
+    background: lightblue;
+/*     color: white; */
+  }
+  .therapist-figure * {
+    margin: 5px;
+  }
+  .therapist-profiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
+  }
+  .therapist-profiles figure:first-of-type {
+    border-radius: 0 50% 50% 0;
+  }
+  .therapist-profiles figure:first-of-type picture {
+    order: 1;
+  }
+  .therapist-profiles figure:nth-child(2n) figcaption {
+    order: 1;
+  }
+  .therapist-profiles figure:nth-child(2n) picture {
+    order: 2;
+  }
+  .therapist-profiles figure:nth-child(2n) {
+/*     border: 3px solid red; */
+    order: 1;
+    border-radius: 50% 0 0 50%; 
+  }
+  .therapist-profiles figure:nth-child(2n) figcaption {
+    order: 2;
+  }
+  .pandemic-relationships {
+    text-align: center;
+  }
+}
+
+
+@media (min-width:  1000px) {
+	.therapist-profiles {
+    flex-wrap: nowrap;
+  }
+}

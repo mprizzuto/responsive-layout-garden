@@ -1,0 +1,105 @@
+beauty-school {
+	display: block;
+}
+
+beauty-school h3 + p {
+	margin-top: 10px;
+}
+
+beauty-school .beauty-standards em {
+	text-transform: capitalize;
+}
+
+beauty-school .beauty-school-title {
+	font-size: clamp(2em, 2vw, 3em);
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	max-width: 200px;
+}
+
+beauty-school .beauty-bio-title {
+	font-size: 1.8em;
+	text-transform: capitalize;
+}
+
+beauty-school .founder-portrait {
+	max-width: 300px;
+}
+
+beauty-school .beauty-school-about {
+	position: relative;
+	margin-top: 20px;
+}
+
+beauty-school .beauty-school-logo {
+	/*display: block;*/
+	max-width: 50px;
+	/*position: absolute;*/
+}
+
+beauty-school .beauty-school-founder {
+	margin-top: 10px;
+}
+
+beauty-school .beauty-school-founder figcaption {
+	font-style: italic;
+}
+
+beauty-school .beauty-school-quote {
+	margin-top: 20px;
+}
+
+beauty-school .beauty-school-quote cite {
+	font-style: italic;
+}
+
+@media (min-width: 600px) {
+	beauty-school {
+		display: flex;
+		justify-content: space-between;
+	}
+	beauty-school .founder-portrait img {
+		border-radius: 0 0 50% 50%;
+	}
+	beauty-school .beauty-school-founder {
+		position: relative;
+	}
+	beauty-school .beauty-school-header {
+		background: white;
+		max-width: 400px;
+		border-radius: 0 0 50% 50%;
+		padding: 15px;
+		flex-basis: 300px;
+	}
+	beauty-school .beauty-school-founder figcaption	{
+		position: absolute;
+		bottom:  30px;
+/*		max-width: 100px;*/
+		color:  linen;
+	}
+	beauty-school .beauty-school-about {
+		position: relative;
+		background: white;
+		flex-basis: 500px;
+		margin-left: 20px;
+		border-radius: 50% 50% 0 0;
+		text-align: center;
+	}
+	beauty-school .beauty-school-about * {
+		max-width: 30ch;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	beauty-school .beauty-school-logo {
+		max-width: 50px;
+		position: absolute;
+		top: 0;
+		left:  70%;
+	}
+	beauty-school .beauty-bio-title {
+		padding-top: 40px;
+	}
+	beauty-school .beauty-school-about blockquote {
+		margin-top: 20px;
+	}
+}

@@ -1,0 +1,111 @@
+talent-agency {
+	display: block;
+}
+
+agency-sign {
+	display: block;
+	line-height: 1.2;
+	text-transform: capitalize;
+}
+
+.agency-title {
+	display: block;
+}
+
+.agency-logo {
+	max-width: 300px;
+}
+
+talent-agency > .model-portrait {
+	max-width: 500px;
+}
+
+.model-info {
+	display: flex;
+	gap: 3%;
+  flex-wrap: wrap;
+	text-transform: capitalize;
+	margin-top: 10px;
+	max-width: 50ch;
+	line-height: 1.5;
+}
+
+.model-gallery .model-portrait {
+	max-width: 150px;
+	min-width: 50%;
+}
+
+.model-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.talent-agency-header {
+	display: flex;
+	flex-direction: column;
+}
+
+.model-name {
+	font-size:  2em;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+
+.model-spec {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+talent-agency .agency-title {
+	font-size: 1.3em;
+}
+
+talent-agency .agency-logo-title {
+	font-size: 1.5em;
+}
+
+
+@media (min-width:  600px) {
+	.talent-agency-header {
+		display: flex;
+		order:  2;
+	}
+	agency-sign {
+		display: flex;
+		flex-direction: column;
+		/*order: 2;*/
+		margin-top: 20px;
+	}
+	.model-facts {
+		order: -1;
+	}
+	.model-gallery {
+		display: flex;
+		/*order: 1;*/
+	}
+	.model-gallery .model-portrait {
+		/*margin-right: 10px;*/
+	}
+	talent-agency {
+		display: flex;
+		/*flex-direction: column;*/
+		justify-content: space-between;
+	}
+	.model-portrait {
+		/*order: 1;*/
+	}
+	.agency-logo-title {
+		/*flex-shrink: 0;*/
+		order: 2;
+		display: flex;
+		flex-direction: column;
+	}
+	.agency-title {
+		order:  1;
+	}
+	.model-gallery {
+		margin-top: 90px;
+		order:  3;
+	}
+}
