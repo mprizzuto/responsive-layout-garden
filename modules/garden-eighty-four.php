@@ -38,10 +38,10 @@
 
   <figure class="speaker-figure">
     <picture class="speaker-portrait">
-      <img src="./images/" alt="">
+      <img src="./images/garden-photos/garden-eighty-four/woman.jpg" alt="a woman meditating">
     </picture>
 
-    <figcaption><em class="speaker-name">davina ferreira</em> <span>founder + ceo</span> <span>alegria media and publishing</span></figcaption>
+    <figcaption><em class="speaker-name">davina ferreira</em> <span class="speaker-role">founder + ceo</span> <span class="speaker-role">alegria media and publishing</span></figcaption>
   </figure>
 
   <sidebar>

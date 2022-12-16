@@ -40,7 +40,13 @@ speaker .speaker-name {
 }
 
 .speaker-name {
-  font-size: clamp(1.6em, 3vw, 4em)
+  font-size: clamp(1.6em, 6vw, 4em)
+}
+
+speaker .speaker-role {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
 }
 
 @media (min-width: 600px) {
