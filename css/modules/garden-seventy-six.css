@@ -18,7 +18,7 @@ architecture-card p + p,  architecture-card h3 + p {
 
 .architecture-card-header h3 {
 	border-bottom: 2px solid black;
-	padding-bottom: 2px;
+	padding-bottom: 10px;
 }
 
 .architecture-card-footer h3 {
@@ -32,6 +32,7 @@ architecture-card p + p,  architecture-card h3 + p {
 
 .architecture-card-title {
 	font-size: clamp(2.5em, 5vw, 7em);
+	text-transform: capitalize;
 }
 
 .location-title {
@@ -43,6 +44,7 @@ architecture-card p + p,  architecture-card h3 + p {
 
 .architect-facts p {
 	max-width: 70ch;
+	margin-top: 20px;
 }
 
 
@@ -68,6 +70,10 @@ location-photo {
 	border:  2px solid red;
 }
 
+.architect-facts .architect-question {
+	font-size: 1.3em;
+	padding-top: 10px;
+}
 
 @media (min-width: 600px) {
 	.architect-geometry {
@@ -106,6 +112,7 @@ location-photo {
 	.broken-line {
 		position: relative;
 		bottom: 50px;
+		margin-left: 10px;
 	}
 	.time-elapsed {
 		margin-left: 20px;
