@@ -37,7 +37,7 @@
         <img src="https://peprojects.dev/images/square.jpg" alt="">
       </picture>
       
-      <figcaption>author and former new zealand MP<span class="woman-name">helen clark</span></figcaption>
+      <figcaption>author and former new zealand MP<span class="woman-name">holly walker</span></figcaption>
     </figure>
   </women-speakers>
 </women-leaders>
