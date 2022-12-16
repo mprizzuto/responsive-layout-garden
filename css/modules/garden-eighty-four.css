@@ -2,6 +2,10 @@ speaker {
   display: block;
 }
 
+speaker > * {
+  margin-top: 5px;
+}
+
 sidebar {
   display: block;
 }
@@ -71,9 +75,9 @@ speaker .speaker-role {
     outline: 2px solid red;
     z-index: 2;
     position: absolute;
-    min-height: 555px;
+    min-height: 600px;
     width: 70%;
-    max-width: 400px;
+    max-width: 420px;
     border-radius: 45% 45% 0 0;
     left: 30px;
     top: 5px;
