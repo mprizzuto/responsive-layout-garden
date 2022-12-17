@@ -3,7 +3,7 @@ pandemic-news {
 }
 
 .victim-photo {
-  width: 30vw;
+  width: 60vw;
   max-width: 300px;
   margin-top: 20px;
   margin-right: 5px;
@@ -12,6 +12,7 @@ pandemic-news {
 .pandemic-news-title {
   font-size: clamp(1.5em, 6vw, 6em);
   margin-top: 10px;
+  text-transform: capitalize;
 }
 
 @media (min-width: 600px) {
@@ -23,27 +24,22 @@ pandemic-news {
     flex-direction: column;
   }
   .pandemic-victims .victim-photo:first-of-type {
-    border: 10px solid red;
     position: relative;
     top: 160px;
   }
   .pandemic-victims .victim-photo:nth-child(2) {
-    border: 10px solid red;
     position: relative;
     top: 120px;
   }
   .pandemic-victims .victim-photo:nth-child(3) {
-    border: 10px solid red;
     position: relative;
     top: 80px;
   }
   .pandemic-victims .victim-photo:nth-child(4) {
-    border: 10px solid red;
     position: relative;
     top: 40px;
   }
   .pandemic-victims .victim-photo:last-of-type {
-    border: 10px solid red;
 /*     position: relative; */
 /*     top: 80px; */
   }
@@ -51,7 +47,7 @@ pandemic-news {
     align-self: end;
   }
   pandemic-news .pandemic-news-title:last-of-type {
-    color: lime;
+    color: maroon;
     position: relative;
 /*     z-index: 1; */
     top: 40px;
