@@ -33,6 +33,7 @@ women-leaders h3 + p {
 /*  z-index: 1;*/
   text-align: center;
   background: black;
+  min-width: 160px;
 }
 
 women-speakers {
@@ -44,7 +45,8 @@ women-speakers {
   color: white;
 }
 
-.speaker-name {
+women-leaders .speaker-name {
+  font-size: clamp(2em, 3vw, 4em);
   display: inline-block;
   color: red;
   text-transform: capitalize;
@@ -167,7 +169,7 @@ women-speakers {
   .speaker-date-time {
     position: relative;
     top: 50px;
-    left: 50px;
+    left: 25px;
     width: 100%;
   }
 }
