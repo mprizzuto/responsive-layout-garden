@@ -21,7 +21,7 @@
         <img src="https://peprojects.dev/images/square.jpg" alt="">
       </picture>
       
-      <figcaption>former prive minister of australia <span class="woman-name">julia gillard</span></figcaption>
+      <figcaption>former prime minister of australia <span class="woman-name">julia gillard</span></figcaption>
     </figure>
     
     <figure class="female-speaker">
@@ -29,7 +29,7 @@
         <img src="https://peprojects.dev/images/square.jpg" alt="">
       </picture>
       
-      <figcaption>former prive minister of new zealand <span class="woman-name">helen clark</span></figcaption>
+      <figcaption>former prime minister of New Zealand <span class="woman-name">helen clark</span></figcaption>
     </figure>
     
     <figure class="female-speaker">
@@ -37,7 +37,7 @@
         <img src="https://peprojects.dev/images/square.jpg" alt="">
       </picture>
       
-      <figcaption>author and former new zealand MP<span class="woman-name">helen clark</span></figcaption>
+      <figcaption>author and former New Zealand MP<span class="woman-name">holly walker</span></figcaption>
     </figure>
   </women-speakers>
 </women-leaders>
