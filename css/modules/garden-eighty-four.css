@@ -43,7 +43,7 @@ speaker .speaker-name {
   font-size: clamp(1.2em, 2vw, 3em);
 }
 
-.speaker-name {
+speaker .speaker-name {
   font-size: clamp(1.6em, 6vw, 4em)
 }
 
