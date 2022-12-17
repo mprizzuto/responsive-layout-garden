@@ -8,7 +8,7 @@
   <div class="pixomatic-sample">
     <h3 class="pixomatic-sample-title">winter 2022| <span class="pixomatic-location">made in california</span></h3>
     <picture class="pixomatic-photo">
-      <img src="https://peprojects.dev/images/portrait.jpg" alt="">
+      <img src="./images/garden-photos/garden-ninety/david-statue.jpg" alt="the statue of david">
     </picture>
     
     <h3><span class="pixomatic-accent"></span>photo</h3>
