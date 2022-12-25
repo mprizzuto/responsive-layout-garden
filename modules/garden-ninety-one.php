@@ -12,7 +12,7 @@
       </section>
 
       <picture class="account-manager-portrait">
-        <img src="https://peprojects.dev/images/square.jpg" alt="">
+        <img src="./images/garden-photos/garden-ninety-one/vargas.jpg" alt="a photo of a woman on front of a brick wall">
       </picture>
 
       <squares>
