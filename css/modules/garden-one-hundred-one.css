@@ -3,26 +3,26 @@ design-exhibit {
   text-transform: uppercase;
 }
 
-.design-gallery-footer {
+design-exhibit .design-gallery-footer {
   margin-top: 20px;
 }
 
-.design-gallery-title {
-	font-size: 2em;
+design-exhibit .design-gallery-title {
+	font-size: clamp(1.5em, 3vw, 4em);
   line-height: 1.5;
 }
 
-.design-gallery-title span {
+design-exhibit .design-gallery-title span {
   display: inline-block;
   margin-top: 10px;
   margin-right: 10px;
 }
 
-.design-gallery-title span + span {
+design-exhibit .design-gallery-title span + span {
 	 max-width: 50ch;
 }
 
-.gallery-list {
+design-exhibit .gallery-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -30,7 +30,7 @@ design-exhibit {
   margin-top: 15px;
 }
 
-.gallery-list li {
+design-exhibit .gallery-list li {
   flex-basis: 300px;
 }
 
@@ -42,43 +42,43 @@ gallery {
   margin-top: 10px;
 }
 
-.gallery-one {
+design-exhibit .gallery-one {
   background: #585481;
 }
 
-.gallery-two {
+design-exhibit .gallery-two {
   background: #D1BCE3;
 }
 
-.gallery-three {
+design-exhibit .gallery-three {
   background: #395E66;
 }
 
-.gallery-four {
+design-exhibit .gallery-four {
   background: #32936F;
 }
 
-.gallery-five {
+design-exhibit .gallery-five {
   background: #046576;
 }
 
-.gallery-six {
+design-exhibit .gallery-six {
   background: #E58C8A;
 }
 
-.gallery-seven {
+design-exhibit .gallery-seven {
   background: #FFF07C;
 }
 
-.gallery-eight {
+design-exhibit .gallery-eight {
   background: #BA1200;
 }
 
-.gallery-nine {
+design-exhibit .gallery-nine {
   background: #FDE74C;
 }
 
-.gallery-ten {
+design-exhibit .gallery-ten {
   background: #5F758E;
 }
 
