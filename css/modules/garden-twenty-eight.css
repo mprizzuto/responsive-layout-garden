@@ -5,17 +5,18 @@ derm-card {
 /*   margin-left: auto; */
 }
 
-table {
+derm-card table {
   border-bottom: 2px solid gray;
 /*   width: 100%; */
   border-collapse: separate;
   padding: 5px;
 }
 
-tr, td {
+derm-card tr, td {
   padding: 15px;
 }
 
+<<<<<<< Updated upstream
 tbody tr td:first-of-type, tbody tr:first-of-type {
   border-bottom: none;
   border-top: none;
@@ -23,31 +24,34 @@ tbody tr td:first-of-type, tbody tr:first-of-type {
 }
 
 tbody tr td:first-of-type + td  {
+=======
+derm-card tbody tr td:first-of-type + td  {
+>>>>>>> Stashed changes
   border-bottom: 2px solid gray;
   border-left: 2px solid gray;
   color: maroon;
 }
 
-.doc-branding {
+derm-card .doc-branding {
   display: flex;
   flex-direction: column;
 }
 
-.derm-logo {
+derm-card .derm-logo {
   order: 1;
 }
 
-.derm-name {
+derm-card .derm-name {
   order: 2;
   margin-top: 20px;
 }
 
-.doc-portrait {
+derm-card .doc-portrait {
   max-width: 300px;
   transform: translate(0px, 130px);
 }
 
-.derm-summit {
+derm-card.derm-summit {
   text-transform: uppercase;
   margin-top: 20px;
   font-weight: bolder;
