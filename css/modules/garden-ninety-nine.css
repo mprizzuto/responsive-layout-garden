@@ -46,6 +46,7 @@ event-poster {
 .event-information tbody tr {
   border-top: 4px solid black;
 /*   border-bottom: 4px solid black; */
+color: linen;
 }
 
 .event-information tr + tr {
