@@ -6,84 +6,83 @@ pride-series {
   display: block;
 }
 
-figcaption {
+pride-series figcaption {
   margin-top: 10px;
   font-weight: bolder;
 }
 
-
-.pride-week-author picture {
+pride-series .pride-week-author picture {
   max-width: 280px;
 }
 
-.author-list li {
+pride-series .author-list li {
   padding: 10px;
   color: white;
 }
 
-.author-list li:first-of-type {
+pride-series pride-series .author-list li:first-of-type {
   background: red;
 }
 
-.author-list li:nth-child(2) {
+pride-series pride-series .author-list li:nth-child(2) {
   background: #f44336;
 }
 
-.author-list li:nth-child(3) {
+pride-series pride-series .author-list li:nth-child(3) {
   background: #ff8c00;
 }
 
-.author-list li:nth-child(4) {
+pride-series pride-series .author-list li:nth-child(4) {
   background: #fbec5d;
 }
 
-.author-list li:nth-child(5) {
+pride-series .author-list li:nth-child(5) {
   background: #008000;
 }
 
-.author-list li:nth-child(6) {
+pride-series .author-list li:nth-child(6) {
   background: #00008b;
 }
 
-.author-list li:nth-child(7) {
+pride-series .author-list li:nth-child(7) {
   background: #9400d3;
 }
 
-.author-list li:nth-child(8) {
+pride-series .author-list li:nth-child(8) {
   background: #6f2da8;
 }
 
-.author-list li:nth-child(9) {
+pride-series .author-list li:nth-child(9) {
 /*   background: #9bddff; */
   background: #4b0082;
 }
 
-.author-list li:nth-child(10) {
+pride-series .author-list li:nth-child(10) {
   background: #9bddff;
 }
 
-.pride-series h3 {
+pride-series .pride-series h3 {
   font-size: 2.5em;
 }
 
-.pride-series h3 + p,
-.author-list {
+pride-series .pride-series h3 + p,
+pride-series .author-list {
   margin-top: 10px;
 }
 
-.author-photos li {
+pride-series .author-photos li {
   margin-top: 20px;
 }
 
 @media (min-width: 600px) {
-  .author-list {
+  pride-series .author-list {
     writing-mode: vertical-rl;
   }
-  .author-list li {
+  pride-series .author-list li {
     min-height: 90vh;
     padding: 1.3em;
   }
-  .author-photos {
+  pride-series .author-photos {
     display: grid;
     gap: 2%;
     grid-template-columns: repeat(3, 150px);
@@ -91,11 +90,11 @@ figcaption {
 }
 
 @media (min-width: 900px) {
-  .author-list {
+  pride-series .author-list {
     margin-top: unset;
     /*position: relative;*/
   }
-  .author-list li {
+  pride-series .author-list li {
      /*min-height: 90vh; */
      min-height: 1200px;
     /*min-height: 1077px;*/
@@ -107,14 +106,14 @@ figcaption {
   pride-series {
     display: flex;
   }
-  .lgbtq-pride {
+  pride-series .lgbtq-pride {
     flex-basis: 300px;
     margin-right: 10px;
   }
-  .pride-week-author picture {
+  pride-series .pride-week-author picture {
     max-width: 100px;
   }
-  .author-photos {
+  pride-series .author-photos {
     position: absolute; 
     /*top:  58vh;*/
     /*bottom: 322px;*/
@@ -125,7 +124,7 @@ figcaption {
     /*z-index: 1;*/
     /*outline:  10px solid red;*/
   }
-  .author-photos figcaption {
+  pride-series .author-photos figcaption {
     color: white;
   }
 }
