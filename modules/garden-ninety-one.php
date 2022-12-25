@@ -18,7 +18,7 @@
       <squares>
         <square></square>
         <square></square>
-        <p>linkedin/autumnrose-vargas</p>
+        <p><a href="#">linkedin/autumnrose-vargas</a></p>
       </squares>
 
       <monolith></monolith>
