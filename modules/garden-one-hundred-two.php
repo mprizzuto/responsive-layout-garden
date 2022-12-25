@@ -12,7 +12,7 @@
 		<h3 class="shaving-poster-title">the <em>best shave</em> ever</h3>
 
 		<picture class="unisex-razor">
-			<img src="https://peprojects.dev/images/square.jpg" alt="">
+			<img src="./images/garden-photos/garden-one-hundred-two/razor.jpg" alt="">
 		</picture>
 
 
