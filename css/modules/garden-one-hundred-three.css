@@ -6,30 +6,34 @@ emotions-grouped {
 	display: block;
 }
 
-.emotions figcaption  {
+human-emotions .emotions figcaption  {
 	margin-top: 5px;
 }
 
-.human-emotions-title {
+human-emotions .human-emotions-title {
 	max-width: 50ch;
-	font-size: 3em;
+	font-size: clamp(1.5em, 2vw, 3em);
 }
 
-.person-emotes {
+human-emotions .person-emotes {
 	max-width: 500px;
-	width: 10vw;
+	width: 80vw;
 	margin-top: 10px;
 }
 
+human-emotions .emotion {
+	margin-top: 30px;
+}
+
 @media (min-width:  600px) {
-	.human-expressions {
+	human-emotions .human-expressions {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 		gap: 15px;
 	}
-	.human-expressions .emotion:first-of-type {
+	human-emotions .human-expressions .emotion:first-of-type {
 		align-self: center;
 	}
 	emotions-grouped figure:first-of-type {
@@ -42,5 +46,8 @@ emotions-grouped {
 	emotions-grouped figure:first-of-type .person-emotes {
 		order: 2;
 	}
-
+	human-emotions .person-emotes {
+/*		max-width: 500px;*/
+		width: 15vw;
+	}
 }
