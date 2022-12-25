@@ -1,7 +1,7 @@
 event-poster {
   display: block;
   max-width: 700px;
-  border: 10px solid red;
+/*  border: 10px solid red;*/
   background: maroon;
 }
 
@@ -13,7 +13,7 @@ event-poster {
   position: relative;
   z-index: 3;
 /*   display: block; */
-  border: 5px solid lime;
+/*  border: 5px solid lime;*/
 /*   max-width: 600px; */
   color: linen;
 }
@@ -27,12 +27,18 @@ event-poster {
 .event-information tbody tr {
   display: flex;
   flex-direction: row;
-      justify-content: space-between;
+  justify-content: space-between;
 /*   align-items: center; */
+  flex-wrap: wrap;
+}
+
+.event-information tbody tr th {
+  font-size: 1.3em;
+  margin-bottom: 10px;
 }
 
 .event-information tbody tr:first-of-type th {
-  font-size: 2em;
+  font-size: 1.3em;
   font-weight: bolder;
   text-transform: capitalize;
 }
@@ -40,6 +46,7 @@ event-poster {
 .event-information tbody tr {
   border-top: 4px solid black;
 /*   border-bottom: 4px solid black; */
+color: linen;
 }
 
 .event-information tr + tr {
@@ -72,6 +79,10 @@ event-poster {
 
 .kite {
   display: none;
+}
+
+.event-social {
+  padding: 10px;
 }
 
 @media (min-width: 700px) {
