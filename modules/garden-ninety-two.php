@@ -12,7 +12,7 @@
       </svg>
     </h3>
     
-    <p>Mental health problems have nothing to do with being lazy or weak and many people need help to get better. Many factors contribute to mental health problems</p>
+    <p class="mh-origins">Mental health problems have nothing to do with being lazy or weak and many people need help to get better. Many factors contribute to mental health problems</p>
     
     <ul class="mental-illness-causes">
       <li>Biological factors, such as genes, physical illness, injury, or brain chemistry.</li>
