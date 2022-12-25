@@ -84,7 +84,6 @@ gallery {
 
 @media (min-width: 1200px) {
   design-exhibit {
-    border: 10px solid red;
     /*min-height: 900px;*/
   }
   gallery {
