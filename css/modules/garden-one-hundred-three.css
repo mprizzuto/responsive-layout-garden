@@ -6,7 +6,7 @@ emotions-grouped {
 	display: block;
 }
 
-human-emotions .emotions figcaption  {
+human-emotions .emotion figcaption  {
 	margin-top: 5px;
 	text-transform: capitalize;
 }
