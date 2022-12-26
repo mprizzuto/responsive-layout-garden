@@ -20,19 +20,19 @@ pride-series .author-list li {
   color: white;
 }
 
-pride-series pride-series .author-list li:first-of-type {
+pride-series .author-list li:first-of-type {
   background: red;
 }
 
-pride-series pride-series .author-list li:nth-child(2) {
+pride-series .author-list li:nth-child(2) {
   background: #f44336;
 }
 
-pride-series pride-series .author-list li:nth-child(3) {
+pride-series .author-list li:nth-child(3) {
   background: #ff8c00;
 }
 
-pride-series pride-series .author-list li:nth-child(4) {
+pride-series .author-list li:nth-child(4) {
   background: #fbec5d;
 }
 
@@ -71,7 +71,11 @@ pride-series .author-list {
 }
 
 pride-series .author-photos li {
-  margin-top: 20px;
+  margin-top: 50px;
+}
+
+.author-photos picture {
+  max-width: 200px;
 }
 
 @media (min-width: 600px) {
@@ -117,7 +121,8 @@ pride-series .author-photos li {
     position: absolute; 
     /*top:  58vh;*/
     /*bottom: 322px;*/
-    bottom: 35vh;
+/*    bottom: 35vh;*/
+    bottom: 8em;
     /*bottom: 380px;*/
     left: 50%;
     right: 50%;
