@@ -38,9 +38,8 @@
       June 29 -Lev Rosen
     </li>
   </ul>
-</pride-series>
 
-<ul class="author-photos">
+  <ul class="author-photos">
   <li>
     <figure class="pride-week-author">
       <picture>
@@ -131,3 +130,4 @@
     </figure>
   </li>
 </ul>
+</pride-series>
