@@ -8,6 +8,7 @@ emotions-grouped {
 
 human-emotions .emotions figcaption  {
 	margin-top: 5px;
+	text-transform: capitalize;
 }
 
 human-emotions .human-emotions-title {
@@ -49,5 +50,7 @@ human-emotions .emotion {
 	human-emotions .person-emotes {
 /*		max-width: 500px;*/
 		width: 15vw;
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 }
