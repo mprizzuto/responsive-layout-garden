@@ -35,7 +35,7 @@
 				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
 			</picture>
 
-			<figcaption>joy</figcaption>
+			<figcaption>sadness</figcaption>
 		</figure>
 
 		<emotions-grouped>
@@ -44,7 +44,7 @@
 					<img src="https://peprojects.dev/images/portrait.jpg" alt="">
 				</picture>
 
-				<figcaption>surprise</figcaption>
+				<figcaption>anger</figcaption>
 			</figure>
 
 			<figure class="emotion">
@@ -52,7 +52,7 @@
 					<img src="https://peprojects.dev/images/portrait.jpg" alt="">
 				</picture>
 
-				<figcaption>contempt</figcaption>
+				<figcaption>disgust</figcaption>
 			</figure>
 		</emotions-grouped>
 
@@ -61,15 +61,7 @@
 				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
 			</picture>
 
-			<figcaption>contempt</figcaption>
+			<figcaption>fear</figcaption>
 		</figure>
 	</section>
-
-	<footer class="human-emotions-footer">
-		<picture class="consultant-logo">
-			<img src="" alt="">
-		</picture>
-	</footer>
-
-
 </human-emotions>
