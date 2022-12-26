@@ -6,7 +6,7 @@
 	<section class="human-expressions">
 		<figure class="emotion">
 			<picture class="person-emotes">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-one-hundred-three/joy.jpg" alt="a person smiling">
 			</picture>
 
 			<figcaption>joy</figcaption>
@@ -15,7 +15,7 @@
 		<emotions-grouped>
 			<figure class="emotion">
 				<picture class="person-emotes">
-					<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+					<img src="./images/garden-photos/garden-one-hundred-three/surprise.jpg" alt="a man looking surprised">
 				</picture>
 
 				<figcaption>surprise</figcaption>
@@ -23,7 +23,7 @@
 
 			<figure class="emotion">
 				<picture class="person-emotes">
-					<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+					<img src="./images/garden-photos/garden-one-hundred-three/contempt.jpg" alt="a man looking contemptious">
 				</picture>
 
 				<figcaption>contempt</figcaption>
@@ -32,7 +32,7 @@
 
 		<figure class="emotion">
 			<picture class="person-emotes">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-one-hundred-three/sadness.jpg" alt="a woman looking sad">
 			</picture>
 
 			<figcaption>sadness</figcaption>
@@ -41,7 +41,7 @@
 		<emotions-grouped>
 			<figure class="emotion">
 				<picture class="person-emotes">
-					<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+					<img src="./images/garden-photos/garden-one-hundred-three/anger.jpg" alt="a boy looking anger">
 				</picture>
 
 				<figcaption>anger</figcaption>
@@ -49,7 +49,7 @@
 
 			<figure class="emotion">
 				<picture class="person-emotes">
-					<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+					<img src="./images/garden-photos/garden-one-hundred-three/disgust.jpg" alt="a woman looked disgusted">
 				</picture>
 
 				<figcaption>disgust</figcaption>
@@ -58,7 +58,7 @@
 
 		<figure class="emotion">
 			<picture class="person-emotes">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-one-hundred-three/fear.jpg" alt="a wimnan looking fearful">
 			</picture>
 
 			<figcaption>fear</figcaption>
