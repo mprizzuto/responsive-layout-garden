@@ -6,13 +6,11 @@ spheres {
 
 sphere {
   display: block;
-  flex-basis: 500px; 
 }
 
-
 .circle {
-  min-height: 300px;
-  max-width: 300px;
+  min-height: 200px;
+  min-width: 200px;
   background: wheat;
   margin-top: 10px;
   border-radius: 50%;
