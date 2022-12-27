@@ -1,4 +1,5 @@
-<ballet-poster>
+<h3><mark>garden 108</mark>under construction</h3>
+<!-- <ballet-poster>
   <header class="ballet-poster-header">
     <h3 class="ballet-poster-title">VIRTUAL CLASS ONLY <a class="ballet-link" href="#">stepsnyc.com</a></h3>
     
@@ -15,4 +16,4 @@
     
     <square></square>
   </figure>
-</ballet-poster>
+</ballet-poster> -->
