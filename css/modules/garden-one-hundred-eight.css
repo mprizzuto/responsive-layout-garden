@@ -4,6 +4,10 @@ ballet-poster {
   color: linen;
 }
 
+ballet-poster * {
+  border: 5px solid green;
+}
+
 ballet-poster header * {
   margin-top: 5px;
 }
@@ -29,7 +33,7 @@ ballet-poster header * {
   align-items: center;
   border-top: 4px solid black;
   border-bottom: 4px solid black;
-  min-width: 90vw;
+/*  min-width: 90vw;*/
 }
 
 .ballerina-portrait {
