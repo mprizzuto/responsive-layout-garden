@@ -3,11 +3,11 @@
 	
 	<habit>
 		<picture class="bad-habit-pic">
-			<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			<img src="./images/garden-photos/garden-one-hundred-four/bad-habit-one.jpg" alt="">
 		</picture>
 
 		<picture class="bad-habit-pic">
-			<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			<img src="./images/garden-photos/garden-one-hundred-four/bad-habit-two.jpg" alt="">
 		</picture>
 	</habit>
 
