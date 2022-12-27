@@ -14,7 +14,7 @@ Breastfeeding for you!</p>
     <doctor-info>
       <figure class="ob-gyn-figure">
         <picture class="ob-gyn-portrait">
-          <img src="https://peprojects.dev/images/portrait.jpg" alt="">
+          <img src="./images/garden-photos/garden-one-hundred-eleven/breast-feeding-one.jpg" alt="">
         </picture>
 
         <figcaption class="ob-gyn-info">
@@ -25,7 +25,7 @@ Breastfeeding for you!</p>
 
       <figure class="ob-gyn-figure">
         <picture class="ob-gyn-portrait">
-          <img src="https://peprojects.dev/images/portrait.jpg" alt="">
+          <img src="./images/garden-photos/garden-one-hundred-eleven/breast-feeding-two.jpg" alt="">
         </picture>
 
         <figcaption class="ob-gyn-info">
