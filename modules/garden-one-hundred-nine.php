@@ -3,7 +3,7 @@
     <h3 class="creative-title">liv buchanan</h3>
     
     <picture class="creative-photo">
-      <img src="https://peprojects.dev/images/portrait.jpg" alt="">
+      <img src="./images/garden-photos/garden-one-hundred-nine/liz.jpg" alt="a woman with red hair in the sun">
     </picture>
     
     <figcaption>the little op shop photograpaher</figcaption>
