@@ -4,7 +4,7 @@
   <div class="thermostat-product">
     <h3 class="thermostat-title">thermostat</h3>
     <picture class="thermostat-pic">
-      <img src="https://peprojects.dev/images/square.jpg" alt="">
+      <img src="./images/garden-photos/garden-one-hundred-five/therm.jpg" alt="">
     </picture>
   </div>
 </temperature-card>
