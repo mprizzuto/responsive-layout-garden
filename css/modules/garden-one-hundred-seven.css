@@ -13,6 +13,7 @@ chair-elect {
 .election-poster-title {
 	font-size: clamp(2em, 2vw, 3em);
 	line-height: 1.5;
+	color: var(--background-color);
 }
 
 .school-election-title {
