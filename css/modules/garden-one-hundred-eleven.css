@@ -49,6 +49,7 @@ pregnancy-poster * {
   .ob-gyn-docs {
     display: flex;
     flex-direction: row;
+    gap: 3%;
   }
   doctor-info {
     display: flex;
