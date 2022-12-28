@@ -3,7 +3,7 @@
     <li>
       <figure class="realtor-testimonial">
         <picture class="realtor-portrait">
-          <img src="https://peprojects.dev/images/portrait.jpg" alt="">
+          <img src="./images/garden-photos/garden-one-hundred-twelve/agent-one.jpg" alt="a woman with brown hair smiles">
         </picture>
 
         <div class="realtor-info">
@@ -27,7 +27,7 @@
     <li>
       <figure class="realtor-testimonial">
         <picture class="realtor-portrait">
-          <img src="https://peprojects.dev/images/portrait.jpg" alt="">
+          <img src="./images/garden-photos/garden-one-hundred-twelve/agent-two.jpg" alt="a woman with blonde hair smiles">
         </picture>
 
         <div class="realtor-info">
