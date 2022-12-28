@@ -33,7 +33,10 @@ realtor-poster * {
   .realtor-testimonial-list li:first-of-type .realtor-testimonial blockquote {
     padding: 5px;
     margin-left: 20px;
-    border-left: 4px solid red;
+    border-left: 4px solid var(--background-color);
+  }
+  .realtor-testimonial-list li:last-of-type .realtor-testimonial blockquote {
+    border-left: 4px solid var(--background-color);
   }
   .realtor-testimonial-list li .realtor-info {
     display: flex;
