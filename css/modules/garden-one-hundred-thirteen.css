@@ -1,7 +1,9 @@
 geometric-art {
   display: block;
-/*   min-height: 130vh; */
+  overflow: hidden;
   border: 3px solid lime;
+  min-height: 670px;
+
 }
 
 geometric-art * {
@@ -25,7 +27,6 @@ geometric-art * {
 }
 
 .web-agency-details {
-  border: 3px solid red;
   background: maroon;
   color: linen;
   padding: 30px;
@@ -40,20 +41,28 @@ geometric-art * {
 @media (min-width: 600px) {
   geometric-art {
     position: relative;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .geometric-one {
     clip-path: polygon(100% 0, 0 0, 100% 100%);
   }
  .geometric-two {
     clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    position: relative;
+    top: 20px;
   }
   .web-agency-details {
     position: absolute;
     min-height: 30vh;
-/*     top: 120px; */
-    top: 18%;
-    left: 45px;
-    transform: rotate(15deg);
+    /* top: 120px; */
+    top: 30%;
+    left: 20%;
+    transform: rotate(20deg);
     min-height: 300px;
+    /* z-index: -1; */
+    /* overflow: hidden; */
+    max-width: 55ch;
   }
 }
