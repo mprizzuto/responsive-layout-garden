@@ -26,6 +26,7 @@ pregnancy-poster .pregnancy-poster-title {
 
 pregnancy-poster .pregnancy-poster-title span:last-of-type {
   display: block;
+  max-width: 25ch;
 }
 
 pregnancy-poster .clinic-detail-title {
