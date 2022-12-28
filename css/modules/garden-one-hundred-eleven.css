@@ -45,6 +45,10 @@ pregnancy-poster * {
   margin-top: 20px;
 }
 
+.ob-gyn-figure figcaption {
+  max-width: 35ch;
+}
+
 @media (min-width: 600px) {
   .ob-gyn-docs {
     display: flex;
