@@ -20,33 +20,41 @@ pregnancy-poster * {
   margin-top: 5px;
 }
 
-.pregnancy-poster-title {
+pregnancy-poster .pregnancy-poster-title {
   font-size: clamp(2em, 3vw, 5em);
 }
 
-.pregnancy-poster-title span {
+pregnancy-poster .pregnancy-poster-title span:last-of-type {
   display: block;
 }
 
-.clinic-detail-title {
+pregnancy-poster .clinic-detail-title {
   font-size: clamp(1.5em, 2vw, 3em);
 }
 
-.ob-gyn-portrait {
+pregnancy-poster .ob-gyn-portrait {
   max-width: 300px;
 }
 
-.clinic-info {
+pregnancy-poster .clinic-info {
   font-size: clamp(1.2em, 2vw, 2em);
   text-transform: capitalize;
 }
 
-.ob-gyn-figure {
+pregnancy-poster .ob-gyn-figure {
   margin-top: 20px;
 }
 
+pregnancy-poster .ob-gyn-figure figcaption {
+  max-width: 50ch;
+}
+
+pregnancy-poster .clinic-details {
+  margin-top: 30px;
+}
+
 @media (min-width: 600px) {
-  .ob-gyn-docs {
+  pregnancy-poster .ob-gyn-docs {
     display: flex;
     flex-direction: row;
     gap: 3%;
@@ -56,11 +64,16 @@ pregnancy-poster * {
     flex-direction: row;
     gap: 15px;
   }
-  .ob-gyn-figure + .ob-gyn-figure {
+  pregnancy-poster .ob-gyn-figure + .ob-gyn-figure {
     margin-top: 90px;
 /*     margin-left 5px; */
   }
-  .clinic-detail-title span {
+  pregnancy-poster .clinic-detail-title span {
     display: block;
   }
+  pregnancy-poster .clinic-details {
+    flex-basis: 300px;
+  }
 }
+
+
