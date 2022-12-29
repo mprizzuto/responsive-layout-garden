@@ -11,7 +11,7 @@
   <section class="panelists">
     <figure class="panelist-info panelist-one">
       <picture class="panelist-photo">
-        <img src="https://peprojects.dev/images/square.jpg" alt="">
+        <img src="./images/garden-photos/garden-one-hundred-fifteen/activist-one.jpg" alt="a woman with long hair and a jeans jacket">
       </picture>
       
       <figcaption class="panelist-credentials">
@@ -23,7 +23,7 @@
     
     <figure class="panelist-info panelist-two">
       <picture class="panelist-photo">
-        <img src="https://peprojects.dev/images/square.jpg" alt="">
+        <img src="./images/garden-photos/garden-one-hundred-fifteen/activist-two.jpg" alt="">
       </picture>
       
       <figcaption class="panelist-credentials">
@@ -35,7 +35,7 @@
     
     <figure class="panelist-info panelist-three">
       <picture class="panelist-photo">
-        <img src="https://peprojects.dev/images/square.jpg" alt="">
+        <img src="./images/garden-photos/garden-one-hundred-fifteen/activist-three.jpg" alt="">
       </picture>
       
       <figcaption class="panelist-credentials">
@@ -47,7 +47,7 @@
    
     <figure class="panelist-info panelist-four">
       <picture class="panelist-photo">
-        <img src="https://peprojects.dev/images/square.jpg" alt="">
+        <img src="./images/garden-photos/garden-one-hundred-fifteen/activist-four.jpg" alt="">
       </picture>
       
       <figcaption class="panelist-credentials">
@@ -59,7 +59,7 @@
     
     <figure class="panelist-info panelist-five">
       <picture class="panelist-photo">
-        <img src="https://peprojects.dev/images/square.jpg" alt="">
+        <img src="./images/garden-photos/garden-one-hundred-fifteen/activist-five.jpg" alt="">
       </picture>
       
       <figcaption class="panelist-credentials">
