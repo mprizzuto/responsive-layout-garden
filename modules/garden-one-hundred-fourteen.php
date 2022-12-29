@@ -7,14 +7,14 @@
     </h3>
     
     <picture class="waveform">
-      <img src="https://static.thenounproject.com/png/3400559-200.png" alt="">
+      <img src="./images/garden-photos/garden-one-hundred-fourteen/soundwave.jpg" alt="">
     </picture>
   </header>
   
   <section class="therapist-profiles">
     <figure class="therapist-figure">
       <picture class="therapist-photo">
-        <img src="https://peprojects.dev/images/square.jpg" alt="">
+        <img src="./images/garden-photos/garden-one-hundred-fourteen/therapist-one.jpg" alt="">
       </picture>
       
       <figcaption class="therapist-name"><span>nicole</span> <span>walker</span></figcaption>
@@ -22,7 +22,7 @@
     
     <figure class="therapist-figure">
       <picture class="therapist-photo">
-        <img src="https://peprojects.dev/images/square.jpg" alt="">
+        <img src="./images/garden-photos/garden-one-hundred-fourteen/therapist-two.jpg" alt="">
       </picture>
       
       <figcaption class="therapist-name"><span>samantha</span> <span>mirarchi</span></figcaption>
