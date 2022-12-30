@@ -1,0 +1,59 @@
+wild-moon-healers {
+	display: block;
+}
+
+wild-moon-healers .healing-numbers {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+
+wild-moon-healers .healing-numbers li  {
+	flex-basis: 300px;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	border: 3px solid  var(--background-color);
+	min-width: 50px;
+	max-width: 200px;
+	min-height: 200px;
+	max-height: 200px;
+	border-radius: 5% 5% 5% 5%;
+	/*flex-shrink: 0;*/
+}
+
+wild-moon-healers .wild-moon-portrait {
+	max-width: 400px;
+}
+
+@media (min-width: 600px) {
+	wild-moon-healers .healing-numbers li:first-of-type {
+		order:  2;
+	}
+	wild-moon-healers .healing-numbers li:nth-child(2) {
+		order:  3;
+	}
+	wild-moon-healers .healing-numbers li:nth-child(3) {
+		order:  5;
+	}
+	wild-moon-healers .healing-numbers li:nth-child(4) {
+		order:  2;
+		align-self: end;
+		min-height: 200px;
+	}
+	wild-moon-healers .healing-numbers li:nth-child(5) {
+		order:  4;
+		align-self: end;
+		min-height: 200px;
+	}
+	wild-moon-healers .healing-numbers {
+		flex-wrap: nowrap;
+		min-height: 300px;
+		margin-top: 10px;
+	}
+	wild-moon-healers .wild-moon-portrait {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

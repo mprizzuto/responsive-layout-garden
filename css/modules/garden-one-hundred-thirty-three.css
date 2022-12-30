@@ -1,0 +1,124 @@
+available-cats {
+  display: block;
+}
+
+.cat-portrait {
+  max-width: 500px;
+  margin-top: 5px;
+}
+
+.available-cats-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.available-cats-list li {
+  min-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+  flex-basis: 300px;
+  flex-shrink: 0;
+  margin: 5px;
+  
+/*   border: 3px solid red; */
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.available-cats-list li:first-of-type {
+/*   background: green; */
+  background: url("https://peprojects.dev/images/square.jpg");
+}
+
+.available-cats-list li:nth-child(2) {
+/*   background: green; */
+  background: url("https://peprojects.dev/images/square.jpg");
+}
+
+.available-cats-list li:nth-child(3) {
+/*   background: green; */
+  background: url("https://peprojects.dev/images/square.jpg");
+}
+
+.available-cats-list li:nth-child(4) {
+/*   background: green; */
+  background: url("https://peprojects.dev/images/square.jpg");
+}
+
+.available-cats-list li:nth-child(5) {
+/*   background: green; */
+  background: url("https://peprojects.dev/images/square.jpg");
+}
+
+.available-cats-list li:nth-child(6) {
+/*   background: green; */
+  background: url("https://peprojects.dev/images/square.jpg");
+}
+
+.available-cats-list li:nth-child(7) {
+/*   background: green; */
+  background: url("https://peprojects.dev/images/square.jpg");
+}
+
+@media (min-width: 600px) {
+  .available-cats-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 7%;
+/*     border: 3px solid red; */
+    min-height: 800px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .available-cats-list li {
+    border-radius: 50%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .available-cats-list li:nth-child(2) span {
+    align-self: end;
+  }
+  .available-cats-list li:nth-child(3), .available-cats-list li:nth-child(5) {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .available-cats-list li:nth-child(3) span {
+    align-self: start;
+  }
+  .available-cats-list li:nth-child(5) span {
+    align-self: end;
+  }
+  .available-cats-list li:nth-child(1) {
+    grid-column: 2;
+  }
+  .available-cats-list li:nth-child(2) {
+    position: relative;
+    top: 30px;
+    grid-column: 3;
+/*     grid-row: 2; */
+    margin-top: 60px;
+  }
+  .available-cats-list li:nth-child(3) {
+    grid-column: 3;
+  }
+  .available-cats-list li:nth-child(4) {
+    grid-column: 2;
+  }
+  .available-cats-list li:nth-child(5) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .available-cats-list li:nth-child(6) {
+    position: relative;
+    bottom: 200px;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .available-cats-list li:nth-child(7) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}

@@ -1,0 +1,142 @@
+from-type-to-logo {
+	display: block;
+	overflow: hidden;
+}
+
+book-accent-oval {
+	display: block;
+}
+
+paper-hole {
+	display: block;
+}
+
+book-accent-circle {
+	display: block;
+}
+
+from-type-to-logo .type-to-logo-cta {
+	font-size: 1.5em;
+	text-decoration: underline;
+	margin-top: 10px;
+}
+
+from-type-to-logo .type-to-logo-heading  {
+	font-size: 2.5em;
+	text-transform: capitalize;
+}
+
+
+from-type-to-logo .type-to-logo-heading span {
+	text-decoration: underline;
+}
+
+from-type-to-logo .type-to-logo-design {
+	display: flex;
+}
+
+from-type-to-logo .type-to-logo-design h3 {
+	font-size: clamp(1.2em, 2vw, 4em);
+}
+
+from-type-to-logo .type-to-logo-design > * {
+	margin-left: 5px;
+}
+
+@media (min-width: 600px) {
+	from-type-to-logo .type-to-logo-design {
+		display: grid;
+		grid-template-columns: repeat(5, auto);
+	}
+	from-type-to-logo .from-type-to-logo-header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	from-type-to-logo .type-to-logo-heading span {
+		display: block;
+		text-decoration: underline;
+	}
+	from-type-to-logo .logo-group-one {
+		grid-row: 1;
+		grid-column: 2 / 3;
+		/*max-width: 300px;*/
+	}
+	from-type-to-logo .logo-group-two, .logo-group-three {
+		display: flex;
+		flex-direction: column;
+	}
+	from-type-to-logo .logo-group-two {
+		grid-column: 3 / 6;
+	}
+	from-type-to-logo .oval-two {
+		min-height: 150px;
+		max-width: 150px;
+		align-self: center;
+		min-width: 200px;
+		flex-shrink: 0;
+	}
+	from-type-to-logo .oval-three {
+		min-width: 200px;
+		align-self: center;
+	}
+	from-type-to-logo .oval-four {
+		
+	}
+	from-type-to-logo .oval-five {
+		margin-top: 20px;
+	}
+	paper-hole {
+		min-height: 150px;
+		min-width: 50px;
+		max-width: 150px;
+		background: white;
+		border-radius: 50%;
+	}
+	from-type-to-logo .type-to-logo-design h3[class*="type-to-logo"] {
+		display: flex;
+		flex-direction: row;
+		background: var(--background-color);
+		color: linen;
+		padding: 5%;
+		/*max-width: 150px;*/
+		/*width: 150px;*/
+		min-height: 300px;
+		border-radius: 45% 45% 45% 45%;
+	} 
+	from-type-to-logo .type-to-logo-design h3[class*="type-to-logo"] span {
+		display: block;
+		padding: 30px;
+		align-self: center;
+	} 
+	from-type-to-logo .logo-from , .logo-logo{
+		transform: rotate(90deg);
+		/*padding: 30px;*/
+	}
+	from-type-to-logo .logo-type {
+		min-width: 300px;
+	}
+	from-type-to-logo .type-to-logo-logo {
+		grid-column: 3;
+		grid-row: 2;
+	}
+	book-accent-circle {
+		background: black;
+		max-height: 150px;
+		min-height: 150px;
+		min-width: 100px;
+		max-width: 150px;
+		border-radius: 50%;
+	}
+	book-accent-oval {
+		min-height: 50px;
+		max-height: 100px;
+		border-radius: 45% 45% 45% 45%;
+		background: black;
+		margin: 5px;
+	}
+	from-type-to-logo .book-hole {
+		display: flex;
+		flex-direction: row;
+	}
+}

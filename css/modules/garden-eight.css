@@ -15,6 +15,7 @@ rap-album h3 {
 
 rap-album h4 {
   font-size: clamp(2em, 4vw, 5em);
+  text-transform: capitalize;
 }
 
 .rapper-list figcaption {
@@ -48,6 +49,15 @@ rap-album h4 {
 .nwa-color {
   display: block;
   font-weight: bolder;
+}
+
+.nwa-color:first-of-type {
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+
+.nwa-color + .nwa-color {
+  font-style: italic;
 }
 
 .nwa-rep {

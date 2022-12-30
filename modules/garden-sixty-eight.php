@@ -23,13 +23,13 @@
 
 	<figure class="model-highlight">
 		<picture class="model-headshot">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-sixty-eight/woman-one.jpg" alt="a woman in a black shirt with a neutral expression">
 		</picture>
 
 		<figcaption>julia festivePants</figcaption>
 	</figure>
 
 	<picture class="model-headshot">
-		<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+		<img src="./images/garden-photos/garden-sixty-eight/woman-two.jpg" alt="a woman in a red shirt smiles">
 	</picture>
 </model-poster>

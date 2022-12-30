@@ -22,10 +22,10 @@ habit {
 		flex-direction: column;
 	}
 	.bad-habit-title:first-of-type {
-		color: lime;
+		color: var(--background-color);
 	}
 	.bad-habit-title:last-of-type {
-		color: red;
+		color: var(--background-color);
 		align-self: end;
 	}
 	habit {

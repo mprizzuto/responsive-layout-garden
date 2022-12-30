@@ -1,7 +1,3 @@
-* {
-	/*outline:  3px solid red;*/
-}
-
 pe-teaser {
 	display: block;
 	/*display: flex;*/
@@ -9,6 +5,12 @@ pe-teaser {
 	/*justify-content: space-between;*/
 	min-height: 600px;
 }
+
+pe-teaser header * {
+/*	border-top: 10px solid red;*/
+	margin-top: 10px;
+}
+
 .design-school-header {
 	display: flex;
 	justify-content: space-between;
@@ -17,7 +19,7 @@ pe-teaser {
 }
 
 .design-school-header h3 {
-	font-size: clamp(1.5em, 4vw, 5em);
+	font-size: clamp(.9em, 2vw, 5em);
 }
 
 .pe-sign {
@@ -46,7 +48,9 @@ pe-teaser {
 }
 
 .pe-dot {
-	max-width: 320px;
+	position: relative;
+	z-index: -1;
+	max-width: 30vw;
 	order:  2;
 }
 
@@ -54,7 +58,16 @@ pe-teaser {
 	display: block;
 }
 
+.pe-cta {
+	display: inline-block;
+	padding: 10px;
+	text-transform: capitalize;
+}
 
+.school-name, .course-name {
+	padding: 10px;
+	text-transform: capitalize;
+}
 
 
 @media (min-width:  600px) {
@@ -65,7 +78,7 @@ pe-teaser {
 	pe-teaser .course-name {
 		transform: rotate(90deg);
 		position: absolute;
-		top: 90px;
+		top: 50%;
 		right: 30px;
 	}
 	.pe-cta-title {
@@ -80,6 +93,7 @@ pe-teaser {
 		transform: rotate(-180deg);
 		position: absolute;
 		bottom:  -155px;
+		right: 90px;
 	}
 	.pe-sign .school-name {
 		position: absolute;

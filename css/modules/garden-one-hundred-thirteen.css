@@ -1,0 +1,67 @@
+geometric-art {
+  display: block;
+  overflow: hidden;
+  min-height: 670px;
+
+}
+
+geometric-art * {
+  margin-top: 10px;
+}
+
+.web-agency-title {
+  font-size: 3em;
+}
+
+.geometric-one {
+  background: maroon;
+  min-height: 300px;
+  min-width: 30px;
+}
+
+.geometric-two {
+  background: maroon;
+  min-height: 300px;
+  min-width: 30px;
+}
+
+.web-agency-details {
+  background: maroon;
+  color: linen;
+  padding: 30px;
+/*   transform: rotate(15deg);
+  min-height: 300px; */
+}
+
+.web-agency-details p {
+  max-width: 60ch;
+}
+
+@media (min-width: 600px) {
+  geometric-art {
+    position: relative;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .geometric-one {
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+  }
+ .geometric-two {
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    position: relative;
+    top: 20px;
+  }
+  .web-agency-details {
+    position: absolute;
+    min-height: 30vh;
+    /* top: 120px; */
+    top: 30%;
+    left: 20%;
+    transform: rotate(20deg);
+    min-height: 300px;
+    /* z-index: -1; */
+    /* overflow: hidden; */
+    max-width: 55ch;
+  }
+}

@@ -1,11 +1,11 @@
 <social-card>
 	<header class="social-card-header">
-		<h3>@genricUser</h3>
+		<h3>@genericUser</h3>
 	</header>
 
 	<social-metrics>
 		<picture class="user-photo">
-			<img src="https://peprojects.dev/images/square.jpg" alt="user photo">
+			<img src="./images/garden-photos/garden-fifty-one/square-plants.jpg" alt="user photo">
 		</picture>
 
 		<ul class="user-metrics">

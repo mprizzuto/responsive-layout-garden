@@ -8,7 +8,7 @@
 
 		<figure class="beauty-school-founder">
 			<picture class="founder-portrait">
-				<img src="https://womenintheworld.org/wp-content/uploads/2022/01/Han-Ye-Seul.jpg" alt="a korean woman with long hair">
+				<img src="./images/garden-photos/garden-seventy-four/Han-Ye-Seul.jpeg" alt="a korean woman with long hair">
 			</picture>
 
 			<figcaption>Han-Ye-Seul, our founder</figcaption>
@@ -24,7 +24,7 @@
 		  <circle cx="50" cy="50" r="50"/>
 		</svg>
 
-		<blockquote cite="https://www.empire.edu/blog/beauty-business/cosmetology-school">
+		<blockquote class="beauty-school-quote" cite="https://www.empire.edu/blog/beauty-business/cosmetology-school">
 			<p>Before you touch a mannequin or someone’s head, hands, feet or skin, you first need to learn basic theory and technique.</p>
 
 			<p>Eventually you will be ready to <strong>perform on your own—a proud milestone for all cosmetology students!</strong></p>

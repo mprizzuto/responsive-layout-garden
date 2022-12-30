@@ -26,14 +26,10 @@ of the case</li>
 
     <figure class="vet-highlight">
       <picture class="vet-portrait">
-        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFIeOrWkSAPOA/profile-displayphoto-shrink_200_200/0/1647116747841?e=1658966400&v=beta&t=VojFxpg_XvKEPCxNJJwbxCsuKdwXz7MlpU77AL-At1U" alt="">
+        <img src="./images/garden-photos/garden-fifty-five/eddy-nassif.jpeg" alt="dr eddy nassif with smiling while holding a pomeranian">
       </picture>
 
       <figcaption>dr eddy nassif <span class="vet-credentials">veterinarian | Drapp id:6085</span></figcaption>
     </figure>
   </section>
-
-  <footer class="vet-card-footer">
-
-  </footer>
 </vet-card>

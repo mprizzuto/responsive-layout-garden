@@ -15,6 +15,10 @@ social-metrics {
 	border-radius: 50%;
 }
 
+.user-metrics {
+	line-height: 1.2;
+}
+
 .user-metrics li {
 	margin: 10px;
 }
@@ -32,11 +36,17 @@ social-metrics {
 
 .user-bio {
 	margin-top: 20px;
+	max-width: 400px;
+}
+
+.user-metric {
+	font-weight: bolder;
+	text-transform: capitalize;
 }
 
 @media (min-width: 600px) {
 	.user-metric {
-		display: inline-block;
+		display: block;
 	}
 	social-metrics {
 		display:  flex;
@@ -44,9 +54,11 @@ social-metrics {
 	}
 	.user-metrics {
 		display:  flex;
+		flex-direction: row;
+		margin-left: 20px;
 	}
 	.user-metrics li {
 		flex-shrink: 0;
-		flex-basis: 100px;
+		flex-basis: 50px;
 	}
 }

@@ -1,8 +1,12 @@
+.garden-one-hundred-two {
+	margin-bottom: 150px;
+}
+
 shaving-poster {
 	display: block;
-	display: flex;
-  justify-content: center;
-  align-items: center;
+/*	display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
 }
 
 .shaving-poster-title ~ * {
@@ -10,20 +14,21 @@ shaving-poster {
 }
 
 .shaving-poster-title {
-	font-size: 3em;
+	font-size: clamp(2em, 2vw, 3em);
 }
 
 
-.having-poster-header-title {
+.shaving-poster-header-title {
+	font-size: clamp(1.3em, 2vw, 2em);
 	text-transform: capitalize;
 }
 
 .shaving-poster-header {
-	display: flex;
-	flex-direction: column;
+/*	display: flex;*/
+/*	flex-direction: column;*/
 	align-self: end;
-	position: relative;
-  top: 50px
+/*	position: relative;*/
+/*  top: 50px*/
 }
 
 .reading-info {
@@ -42,6 +47,7 @@ shaving-poster {
 	display: inline-block;
 	vertical-align: sub;
 	content:  ' \2022';
+	padding: 5px;
 	font-size: 1.5em;
 }
 
@@ -61,7 +67,7 @@ shaving-poster {
 	}
 	shaving-poster .shaving-poster-title:first-of-type {
 		align-self: end;
-		transform: rotate(270deg);
+		transform: rotate(270deg) translate(0, 30px);
 	}
 	shaving-poster .shaving-poster-title:last-of-type {
 		align-self: start;

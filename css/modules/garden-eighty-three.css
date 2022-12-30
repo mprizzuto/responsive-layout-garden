@@ -18,6 +18,9 @@ tv-ad {
 .tv-ad-title {
 	order: 2;
 	font-size: 1.3em;
+	color: linen;
+	background: maroon;
+	padding: 10px;
 }
 
 .peacock-logo {
@@ -26,8 +29,6 @@ tv-ad {
 
 .tv-cta-link {
 	display: block;
-	/*max-width: 150px;*/
-	margin-left: 20px;
 	padding: 20px;
 	margin-top: 20px;
 	background: maroon;
@@ -46,19 +47,19 @@ tv-ad {
 }
 
 tv-advertisement tv-ad:first-of-type {
-	background: url("https://peprojects.dev/images/portrait.jpg");
+	background: url("../../images/garden-photos/garden-eighty-three/boy-one.jpg");
 	background-position: center;
 	background-size: cover;
 }
 
 tv-advertisement tv-ad:nth-child(2) {
-	background: url("https://peprojects.dev/images/portrait.jpg");
+	background: url("../../images/garden-photos/garden-eighty-three/girl-one.jpg");
 	background-position: center;
 	background-size: cover;
 }
 
 tv-advertisement tv-ad:nth-child(3) {
-	background: url("https://peprojects.dev/images/portrait.jpg");
+	background: url("../../images/garden-photos/garden-eighty-three/group.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -77,15 +78,14 @@ tv-advertisement tv-ad:last-of-type {
 		display: flex;
 		flex-direction: row;
 		flex-basis: 26%;
-		min-height: 300px;
+		min-height: 500px;
 		flex-shrink: 0;
-		border:  4px solid red;
-		margin:  10px;
+/*		margin:  10px;*/
 	}
 	tv-ad * {
 		align-self: end;
-		margin-right: auto;
-		margin-left: auto;
+/*		margin-right: auto;*/
+/*		margin-left: auto;*/
 	}
 	tv-advertisement tv-ad:last-of-type {
 		display: flex;

@@ -1,0 +1,128 @@
+gallery-azulejo {
+	display: block;
+}
+
+gallery-azulejo * {
+	margin-top: 10px;
+}
+
+gallery-azulejo-card {
+	display: block;
+	/*border:  2px solid red;*/
+}
+
+gallery-azulejo-card * {
+	margin-top: 15px;
+}
+
+gallery-azulejo .gallery-azulejo-event h3 {
+	font-size: 3em;
+	color: var(--background-color);
+}
+
+gallery-azulejo h4.gallery-azulejo-title {
+	color: var(--background-color);
+}
+
+span.azulejo-art-exhibit {
+	color: initial;
+}
+
+gallery-azulejo .gallery-azulefo-passion {
+	color: var(--background-color);
+}
+
+gallery-azulejo .gallery-azulejo-address h4, .gallery-exhibit-title {
+	font-size: 1.5em;
+}
+
+gallery-azulejo .gallery-azulejo-photo {
+	max-width: 700px;
+}
+
+gallery-azulejo .gallery-azulejo-photos .gallery-azulejo-title {
+	font-size: 2.5em;
+}
+
+@media (min-width: 600px) {
+	gallery-azulejo .gallery-azulejo-photos {
+		position: relative;
+		max-width: 600px;
+		overflow: hidden;
+	}
+	gallery-azulejo .gallery-azulejo-photos h3.gallery-azulejo-title {
+		position: absolute;
+		left: 92%;
+		top:  100px;
+		writing-mode: vertical-rl;
+		color:  var(--background-color);
+		font-size: 6em;
+	}
+	gallery-azulejo {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		min-height: 700px;
+		/*border: 4px solid green;*/
+	}
+	gallery-azulejo p {
+		max-width: 40ch;
+	}
+	gallery-azulejo .gallery-azulejo-welcome {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		/*border: 4px solid blue;*/
+	}
+	gallery-azulejo .gallery-azulejo-welcome .gallery-azulejo-address {
+		/*position: relative;*/
+    /*right: 70px;*/
+		transform: rotate(270deg) translate(-100%, -61px);
+		max-width: 400px;
+		margin-top: 180px;
+		align-self: start;
+	}
+	gallery-azulejo .gallery-azulejo-address * {
+		max-width: 40ch;
+	}
+	gallery-azulejo .gallery-azulejo-address p {
+		/*transform: rotate(-180deg);*/
+  	/*writing-mode: vertical-rl;*/
+	}
+	gallery-azulejo .gallery-azulejo-address h4 {
+		/*transform: rotate(-180deg);*/
+  	/*writing-mode: vertical-rl;*/
+	}
+	gallery-azulejo-card .gallery-azulejo-title {
+		display: flex;
+		flex-direction: row;
+	}
+	gallery-azulejo .azulejo-art-exhibit {
+		display: block;
+		align-self: end;
+		margin-top: 60px;
+		font-style: italic;
+	}
+	gallery-azulejo .gallery-azulefo-passion {
+		font-size: 2.5em;
+	}
+	gallery-azulejo .gallery-azulejo-exhibition:last-of-type a {
+		display: block;
+	}
+	gallery-azulejo .gallery-azulejo-event {
+		display: flex;
+		flex-direction: column;
+	}
+	gallery-azulejo .gallery-azulejo-address {
+		align-self: start;
+	}
+	gallery-azulejo .azulejo-social-list {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	gallery-azulejo .azulejo-social-list li:first-of-type ~ li {
+/*		background: linen;*/
+	}
+}

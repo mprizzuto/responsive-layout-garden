@@ -14,7 +14,7 @@
 			<h3 class="mantra-title">exhale</h3>
 
 			<picture class="meditation-student">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-seventy-nine/leaves.jpg" alt="">
 			</picture>
 
 			<h3 class="mantra-title">inhale</h3>

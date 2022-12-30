@@ -2,7 +2,7 @@ rich-person {
   display: block;
 }
 
-.greek-woman {
+.rich-woman {
   max-width: 600px;
   order: 2;
   margin-top: 10px;
@@ -11,15 +11,18 @@ rich-person {
 .shoot-role {
   display: inline-block;
   font-weight: bolder;
+  font-size: 1.2em;
 }
 
-.greek-person {
+.rich-person {
   display: flex;
   flex-direction: column;
 }
 
-.greek-person figcaption {
+.rich-person figcaption {
   order: 1;
+  font-size: clamp(2em, 4vw, 5em);
+  text-transform: capitalize;
 }
 
 .shoot-employees {

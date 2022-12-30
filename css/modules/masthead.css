@@ -17,6 +17,7 @@ mast-head {
 mast-head nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -25,13 +26,16 @@ mast-head nav a {
   color:  white;
   text-transform: uppercase;
   padding:  10px;
-
+  font-size: clamp(.5em, 1vw, 1.5em);
 }
 
 mast-head .logo {
   max-width:  80px;
 }
 
+.user-menu {
+  align-self: start;
+}
 
 
 

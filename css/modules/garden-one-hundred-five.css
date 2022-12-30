@@ -7,10 +7,12 @@ temperature-card {
   margin-top: 10px;
 }
 
-
-
 .thermostat-title {
   font-size: 2em;
+}
+
+temperature-card h3 {
+  color: var(--background-color);
 }
 
 @media (min-width: 600px) {
@@ -24,7 +26,6 @@ temperature-card {
     margin-left: auto;
   }
   temperature-card > .thermostat-title:first-of-type {
-    color: lime;
     align-self: end;
     margin-right: 20%;
   }

@@ -6,7 +6,7 @@
 	<section class="human-expressions">
 		<figure class="emotion">
 			<picture class="person-emotes">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-one-hundred-three/joy.jpg" alt="a person smiling">
 			</picture>
 
 			<figcaption>joy</figcaption>
@@ -15,7 +15,7 @@
 		<emotions-grouped>
 			<figure class="emotion">
 				<picture class="person-emotes">
-					<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+					<img src="./images/garden-photos/garden-one-hundred-three/surprise.jpg" alt="a man looking surprised">
 				</picture>
 
 				<figcaption>surprise</figcaption>
@@ -23,7 +23,7 @@
 
 			<figure class="emotion">
 				<picture class="person-emotes">
-					<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+					<img src="./images/garden-photos/garden-one-hundred-three/contempt.jpg" alt="a man looking contemptious">
 				</picture>
 
 				<figcaption>contempt</figcaption>
@@ -32,44 +32,36 @@
 
 		<figure class="emotion">
 			<picture class="person-emotes">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-one-hundred-three/sadness.jpg" alt="a woman looking sad">
 			</picture>
 
-			<figcaption>joy</figcaption>
+			<figcaption>sadness</figcaption>
 		</figure>
 
 		<emotions-grouped>
 			<figure class="emotion">
 				<picture class="person-emotes">
-					<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+					<img src="./images/garden-photos/garden-one-hundred-three/anger.jpg" alt="a boy looking anger">
 				</picture>
 
-				<figcaption>surprise</figcaption>
+				<figcaption>anger</figcaption>
 			</figure>
 
 			<figure class="emotion">
 				<picture class="person-emotes">
-					<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+					<img src="./images/garden-photos/garden-one-hundred-three/disgust.jpg" alt="a woman looked disgusted">
 				</picture>
 
-				<figcaption>contempt</figcaption>
+				<figcaption>disgust</figcaption>
 			</figure>
 		</emotions-grouped>
 
 		<figure class="emotion">
 			<picture class="person-emotes">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-one-hundred-three/fear.jpg" alt="a wimnan looking fearful">
 			</picture>
 
-			<figcaption>contempt</figcaption>
+			<figcaption>fear</figcaption>
 		</figure>
 	</section>
-
-	<footer class="human-emotions-footer">
-		<picture class="consultant-logo">
-			<img src="" alt="">
-		</picture>
-	</footer>
-
-
 </human-emotions>

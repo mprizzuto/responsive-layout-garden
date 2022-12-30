@@ -12,7 +12,7 @@
       </svg>
     </h3>
     
-    <p>Mental health problems have nothing to do with being lazy or weak and many people need help to get better. Many factors contribute to mental health problems</p>
+    <p class="mh-origins">Mental health problems have nothing to do with being lazy or weak and many people need help to get better. Many factors contribute to mental health problems</p>
     
     <ul class="mental-illness-causes">
       <li>Biological factors, such as genes, physical illness, injury, or brain chemistry.</li>
@@ -22,7 +22,9 @@
   </section>
   
   <aside class="therapist-info">
-    <h3 class="therapist-title"><a href="#" taret="_external">pinkertonpsychotherapy.com</a> <span class="title-accent"></span></h3>
+    <h3 class="therapist-title">
+      <a href="#" target="_external">pinkertonpsychotherapy.com</a> 
+    </h3>
   </aside>
   
 </therapist-card>

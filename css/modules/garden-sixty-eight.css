@@ -21,7 +21,7 @@ model-poster .model-poster-header {
 }
 
 .model-poster-header .model-poster-title {
-	font-size: 3em;
+	font-size: 4em;
 }
 
 model-poster .staff-role {
@@ -31,6 +31,25 @@ model-poster .staff-role {
 model-poster .model-stats {
 	line-height: 1.5;
 	font-size: 1.2em;
+}
+
+.staff-role {
+	font-size: 1.3em;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+
+.model-poster-title {
+	text-transform: capitalize;
+}
+
+.model-stats {
+	margin-right: 20px;
+	text-transform: capitalize;
+}
+
+.model-highlight figcaption {
+	text-transform: capitalize;
 }
 
 @media (min-width: 700px) {

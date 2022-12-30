@@ -18,6 +18,17 @@ realtors {
   display: block;
 }
 
+.realtor {
+}
+
+.realtor-facts {
+  line-height: 1.5;
+}
+
+.realtor-facts em {
+  font-style: italic;
+}
+
 realty-conference figure {
   margin-top: 10px;
 }
@@ -27,16 +38,30 @@ realty-conference realtors figure {
 /*   outline: 2px solid red; */
 }
 
+.realtor figcaption {
+  max-width: 30ch;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.featured-realtors {
+  font-size: clamp(2.5em, 3vw, 4em);
+  text-transform: capitalize;
+}
+
 @media (min-width: 600px) {
   realty-conference {
     display: flex;
-/*     justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
   }
   realtors {
-    display: flex;
-/*     flex-direction: row; */
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex-wrap: wrap;*/
     margin-left: 20px;
   }
   realtors figure {
@@ -45,19 +70,8 @@ realty-conference realtors figure {
   }
 }
 
-@media (min-width: 800px) {
-/*   realtors {
-    flex-direction: column;
-  } */
-  realtors {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
-
 @media (min-width: 1200px) {
   realtors {
-    flex-wrap: nowrap;
+/*    flex-wrap: nowrap;*/
   }
 }

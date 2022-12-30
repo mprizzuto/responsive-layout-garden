@@ -40,6 +40,9 @@ boundary-bottom {
 }
 
 .boundary-number {
+  float: left;
+  shape-outside: circle(50%);
+  padding: 5px;
   color: green;
   font-size: 1.8em;
 }

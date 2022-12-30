@@ -1,20 +1,55 @@
 new-employees {
 	display: block;
-	display: grid;
-	grid-template-columns: repeat(5, minmax(20%, 1fr));
+}
+
+.employee-title {
+	font-size: clamp(1.4em, 1vw, 2em);
+	line-height: 1;
+}
+
+.employee-title strong {
+	display: block;
+	padding: 5px;
 }
 
 .employee .employee-portrait {
 	max-width: 500px;
 }
 
+new-employees figure {
+	margin-top: 10px;
+}
+
+new-employees figure figcaption {
+	text-transform: capitalize;
+}
+
+new-employees figure + figure {
+	margin-top: 30px;
+}
+
+.company-name {
+	font-weight: bolder;
+}
+
 @media (min-width: 600px) {
+	.employee-title {
+		font-size: .8em;
+	}
+	new-employees {
+		display: grid;
+		grid-template-columns: repeat(5, minmax(20%, 1fr));
+	}
 	.new-employee-header {
 		grid-column: 5;
 		font-size: 2em;
 	}
 	new-employees .employee:nth-child(6) {
 		margin-top: 50px;
+	}
+	new-employees figure + figure, 
+	new-employees figure {
+		margin-top: unset;
 	}
 }
 

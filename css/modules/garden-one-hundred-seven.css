@@ -11,15 +11,13 @@ chair-elect {
 }
 
 .election-poster-title {
-	font-size: 2.5em;
+	font-size: clamp(2em, 2vw, 3em);
+	line-height: 1.5;
+	color: var(--background-color);
 }
 
 .school-election-title {
 	line-height: 1.1;
-}
-
-.school-election-title span {
-	display: block;
 }
 
 chair-elect strong {
@@ -37,9 +35,13 @@ chair-elect strong {
 }
 
 @media (min-width: 700px) {
+	.school-election-title span {
+		display: block;
+	}
 	.elects {
 		display: flex;
-		flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
 	}
 	.elects .election-poster-title {
 		writing-mode: vertical-rl;
@@ -94,5 +96,8 @@ chair-elect strong {
 		justify-content: center;
 	}
 	.elects {
+	}
+	.election-poster-title {
+		align-self: center;
 	}
 }

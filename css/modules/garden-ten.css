@@ -7,6 +7,10 @@ human-behaviors {
   flex-wrap: wrap;
 }
 
+.normal-behaviors li:first-of-type {
+  font-size: clamp(1.5em, 2vw, 4em);
+}
+
 .normal-behaviors li {
   outline: 2px solid gray;
   margin-top: 10px;
@@ -20,6 +24,10 @@ human-behaviors {
 /*   font-size: clamp(1.2em, 2vw, 3em); */
 }
 
+.normal-behaviors li:first-of-type ~ li {
+  font-style: italic;
+}
+
 @media (min-width: 600px) {
   .normal-behaviors {
     display: grid;
@@ -29,7 +37,7 @@ human-behaviors {
     grid-row: 2 / 5;
     grid-column: 2 / span 3;
     font-size: 4em;
-    min-width:  55vw;
+/*    min-width:  55vw;*/
   }
   .normal-behaviors li {
 /*     margin-right: unset; */

@@ -88,6 +88,10 @@ newspaper h3 + p {
 	margin-top: 20px;
 }
 
+.front-page-figure figcaption {
+	line-height: 1.5;
+}
+
 .teaser-editor {
 	border-top: 4px solid black;
 	border-bottom: 4px solid black;
@@ -113,6 +117,11 @@ newspaper h3 + p {
 .newspaper-teaser-title {
 	max-width: 20ch;
 
+}
+
+newspaper .newspaper-role {
+	margin-top: 10px;
+	padding-bottom: 5px;
 }
 
 @media (min-width:  800px) {

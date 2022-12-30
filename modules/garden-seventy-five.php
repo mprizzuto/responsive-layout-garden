@@ -7,7 +7,7 @@
 		</div>
 
 		<picture class="instructor-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-seventy-five/person-one.jpg" alt="a woman with long hair and a white shirt">
 		</picture>
 	</instructor>
 
@@ -19,7 +19,7 @@
 		</div>
 
 		<picture class="instructor-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-seventy-five/person-two.jpg" alt="a woman with her hair up and jewelry">
 		</picture>
 	</instructor>
 
@@ -31,7 +31,7 @@
 		</div>
 
 		<picture class="instructor-portrait">
-			<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+			<img src="./images/garden-photos/garden-seventy-five/person-three.jpg" alt="a man in glasses drinks coffee">
 		</picture>
 
 	</instructor>

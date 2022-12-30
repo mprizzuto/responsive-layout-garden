@@ -21,19 +21,19 @@
 
 		<div class="model-gallery">
 			<picture class="model-portrait">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-seventy-three/person-one.jpg" alt="a woman with red hair">
 			</picture>
 
 			<picture class="model-portrait">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-seventy-three/person-two.jpg" alt="a woman with brown hair and jeans">
 			</picture>
 
 			<picture class="model-portrait">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-seventy-three/person-three.jpg" alt="a woman with brown hair and a denim jacket">
 			</picture>
 
 			<picture class="model-portrait">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-seventy-three/person-four.jpg" alt="a woman with blonde hair">
 			</picture>
 
 
@@ -41,6 +41,6 @@
 	</header>
 
 	<picture class="model-portrait">
-		<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+		<img src="./images/garden-photos/garden-seventy-three/person-five.jpg" alt="a woman wiht red hair and brown eyes">
 	</picture>
 </talent-agency>

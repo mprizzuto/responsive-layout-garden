@@ -1,11 +1,11 @@
 <zodiac-card>
 	<header class="astrology-header">
 		<h3 class="zodiac-title">gemini</h3>
-		<p class="post-cited">@trustedteller</p>
+		<p class="zodiac-post-cited">@trustedteller</p>
 	</header>
 
 	<picture class="zodiac-symbol">
-		<img src="https://via.placeholder.com/150" alt="zodiac, the twins">
+		<img src="./images/garden-photos/garden-forty-two/gemini.png" alt="the symbom of zodiac">
 	</picture>
 
 	<section class="addictions">

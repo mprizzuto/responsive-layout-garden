@@ -39,3 +39,5 @@ $responsiveGardensPHP = json_decode($responsiveGardensJSON, true);
 
 loopProjects($responsiveGardensPHP);
 ?>
+
+<?php include('footer.php'); ?>

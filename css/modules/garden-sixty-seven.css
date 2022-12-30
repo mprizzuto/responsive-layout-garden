@@ -9,7 +9,7 @@ office-poster h3, office-poster h4 {
 }
 
 .every-time {
-  font-size: clamp(4em, 5vw, 10em);
+  font-size: clamp(2.5em, 3vw, 10em);
 }
 
 .you-are {
@@ -27,6 +27,11 @@ office-poster h3, office-poster h4 {
 .mantra-list,.inner-mantra h4 {
   font-size: .2em;
   color: initial;
+}
+
+.inner-mantra + p, .inner-mantra,
+.mantra-list {
+  margin-top: 20px;
 }
 
 

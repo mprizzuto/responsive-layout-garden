@@ -26,11 +26,14 @@ anterior-card, posterior-card {
 .clown-nose {
   width: 30vw;
   max-width: 200px;
+  max-height: 600px;
   margin-top: 10px;
 }
 
-.dont-stay {
-  font-size: 1.3em;
+posterior-card .dont-stay {
+  font-size: clamp(1.3em, 4vw, 3em);
+  text-transform: capitalize;
+  color: maroon;
 }
 
 .bottom-leg-one, .bottom-leg-two {
@@ -56,12 +59,11 @@ anterior-card, posterior-card {
     position: absolute;
 /*     right: 100px; */
     /*left: 410px;*/
-    bottom: 94px;
+/*    bottom: 94px;*/
     right: 134px;
     left: 476px;
     z-index: -1;
     width: 100%;
-    min-height: 600px;
     
   }
   posterior-card {
@@ -76,6 +78,7 @@ anterior-card, posterior-card {
   .anterior-title {
     writing-mode: vertical-rl;
     max-height: 96ch;
+    line-height: 2;
   }
   .dont-stay {
     align-self: end;

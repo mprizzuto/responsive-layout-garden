@@ -18,6 +18,12 @@ figure[class^='art-piece'] {
 	max-width: 300px;
 }
 
+figure[class^='art-piece'] figcaption,
+figure.main-art-piece {
+	font-size: clamp(.5em, 2vw, 3em);
+}
+
+
 @media (min-width:  600px) {
 	/*art-gallery {
 		display: grid;

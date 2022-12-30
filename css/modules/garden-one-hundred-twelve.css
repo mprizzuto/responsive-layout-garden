@@ -1,0 +1,62 @@
+realtor-poster {
+  display: block;
+}
+
+realtor-poster * {
+  margin-top: 5px;
+}
+
+.realtor-testimonial {
+  
+}
+
+.realtor-portrait {
+  max-width: 600px;
+}
+
+.realtor-client-testimonial cite {
+  display: block;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.realtor-testimonial-list li {
+  margin-top: 20px;  
+}
+
+@media (min-width: 600px) {
+  .realtor-testimonial {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .realtor-testimonial-list li:first-of-type .realtor-testimonial blockquote {
+    padding: 5px;
+    margin-left: 20px;
+    border-left: 4px solid var(--background-color);
+  }
+  .realtor-testimonial-list li:last-of-type .realtor-testimonial blockquote {
+    border-left: 4px solid var(--background-color);
+  }
+  .realtor-testimonial-list li .realtor-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .realtor-testimonial-list li:nth-child(2n) .realtor-portrait {
+    order: 3;
+    margin-left: 20px;
+  }
+  .realtor-testimonial-list li:nth-child(2n) .realtor-info .realtor-rating, .realtor-testimonial-list li:nth-child(2n) .realtor-info .realtor-name, .realtor-testimonial-list li:nth-child(2n) .realtor-info .realtor-badge {
+    align-self: end;
+  }
+  .realtor-testimonial-list li:nth-child(2n) .realtor-client-testimonial {
+    padding: 5px;
+  }
+  .realtor-rating, .realtor-name, 
+  .realtor-badge {
+    align-self: center;
+  }
+  .realtor-client-testimonial cite span {
+    display: block;
+  }
+}

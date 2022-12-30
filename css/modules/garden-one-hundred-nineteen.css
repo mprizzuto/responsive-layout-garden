@@ -1,0 +1,106 @@
+poster-quote {
+	display: block;
+}
+
+railroad-tracks {
+	display:  block;
+}
+
+railroad-track {
+	display: block;
+}
+
+poster-quote .edgar-cayce-quote cite {
+	display: block;
+	font-style: italic;
+	margin-top: 5px;
+	font-size: clamp(1.1em, 2vw, 3em);
+}
+
+poster-quote .open-quote, poster-quote .close-quote {
+	display: block;
+	font-size: clamp(1.5em, 6vw, 4em);
+	color: var(--background-color);
+}
+
+poster-quote .close-quote {
+	margin-top: 10px;
+}
+
+poster-quote .edgar-cayce-says {
+	line-height: 1.2;
+	font-size: clamp(1.5em, 3vw, 4em);
+}
+
+
+@media (min-width:  600px) {
+	poster-quote {
+		/*display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;*/
+	}
+	railroad-tracks {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	railroad-track {
+		min-height: 10px;
+		margin-top: 10px;
+		width: 100%;
+		min-width: 100px;
+		max-width: 500px;
+		background: maroon;
+	}
+	.edgar-cayce-quote {
+		border: 6px double black;
+		padding: 100px;
+    min-height: 600px;
+    max-width: 600px;
+	}
+	.edgar-cayce-says {
+		font-size: 3em;
+		max-width: 20ch;
+	}
+	.railroad-track-one {
+		transform: rotate(-30deg) translate(-18px, -14px);
+	}
+	.railroad-track-two {
+		transform: rotate(30deg);
+	}
+	.railroad-track-three {
+		transform: rotate(30deg) translate(-9px, -14px);
+	}	
+	.railroad-track-four {
+		transform: rotate(-30deg);
+	}
+	.railroad-tracks-grouped {
+		/*border:  4px solid red;*/
+		min-width: 185px;
+	}
+	.railroad-tracks-top {
+		position: relative;
+		top:  53px;
+		max-width: 670px;
+		left: -15px;
+		/*border:  4px solid green;*/
+	}
+	.railroad-tracks-bottom {
+		position: relative;
+		bottom:  53px;
+		left: -15px;
+		max-width: 670px;
+		/*border:  4px solid purple;*/
+	}
+	.open-quote {
+		font-size: 6em;
+		display: block;
+		text-align: center;
+	}
+	.close-quote {
+		font-size: 6em;
+		display: block;
+		text-align: center;
+	}
+}

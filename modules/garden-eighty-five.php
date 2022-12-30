@@ -1,7 +1,7 @@
 <women-leaders>
   <header class="women-leaders-header">
     <picture class="women-leader-logo">
-      <img src="https://images.squarespace-cdn.com/content/v1/5db70d7dbad4060ba79d3ae6/1581782368007-F11G9UXQCHZIB33DM48Y/logo-small.jpg" alt="">
+      <img src="./images/garden-photos/garden-eighty-five/logo-small.jpeg" alt="">
     </picture>
     
     <h3 class="women-presents"><span>presents</span></h3>
@@ -18,26 +18,26 @@
   <women-speakers>
     <figure class="female-speaker">
       <picture class="speaker-portrait">
-        <img src="https://peprojects.dev/images/square.jpg" alt="">
+        <img src="./images/garden-photos/garden-eighty-five/person-one.jpeg" alt="">
       </picture>
       
-      <figcaption>former prive minister of australia <span class="woman-name">julia gillard</span></figcaption>
+      <figcaption>former prime minister of australia <span class="woman-name">julia gillard</span></figcaption>
     </figure>
     
     <figure class="female-speaker">
       <picture class="speaker-portrait">
-        <img src="https://peprojects.dev/images/square.jpg" alt="">
+        <img src="./images/garden-photos/garden-eighty-five/person-two.jpeg" alt="">
       </picture>
       
-      <figcaption>former prive minister of new zealand <span class="woman-name">helen clark</span></figcaption>
+      <figcaption>former prime minister of New Zealand <span class="woman-name">helen clark</span></figcaption>
     </figure>
     
     <figure class="female-speaker">
       <picture class="speaker-portrait">
-        <img src="https://peprojects.dev/images/square.jpg" alt="">
+        <img src="./images/garden-photos/garden-eighty-five/person-three.jpeg" alt="">
       </picture>
       
-      <figcaption>author and former new zealand MP<span class="woman-name">helen clark</span></figcaption>
+      <figcaption>author and former New Zealand MP<span class="woman-name">holly walker</span></figcaption>
     </figure>
   </women-speakers>
 </women-leaders>

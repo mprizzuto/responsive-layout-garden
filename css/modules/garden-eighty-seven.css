@@ -15,6 +15,7 @@ editorial-poster {
 
 .editorial-title {
   font-size: 2.5em;
+  text-transform: capitalize;
 }
 
 .editorial-year {
@@ -24,14 +25,19 @@ editorial-poster {
 
 .editorial-shoot {
   margin-top: 10px;
+  text-transform: capitalize;
 }
 
 .fashion-shoot {
   font-size: clamp(.8em, 2vw, 2em);
 }
 
-.editorial-layouts {
-  font-size: clamp(1.5em, 3vw, 4em);
+editorial-poster .editorial {
+  font-size: clamp(1.5em, 3vw, 5em);
+}
+
+editorial-poster .editorial-layouts {
+  font-size: clamp(1.5em, 3vw, 5em);
 }
 
 @media (min-width: 600px) {

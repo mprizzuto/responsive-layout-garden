@@ -41,7 +41,15 @@ anniversary-card .anniversary {
   border-radius: 0 90px 0 90px;
 }
 
+anniversary-card .availability {
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
 @media (min-width: 600px) {
+  anniversary-card h3:first-of-type {
+    margin-right: 20px;
+  }
   anniversary-card {
     display: flex;
     justify-content: space-around;
@@ -53,8 +61,8 @@ anniversary-card .anniversary {
     display: block;
     height: 500px;
     position: absolute;
-    right: -80px;
-    bottom: 10px
+    right: -57px;
+    bottom: 90px;
   }
 }
 

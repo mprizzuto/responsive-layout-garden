@@ -9,7 +9,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -21,7 +21,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -33,7 +33,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -45,7 +45,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -57,7 +57,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -69,7 +69,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -81,7 +81,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -93,7 +93,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -105,7 +105,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -117,7 +117,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -129,7 +129,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -141,7 +141,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -153,7 +153,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -165,7 +165,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -177,7 +177,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -189,7 +189,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -201,7 +201,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -213,7 +213,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -225,7 +225,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>
@@ -237,7 +237,7 @@
 				<h4 class="stamp-title">usa|forever</h4>
 
 				<picture class="stamp-portrait">
-					<img src="images/garden-photos/parks.png" alt="rosa parks">
+					<img src="./images/garden-photos/garden-fifty/parks.png" alt="rosa parks">
 				</picture>
 
 				<figcaption class="stamp-caption">rosa parks</figcaption>

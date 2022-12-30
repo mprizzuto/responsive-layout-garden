@@ -1,0 +1,80 @@
+panic-attack-apparel {
+	display: block;
+	background: linen;
+	padding:  3%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+story-accent {
+	display: block;
+}
+
+panic-attack-apparel > * {
+	margin-top: 20px;
+}
+
+panic-attack-apparel .panic-attack-quote {
+	background: var(--background-color);
+	/*padding: 3%;*/
+	max-width: 700px;
+}
+
+panic-attack-apparel .panic-attack-quote a {
+	font-size: initial;
+}
+
+panic-attack-apparel .panic-attack-quote blockquote {
+	background: linen;
+	padding: 5%;
+	min-height: 300px;
+	clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+	max-width: 600px;
+}
+
+panic-attack-apparel .panic-attack-quote blockquote p {
+	padding: 10%;
+	font-size: clamp(1.5em, 3vw, 4em);
+	line-height: 1.2;
+}
+
+panic-attack-apparel .panic-attack-heading {
+	font-size: clamp(2em, 4vw, 8em);
+	line-height: 1.1;
+	display: flex;
+	flex-direction: column;
+}
+
+panic-attack-apparel .to-tell {
+	display: block;
+	align-self: end;
+	margin-left: 90px;
+}
+
+@media (min-width: 600px) {
+	panic-attack-apparel {
+		position: relative;
+		/*min-height: 500px;*/
+		overflow: hidden;
+		min-height: 500px;
+	}
+	story-accent {
+		position: absolute;
+		top: 0;
+		/*z-index: -1;*/
+		transform: rotate(50deg);
+		border:  4px double black;
+		min-height: 400px;
+		min-width: 400px;
+	}
+	panic-attack-apparel .panic-attack-heading {
+		font-size: 4em;
+		top: -20px;
+		left:  0;
+		position: absolute;
+		z-index: 1;
+	
+	}
+}

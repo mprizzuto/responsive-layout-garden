@@ -32,7 +32,7 @@ geometry-poster {
 }
 
 .geometry-poster-header > h3:first-of-type {
-  font-size: clamp(5em, 15vw, 8em);
+  font-size: clamp(3em, 10vw, 8em);
   text-transform: uppercase;
 }
 
@@ -63,7 +63,7 @@ geometry-poster {
 @media (min-width: 700px) {
   .geometry-poster-header {
     display: flex;
-    gap: 1%;
+    gap: 4%;
   }
   .geometry-poster-header section, svg {
     flex-shrink: 0;

@@ -2,21 +2,21 @@
   <homes>
     <home>
       <picture class="property-photo">
-        <img src="https://peprojects.dev/images/landscape.jpg" alt="">
+        <img src="./images/garden-photos/garden-sixty-six/home-one.jpg" alt="a row of tiny houses">
       </picture>
       <span class="home-option">refinance</span>
     </home>
     
     <home>
       <picture class="property-photo">
-        <img src="https://peprojects.dev/images/landscape.jpg" alt="">
+        <img src="./images/garden-photos/garden-sixty-six/home-two.jpg" alt="an aerial shot of a suburban neighborhood">
       </picture>
       <span class="home-option">refinance</span>
     </home>
     
     <home>
       <picture class="property-photo">
-        <img src="https://peprojects.dev/images/landscape.jpg" alt="">
+        <img src="./images/garden-photos/garden-sixty-six/home-three.jpg" alt="a tiny home with a key">
       </picture>
       <span class="home-option">purchase</span>
     </home>

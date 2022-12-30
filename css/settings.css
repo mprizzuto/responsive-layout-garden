@@ -10,6 +10,8 @@ html {
 	--accent-color-one: slategray;
 	--lighter-slate: rgba(112, 128, 144, .4);
 	--inner-column-width:  300px;
+	--background-color: maroon;
+	--body-text-color: linen;
 }
 /* you can make more! */
 

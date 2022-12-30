@@ -16,7 +16,7 @@
 
 	<tv-ad>
 		<picture class="peacock-logo">
-			<img src="https://www.peacocktv.com/static/peacock-toolkit/0.25.2/logo/peacock-wob.png" alt="">
+			<img src="./images/garden-photos/garden-eighty-three/peacock-logo.png" alt="">
 		</picture>
 
 		<div class="tv-cta"> 

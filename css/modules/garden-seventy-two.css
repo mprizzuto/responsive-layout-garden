@@ -17,12 +17,17 @@ musician-poster {
   font-size: clamp(2em, 5vw, 8em);
   line-height: 1;
   margin-top: 10px;
+  text-transform: capitalize;
 }
 
 .violinist {
   text-transform: capitalize;
   margin-top: 10px;
   font-size: 1.2em;
+}
+
+.timeless {
+  font-family: inherit;
 }
 
 @media (min-width: 600px) {

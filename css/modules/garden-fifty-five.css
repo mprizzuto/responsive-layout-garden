@@ -21,6 +21,7 @@ vet-card * {
 
 .vet-portrait {
   max-width: 200px;
+  margin-top: 10px;
 }
 
 .vet-portrait img {
@@ -33,9 +34,14 @@ vet-card * {
 }
 
 .app-title {
+  font-size: clamp(2em, 2vw, 3em);
   border: 3px solid maroon;
   margin-top: 10px;
   padding: 5px;
+}
+
+.app-title::first-letter {
+  text-transform: capitalize;
 }
 
 .vet-highlight {
@@ -46,6 +52,8 @@ vet-card * {
   font-weight: bolder;
   color: maroon;
   font-size: 1.3em;
+  text-transform: capitalize;
+  margin-top: 10px;
 }
 
 .vet-credentials {
@@ -56,6 +64,14 @@ vet-card * {
 
 .animal-print {
   max-width: 50px;
+}
+
+.app-details h4 {
+  font-size: clamp(1.3em, 2vw, 2em);
+}
+
+.app-details h4::first-letter {
+  text-transform: capitalize;
 }
 
 @media (min-width: 600px) {
@@ -95,5 +111,8 @@ vet-card * {
     position: absolute;
     right: 0;
     top: 160px;
+  }
+  .garden-fifty-five {
+    margin-bottom: 100px;
   }
 }

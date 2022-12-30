@@ -36,10 +36,16 @@ skincare-clinic * {
 }
 
 .office-pet-greeting span:last-of-type {
-  font-size: clamp(1.5em, 4vw, 5em);
+  font-size: clamp(1.2em, 4vw, 5em);
 }
 
 @media (min-width: 700px) {
+  skincare-clinic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .client-photos {
     position: relative;
   }
@@ -47,23 +53,23 @@ skincare-clinic * {
     position: absolute;
     top: 0;
     left: 55px;
-    border: 4px solid lime;
-    min-height: 780px;
-    max-width: 600px;
+    border: 4px double maroon;
+    min-height: 900px;
+    max-width: 570px;
     width: 100%;
   }
   tape {
     position: absolute;
-    left: 94%;
+    left: 90%;
     top: 300px;
-    background: green;
+    background: linen;
     min-height: 200px;
     min-width: 80px;
     max-width: 150px;
   }
   .office-pet-greeting {
     position: absolute;
-    left: 90%;
+    left: 83%;
     top: 340px;
     z-index: 3;
   }
