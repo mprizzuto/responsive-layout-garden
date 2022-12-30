@@ -8,10 +8,11 @@ cbt-thought-diary {
 }
 
 .bw-thinking-title {
-	font-size: 2.5em;
+	font-size: clamp(1.5em, 2vw, 3em);
 }
 
 .bw-thought {
+	font-size: 1.1em;
 	margin-top: 10px;
 }
 
@@ -26,7 +27,7 @@ cbt-thought-diary {
 }
 
 .cognitive-distortion-title {
-	font-size: 2.5em;
+	font-size: clamp(1.5em, 2vw, 3em);
 
 }
 
