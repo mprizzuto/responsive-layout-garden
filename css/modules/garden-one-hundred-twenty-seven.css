@@ -45,7 +45,6 @@ sleep-are * {
     clip-path: polygon(100% 1%, 100% 100%, 49% 100%, 0 0);
     padding: 90px;
     background: linen;
-    color: linen;
     text-align: center;
     font-size: 1.2em;
   }
@@ -53,5 +52,7 @@ sleep-are * {
     align-self: end;
     font-size: 1.2em;
     max-width: 15ch;
+    position: relative;
+    left: 90px; 
   }
 }
