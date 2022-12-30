@@ -1,6 +1,6 @@
 panic-attack-apparel {
 	display: block;
-	background: whitesmoke;
+	background: linen;
 	padding:  3%;
 	display: flex;
 	flex-direction: column;
@@ -16,31 +16,38 @@ panic-attack-apparel > * {
 	margin-top: 20px;
 }
 
-.panic-attack-quote {
-	background: peachpuff;
+panic-attack-apparel .panic-attack-quote {
+	background: var(--background-color);
 	/*padding: 3%;*/
-	max-width: 600px;
+	max-width: 700px;
 }
 
-.panic-attack-quote blockquote {
-	background: orange;
+panic-attack-apparel .panic-attack-quote a {
+	font-size: initial;
+}
+
+panic-attack-apparel .panic-attack-quote blockquote {
+	background: linen;
 	padding: 5%;
 	min-height: 300px;
 	clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
-	max-width: 400px;
+	max-width: 600px;
 }
 
-.panic-attack-quote blockquote p {
+panic-attack-apparel .panic-attack-quote blockquote p {
 	padding: 10%;
+	font-size: clamp(1.5em, 3vw, 4em);
+	line-height: 1.2;
 }
 
-.panic-attack-heading {
+panic-attack-apparel .panic-attack-heading {
 	font-size: clamp(2em, 4vw, 8em);
+	line-height: 1.1;
 	display: flex;
 	flex-direction: column;
 }
 
-.to-tell {
+panic-attack-apparel .to-tell {
 	display: block;
 	align-self: end;
 	margin-left: 90px;
@@ -58,11 +65,11 @@ panic-attack-apparel > * {
 		top: 0;
 		/*z-index: -1;*/
 		transform: rotate(50deg);
-		border:  4px solid red;
+		border:  4px double black;
 		min-height: 400px;
 		min-width: 400px;
 	}
-	.panic-attack-heading {
+	panic-attack-apparel .panic-attack-heading {
 		font-size: 4em;
 		top: -20px;
 		left:  0;
