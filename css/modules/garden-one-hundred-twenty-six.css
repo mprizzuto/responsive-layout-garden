@@ -2,29 +2,33 @@ taxi-cab {
   display: block;
 }
 
-.nyc-taxi-logo {
+taxi-cab .nyc-taxi-logo {
   width: 40vw;
   max-width: 300px;
 }
 
-.taxi-cab-name span {
+taxi-cab .taxi-cab-name span {
   text-transform: uppercase;
 }
 
-.taxi-cab-name * {
+taxi-cab .taxi-cab-name * {
   display: block;
   margin-top: 10px;
 }
 
+.nyc-taxi-location, .nyc-taxi {
+  font-size: clamp(1.5em, 2vw, 4em);
+}
+
 @media (min-width: 600px) {
-  .taxi-cab-name {
+  taxi-cab .taxi-cab-name {
     display: flex;
     flex-direction: row;
   }
-  .nyc-taxi-location {
+  taxi-cab .nyc-taxi-location {
     font-size: 2em;
   }
-  .nyc-taxi {
+  taxi-cab .nyc-taxi {
     align-self: end;
     font-size: 2em;
   }
