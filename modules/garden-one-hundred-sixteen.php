@@ -7,7 +7,7 @@
     <li>
       <mini-class>
         <picture class="mini-class-teaser">
-          <img src="https://peprojects.dev/images/square.jpg" alt="">
+          <img src="./images/garden-photos/garden-one-hundred-sixteen/athlete-one.jpg" alt="a woman stretches">
         </picture>
         
         <mini-class-teaser>
@@ -28,7 +28,7 @@
     <li>
       <mini-class>
         <picture class="mini-class-teaser">
-          <img src="https://peprojects.dev/images/square.jpg" alt="">
+          <img src="./images/garden-photos/garden-one-hundred-sixteen/athlete-two.jpg" alt="a woman stretches">
         </picture>
         
         <mini-class-teaser>
@@ -38,9 +38,9 @@
 (WK))</span>
           </h3>
           
-          <p class="mini-class-desc">THE ULTIMATE DEEP DIVE INTO GROWING YOURSELF, YOUR BUSINESS AND MASTERING HUMAN CONSCIOUSNESS with QUANTUM KINESIOLOGY</p>
+          <p class="mini-class-desc">RADICALLY GROW YOUR KINESIOLOGY PRACTICE & WORK ANYWHERE IN THE WORLD</p>
           
-          <p class="mini-class-cta">ELEVATE YOUR KINESIOLOGY BUSINESS FAST</p>
+          <p class="mini-class-cta">REV UP YOUR INCOME IN DAYS</p>
         </mini-class-teaser>
         
         <h3 class="mini-class-date">june 2022</h3>
@@ -50,7 +50,7 @@
     <li>
       <mini-class>
         <picture class="mini-class-teaser">
-          <img src="https://peprojects.dev/images/square.jpg" alt="">
+          <img src="./images/garden-photos/garden-one-hundred-sixteen/dropper.jpg" alt="a dropper">
         </picture>
         
         <mini-class-teaser>
@@ -71,7 +71,7 @@
     <li>
       <mini-class>
         <picture class="mini-class-teaser">
-          <img src="https://peprojects.dev/images/square.jpg" alt="">
+          <img src="./images/garden-photos/garden-one-hundred-sixteen/weightlifter.jpg" alt="a weightlifter">
         </picture>
         
         <mini-class-teaser>
