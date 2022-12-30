@@ -35,17 +35,21 @@ union-track-triangle {
 
 .british-rail-title {
 	font-size: 1.5em;
+	line-height: 1.2;
 }
 
 .railway-designer {
-	font-size: 2em;
+	font-size: 1.5em;
+  line-height: 1.2;
 } 
+
+
 
 @media (min-width: 600px) {
 	british-rail-design {
 		display: flex;
 		flex-direction: row;
-		min-height: 600px;
+		min-height: 1000px;
 		/*overflow: hidden;*/
 	}
 	union-jack {
@@ -96,7 +100,7 @@ union-track-triangle {
 	}
 	.british-rail-title {
 		writing-mode: vertical-rl;
-		font-size: 4em;
+		font-size: clamp(2em, 2vw, 4em);
 		transform: rotate(180deg);
 	}
 	.union-jack-triangle-one {
@@ -136,13 +140,18 @@ union-track-triangle {
 	.railway-designer-top {
 		position: absolute;
 		left: 440px;
-		top:  7%;
+		top: -20px;
 		z-index: 3;
 	}
 	.railway-designer-bottom {
 		position: absolute;
-		left: 440px;
+		left: 370px;
 		top:  56%;
 		z-index: 3;
+		color: linen;
+	}
+	.railway-designer, .railway-designer-title, 
+	.british-rail-title {
+		text-transform: capitalize;
 	}
 }
