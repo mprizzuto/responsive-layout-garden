@@ -10,9 +10,26 @@ railroad-track {
 	display: block;
 }
 
-.edgar-cayce-quote cite {
+poster-quote .edgar-cayce-quote cite {
 	display: block;
 	font-style: italic;
+	margin-top: 5px;
+	font-size: clamp(1.1em, 2vw, 3em);
+}
+
+poster-quote .open-quote, poster-quote .close-quote {
+	display: block;
+	font-size: clamp(1.5em, 6vw, 4em);
+	color: var(--background-color);
+}
+
+poster-quote .close-quote {
+	margin-top: 10px;
+}
+
+poster-quote .edgar-cayce-says {
+	line-height: 1.2;
+	font-size: clamp(1.5em, 3vw, 4em);
 }
 
 
@@ -34,12 +51,11 @@ railroad-track {
 		width: 100%;
 		min-width: 100px;
 		max-width: 500px;
-		background: black;
+		background: maroon;
 	}
 	.edgar-cayce-quote {
-		border: 6px solid black;
+		border: 6px double black;
 		padding: 100px;
-    border: 6px solid black;
     min-height: 600px;
     max-width: 600px;
 	}
