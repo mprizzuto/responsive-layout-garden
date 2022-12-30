@@ -6,27 +6,31 @@ miracle-metropolitan * {
   margin-top: 10px;
 }
 
-.miracle-metropolitan-title {
+miracle-metropolitan .miracle-metropolitan-title {
   font-size: 2em;
-  line-height: .7;
+  line-height: 1;
 }
 
-.miracle-metro-exhibit {
+miracle-metropolitan .miracle-metro-exhibit {
 /*   font-size: 1.2em; */
   display: block;
 }
 
-.miracle-metropolitan-photo {
+miracle-metropolitan .miracle-metropolitan-photo {
   width: 46vw;
   max-width: 500px;
 }
 
-.miracle-metro-gallery-notes h4 {
+miracle-metropolitan .miracle-metro-gallery-notes h4 {
   font-size: 1.8em;
 }
 
+miracle-metropolitan .miracle-metro-exhibit-info {
+  margin-top: 20px;
+}
+
 @media (min-width: 600px) {
-  .miracle-metropolitan-photo {
+  miracle-metropolitan .miracle-metropolitan-photo {
     position: absolute;
     z-index: -1;
     left: 25%;
@@ -41,24 +45,24 @@ miracle-metropolitan * {
     justify-content: space-between;
 /*    border: 4px solid red;*/
   }
-  .miracle-metropolitan-title span, 
-  .miracle-metro-exhibit-info span, 
-  .miracle-metro-exhibit-region span {
+  miracle-metropolitan .miracle-metropolitan-title span, 
+  miracle-metropolitan .miracle-metro-exhibit-info span, 
+  miracle-metropolitan .miracle-metro-exhibit-region span {
     display: block;
   }
-  .miracle-metropolitan-footer {
+  miracle-metropolitan .miracle-metropolitan-footer {
 /*     display: flex;
     flex-direction: row;
     justify-content: space-between; */
   }
-  .miracle-metro-gallery-notes {
+  miracle-metropolitan .miracle-metro-gallery-notes {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
   }
-  .miracle-metropolitan-header {
+  miracle-metropolitan .miracle-metropolitan-header {
     flex-basis: 50%;
   }
-  .miracle-metro-gallery-notes p {
+  miracle-metropolitan .miracle-metro-gallery-notes p {
     max-height: 33ch;
   }
 }
