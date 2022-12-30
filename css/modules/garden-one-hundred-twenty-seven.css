@@ -12,7 +12,7 @@ sleep-are * {
 
 .sleep-foods {
   display: block;
-  color: maroon;
+  color: var(--background-color);
 }
 
 .backed-by-science {
@@ -31,20 +31,20 @@ sleep-are * {
     color: linen;
     font-size: 1.2em;
     max-width: 700px;
-    min-width: 50vw;
+    min-width: 50%;
     text-align: center;
   }
   .sleep-are-claim {
     display: flex;
     flex-direction: column;
     align-self: end;
-    min-width: 50vw;
+    min-width: 50%;
     max-width: 700px;
     max-height: 250px;
 /*     max-width: 500px; */
     clip-path: polygon(100% 1%, 100% 100%, 49% 100%, 0 0);
     padding: 90px;
-    background: linen;
+    background: var(--body-text-color);
     text-align: center;
     font-size: 1.2em;
   }
