@@ -47,7 +47,6 @@ from-type-to-logo .type-to-logo-design > * {
 	from-type-to-logo .type-to-logo-design {
 		display: grid;
 		grid-template-columns: repeat(5, auto);
-		border:  3px solid red;
 	}
 	from-type-to-logo .from-type-to-logo-header {
 		display: flex;
@@ -61,7 +60,6 @@ from-type-to-logo .type-to-logo-design > * {
 	from-type-to-logo .logo-group-one {
 		grid-row: 1;
 		grid-column: 2 / 3;
-		border: 3px solid red;
 		/*max-width: 300px;*/
 	}
 	from-type-to-logo .logo-group-two, .logo-group-three {
@@ -98,7 +96,7 @@ from-type-to-logo .type-to-logo-design > * {
 	from-type-to-logo .type-to-logo-design h3[class*="type-to-logo"] {
 		display: flex;
 		flex-direction: row;
-		background: black;
+		background: var(--background-color);
 		color: linen;
 		padding: 5%;
 		/*max-width: 150px;*/
@@ -124,7 +122,6 @@ from-type-to-logo .type-to-logo-design > * {
 	}
 	book-accent-circle {
 		background: black;
-		border:  5px solid red;
 		max-height: 150px;
 		min-height: 150px;
 		min-width: 100px;
