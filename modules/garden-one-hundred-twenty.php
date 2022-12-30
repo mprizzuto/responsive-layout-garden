@@ -67,7 +67,7 @@
 			</footer>
 
 			<picture class="gallery-azulejo-photo">
-				<img src="https://peprojects.dev/images/portrait.jpg" alt="">
+				<img src="./images/garden-photos/garden-one-hundred-twenty/art-gallery.jpg" alt="a woman sits in an art gallery">
 			</picture>
 		</gallery-azulejo-card>
 	</section>
