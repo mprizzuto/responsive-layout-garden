@@ -7,12 +7,16 @@ sleep-are * {
 }
 
 .sleep-are-title {
-  font-size: 3em;
+  font-size: clamp(1.5em, 2vw, 4em);
 }
 
 .sleep-foods {
   display: block;
   color: maroon;
+}
+
+.backed-by-science {
+  font-size: clamp(1.2em, 2vw, 2em);
 }
 
 @media (min-width: 600px) {
@@ -23,7 +27,7 @@ sleep-are * {
   .backed-by-science {
     clip-path: polygon(0% 0%, 49% 0, 100% 100%, 0% 100%);
     padding: 90px;
-    background: blue;
+    background: var(--background-color);
     color: linen;
     font-size: 1.2em;
     max-width: 700px;
@@ -34,12 +38,13 @@ sleep-are * {
     display: flex;
     flex-direction: column;
     align-self: end;
-    min-width: 86vw;
+    min-width: 50vw;
+    max-width: 700px;
     max-height: 250px;
 /*     max-width: 500px; */
     clip-path: polygon(100% 1%, 100% 100%, 49% 100%, 0 0);
     padding: 90px;
-    background: blue;
+    background: linen;
     color: linen;
     text-align: center;
     font-size: 1.2em;
