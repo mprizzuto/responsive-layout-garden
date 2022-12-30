@@ -19,7 +19,7 @@
   </header>
   
   <picture class="miracle-metropolitan-photo">
-    <img src="https://peprojects.dev/images/portrait.jpg" alt="">
+    <img src="./images/garden-photos/garden-one-hundred-twenty-five/museum.jpg" alt="a crowded mueum">
   </picture>
   
   <footer class="miracle-metropolitan-footer">
