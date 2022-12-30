@@ -40,7 +40,7 @@ cbt-thought-diary {
 		max-width: 700px;
 		margin-right: auto;
 		margin-left: auto;
-		border: 2px solid green;
+		border: 8px double var(--background-color);
 		min-height: 700px;
 		/*background: black;*/
 	}
