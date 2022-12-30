@@ -21,6 +21,10 @@ miracle-metropolitan * {
   max-width: 500px;
 }
 
+.miracle-metro-gallery-notes h4 {
+  font-size: 1.8em;
+}
+
 @media (min-width: 600px) {
   .miracle-metropolitan-photo {
     position: absolute;
@@ -35,7 +39,7 @@ miracle-metropolitan * {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 4px solid red;
+/*    border: 4px solid red;*/
   }
   .miracle-metropolitan-title span, 
   .miracle-metro-exhibit-info span, 
@@ -53,6 +57,9 @@ miracle-metropolitan * {
   }
   .miracle-metropolitan-header {
     flex-basis: 50%;
+  }
+  .miracle-metro-gallery-notes p {
+    max-height: 33ch;
   }
 }
 

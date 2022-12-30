@@ -14,6 +14,10 @@ architecture-firm .architecture-firm-title {
   font-size: clamp(2em, 4vw, 5em);
 }
 
+architecture-firm .architecture-firm-address {
+  font-style: italic;
+}
+
 @media (min-width: 600px) {
   architecture-firm {
     display: flex;
