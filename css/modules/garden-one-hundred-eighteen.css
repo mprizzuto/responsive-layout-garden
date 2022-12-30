@@ -1,5 +1,6 @@
 from-type-to-logo {
 	display: block;
+	overflow: hidden;
 }
 
 book-accent-oval {
@@ -14,63 +15,77 @@ book-accent-circle {
 	display: block;
 }
 
-.type-to-logo-cta {
+from-type-to-logo .type-to-logo-cta {
 	font-size: 1.5em;
 	text-decoration: underline;
+	margin-top: 10px;
 }
 
-.type-to-logo-heading  {
+from-type-to-logo .type-to-logo-heading  {
 	font-size: 2.5em;
+	text-transform: capitalize;
 }
 
 
-.type-to-logo-heading span {
+from-type-to-logo .type-to-logo-heading span {
 	text-decoration: underline;
+}
+
+from-type-to-logo .type-to-logo-design {
+	display: flex;
+}
+
+from-type-to-logo .type-to-logo-design h3 {
+	font-size: clamp(1.2em, 2vw, 4em);
+}
+
+from-type-to-logo .type-to-logo-design > * {
+	margin-left: 5px;
 }
 
 @media (min-width: 600px) {
-	.type-to-logo-design {
+	from-type-to-logo .type-to-logo-design {
 		display: grid;
 		grid-template-columns: repeat(5, auto);
 		border:  3px solid red;
 	}
-	.from-type-to-logo-header {
+	from-type-to-logo .from-type-to-logo-header {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 	}
-	.type-to-logo-heading span {
+	from-type-to-logo .type-to-logo-heading span {
 		display: block;
 		text-decoration: underline;
 	}
-	.logo-group-one {
+	from-type-to-logo .logo-group-one {
 		grid-row: 1;
 		grid-column: 2 / 3;
 		border: 3px solid red;
 		/*max-width: 300px;*/
 	}
-	.logo-group-two, .logo-group-three {
+	from-type-to-logo .logo-group-two, .logo-group-three {
 		display: flex;
 		flex-direction: column;
 	}
-	.logo-group-two {
+	from-type-to-logo .logo-group-two {
 		grid-column: 3 / 6;
 	}
-	.oval-two {
+	from-type-to-logo .oval-two {
 		min-height: 150px;
 		max-width: 150px;
 		align-self: center;
 		min-width: 200px;
 		flex-shrink: 0;
 	}
-	.oval-three {
+	from-type-to-logo .oval-three {
 		min-width: 200px;
 		align-self: center;
 	}
-	.oval-four {
+	from-type-to-logo .oval-four {
 		
 	}
-	.oval-five {
+	from-type-to-logo .oval-five {
 		margin-top: 20px;
 	}
 	paper-hole {
@@ -80,7 +95,7 @@ book-accent-circle {
 		background: white;
 		border-radius: 50%;
 	}
-	.type-to-logo-design h3[class*="type-to-logo"] {
+	from-type-to-logo .type-to-logo-design h3[class*="type-to-logo"] {
 		display: flex;
 		flex-direction: row;
 		background: black;
@@ -91,19 +106,19 @@ book-accent-circle {
 		min-height: 300px;
 		border-radius: 45% 45% 45% 45%;
 	} 
-	.type-to-logo-design h3[class*="type-to-logo"] span {
+	from-type-to-logo .type-to-logo-design h3[class*="type-to-logo"] span {
 		display: block;
 		padding: 30px;
 		align-self: center;
 	} 
-	.logo-from , .logo-logo{
+	from-type-to-logo .logo-from , .logo-logo{
 		transform: rotate(90deg);
 		/*padding: 30px;*/
 	}
-	.logo-type {
+	from-type-to-logo .logo-type {
 		min-width: 300px;
 	}
-	.type-to-logo-logo {
+	from-type-to-logo .type-to-logo-logo {
 		grid-column: 3;
 		grid-row: 2;
 	}
@@ -123,7 +138,7 @@ book-accent-circle {
 		background: black;
 		margin: 5px;
 	}
-	.book-hole {
+	from-type-to-logo .book-hole {
 		display: flex;
 		flex-direction: row;
 	}
