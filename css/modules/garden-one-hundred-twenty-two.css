@@ -2,7 +2,7 @@ self-help-poster {
 	display: block;
 }
 
-.self-help-accent {
+self-help-poster .self-help-accent {
 	display: block;
 	background: black;
 	width: 100%;
@@ -12,12 +12,13 @@ self-help-poster {
 	max-width: 300px;
 }
 
-.self-help-poster-title {
+self-help-poster .self-help-poster-title {
+	font-size: clamp(1.5em, 3vw, 4em);
 	margin-top: 20px;
 }
 
 @media (min-width:  600px) {
-	.self-help-poster-title {
+	self-help-poster .self-help-poster-title {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
@@ -30,30 +31,36 @@ self-help-poster {
 		flex-direction: row;
 		justify-content: space-between;
 	}
-	.self-help-accent {
+	self-help-poster .self-help-accent {
 		order: 1;
 		min-height: 500px;
 		max-width: 20px;
 		align-self: center;
 	}
-	.self-help-word {
+	self-help-poster .self-help-word {
 		order: 2;
 	}
-	.self-help-accent-two {
+	self-help-poster .self-help-accent-two {
 		min-height: 400px;
 	}
-	.self-help-accent-three {
+	self-help-poster .self-help-accent-three {
 		min-height: 300px;
 	}
-	.self-help-accent-four {
+	self-help-poster .self-help-accent-four {
 		min-height: 200px;
 	}
-	.self-help-accent-five {
+	self-help-poster .self-help-accent-five {
 		min-height: 300px;
 	}
-	.self-help-accent-six {
+	self-help-poster .self-help-accent-six {
 		min-height: 400px;
 	}
-	.self-help-accent-seven {
+	self-help-poster .self-help-accent-seven {
+	}
+	self-help-poster h3:nth-child(2n) .self-help-accent {
+		background: maroon;
+	}
+	self-help-poster h3:nth-child(odd) .self-help-accent {
+		background: linen;
 	}
 }
