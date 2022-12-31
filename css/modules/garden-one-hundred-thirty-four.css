@@ -27,7 +27,7 @@ text-transform: capitalize;
 }
 
 based-on-process .bop-footer {
-  color: var(--body-text-color);
+  color: var(--background-color);
   padding: 20px;
 }
 
@@ -48,7 +48,7 @@ based-on-process .bop-footer {
     min-height: 400px;
     margin-right: auto;
     margin-left: auto;
-    border: 3px solid gray;
+    border: 3px solid var(--background-color);
     margin-top: 90px;
     margin-bottom: 90px;
     padding: 10px;
