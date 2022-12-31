@@ -26,7 +26,7 @@ business-card > * {
 .art-director-contact-methods li a {
 /*   color: inherit; */
   font-weight: bolder;
-  letter-spacing: 0.03em;
+/*  letter-spacing: 0.03em;*/
 }
 
 .art-director-name span {
@@ -34,7 +34,7 @@ business-card > * {
   text-transform: capitalize;
   font-size: clamp(1.5em, 3vw, 5em);
 /*   border: 3px solid red; */
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .art-director-name span:first-of-type {
