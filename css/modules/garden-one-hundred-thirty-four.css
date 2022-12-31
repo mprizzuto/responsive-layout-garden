@@ -27,7 +27,7 @@ text-transform: capitalize;
 }
 
 based-on-process .bop-footer {
-  color: linen;
+  color: var(--body-text-color);
   padding: 20px;
 }
 
