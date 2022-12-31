@@ -11,7 +11,7 @@
 			<span class="con">con</span>
 			
 			<picture class="comic-con-logo">
-				<img src="https://peprojects.dev/images/square.jpg" alt="">
+				<img src="./images/garden-photos/garden-one-hundred-twenty-nine/comic-con-logo.jpeg" alt="the comic con logo, a human eye and eyebrow">
 			</picture>
 		</div>
 	</section>
