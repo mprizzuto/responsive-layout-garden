@@ -19,45 +19,62 @@ available-cats {
   flex-basis: 300px;
   flex-shrink: 0;
   margin: 5px;
-  
-/*   border: 3px solid red; */
+  color: maroon;
   padding: 10px;
   margin-top: 10px;
 }
 
 .available-cats-list li:first-of-type {
 /*   background: green; */
-  background: url("https://peprojects.dev/images/square.jpg");
+  background: url("../../images/garden-photos/garden-one-hundred-thirty-three/cat-one.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .available-cats-list li:nth-child(2) {
 /*   background: green; */
-  background: url("https://peprojects.dev/images/square.jpg");
+  background: url("../../images/garden-photos/garden-one-hundred-thirty-three/cat-two.jpg");
+  background-size: cover;
+  background-position: center;
+
 }
 
 .available-cats-list li:nth-child(3) {
 /*   background: green; */
-  background: url("https://peprojects.dev/images/square.jpg");
+  background: url("../../images/garden-photos/garden-one-hundred-thirty-three/cat-three.jpg");
+  background-size: cover;
+  background-position: center;
+
 }
 
 .available-cats-list li:nth-child(4) {
 /*   background: green; */
-  background: url("https://peprojects.dev/images/square.jpg");
+  background: url("../../images/garden-photos/garden-one-hundred-thirty-three/cat-four.jpg");
+  background-size: cover;
+  background-position: center;
+
 }
 
 .available-cats-list li:nth-child(5) {
 /*   background: green; */
-  background: url("https://peprojects.dev/images/square.jpg");
+  background: url("../../images/garden-photos/garden-one-hundred-thirty-three/cat-five.jpg");
+  background-size: cover;
+  background-position: center;
+
 }
 
 .available-cats-list li:nth-child(6) {
 /*   background: green; */
-  background: url("https://peprojects.dev/images/square.jpg");
+  background: url("../../images/garden-photos/garden-one-hundred-thirty-three/cat-six.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .available-cats-list li:nth-child(7) {
 /*   background: green; */
-  background: url("https://peprojects.dev/images/square.jpg");
+  background: url("../../images/garden-photos/garden-one-hundred-thirty-three/cat-seven.jpg");
+  background-size: cover;
+  background-position: center right;
 }
 
 @media (min-width: 600px) {
