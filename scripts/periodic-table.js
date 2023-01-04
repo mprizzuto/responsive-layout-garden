@@ -169,7 +169,8 @@ let periodicTable = [
     atomicNumber: 34,
     chemicalAbbreviated: "Se",
     chemicalName: "Selenium"
-  }, {
+  }, 
+  {
     atomicNumber: 35,
     chemicalAbbreviated: "Br",
     chemicalName: "Bromine"
@@ -785,6 +786,12 @@ onlyPostTransitionMetals.map(postTransitionMetal => {
   
   elementList.appendChild(postTransitionMetalListItem);
 });
+
+let thalliumOnly = document.querySelectorAll("#Ti");
+
+const [titanium, thallium] = thalliumOnly;
+
+thallium.setAttribute("style", "grid-row: 3; grid-column: 7;")
 
 
 let lanthanides = [57,58,59,60,61,62,63,64,65,66,67,68,69,70,71];
